@@ -25,6 +25,7 @@ description: # >- # this means to ignore newlines until "baseurl:"
   This project is licensed under the MIT License.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "/GuriPages" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://guricat.github.io/girupages"
 twitter_username: GuriCatNyan
 github_username:  GuriCat
 
