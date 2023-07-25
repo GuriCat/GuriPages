@@ -8,11 +8,11 @@ IT Jungleの記事、[「Without Further Ado: Power10 Entry Server Pricing」](h
 
 下のグラフは各Powerサーバーの「CPW当りの価格」を示しています。さすがにPower8と比較するとPower10全モデルでコストパフォーマンスが向上していますが、Power9と比較するとS1024はS924よりコストパフォーマンスが向上していますが、S1014はS914から大きな変化は無いように見えます。<span style="color: red">S1014の4コアではほんのわずかながらコストパフォーマンスが低下</span>しています。
 
-![CPW当り価格](/image/2022-09-27_CPW当り価格.jpg)
+![CPW当り価格](/GuriPages/image/2022-09-27_CPW当り価格.jpg)
 
 グラフは＄(ドル)ベースで為替変動が反映されていないため、￥(円)ベースで見ると日本の実情に近づくかもしれません。乱暴ですが、Power8/9/10、それぞれのサーバーの＄/CPWを平均し、サーバー発表年の＄⇒￥為替レートで換算すると、下表のようにPower9とPower10のコストパフォーマンス差は小さくなります。
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="/image/2022-09-27_CPW当り価格2.jpg" width="320" />
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="/GuriPages/image/2022-09-27_CPW当り価格2.jpg" width="320" />
 
 IBMはPowerサーバーの定価や社内の為替レートを公開しておらず、**これはあくまでも「試算」**であることに留意ください。
 

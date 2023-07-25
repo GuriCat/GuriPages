@@ -4,7 +4,7 @@ title:  "IBM i 7.5の最大の強化点はベース・セキュリティ(だと�
 date:   2022-05-27 10:10:10 +0900
 categories: セキュリティ
 ---
-[「バージョンアップ影響調査ワークシート」](/image/2023-06-06 バージョンアップ変更点と影響調査.xlsx)を更新するため[「媒体資料説明書 (Memo to Users)」の変更点](https://www.ibm.com/support/pages/memo-users-document-has-been-updated)をひととおり読んで感じたのは、**OS全般にわたる基本セキュリティーの見直しと強化**です。これは[ユーザー・サーベイ](https://www.wssitalia.it/wp-content/uploads/2018/09/ibmi-marketplace-survey-results.pdf)でセキュリティーに対する関心が高い事に応えているのかもしれません。
+[「バージョンアップ影響調査ワークシート」](/GuriPages/image/2023-06-06 バージョンアップ変更点と影響調査.xlsx)を更新するため[「媒体資料説明書 (Memo to Users)」の変更点](https://www.ibm.com/support/pages/memo-users-document-has-been-updated)をひととおり読んで感じたのは、**OS全般にわたる基本セキュリティーの見直しと強化**です。これは[ユーザー・サーベイ](https://www.wssitalia.it/wp-content/uploads/2018/09/ibmi-marketplace-survey-results.pdf)でセキュリティーに対する関心が高い事に応えているのかもしれません。
 
 例えば、次のような変更があります。
 

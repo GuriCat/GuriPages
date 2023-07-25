@@ -10,5 +10,5 @@ categories: その他
 
 {::comment}
 著作権保護のためリンクは非表示。
-![2023-06-07_chart.jpg](/image/2022-10-28 単位の話.jpg)
+![2023-06-07_chart.jpg](/GuriPages/image/2022-10-28 単位の話.jpg)
 {:/comment}

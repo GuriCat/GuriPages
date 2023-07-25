@@ -18,7 +18,7 @@ Q&Aで次のような点を挙げています。
 
 　
 
-![2021-03-24-What's all the fuss about NVMe with IBM i (IBM i ＋NVMeの大騒ぎは何？).jpg](/image/2021-03-24-What's all the fuss about NVMe with IBM i (IBM i ＋NVMeの大騒ぎは何？).jpg)
+![2021-03-24-What's all the fuss about NVMe with IBM i (IBM i ＋NVMeの大騒ぎは何？).jpg](/GuriPages/image/2021-03-24-What's all the fuss about NVMe with IBM i (IBM i ＋NVMeの大騒ぎは何？).jpg)
 
 　
 
@@ -45,4 +45,4 @@ Q&Aで次のような点を挙げています。
 
 #### 2021-05-21 追記
 
-IBM Power Systems Communityの表題の[投稿](https://community.ibm.com/community/user/power/communities/community-home/digestviewer/viewthread?MessageKey=3b170cbf-77dd-4875-b3b7-e0e495512a5a&CommunityKey=f0246bc4-08f3-43c5-a7f8-b6a64d387894&tab=digestviewer#bm3b170cbf-77dd-4875-b3b7-e0e495512a5a)ですが、NVMeから派生し、VIOSとIBM i ホスティングとの比較、NVMe利用時の騒音増加と対応パッチ、など興味深い内容です。Google翻訳版は[こちら](/image/IBM i-IBM Power Systems Community.pdf)でどうぞ。
+IBM Power Systems Communityの表題の[投稿](https://community.ibm.com/community/user/power/communities/community-home/digestviewer/viewthread?MessageKey=3b170cbf-77dd-4875-b3b7-e0e495512a5a&CommunityKey=f0246bc4-08f3-43c5-a7f8-b6a64d387894&tab=digestviewer#bm3b170cbf-77dd-4875-b3b7-e0e495512a5a)ですが、NVMeから派生し、VIOSとIBM i ホスティングとの比較、NVMe利用時の騒音増加と対応パッチ、など興味深い内容です。Google翻訳版は[こちら](/GuriPages/image/IBM i-IBM Power Systems Community.pdf)でどうぞ。

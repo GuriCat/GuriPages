@@ -12,7 +12,7 @@ Power10は触っていないのですが、内蔵ストレージがNVMeなので
 
 IBM i は(仮想)アーム数が一定数あったほうが効率よく動くので、NVMe namespace (StorageでいうLUNのようなもの?)のサイズは、1.6TBのNVMeは188GB、3.2/6.4TBのNVMeなら393GBがよさそう。下の表はIBM Communityの[「Migrate to NVME mirrored by IBM i」](https://community.ibm.com/community/user/power/discussion/migrate-to-nvme-mirrored-by-ibm-i#bm3467e34d-1262-4ae4-8419-854d25b8fea7)というスレッドに貼ってあったもので出所は判りません。
 
-![2023-06-07_chart.jpg](/image/2023-06-07_chart.jpg)
+![2023-06-07_chart.jpg](/GuriPages/image/2023-06-07_chart.jpg)
 ---
 2023-06-08追記：IBM Communityの[元スレッド](https://community.ibm.com/community/user/power/discussion/migrate-to-nvme-mirrored-by-ibm-i#bma3e7035b-6eb1-40d9-b780-c39000ba2ee1)より。
 

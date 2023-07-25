@@ -6,5 +6,5 @@ categories: ハードウェア
 ---
 IBM Systems Mediaにも記事が計刺されていたので、基礎知識として一度読むことを推奨。
 
-* [IBM Power Systems Scale Out Servers Internal Storage NVMe Options](/image/IBM Power Systems Scale Out Servers Internal Storage NVMe Options.pdf)
-* [IBM RDX Removable Disk Storage System](/image/IBM RDX Removable Disk Storage System.pdf)
+* [IBM Power Systems Scale Out Servers Internal Storage NVMe Options](/GuriPages/image/IBM Power Systems Scale Out Servers Internal Storage NVMe Options.pdf)
+* [IBM RDX Removable Disk Storage System](/GuriPages/image/IBM RDX Removable Disk Storage System.pdf)
