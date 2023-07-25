@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "IBMへのクレーム、問題のエスカレーション方法の変更"
+date:   2022-10-14 10:10:10 +0900
+categories: その他
+---
+昔から、IBMの対応に問題がある場合のエスカレーション・プロセスにはComplaint/Critical situation/CritSitがありました。[「Requesting Assistance with an Unresolved Issue」](https://www.ibm.com/mysupport/s/article/Requesting-Assistance?language=ja)によると、2022/03/18からこれらが[「Escalations」](https://www.ibm.com/mysupport/s/escalation?language=ja)(要IBM Id)に統合されたようです。
+
+従来の仕組みはIBM営業の介在が必要であったり、基本24時間対応が求められたり、ビジネス・インパクトの詳細(金額など)を提示しなくてはならなかったりと、利用にあたってのハードルがありました。(無分別にあげられないよう一定の条件を付けるのは理解できます)
+
+去年くらいからの自身のSTSC問い合わせで、長期化したSev.3をCase内でエスカレーションしました。それでも解決まで4～6か月かかっているので、Caseエスカレーションが早期解決に役立つかは何とも判断しかねるところです。

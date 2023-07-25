@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "「PTF、コレクション・サービス、およびその他の IBM i 7.5 隠された宝石と連携する_ パート 4」"
+date:   2022-08-15 10:10:10 +0900
+categories: OS
+---
+TechChannelの記事[「Work With PTF, Collection Services and Other IBM i 7.5 Hidden Gems: Part 4」](https://techchannel.com/Trends/08/2022/work-with-ptf-hidden-gems)に、7.5でSM1からOSに移動したコマンド、USRPRFサイズの拡張、収集サービスの新しいメトリックが記載されています。
+
+WRKPTFはありそうでなかったコマンドですね。プロダクトID(「5770SS1」など)を入力しなくてもパラメーター無しで呼び出せます。
+
+また、USRPRFサイズが5,000万から2億と4倍になったので、特定のUSRPRFに権限や所有者をまとめていても問題が発生しにくくなります。とはいえ、年に一度は「PRTPRFINT SELECT(*PCTFULL) PCTFULL(0.10)」でサイズの使用率を確認すると良いでしょう。
+
+前にも書いたのですが、このような機能拡張は小出しにせずにまとめて提示してほしいものです。

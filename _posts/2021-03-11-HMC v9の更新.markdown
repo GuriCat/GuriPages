@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "HMC v9の更新"
+date:   2021-03-11 10:10:10 +0900
+categories: ハードウェア
+---
+TechChannelに[HMCに関する記事](https://techchannel.com/SMB/03/2021/updating-hmc-v9)が掲載されていました。
+
+去年HMCを触った時に、資源移動がワンアクションで済んでいたものが、除去→接続の2ステップに変更され、工ｴｴｪｪ(´д｀)ｪｪｴｴ工 と思った記憶があります。[HMC Scanner](https://www.ibm.com/support/pages/hmc-scanner-power-server-config-and-performance-stats)も2021-03-04に更新されていましたので、利用する場合は最新版をチェックした方がよさそうです。

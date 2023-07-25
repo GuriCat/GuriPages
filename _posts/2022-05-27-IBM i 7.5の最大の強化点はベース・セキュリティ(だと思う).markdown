@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "IBM i 7.5の最大の強化点はベース・セキュリティ(だと思う)"
+date:   2022-05-27 10:10:10 +0900
+categories: セキュリティ
+---
+[「バージョンアップ影響調査ワークシート」](/image/2023-06-06 バージョンアップ変更点と影響調査.xlsx)を更新するため[「媒体資料説明書 (Memo to Users)」の変更点](https://www.ibm.com/support/pages/memo-users-document-has-been-updated)をひととおり読んで感じたのは、**OS全般にわたる基本セキュリティーの見直しと強化**です。これは[ユーザー・サーベイ](https://www.wssitalia.it/wp-content/uploads/2018/09/ibmi-marketplace-survey-results.pdf)でセキュリティーに対する関心が高い事に応えているのかもしれません。
+
+例えば、次のような変更があります。
+
+* 重要：IBM i 7.5 では、11111111（8 個の1）ID、22222222（8 個の2）保守ツールのユーザーID は削除されました。 現行接続でこれらの保守ツール・ユーザー ID が使用されている場合、インストール・アップグレードでは、QSECOFR ID（デフォルトパスワードがQSECOFR）の入力と使用が必要です。
+* セキュリティー・システム値の変更
+  * システム・セキュリティー・レベル (QSECURITY ) システム値を値 20 に設定できなくなりました。 システムのセキュリティレベルが20 である場合、それは変更されません。 ただし、セキュリティレベルを別の値に変更した場合は、セキュリティレベルを20 に戻すことはできません。
+  * サーバーセキュリティデータを保持する（QRETSVRSEC）システム値は廃止されました。
+* 多くのIBM提供オブジェクトの *PUBLIC 権限が *CHANGE または *ALL から *USE に変更されました。 2 次言語ライブラリー (QSYS29xx) にも存在するオブジェクトの場合は、それらのライブラリー内のオブジェクトに対する *PUBLIC 権限も変更されます。
+
+海外の記事でも、7.5に行われたセキュリティーの強化について解説しています。
+
+* 「[IBM Delivers More Out-of-the-Box Security with IBM i 7.5 ](https://www.itjungle.com/2022/05/11/ibm-delivers-more-out-of-the-box-security-with-ibm-i-7-5/)(IBMは、IBM i 7.5を使用してすぐに使用できるセキュリティを提供します)」 
+* 「[What’s New in IBM i Services and Networking](https://www.itjungle.com/2022/05/18/whats-new-in-ibm-i-services-and-networking/) (IBM i サービスおよびネットワーキングの新機能)」
+
+セキュリティーについて昔からお客様に助言しているのですが、次の2点はなかなか改善されません。
+
+* システム値QSECURITYが20のまま ⇒ <span style="color: blue">40にしましょう。資源機密保護には「ライブラリーレベルで権限リストを設定する」などのパターンがあります。詳細は[「IBM i セキュリティーについて」](https://www.ibm.com/docs/ja/i/7.5?topic=reference-introduction-i-security)などを参照</span>
+* ホスト・サーバーやTCP/IPサーバーのセキュリティー設定が出荷時のまま ⇒ <span style="color: blue">不要なサービスを停止し、必要なサーバー機能にはFunction Usage/出口プログラムを適用しましょう</span>
+
+「QSECURITYが20でもLMTCPBを指定して5250のユーザーメニューしか出さないので問題ない」と認識している場合は、「[Do You Know What End Users Can Do with IBM i Access Client Solutions](https://www.mcpressonline.com/security/ibm-i-os400-i5os/do-you-know-what-end-users-can-do-with-ibm-i-access-client-solutions) (エンドユーザーがIBM i Accessクライアントソリューションで何ができるか知っていますか？)」や、[「iSeriesのセキュリティ: よくある5つの誤解」](https://www.e-bellnet.com/category/jungle/1205/1205-901.html)を一読ください。セキュリティーの重要性は言を俟たないので、地道に改善を訴えたいです。
+
+📌 多くのLinuxディストリビューションなど、他のサーバーではデフォルト(インストール直後)ではtelnetやftpなどのほとんどのTCP/IPサービスが非起動です。これらと比較し、IBM i はセキュリティが甘いという見方もあるかもしれませんが、EOUを重視する観点から個人的には許容範囲と思っています。

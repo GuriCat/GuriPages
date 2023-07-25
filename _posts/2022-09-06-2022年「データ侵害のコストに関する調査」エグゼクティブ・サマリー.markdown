@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "2022年「データ侵害のコストに関する調査」エグゼクティブ・サマリー"
+date:   2022-09-06 10:10:10 +0900
+categories: セキュリティ
+---
+IBM i 限定ではありませんが、IBMがタイトルの[レポート](https://jp.newsroom.ibm.com/2022-08-25-IBM-Report-Consumers-Pay-the-Price-as-Data-Breach-Costs-Reach-All-Time-High)を出しています。セキュリティは近年のITにおける最大の関心事で、IBM i 7.5でも大幅な強化がされています。興味のある方はご一読を。
+
+* [2022年「データ侵害のコストに関する調査」エグゼクティブ・サマリー](https://www.ibm.com/downloads/cas/NBK7GKYJ)
+* [2022年「データ侵害のコストに関する調査」](https://www.ibm.com/downloads/cas/R90OZ7Q6)
+

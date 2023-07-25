@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "マイクロソフトがビルドしたJDK"
+date:   2021-04-08 10:10:10 +0900
+categories: ACS,その他
+---
+あちこちで記事([ZDNet](https://japan.zdnet.com/article/35168967/)とか[窓の杜](https://forest.watch.impress.co.jp/docs/news/1316969.html)とか)になっていますが、マイクロソフトが自社ビルドの[OpenJDKのプレビュー版](https://devblogs.microsoft.com/java/announcing-preview-of-microsoft-build-of-openjdk/)をリリースしました。今後、[Oracle JDK](https://www.oracle.com/jp/java/technologies/downloads/)、[OpenJDK](https://openjdk.org/)、[AdoptOpenJDK](https://adoptium.net/)などどと並んでWindows上でACSを利用する際の選択肢になるかもしれません。
+
+覚えている人も少なくなりましたが、Windows XPくらいまでマイクロソフトは[自社製のJava VM(MSJVM)](https://en.wikipedia.org/wiki/Microsoft_Java_Virtual_Machine)をOSの一部として提供していました。sshなどもそうですが、普通のユーザーにソフトウェアのインストールは敷居が高いので、Windowsにバンドルされればクライアント展開が楽になるでしょう。

@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "IBM i の情報源"
+date:   2022-01-12 10:10:10 +0900
+categories: その他
+---
+すでにこのホームページで紹介しているものもありますが、TechChannelの記事[「Never-Ending IBM i Learning」](https://techchannel.com/Trends/01/2022/never-ending-ibm-i-learning)によく見る情報源(すべて英文)のリストがまとめられていたのでご紹介します。IBM Docs以外はほぼ英語ですが、新しい技術に興味がある方はざっと目を通しておくと良いでしょう。
+
+* IBM Docs 
+  * [7.5](https://www.ibm.com/docs/en/i/7.5), [7.4](https://www.ibm.com/docs/en/i/7.4), [7.3](https://www.ibm.com/docs/en/i/7.3), [7.2](https://www.ibm.com/docs/en/i/7.2), [7.1](https://www.ibm.com/docs/en/i/7.1)
+  * 旧バージョンのPDFファイル [6.1](https://www.ibm.com/docs/en/i/6.1?topic=end-service-documentation), [5.4](https://www.ibm.com/docs/en/i/5.4?topic=end-service-documentation), [5.3](https://www.ibm.com/docs/en/i/5.3?topic=end-service-documentation)
+* [IBM i Technology Updates](https://www.ibm.com/support/pages/ibm-i-technology-updates)
+  * [IBM i Tutorials, Demos, and SQL examples](https://www.ibm.com/support/pages/ibm-i-tutorials-demos-and-sql-examples-0)
+  * [IBM i Services (SQL)](https://www.ibm.com/support/pages/node/1119123)
+  * [Open Source Technologies](https://www.ibm.com/support/pages/node/1128513)
+* [IBM i Developer](https://developer.ibm.com/components/ibm-i/)
+* [IBM Power Community](https://community.ibm.com/community/user/power/home)
+* [Archived IBM i Technical Articles](https://www.ibm.com/support/pages/node/6449260)
+* [Power VUG Technical Webinar Series](https://www.ibm.com/support/pages/node/1110195#Past%20Session%20Replays) [(Power Systems Virtual User Group)](https://www.ibm.com/support/pages/power-systems-virtual-user-group)

@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "IBM i の「グラフ・ヒストリー」機能"
+date:   2020-10-23 10:10:10 +0900
+categories: パフォーマンス
+---
+記事[「Navigator for i Graph History: Review Historical Data」](https://techchannel.com/SMB/10/2020/Navigator-for-i-Graph-History)がちょっと興味深いです。
+
+IBM i 7.3以降で[「グラフ・ヒストリー」](https://techchannel.com/SMB/07/2020/navigator-for-igraph-history)を取得できます。面白いのは、これが**最大50年(!)分のデータを保持できる**ところです。50年まではいかなくても、5年分くらいの履歴があるとサーバー・リプレースの計画に役立つかもしれません。詳細は[「A new way to analyze historical performance data on IBM i (PDF)」](https://www.ibm.com/support/pages/sites/default/files/inline-files/Graph%20History%20with%20PDI.pdf)や[「Graph History」](https://www.ibm.com/support/pages/node/1126935)なども参照ください。
+
+長期データの取得には「PM AgentをONにする必要がある」と書かれていたので、念のために元記事のコメントで聞いてみたところ、IBMとの接続(通信)は不要とのことでした。
+
+#### 2023-07-24補足
+
+「元記事のコメント」は消えたようです。

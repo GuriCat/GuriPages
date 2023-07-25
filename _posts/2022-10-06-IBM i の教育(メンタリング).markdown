@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "IBM i の教育(メンタリング)"
+date:   2022-10-06 10:10:10 +0900
+categories: SKILL
+---
+TechChannel の記事、[「Recognizing and Fostering Greatness in the Power Systems Ecosystem」](https://techchannel.com/Trends/09/2022/greatness-power-systems-ecosystem)からダウンロードできるe-book「IBM i コミュニティの影響力のある女性を認識する」の、タイトルと関係ない後半部分で「メンター制度と IBM i 教育が Power Systems のスキル ギャップを効果的に埋める方法」について述べられています。「メンタリングの重要さ」や「IBMが提供する学習プログラム」に触れていますので、組織のスキル要求に対応する際の参考になるでしょう。
+
+紹介されているIBM i コース/資格試験などへのリンクは下記になりますが、**全て英語**です。過去の実績から日本語化は期待できない気がするので、興味のある方は英語のまま学習を始めましょう。
+
+* [IBM Training](https://www.ibm.com/training/search?query=ibm%20i) (IBM i コースで検索)
+* [IBM Power Skills Academy](https://www.ibm.com/academic/topic/power-systems) (旧Academic Initiative)
+* [IBM Credentials:Certification and Skills Badging](https://www.ibm.com/training/credentials/) (IBM資格など)

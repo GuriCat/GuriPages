@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "IBM i の脆弱性に対する複数のPTF"
+date:   2022-06-23 10:10:10 +0900
+categories: セキュリティ
+---
+ITJungleの記事[「Multiple Security Vulnerabilities Patched on IBM i」](https://www.itjungle.com/2022/06/22/multiple-security-vulnerabilities-patched-on-ibm-i/)でIBM i の脆弱性に対するいくつかのPTFが紹介されています。
+
+* June 13 security bulletin  : HTTP Server (7.2～7.5)
+* June 15 security bulletin, : WebSphere Application Server Liberty versions 17.0.0.3 through 22.0.0.5
+* Security bulletin on June 15  : BIND (DNSサーバー、7.2～7.5)
+* June 8 security announcement  : Db2 Mirror for i GUI  (7.4～7.5)
+* June 9 security bulletin : Db2 Mirror for i GUI  (7.4～7.5)、June 9  :  Db2 Mirror for i GUI  (7.4～7.5)、 June 9  :  Db2 Mirror for i GUI  (7.4～7.5)
+* June 2, Security vulnerabilities : Java SDK (7.2～7.5)
+* May 23, A vulnerability in IBM Navigator for i, : PTF for the HTTP Server for i (the one Powered by Apache) in IBM i 7.3, 7.4. and 7.5
+* Security alert : OmniFind Text Search Server for Db2 for i, V1R3 through V1R6 of the product, which runs on IBM i 7.2 through 7.5
+
+記事の最後は<span style="color: red">「IBMは、IBM i 7.5でセキュリティーを改善するために多くのことを行ってきました。しかし、世界最高のセキュリティでは、これらの既知のセキュリティの脆弱性からユーザーを保護することはできません。」</span>と締めています。

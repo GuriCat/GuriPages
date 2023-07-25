@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "7.3 TR9と7.4 TR3の発表"
+date:   2020-10-08 10:10:10 +0900
+categories: TR
+---
+毎年春と秋の恒例のTR(テクノロジー・リフレッシュ)が発表されました。出荷開始予定日は2020/11/13です。アナウンスメント・レターはこちら([7.3 TR9](https://www.ibm.com/docs/en/announcements/i-73-tr9?region=US), [7.4 TR3](https://www.ibm.com/docs/en/announcements/i-74-tr3?region=US))をご覧ください。概要は[スティーブ・ウィルのBlog](https://community.ibm.com/community/user/power/blogs/steven-will1/2021/04/05/you-and-i-74-tr3-announce-repost)に記載されていますが、[IT Jungleの記事](https://www.itjungle.com/2020/10/07/how-the-latest-trs-bolster-the-core-ibm-i-os/)でわかりやすく説明されています。
+
+個別の拡張は、[IBM i 7.4 - TR3 landing page](https://www.ibm.com/support/pages/ibm-i-74-tr3-enhancements)、[IBM i 7.3 - TR9 landing page](https://www.ibm.com/support/pages/ibm-i-73-tr9-enhancements)から確認できます。RPGの拡張は[「RPG Cafe」](https://www.ibm.com/support/pages/node/1106229)にPTF番号とあわせて記載されています。
+
+個人的には、「SQLサービス」が大きく拡張され「IBM i サービス」と名称変更になったこと、IPL時間が短くなっていくらしいこと、ILE-RPGでFOR-EACHや%RANGEが拡張されたこと、などが興味深いです。ObjectConnectは情報が少ないので判断保留、ACSの複数IFSアップロードはFTPと比較して利点があるか不明、です。

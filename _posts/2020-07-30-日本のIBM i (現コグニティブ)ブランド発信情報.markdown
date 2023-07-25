@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "日本のIBM i (現コグニティブ)ブランド発信情報"
+date:   2020-07-30 10:10:10 +0900
+categories: 技術情報
+---
+日本のIBM i(現コグニティブ)ブランドがWebで一般向けに発信している情報です。
+
+* [IBM i 技術情報](https://www.ibm.com/support/pages/node/1275328)：こちらはIBM i 技術情報のポータル・ページです。IBM i のご紹介、PTF情報、アプリケーション開発、Db2 Web Query技術情報、その他へのリンクをまとめています。
+* [IBM i インターネット・セミナー](https://www.ibm.com/support/pages/node/1274368)：IBM i インターネット・セミナーのポータルサイトです。IBM iの自習用に活用していただける資料を掲載しています。

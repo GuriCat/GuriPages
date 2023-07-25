@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "9割以上がアプリケーションのモダナイゼーションに苦労"
+date:   2022-08-19 10:10:10 +0900
+categories: モダナイゼーション
+---
+ITJungleの記事[「Most App Modernization Projects a Struggle, Survey Finds」](https://www.itjungle.com/2022/08/17/most-app-modernization-projects-a-struggle-survey-finds/)より。USのITコンサルティング会社Asperitas Consultingが行った、従業員1,000 人以上の企業の、マネージャー／ディレクター／副社長／CIOなどの役職を持つ150人のITリーダーへの調査で、次のように分析しています。
+
+* 回答者の93% → モダナイゼーションの経験が「非常にまたはやや困難」である
+* 回答者の10人中3人 → 「適切なツールとテクノロジーを特定する」ことがプロセスの中で最も困難な部分である
+* 回答者の20% → 適切な社内スタッフ/メンバーを見つけるのに苦労した
+
+IBM i に限定した調査ではありませんが、DXが日本よりはるかに進んでいるUSでも一筋縄ではいかない様子が見て取れます。元となったのは[Asperitas Consulting](https://asperitas.consulting/)の調査なので、興味のある方はあわせてご覧になるとよいでしょう。

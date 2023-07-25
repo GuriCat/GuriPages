@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "「クラウドでコンテナ化されたマイクロサービス」という呪文"
+date:   2022-06-16 10:10:10 +0900
+categories: モダナイゼーション
+---
+7.5と同時に発表されたMerlinですが、当然ながら無条件に提案できるものではありません。多くのお客様ではADTS/CLで開発～テスト～デプロイの仕組みを構築済みなので、これら既存の環境とMerlinがどう共存・補完・移行できるか、今の所、判断できる段階にはないでしょう。
+
+IBMが出しているMerlinの関連情報はまだ限定的であり、早期に下記の検証をしたいところです。
+
+* Merlinの前提となるOpenShiftの選定基準 (オンプレ、クラウド)、価格、信頼性、運用...
+* Merlinの価値 (RPGやCL開発・テストの容易化、バージョン管理や開発・デプロイプロセスの標準化...)
+* 日本語で動くか
+* IBM i の独自機能をどこまでサポートしているか (テキスト記述、カラムヘディング、権限設定...)
+* ウォーターフォールに慣れた人員が、CI/CDを採用したアジャイルに対応する際のハードル
+
+表題の「クラウドで...」はITJungleの記事の一部です。何とは無く、「夢」を売るのが経営者と営業で、「現実」との折り合いをつけるのがSEと思っています。Merlinは「夢」が先行しているので、ITJungleの記事[「Beware The Hype Of Modern Tech」](https://www.itjungle.com/2022/04/25/beware-the-hype-of-modern-tech/)や[「Will IBM i Become More Like Linux?」](https://www.itjungle.com/2022/06/13/will-ibm-i-become-more-like-linux/)」などを読んでおくと現実に近づけれるかもしれません。
+
+z/OSの[Wazi](https://www.ibm.com/jp-ja/cloud/wazi-as-a-service)のように開発環境を丸ごと外出しできれば、Jenkins以外にウォーターフォール開発を支援する仕組みがあれば、あるいは、IBM i 上でOpenShift (kubernetes)が動けば、などと考える今日この頃です。

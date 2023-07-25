@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "IBM i 7.4TR4、および、7.3TR10の発表"
+date:   2021-04-13 10:10:10 +0900
+categories: OS,TR
+---
+首題の発表が4/13(米国基準)にあるようです。[「IBM i Technology Updates」](https://www.ibm.com/support/pages/node/1119129/)にはすでに情報があがっていますね。[「IBM i 7.4 - TR4 Enhancements」](https://www.ibm.com/support/pages/node/6405632)に詳細な情報もあります。これは！といった拡張は見つかっていませんが、ACS5250セッションの「Allow target address in lower right corner to be copied so it can be pasted」などは地味に便利でしょう。
+
+最大の変更点は、**「ロゴが変わる」**ことでしょう。
+
+　
+
+---
+
+　
+
+#### 2021-04-14 追加情報
+
+発表レターなど詳細はこちら([「You and i - IBM i 7.4 TR4 and 7.3 TR10 Announcement」](https://community.ibm.com/community/user/power/blogs/steven-will1/2021/04/07/you-and-i-ibm-i-74-tr4-and-73-tr10-announcement?CommunityKey=f0246bc4-08f3-43c5-a7f8-b6a64d387894))をどうぞ。
+
+IBM i ロゴが変更されました(良しあしはノーコメント)。
+
+**旧ロゴ** &nbsp;&nbsp;<img src="https://www.ibm.com/support/pages/system/files/inline-images/ce2da0fe-d7dc-42ef-96f7-ff8f950be2aa/resource/common/img-os-ibmi-300.png" width="80" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**⇒**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **新ロゴ**<img src="https://1.cms.s81c.com/sites/default/files/2021-08-05/547-Band6-IBMI-304x304.jpg" width="120" />
+

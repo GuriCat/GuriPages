@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "ACS 1.1.9.0 提供開始"
+date:   2022-04-14 10:10:10 +0900
+categories: ACS
+---
+ACSの新バージョンである1.1.9.0の提供が開始されたようです。強化・変更点は[「IBM i Access - ACS Updates」](https://www.ibm.com/support/pages/ibm-i-access-acs-updates)(英文)を参照ください。無償Javaの例として[Amazon Corretto](https://aws.amazon.com/jp/corretto/)、[IBM Eclipse Temurin](https://adoptium.net/temurin/releases/?version=11)、[IBM Semeru Runtimes](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/)が挙げられており、サポート文書[「Java Options for IBM i Access Client Solutions?」](https://www.ibm.com/support/pages/java-options-ibm-i-access-client-solutions)によると[IBM Semeru Runtimes](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/)が推奨(Macユーザーには[Amazon Corretto](https://aws.amazon.com/jp/corretto/)を推奨)となっています。
+
+まだ使ってませんが、バグの修正に加えて、システムグループやSQLスクリプトが改善されているようです。2012年の夏にACSのプレビュー版が出てからもうすぐ**10年**になるのですね、しみじみ。
+
+**2022-04-18追記：**1.1.9.0を入れました。「ようこそ」画面でCtrl+Gを押すと表示が従来の「タスク画面」⇔「システムグループ画面」間で切替わります。システムグループには自動的に「Default_Group」という名前が付きますが、これを変更するには「タスク画面」→「管理 > システム構成」→右下の「Groups」ボタンをクリック→「Rename Group」をクリックします。わかりずらいですね。。。

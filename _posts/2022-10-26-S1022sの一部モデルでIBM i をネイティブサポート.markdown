@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "S1022sの一部モデルでIBM i をネイティブサポート"
+date:   2022-10-26 10:10:10 +0900
+categories: ハードウェア
+---
+今朝公開のIBM資料に、S1022sでIBM i がネイティブにサポートされると記載がありました。
+<P>※ 4コアx2ソケットのP10モデル限定</P>
+
+[「IBM Power Performance Report October 11, 2022」](https://www.ibm.com/downloads/cas/K90RQOW8)によると4コアで106,300CPWとなり、S1014の4コアとパフォーマンスは変わりません。S1014とS1022sのどちらにするかは、iWorld記事[「【解説】2022年10月11日付IBM Power関連の製品発表」](https://www.i-cafe.info/column/product/20221025_ibmpower_products)や、アイマガジン記事[「S1022sでIBM iをネイティブサポート、...」](https://www.imagazine.co.jp/s1022s-10-11-announce/)が参考になるかもしれません。
+
+* S1022sではS1014よりも2倍のメモリ容量とスロットを利用可能
+* NVMeは、S1014が最大16個、S1022sは最大8個まで搭載可能
+* S1022sサーバーは奥行きが長いため、IBMラックに搭載する場合でもオプションのRack Extentionが必要。既設の他社製ラックに搭載するとリアドアが閉まらないなどのケースがありえる
+
+ついでにE1050でもIBM i をサポートしてくれないかな...
+
+{::comment}
+「2022年10-12月期 IBM Power 売り方セミナー」
+{:/comment}

@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "分社するマネージド・インフラストラクチャー・サービス事業の新会社の社名を「Kyndryl」と発表"
+date:   2021-04-14 10:10:10 +0900
+categories: その他
+---
+ニュース・リリースは[こちら](https://jp.newsroom.ibm.com/2021-04-12-New-company-and-new-president-decided)。「キンドリル」と聞いてAmazonのKindleかと思った…
+
+(5/21 追記) 正式な発表がありました。詳細はプレス・リリース[「分社化による日本法人の会社名が決定、『キンドリルジャパン』」](https://jp.newsroom.ibm.com/2021-05-19-The-company-name-of-the-Japanese-corporation-was-decided-by-the-spin-off-Kindrill-Japan)をどうぞ。

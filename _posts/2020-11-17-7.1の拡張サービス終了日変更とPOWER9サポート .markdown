@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "7.1の拡張サービス終了日変更とPOWER9サポート "
+date:   2020-11-17 10:10:10 +0900
+categories: OS
+---
+USで11月10日付け発表レター[「IBM offers IBM i 7.1 Activation for IBM Power System S922 and E980 servers and 16 Gb memory DIMM options for the IBM Power System E950 server」](https://www.ibm.com/docs/en/announcements/power-systems-enhancements-2020-11-10?region=US)が発行されており、7.1がS922とE980 でも動くようになりました。
+
+[「Release life cycle」](https://www.ibm.com/support/pages/release-life-cycle)のページも更新され、2024年4月までサポート期間が延長されています。2021年5月以降は「使用法と既知の問題」に限定されるとはいえ、2010年4月のGAから**14年(！)**もサポートがあるというのはすごいですね。。。
+
+詳細はこちらの記事[「Big Blue Revives IBM i 7.1 With Power9 Support」](https://www.itjungle.com/2020/11/16/big-blue-revives-ibm-i-7-1-with-power9-support/)で解説されています。日本でどうなるかは、探したのですが見つかりませんでした。

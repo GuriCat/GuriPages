@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "7.4 TR5と7.3 TR11の発表"
+date:   2021-09-10 10:10:10 +0900
+categories: OS,TR
+---
+POWER10と同時にIBM i 7.4 TR5/7.3 TR11が発表されました。発表レターはこちら([「You and i – IBM i 7.4 TR5 Power10 Announced」](https://community.ibm.com/community/user/power/blogs/steven-will1/2021/09/07/you-and-ibm-i-74-tr5-power10-announcement)、[「IBM i 7.3 Technology Refresh 11 delivers significant enhancements」](https://www.ibm.com/docs/en/announcements/i-73-tr11?region=JPN))、技術情報(Landing Page)へのリンクはこちら([「IBM i 7.4 - TR5 Enhancements」](https://www.ibm.com/support/pages/node/6456987)、[「IBM i 7.3 - TR11 Enhancements」](https://www.ibm.com/support/pages/node/6456989))、
+
+E1080を購入するユーザーがそれほど多いとは思えませんので、2022年にミッドレンジ/ローエンドが出るまでにOSの機能拡張を確認しておくのが良いでしょう。
+
+下記は個人的に使えそうな気がする機能拡張です。
+
+* 新しいHTTP関連のSQL関数：従来のHTTP関数よりJavaを使わない分速いらしいです。出たばかりの動画が古くなってしまったかも...
+* Navigator for i の画面がモダンに。詳細はこちら。
+* オープンソース系はtn5250やGhostScriptなどが追加されていますが、日本語は使えないと思います。地味にcronが役に立つかも。
+
+　
+
+---
+
+　
+
+#### 2021-09-16 追記
+
+[「新しいHTTP関連のSQL関数」の記事](https://techchannel.com/SMB/09/2021/new-sql-http-functions-part-1-of-2)が出ています。見た限り、構文はほぼ変わらないようです。

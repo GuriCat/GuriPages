@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "仮想テープライブラリー(VTL)いろいろ"
+date:   2022-06-30 10:10:10 +0900
+categories: ハードウェア
+---
+TechChannelからVTLのeBookの案内がありましたので、他のVTL装置と合わせて情報を置いておきます。
+
+* [「eBook_ How To Integrate Virtual Tape For IBM i」](https://laservault.com/wp-content/uploads/2023/03/eBook_How-To-Integrate-Virtual-Tape-For-IBM-i.pdf)(英語)
+  * LaserVault社のViTL装置の販促？ 「3-2-1」(3つのコピー、2つの場所、1つはオフサイト)という考え方を解説しています。日本ではソフトのみ(？)[三和コムテック社](https://ibmi.sct.co.jp/laservault/laservault-vitl/)が扱っているようです。
+
+* [FalconStor VTL](https://www.iguazu-sol.jp/solutions/s04/c0406/falconstor_vtl) (日本語)
+  * イグアス扱いのVTLです。日本での実績は不明。
+
+* [「Change, monitor and manage your company’s tape backups REMOTELY. DAY OR NIGHT」](https://wp.cpsts.com/images/2021/03/CPSTechologyRemoteTape.pdf) (英語)
+  * アメリカCYBERNETICS社のパンフレット。こちらも「3-2-1」推しです。バックアップのコスト見積もりワークシートが付いています。日本で聞くことはありませんが、USの雑誌とかではよく広告を掲載しているので、それなりに使われているのかもしれません。いくつかのアプライアンス(カタログの例)を販売していますが、こちらも国内で見たことはありません。
+
+以前はIBMがProtecTIERというVTLを販売していましたが、2020年11月にサポート終了となり、後継が出ませんでした。現在はDataDomain一色という感じがしますが、海外のように選択肢が増えると良いですね。

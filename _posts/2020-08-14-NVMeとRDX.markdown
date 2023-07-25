@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "NVMeとRDX"
+date:   2020-08-14 10:10:10 +0900
+categories: ハードウェア
+---
+IBM Systems Mediaにも記事が計刺されていたので、基礎知識として一度読むことを推奨。
+
+* [IBM Power Systems Scale Out Servers Internal Storage NVMe Options](/image/IBM Power Systems Scale Out Servers Internal Storage NVMe Options.pdf)
+* [IBM RDX Removable Disk Storage System](/image/IBM RDX Removable Disk Storage System.pdf)

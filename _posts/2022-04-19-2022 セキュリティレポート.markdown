@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "2022 セキュリティレポート"
+date:   2022-04-19 10:10:10 +0900
+categories: セキュリティ
+---
+HelpSystems社が先週、18年連続となった年次[「State of IBM i Security」レポート](https://www.fortra.com/resources/guides/state-ibm-i-security-study)を公開しています。IT Jungleの記事[「Top Five Failures In State of IBM i Security For 2022」](https://www.itjungle.com/2022/04/18/top-five-failures-in-state-of-ibm-i-security-for-2022/)では次のような「5つの誤り」をあげています。
+
+* **出口点(Exit point)：**TCP/IPを介した攻撃に対して望ましい対応が行われていない
+* **セキュリティ・レベル(システム値QSECUTIRY)：**調査対象の20%でQSECURITYが30以下
+* **過剰なユーザー権限：**平均で244以上のユーザー・プロファイルにALLOBJを使用しており、30％以上のユーザー・プロファイルにALLOBJを使用 (HelpSystemsによれば、特別な権限を持つユーザー・プロファイルは10人以下、またはユーザー3％以下が目安)
+* **監査ジャーナル(QAUDJRN)：**システムの78％でジャーナリングがオン。ただし、セキュリティデータを積極的に収集および保存している割合はおそらくそれよりも低い
+* **デフォルトのパスワード：**平均的なIBM i環境にはデフォルトのパスワードを持つ146のユーザー・プロファイルあり
+
+一般に、セキュリティ強化は利便性とコストのトレードオフになります。[「2022 IBM i Marketplace Survey Results」](https://www.fortra.com/resources/guides/ibm-i-marketplace-survey-results) (リンクは最新版へのリンク)ではセキュリティが最大の関心事になっていましたが、<span style="color: red">関心を持っているが対応に手が回らない</span>というケースが多いのかもしれません。

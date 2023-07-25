@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "STSCが使いやすくなりました"
+date:   2020-04-20 10:10:10 +0900
+categories: PTF
+---
+ACSの件でSWMA Callしたのですが、インターフェースが一新されて便利になっていました。
+
+[「Caseをオープン」](https://www.ibm.com/mysupport/s/createrecord/NewCase?productId=null)にアクセスして必要事項を入力すればお知らせメールが届き、Webでやり取りができます。ファイルのアップロード([ECuRep](https://www.ibm.com/support/pages/ibm-%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E3%81%B8-https-%E3%81%A7%E8%B3%87%E6%96%99%E3%82%92%E9%80%81%E4%BB%98%E3%81%99%E3%82%8B%E6%89%8B%E9%A0%86-case-%E3%81%AE%E5%A0%B4%E5%90%88))やエスカレーションもCase処理の画面からできます。
+
+電話で障害受付を通さなくて良いので、システムダウンなどの緊急時でなければ活用したいですね。
+
+なお、この仕組みによって、障害の修正が早くなったり、PMR(Problem Management Record)を見たり、開発と直接やり取りできるようになったりするわけでは無いようです、念のため。

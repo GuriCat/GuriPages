@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "エミュレーターの価値"
+date:   2021-03-04 10:10:10 +0900
+categories: 5250,ACS
+---
+TechChannle(IBM Systemsマガジンの後継)に[「Innovations in the Terminal Emulation Space」](https://techchannel.com/Enterprise/02/2021/terminal-emulation-space)という記事が掲載されていました。
+
+5250エミュレーターに限定しない内容で、エミュレーターの現状、用途、価値、将来、選定、などについて書かれています。適材適所のクライアント(アプリケーション)を検討する際に目を通すと良いでしょう。

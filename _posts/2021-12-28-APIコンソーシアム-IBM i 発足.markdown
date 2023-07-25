@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "APIコンソーシアム-IBM i 発足"
+date:   2021-12-28 10:10:10 +0900
+categories: その他
+---
+「IBM i市場でのAPI普及を狙い、『APIコンソーシアム-IBM i』が発足　～APIユースケースの発信や情報提供に注力」だそうです。
+
+興味のある方は[アイマガジンの記事](https://www.imagazine.co.jp/api-consortium-for-ibm-i/?utm_source=BenchmarkEmail&utm_campaign=i_Mag_Mail_December_27&utm_medium=email&fbclid=IwAR2A2Ett1Sl1oeC04hRErKrJvGEYa5EUeVKVppKeSnIFG--owhhbUH4PxtQ)をご覧ください。

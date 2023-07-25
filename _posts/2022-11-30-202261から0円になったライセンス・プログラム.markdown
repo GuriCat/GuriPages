@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "2022年6月1日から0円になったライセンス・プログラム"
+date:   2022-11-30 10:10:10 +0900
+categories: OS,LPP
+---
+すでに当たり前かもしれませんが自身の覚えを兼ねて。2022/6/1付で下記のライセンス・プログラムが「0円」になっています。詳細はIBMのサポートページの[「IBM i Portfolio Simplification」](https://www.ibm.com/support/pages/ibm-i-license-topics)を参照[^1]ください。
+
+個人的に、<span style="color: blue">青字</span>はよく使う製品、<span style="color: fuchsia">紫字</span>は入れておくと使えるかもしれない製品です。
+
+|キー付きプロダクト|キー無しプロダクト|
+|--|--|
+|IBM i Optional Features: (5770-SS1) |IBM i Optional Features:|
+|&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: fuchsia">Media & Storage Extension – Opt 18</span>|&nbsp;&nbsp;&nbsp;&nbsp;Db2 Symmetric Multiprocessing – Opt 26[^2]|
+|&nbsp;&nbsp;&nbsp;&nbsp;PSF 1-55 IPM Support – Opt 36|&nbsp;&nbsp;&nbsp;&nbsp;Db2 Multisystem – Opt 27[^2]|
+|&nbsp;&nbsp;&nbsp;&nbsp;PSF 1-100 IPM Support – Opt 37|Rational Application Management Toolset (5770-AMT)|
+|&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: fuchsia">PSF AnySpeed – Opt 38</span>|<span style="color: fuchsia">AFP Font Collection (5733-B45)</span>|
+|&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: fuchsia">HA Switchable Resource Opt 41</span>|<span style="color: fuchsia">AFP DBCS Fonts (5769-FN1)</span>|
+|&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: blue">HA Journal Performance – Opt 42</span>|<span style="color: fuchsia">AFP Fonts (5769-FNT)</span>|
+|<span style="color: fuchsia">InfoPrint Server (5722-IP1)</span>|XML Toolkit (5733-XT2) |
+|<span style="color: blue">Advanced DBCS Printer Support (5761-AP1)</span>
+|<span style="color: fuchsia">Advanced Job Scheduler (5770-JS1)</span>
+|<span style="color: blue">Performance Tools (5770-PT1)</span>
+|<span style="color: blue">Db2 Query Mgr & SQL Dev Kit (5770-ST1)</span>
+|<span style="color: blue">IBM i Access Family (5770-XW1)</span>
+
+[^1]:IBM Communityへの[書き込み](https://community.ibm.com/community/user/power/discussion/5770-qu1-is-included-with-the-purchase-of-5770-st1-in-version-74#bm1d38859b-fba2-4bf0-898a-e77efd66fa20)によると、QU1も無料のようですね。
+
+[^2]:IBMが利用にあたって**コンサルティングを勧める製品**例として「Db2 Symmetric Multiprocessing – Opt 26」と「Db2 Multisystem – Opt 27 」を挙げているので、「とりあえず」入れるのは止めておいた方が良さそうです。
+
+---
+<p></p>
+(2022/12/21追記)
+
+IBM Communityへの[書き込み](https://community.ibm.com/community/user/power/discussion/update-on-ajs-and-brms-for-the-new-navigator-for-i#bmb0dce366-fa55-4118-bcfa-0185323202e5)によると、BRMSとAJSのNavigator pluginはしばらく新しいNavigatorでは利用できないようです。
+* The BRMS plug-in available in the Heritage Navigator for IBM i is not compatible to port into the new Navigator for i. A future BRMS graphical interface requires a new design and implementation. The initial delivery timeline has not been determined.
+* AJS is in the plan for the New Navigator :  https://www.ibm.com/support/pages/node/6485241
+
+最新のNavigatorのロードマップは[「IBM Navigator for i - Roadmap」](https://www.ibm.com/support/pages/node/6485241)を参照下さい。

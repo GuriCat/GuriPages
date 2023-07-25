@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Powerシステムズの電源の解説記事"
+date:   2022-03-10 10:10:10 +0900
+categories: ハードウェア
+---
+TechChannelの[「Understanding Power Supplies for Power Systems」](https://techchannel.com/SMB/02/2022/power-supplies-power-systems)がわりと珍しい内容なのでご紹介。パワーサプライについて解説した記事はほとんど見かけませんが、W、kVA、Vの意味や計算式が載っているので役に立つことがあるかもしれません。

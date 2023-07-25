@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Power10のパフォーマンス情報"
+date:   2023-06-09 13:48:37 +0900
+categories: Power10,パフォーマンス
+---
+IBMから5月に「IBM Power上でIBM iアプリケーションのスループットを最大化するためのベストプラクティスガイド」なるものが出ていたのでご紹介、タイトルは[「IBM Power10 performance optimization for IBM i」](https://www.ibm.com/downloads/cas/PK29M2DL)です。内容は機能の紹介的な感じであまり具体的な例や数値は載っていませんが、良くなることは何となくわかります。
+
+※ パフォーマンスとは別ですが、下記のような昨年から無償になったライセンス・プログラム(過去記事の「2022-11-30：2022/6/1から0円になったライセンス・プログラム」参照)がわざわざ記載されているあたり、まだ浸透していないのかもしれません。
+
+* パフォーマンス・ツール (5770-PT1)
+* SQL開発キット (5770-ST1)
+* IBM i Access Family (5770-XW1)
+* Db2 SMP  (5770-SS1 - オプション 26)/ Db2 Multiprocessing (5770-SS1 - オプション 27)
+
+最新(2023/5/1)の[「IBM i on Power - Performance FAQ」](https://www.ibm.com/downloads/cas/QWXA9XKN)も出ていたので、技術の方はこちらの方が参考になるでしょう。

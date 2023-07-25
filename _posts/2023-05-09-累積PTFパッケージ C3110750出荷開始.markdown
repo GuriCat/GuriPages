@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "累積PTFパッケージ C3110750出荷開始"
+date:   2023-05-09 10:10:10 +0900
+categories: インフラ
+---
+IBM CommunityにPTF情報が載っていたので転載。
+* The latest cumulative package for IBM i 7.5 is: C3110750
+* [Cumulative package C3110750 began shipping worldwide: 05 May 2023.](https://www.ibm.com/support/pages/node/6580955?mhsrc=ibmsearch_a&mhq=sf98750)
+  * SF99957:  750 Technology Refresh / PTF Group Level:  2 / Last Updated:  5/4/23 / [www.ibm.com/support/pages/...](https://www.ibm.com/support/pages/sf99957-750-technology-refresh-level-2)
+* [Cumulative package C3117740 began shipping worldwide: 05 May 2023.](https://www.ibm.com/support/pages/node/6198548?mhsrc=ibmsearch_a&mhq=sf98740)
+  * SF99737:  740 Technology Refresh / PTF Group Level:  8 / Last Updated:  5/4/23 / [www.ibm.com/support/pages/...](https://www.ibm.com/support/pages/sf99737-740-technology-refresh-level-8)
+* There would usually be a new resave for both but they haven't updated that web site yet.  I put in a request for update. [www.ibm.com/support/pages/ibm-i-resaves](https://www.ibm.com/support/pages/ibm-i-resaves)
+
+移行や新規インストールの計画をしている場合は要確認。Resave情報は[こちら](https://www.ibm.com/support/pages/node/6567209)。

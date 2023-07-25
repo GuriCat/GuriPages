@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "「IBM i アプリケーションとシステムの状態を監視する」"
+date:   2020-11-05 10:10:10 +0900
+categories: OS
+---
+表題はIBM Systemsマガジンの記事[「Monitor Your IBM i Application and System Health」](https://techchannel.com/SMB/11/2020/monitor-application-health)の和訳。
+
+初級者向けの記事で、インフラ監視の必要性、監視・管理対象、機能やツールなど、簡潔にまとめられています。

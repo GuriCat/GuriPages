@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "「IBM Powerコミュニティ」発足"
+date:   2021-09-29 10:10:10 +0900
+categories: その他
+---
+9/12発表。[「IBM i・AIX・Linuxのユーザー同士をつなぐ場。DXの事例や取り組み、実装・運用方法などを共有、“何でも相談会”も」](https://www.imagazine.co.jp/ibm-power-community001/)とのこと。IBMの情報発信やユーザー向けプログラムはできたり消えたりしているので、ちょっと様子を見たいと思います。個人的には、IBM i ユーザーを対象に技術情報発信を強化してほしいです。
+
+<P>　</P>
+---
+<P>　</P>
+
+#### 2021-10-19追記：IBM Power Salon開設
+
+[「「IBM Power Salon」〜それは、IBM Powerユーザーのための自由な語り場」](https://www.ibm.com/blogs/systems/jp-ja/ibm-power-salon/)だそうです。[IBM i のカテゴリー](https://www.ibm.com/blogs/systems/jp-ja/category/power-systems/ibm-i/)もありますね。[「IBM Power Community」](https://community.ibm.com/community/user/power/communities/community-home?CommunityKey=f0246bc4-08f3-43c5-a7f8-b6a64d387894)(英語)とか含めて何がどこにあるのかどこかにまとまっているとよいのですが...
+

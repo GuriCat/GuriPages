@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Power VMの脆弱性 "
+date:   2023-05-23 10:10:10 +0900
+categories: インフラ,セキュリティ
+---
+Power 9/10のサーバー・ファームウェアに下記の脆弱性がアナウンスされました。
+
+<blockquote>
+<P>「Power9およびPower10システム上のPowerVMに内部的に発見された脆弱性。この脆弱性により、特権ユーザーによる論理パーティションへのアクセス権を持つ攻撃者が、論理パーティション間の分離に対する気付かない違反を実行する可能性があります。</P>
+<P>これにより、データ漏洩や、同じ物理サーバー上の他の論理パーティションでの任意のコードの実行につながる可能性があります。」</P>
+</blockquote>
+
+詳細は下記リンクを参照ください。
+
+* [Critical Security Vulnerability In PowerVM Hypervisor](https://www.itjungle.com/2023/05/22/critical-security-vulnerability-in-powervm-hypervisor/) (IT Jungleの記事)
+* [Important Information for vulnerability in PowerVM on Power9 and Power10 systems, May 17, 2023](https://www.ibm.com/support/pages/node/6987797)
+* [Security Bulletin: This Power System update is being released to address CVE 2023-30438](https://www.ibm.com/support/pages/node/6993021) (IBMサポート文書)
+
+IBM社内で見つかった脆弱性で、ユーザーからの被害報告は無いようです。自分のの区画をDSPFMWSTSコマンドで確認すると、「FW910.01」になっていました。影響のあるバージョンは「FW950.00 - FW950.70」と記載されているので、関係がないのかも？ただし、サポート文書では*「IBM は、以下の製品を使用しているお客様には、この脆弱性を修正するためにFW950.71(950_124)以降をインストールすることを強くお勧めします」*の対象としてPower 9/10のサーバーがリストされています。相変わらずよく分からない書き方ですね...

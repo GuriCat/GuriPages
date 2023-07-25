@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "ACS 1.1.8.8利用可能"
+date:   2021-09-17 10:10:10 +0900
+categories: ACS
+---
+ACSの1.1.8.8がダウンロード可能になっています。「Major Bug In IBM i Access Client Solutions」記載の現象であれば修正されているらしいですね。他の更新・修正は「IBM i Access - ACS Updates」でも確認できるようです。
+
+前の記事でCumやGroup PTFを一式最新にしたのですが、IBM i 上のACSは更新されないようです(1.1.8.4くらい?)。せっかく[「Access Client Solutions is Now Shipped with IBM i」](https://techchannel.com/SMB/02/2020/acs-shipped-with-ibm-i)記載のように昔のAccess for WindowsみたいにIBM i から更新できるようになっているのでACSも更新してほしいものです。
+
+IBM i からPCのACSを更新できるようにすれば何かの時に役立つかもしれません。以下大まかな手順です。
+
+* PCで解凍したファイル(一応 IBMiAccess_v1r1.zip も含めて)/ディレクトリーをIBM i のディレクトリー /QIBM/ProdData/Access/ACS/Base にまるっとコピー
+* ACSの「編集(E)」→「設定」の「一般」タブで「更新チェックのシステム」がACS最新版を置いたIBM i のIPアドレスまたはホスト名であることを確認
+* 「ヘルプ(H)」→	「更新の確認」でPCのACSとIBM i のACSのバージョンを比較し、IBM i 側のACSが新しい場合はそこから「更新」可能

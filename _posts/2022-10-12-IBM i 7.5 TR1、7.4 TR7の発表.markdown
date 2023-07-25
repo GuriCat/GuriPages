@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "IBM i 7.5 TR1、7.4 TR7の発表"
+date:   2022-10-12 10:10:10 +0900
+categories: OS
+---
+10/11にIBM i 7.5と7.4の新しいTRが発表されました。IT Jungleの記事[「Announcing IBM i 7.5 TR1, 7.4 TR7 and More」](https://techchannel.com/SMB/10/2022/announcing-ibmi-7-4-tr1-7-4-tr7)で、Steve Willが概要を解説しています。リンク先(**作成中**)にあるIBM Supportの文書(英語)を参照ください。
+
+ざっと見たところでは特にめぼしい機能はありませんでした。「地理空間アナリティクス」(Geospatial Analytics)でIBM i 上で視覚化できれば面白いかもしれません。Db2 for i のデータをPython＋各種視覚化ライブラリーで利用するのはそれほど難しくないので、IBM実装がどれだけ有用か今後に期待です。
+
+---
+<P></P>
+(2022-10-14追記)
+
+IT Jungleに関連記事[「IBM Unveils Fall 2022 Tech Refreshes for IBM i」](https://www.itjungle.com/2022/10/12/ibm-unveils-fall-2022-tech-refreshes-for-ibm-i/)がありました。
+
+---
+<P></P>
+(2022-10-26追記)
+
+関連情報です(<span style="color: fuchsia">紫字</span>は英語)。新機能の「具体的な応用例」は見つかっていません。
+* IBM発表レター[「IBM i 7.5 Technology Refresh 1: 新たなレベルの統合されたシンプルさを実現します」](https://www.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=760/JAJPJP22-0340&infotype=AN&subtype=CA)
+* アイマガジン記事[「新しいテクノロジー・リフレッシュ、IBM i 7.5 TR1、IBM i 7.4 TR7発表　～多数の領域で新機能と機能拡張、IBM iサービスの新規・拡張は40種以上」](https://www.imagazine.co.jp/ibm-i-75-tr1/)
+* iWorld You and i：Steve Willのブログ[「IBM i 7.5 TR1、7.4 TR7などの発表」](https://www.i-cafe.info/column/serials/20221014_youandi_ibmi)
+* <span style="color: fuchsia">TechChannelの記事[「Announcing IBM i 7.5 TR1, 7.4 TR7 and More」](https://techchannel.com/SMB/10/2022/announcing-ibmi-7-4-tr1-7-4-tr7)(IBM i 7.5 TR1、7.4 TR7 などの発表)</span>
+* <span style="color: fuchsia">IT Jungleの記事[「IBM Bolsters Availability, Backup with Latest TRs」](https://www.itjungle.com/2022/10/19/ibm-bolsters-availability-backup-with-latest-trs/)(IBM、最新の TR で可用性とバックアップを強化)</span>
+* <span style="color: fuchsia">IT Jungleの記事[「Inside IBM i’s New Geospatial Functions For Db2」](https://www.itjungle.com/2022/10/24/inside-ibm-is-new-geospatial-functions-for-db2/)(IBM i の Db2 向けの新しい地理空間関数の内部)</span>
+* <span style="color: fuchsia">IBMサポート文書[「Geospatial Analytics」](https://www.ibm.com/support/pages/node/6828077)(地理空間分析)</span>
+* <span style="color: fuchsia">IBM Docsページ[「Geospatial Analytics」](https://www.ibm.com/docs/en/i/7.5?topic=database-geospatial-analytics)(地理空間分析)</span>
+
+
+---
+<P></P>
+(2022-12-21追記)
+
+開発観点から見たIT Jungleの関連記事[「How The Latest TRs Bolster App Dev For IBM i」](https://www.itjungle.com/2022/10/17/how-the-latest-trs-bolster-app-dev-for-ibm-i/)。COBOLでターゲット CCSID (TGTCCSID)が指定できるようです。

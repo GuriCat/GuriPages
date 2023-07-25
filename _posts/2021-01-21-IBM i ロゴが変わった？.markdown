@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "IBM i ロゴが変わった？"
+date:   2021-01-21 10:10:10 +0900
+categories: その他
+---
+最近IBM i ロゴが微妙に変わっているようで、立体的だったのが、平面的なデザインになっています。IBMのアナウンスメントは見つかりませんでしたが、もしかするとACSのロゴに統一されるのかもしれません。
+
+個人的にはロゴを変えるより「IBM i」という名前を変えた方が認知度の向上などメリットが大きいと思っています。2017/10のIT Jungle記事[「IBM i Slow to Catch On, But What Does It Mean?」](https://www.itjungle.com/2017/10/11/ibm-slow-catch-mean/)に、Google Trendsでは「**IBM i**」より「**iSeries**」の方が認知度が高いとされています。昔からのお客様では、いまだに「**AS/400**」と呼んでいることも多いです。
+
+そもそも「i」という名前があいまいすぎるので、Web検索でうまくヒットしないことも多いです。「z/OS」のように「i/OS」となっていれば良さげですが、2010年にAppleとCiscoが「iOS」の[商標利用で合意](https://www.itmedia.co.jp/news/articles/1006/08/news031.html)しています。「IBM i」という名称は2008年から使用しているので、先に「i/OS」を使えるようにできたかもしれません。
+
+　
+
+---
+
+　
+
+#### 2021-06-11：追記
+
+おなじみの丸型のIBM i ロゴは使用禁止になり、代わりのアイコンが利用できるようです。詳細は[i Magazineの記事](https://www.imagazine.co.jp/ibm-i-new-logo/)などで確認ください。

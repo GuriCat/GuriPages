@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Log4jの脆弱性とIBM i"
+date:   2021-12-16 10:10:10 +0900
+categories: セキュリティ
+---
+世間ではLog4jの脆弱性が話題になっていますが、TechChannelにIBM i に関連した記事[「Log4Shell Part 1: Answering FAQs on the Log4Shell Security Vulnerability」](https://techchannel.com/Trends/12/2021/log4shell-part-1)が掲載されていたので必要な方はご一読を。
+
+影響調査には、「log4j」という名前で拡張子が「.jar」のファイルがシステム上にあるかを確認する方法があります。GistやRyverの書き込みのように、例えば次のようなSQL[^1]をACSのSQLスクリプトから実行します。
+
+```ruby
+CL: CHGJOB CCSID(1399);
+
+WITH path AS (
+    SELECT path_name,
+           SUBSTR(path_name, REGEXP_INSTR(path_name, '\/[^/]$') + 1, LENGTH(path_name) - REGEXP_INSTR(path_name, '\/[^/]$')) AS Obj,
+           CREATE_TIMESTAMP,
+           ACCESS_TIMESTAMP,
+           DATA_CHANGE_TIMESTAMP,
+           OBJECT_CHANGE_TIMESTAMP
+      FROM TABLE (
+          qsys2.ifs_object_statistics(
+            start_path_name => '/', subtree_directories => 'YES', object_type_list => '*ALLSTMF *NOQDLS *NOQOPT *NOQSYS')
+        )
+  )
+  SELECT *
+    FROM path
+    WHERE SUBSTR(Obj, 1, 5) = 'log4j'
+          AND SUBSTR(path_name, LENGTH(path_name) - 3, 4) = '.jar';
+
+```
+実行時には下記の点に留意ください。
+
+* IBM i 7.4/7.3が必要
+* ストリームファイルを全てなめるので、それなりに時間がかかる
+* 他の.jarと結合した巨大な.jarに統合されている場合は検出できない
+
+[^1]: 円記号「￥」に見えるところがあれば、半角バックスラッシュに読み替えてください。
+
+<P>　</P>
+---
+
+<P>　</P>
+
+**追記：**IBM Power Communityにも[関連したスレッド](https://community.ibm.com/community/user/power/communities/community-home/digestviewer/viewthread?MessageKey=633e1da4-5b51-441c-8199-9998e8ed2e6f&CommunityKey=f0246bc4-08f3-43c5-a7f8-b6a64d387894&tab=digestviewer&bm=633e1da4-5b51-441c-8199-9998e8ed2e6f#bm633e1da4-5b51-441c-8199-9998e8ed2e6f)がありました。
+
+**再追記：**IT Jungleに記事[「Critical Log4j Vulnerability Hits Everything, Including the IBM i Server」](https://www.itjungle.com/2021/12/15/critical-log4j-vulnerability-hits-everything-including-the-ibm-i-server/)がでていました。
+
+**再々追記：**iCafeに[記事(日本語)](https://www.i-cafe.info/column/product/apache_log4j_20211220)がでています。
+
+**再々々追記(2021/12/24)：**アイマガジンに[記事(日本語)](https://www.imagazine.co.jp/log4j-4-mrjesse/)がでています。
+
+<P>　</P>
+

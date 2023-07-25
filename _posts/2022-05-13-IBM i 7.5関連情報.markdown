@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "IBM i 7.5関連情報"
+date:   2022-05-13 10:10:10 +0900
+categories: OS
+---
+### IBMの7.5情報 (5/13)
+
+日本IBMのサイトに[Steve Willの記事の日本語訳](https://www.ibm.com/blogs/systems/jp-ja/announcing-ibm-i-7-5-7-4-tr6-ibm-i-merlin/)が掲載されました。日本では[「IBM i World 2022」](https://www.ibm.com/blogs/systems/jp-ja/ibmiworld2022/)が2022年5月25日(水) 午前10:00～11:30に開催されるようです。
+
+[「IBM Pre-upgrade Verification tool for IBM i for MacOS, Windows」](https://www.ibm.com/support/pages/ibm-pre-upgrade-verification-tool-ibm-i)の7.5対応版がダウンロード(要IBM Id)できるようになっていました。昨日は更新されていなかったので、7.5出荷開始後、2日程度かかったようですね。
+
+---
+<P>　</P>
+### 7.5の「隠された宝石」、他 (5/19)
+
+TechChannelの[記事](https://techchannel.com/Trends/05/2022/ibm-i-7-5-more-hidden-gems)で7.5の新機能が紹介されていました。揚げ足を取るつもりはありませんが、ユーザーに有用な機能は隠さないでもっと分かり易くアピールしてほしいです。日本IBMからの情報は今の所、[ブログ「IBM i 7.5, 7.4 TR6 および IBM i Merlin を発表」](https://www.ibm.com/blogs/systems/jp-ja/announcing-ibm-i-7-5-7-4-tr6-ibm-i-merlin/)と[「IBM i World 2022 : 5月25日(水) 午前10:00-11:30」](https://video.ibm.com/recorded/132423205)(動画)があります。
+
+---
+<P>　</P>
+### IBM i 7.5情報収集中... (5/9)
+
+7.5関連の追加情報です。
+
+* プログラム資料説明書は[こちら](https://www.ibm.com/docs/ja/i/7.5?topic=documentation-memo-users)。「バージョンアップ影響調査ワークシート」はおいおい更新する予定。
+* IBMからの情報を見つけられなかったのですが、[「New version 7.5 announced - RPGPGM.COM」](https://www.rpgpgm.com/2022/05/new-version-75-announced.html)や[「IBM ANNOUNCES NEWEST OPERATING SYSTEM IBM I V7R5」](https://www.csiltd.co.uk/ibm-operating-system-ibm-i-v7r5/)によると、下記ソフトウェアが無償(IBM i ライセンスに含まれる)になるようです。本当だとかなりうれしいのですが。
+  * <span style="color: fuchsia">AFP Font Collection</span>
+  * <span style="color: fuchsia">InfoPrint Server</span>
+  * <span style="color: fuchsia">AFP DBCS Fonts</span>
+  * <span style="color: fuchsia">AFP Fonts</span>
+  * <span style="color: fuchsia">XML Toolkit</span>
+  * <span style="color: fuchsia">Advanced DBCS Support</span>
+  * <span style="color: fuchsia">Rational Application Management Toolset</span>
+  * <span style="color: fuchsia">Advanced Job Scheduler</span>
+  * <span style="color: fuchsia">Performance Tools</span>
+  * <span style="color: fuchsia">Db2 Query Mgr & SQL Dev Kit</span>
+  * <span style="color: fuchsia">IBM i Access Family</span>
+  * <span style="color: fuchsia">IBM i Optional Features</span>
+    * <span style="color: fuchsia">Media & Storage Extension</span>
+    * <span style="color: fuchsia">Db2 Symmetric Multiprocessing</span>
+    * <span style="color: fuchsia">Db2 Multisystem</span>
+    * <span style="color: fuchsia">PSF 1-55 IPM Support, PSF 1-100 IPM Support, PSF AnySpeed</span>
+    * <span style="color: fuchsia">HA Switchable Resource</span>
+    * <span style="color: fuchsia">HA Journal Performance</span>
+* 新旧Navigator for i の機能：旧にあって新に無い機能の実装予定は[こちら](https://www.ibm.com/support/pages/node/6485241)。分かり易い機能比較表は見つかっていません。一般的な技術情報は[「IBM Navigator for i」](https://www.ibm.com/support/pages/node/6483299)を参照。
+* プログラム資料説明書に記載のように、7.5 はPower9/10のPowerサーバーでのみサポートされます。詳細は[「System to IBM i mapping」](https://www.ibm.com/support/pages/system-ibm-i-mapping)を確認ください。
+* 7.5でサポートされなくなるソフトウェアは[こちら](https://www.ibm.com/support/pages/planning-upgrade-ibm-i-75-software)。IBM i Access for Webがついにサポート外になるようです。
+* 7.4ですが、5/24にTR6適用済みの[Resave](https://www.ibm.com/support/pages/node/881011)が出るようなので、5月末以降に7.4をインストールする予定があればこれを利用すると良いでしょう。(Resaveの意味は[こちら](https://www.ibm.com/support/pages/ibm-i-resaves)を参照)
+
+7.5の技術情報は[IBM i 7.5 - Base Enhancements](https://www.ibm.com/support/pages/ibm-i-75-base-enhancements)にありますが、一般ユーザー向けの説明資料的な物は見つかっていません。5/10が出荷開始予定日でまだESSからダウンロードできないようですが、今週中には入れたいですね。
+
+---
+<P>　</P>
+### IBM i 7.5情報など (5/5)
+
+5/3にIBM i 7.5など、多くの発表がありました。以下が関連リンクです。
+
+* レター
+  * 7.5 GA - [IBM発表レター](https://www.ibm.com/docs/en/announcements/i-75?region=US) (英文)  (利用可能予定日は2022/5/10)
+  * 7.4 TR6 - [IBM発表レター](https://www.ibm.com/docs/en/announcements/i-74-technology-refresh-6-delivers-significant-enhancements?region=JPN) (英文) (利用可能予定日は2022/5/24)
+* 解説記事
+  * [Announcing IBM i 7.5, 7.4 TR6, IBM i Merlin](https://techchannel.com/SMB/5/2022/ibm-i-merlin-announcement) (TechChannelの記事)
+  * [Announcement Day: IBM Lifts The Veil On IBM i 7.5 And 7.4 TR6](https://www.itjungle.com/2022/05/03/announcement-day-ibm-lifts-the-veil-on-ibm-i-7-5-and-7-4-tr6/) (ITJungleの記事)
+* IBM技術情報
+  * [IBM i 7.5 - Base Enhancements](https://www.ibm.com/support/pages/ibm-i-75-base-enhancements)
+  * [IBM i Technology Updates](https://www.ibm.com/support/pages/node/1119129) (IBM i 7.4 TR6など) 
+  * [Release life cycle](https://www.ibm.com/support/pages/node/668157) (7.3のEOSは記載なし)
+  * [IBM i Modernization Engine for Lifecycle Integration (Merlin) Overview](https://www.ibm.com/support/pages/ibm-i-modernization-engine-lifecycle-integration-merlin-overview)[^1]
+
+詳細はG/W後に確認したいと思いますが、ざっと見た限りでは多くのお客様に即効性のある機能拡張は見つかりませんでした。
+
+[^1]: <span style="color: green">個人的にIBMの「Merlin」という呼称にあまり良いイメージはありません。もっとも、「Merlin」からOS/2 Warp 4.0を想起する人はほとんどいないでしょう...</span>

@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "ACS 1.1.9.2使用可能"
+date:   2023-04-17 10:10:10 +0900
+categories: ACS
+---
+7.5 TR2 および 7.4 TR8と同時に発表されたACS 1.1.9.2がダウンロード可能になったようです。大半はSQLスクリプト関連の機能強化ですが、バグ修正(例えば、Windows 11をアップデートすると追加の端末ウインドゥが開く、など)もあります。更新の詳細は[「IBM i Access - ACS Updates」](https://www.ibm.com/support/pages/ibm-i-access-acs-updates)をご覧ください。
+
+ダウンロードはいつものように[「IBM i Access - Client Solutions」](https://www.ibm.com/support/pages/ibm-i-access-client-solutions)の[「Downloads for IBM i Access Client Solutions」](https://www.ibm.com/resources/mrs/assets?source=swg-ia)リンクからどうぞ(要IBM ID)。
+
+---
+<P></P>
+**2023-04-25追記：ACSの脆弱性 (CVE-2022-43928)**
+
+ACSの最新版(1.1.9.2)以外で脆弱性が報告されています。[(Security Bulletin: IBM i Access Client Solutions is vulnerable to an attacker obtaining sensitive information due to Java string processing in IBM Toolbox for Java (CVE-2022-43928))](https://www.ibm.com/support/pages/node/6985321)
+
+できるだけ早く最新版に更新しましょう。

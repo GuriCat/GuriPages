@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "RPG/COBOL開発ツールへのコミットメント"
+date:   2021-05-25 10:10:10 +0900
+categories: RPG,COBOL
+---
+いまでも「RPGをこのまま使っていて大丈夫？」という話があるようですが、このような漠然とした不安を払拭するため、IBMからレターが出ています。最近では[「IBM i RPG Letter 2021 V3.doc 」](https://community.ibm.com/community/user/power/viewdocument/rpg-community-letter?CommunityKey=f0246bc4-08f3-43c5-a7f8-b6a64d387894)が発行されました。
+
+[IBM i 自体のロードマップ](https://community.ibm.com/community/user/power/blogs/steven-will1/2021/04/26/you-and-i-ibm-i-roadmaps?CommunityKey=f0246bc4-08f3-43c5-a7f8-b6a64d387894)も毎年更新されているので、IT資産を安心して継承、継続できるサーバーであると、認識・公知するようにしたいです。

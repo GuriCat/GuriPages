@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "「RPGとRDiを最新の開発ビジネスツールとして活用する方法」"
+date:   2022-03-01 10:10:10 +0900
+categories: 開発
+---
+ちょっと前にTechChannelに[首題の記事](https://techchannel.com/SMB/2/2022/rpg-rdi-modern-business-tools)が掲載されており、[e-book(英文)](https://techchannel.com/Admin/IBM/media/PDFs/TechChannel_ebook_RDiRPG_SMB-Feb-2022.pdf)が配布されていました。「RPGはバリバリの現役で、これからも拡張される」という内容で、RPGの将来に不安を持っている場合は読んでみると良いでしょう。
+
+ILE-RPGは手続き型なので書きやすく、見て分かり易い言語です。Pythonのように最後の行が入り口だったり、Node.jsのようにイベントによって動く場所が変わる事はありません。ただ、「RPG組み込み関数の最新情報」で%Upperや%Lowerを紹介しているのは下記の点からあまり適切ではない気がします。
+
+* IBMの公式ドキュメント([IBM Docs](https://www.ibm.com/docs/en/i/7.4?topic=functions-lower-upper-convert-lower-upper-case)、[RPG Cafe](https://www.ibm.com/support/pages/rpg-cafe-new-built-ins-lower-upper-and-split))を含め、DBCSの取り扱いが不明 (全角アルファベットの対応、文字数の数え方など)
+* コンパイル元のサーバー(区画)だけではなく、実行するサーバー(区画)にも対応PTFの適用が必要
+* 他の機能で代替可能 (例えばCランタイム関数の[”tolower() – toupper() — Convert Character Case”](https://www.ibm.com/docs/en/i/7.3?topic=functions-tolower-toupper-convert-character-case)とか)
+
+他にも、RDiの更新が必要、7.2以前のサーバーで動かない、SEUで構文エラーとなる、前提・制約事項が多い、などが懸念されます。他の言語の様に、 *SRVPGMとかで動的に利用できるようにすれば良いと思うのですが...

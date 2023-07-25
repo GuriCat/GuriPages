@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "ACS 1.1.8.5提供開始"
+date:   2020-08-13 10:10:10 +0900
+categories: ACS
+---
+SQLスクリプト/IFSアプレット機能強化、Mac用ODBCドライバー追加など。詳しくは下記サイトなどを参照。さっと触った感じでは、IFSはかなり速くなっています。
+
+* [IBM i Access - Client Solutions 5733XJ1](https://www.ibm.com/support/pages/ibm-i-access-client-solutions-5733xj1)
+* [New in ACS: Really Fast IFS and SQL Content Assist](https://techchannel.com/SMB/08/2020/New-in-ACS)
+* [Recent Access Client Solutions Enhancements](https://techchannel.com/SMB/08/2020/recent-acs-enhancements)
+* [All About ACS: IBM i Access Client Solutions 1.1.8.5 利用可能。Mac 用 AP(ODBCドライバー)も!](https://qiita.com/6onoda/items/ee04cb3761e11cf85b43)
+* [IBM Rolls Out ACS 1.1.8.5 - IT Jungle](https://www.itjungle.com/2020/08/12/ibm-rolls-out-acs-1-1-8-5/)

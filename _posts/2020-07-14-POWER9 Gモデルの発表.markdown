@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "POWER9 Gモデルの発表"
+date:   2020-07-14 10:10:10 +0900
+categories: ハードウェア
+---
+POWER9シリーズに、これまでの"A"モデルに加えて、"G"モデルが発表されました。
+
+主要な点は、IBM i を廉価にサポートするS922Gの追加、PCIe Gen 4の採用、メインの補助記憶装置としてNVMeをフィーチャー、という感じです。まだ日本のホームページなどは更新されていませんが、近いうちに資料が公開されるでしょう。IT Jungleの記事[「IBM Revamps Entry Power Servers With Expanded I/O, Utility Pricing」](https://www.itjungle.com/2020/07/14/ibm-revamps-entry-power-servers-with-expanded-i-o-utility-pricing/)がまとまっているので、Google翻訳で一読すると良いかも。922のIBMの発表レターは[こちら](https://www.ibm.com/docs/en/announcements/power-system-s922-9009-22g-s922-entry-level-single-socket?region=US)、関連のRedPaperは[こちら](https://www.redbooks.ibm.com/redpapers/pdfs/redp5595.pdf)です。
+
+S922でIBM i をサポートするのは1コアの特別構成で、レターによると25ユーザーに制限されるようです。
+
+* 発表レター抜粋&Google翻訳：**「IBM iクライアント用に調整されたPOWER9サーバー」**：Power S922サーバー用の新しい1コアプロセッサーオプションを備えた費用対効果の高いPOWER9ベースのサーバーの紹介。この新しい1S / 2U POWER9オファリングは、1ソケットのみが実装され、1コアのみがアクティブ化された状態で出荷され、VIOSを必要とせずにIBM iをネイティブで実行します。IBM i（最大25ユーザー）を実行しているクライアントの前任者よりも2倍高いパフォーマンスを提供し、典型的な2.8から3.8 GHz（最大）POWER9プロセッサーカード（＃EP5Y）とプロセッサーコアアクティベーション機能（＃EP6Y）を使用します。プロセッサコアをアクティブにする必要があります。
+
+RedPaperの109ページに、書き込みが多いシステムでは、標準のストレージ・バックプレーンをキャッシュ付きに変更するよう注意書きがあります。
+
+* IBM i OS performance: Clients with write-sensitive disk / hard disk drive (HDD) workloads should upgrade from the base storage backplane (#EJ1C / #EJ1E) to the expanded function storage backplanes (#EJ1M / #EJ1D) to gain the performance advantage of write cache.
+

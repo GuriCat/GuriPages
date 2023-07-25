@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "値上げの春"
+date:   2022-04-21 10:10:10 +0900
+categories: 営業情報
+---
+IT Jungleの記事[「Inflation Finally Comes To IBM i Platform Prices」](https://www.itjungle.com/2022/04/18/inflation-finally-comes-to-ibm-i-platform-prices/)から。IBMの[アナウンスメントレター322-379](https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/n/322-379WWEN/index.html)にあるように、Power関連製品がおおよそ20%ほど値上げされています。6月にもPower10のエントリー/ミドルレンジ・サーバーの出荷が予想されていますが、Power S924サーバーも値上げの対象になっており、Power9⇒Power10のコストパフォーマンス向上はE1080ほど高くないかもしれません。
+
+コロナ、インフレ、東欧情勢など、価格の上昇要因が多いので、せめて円安が落ち着くことを祈っています。

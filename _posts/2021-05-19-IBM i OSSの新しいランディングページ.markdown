@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "IBM i OSSの新しいランディングページ"
+date:   2021-05-19 10:10:10 +0900
+categories: OSS
+---
+IBM i のOSS関連ページへの[リンクを集めたページ](https://ibm.github.io/ibmi-oss-resources/)の紹介。
+
+IBM関連のページはリンク切れや消失する事が多いので有難いですね。

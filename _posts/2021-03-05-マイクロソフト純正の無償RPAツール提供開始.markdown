@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "マイクロソフト純正の無償RPAツール提供開始"
+date:   2021-03-05 10:10:10 +0900
+categories: その他
+---
+IBM i と直接関係はありませんが。
+
+首題の件が[「Microsoft、自社製RPAツールを全Windows 10ユーザーに無償提供　マウスクリックやキーボード入力をGUIで自動化」](https://www.itmedia.co.jp/news/articles/2103/03/news096.html)などで報道されています。RPAの導入を考えるユーザーがまず評価するソフトになると思われるので、既存のRPAソフトベンダーは何らかの対応を求められるかもしれません。

@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "IBM i のセキュリティチェックサービス"
+date:   2021-11-11 10:10:10 +0900
+categories: セキュリティ
+---
+首題サービスの申し込み方法など詳細は[「Complimentary IBM i Security Quick Check」](https://community.ibm.com/community/user/power/blogs/robert-andrews/2021/10/01/complimentary-ibm-i-security-quick-check)をどうぞ。1顧客、1システム、1区画、1回のみ無料。以外はIBM Labサービスでお見積もりになるようです。無料版の入手はメールしか手段が無いのでとりあえずパス。
+
+その他、IBMが提供するIBM i 向けの「セキュリティ サービスと修復」は[https://www.ibm.com/support/pages/ibm-i-security (英語)](https://www.ibm.com/support/pages/ibm-i-security)を参照下さい。
+
+[こちらの記事(英文)](https://www.itjungle.com/2021/11/08/ibm-offers-free-security-check-for-ibm-i/)によると、下記のようなISVの無料ツールも利用可能です。<span style="color: red">担当者との電話？コミュニケーションを要求されそう</span>で、ちょっと二の足を踏んでしまいます。
+
+* [HelpSystems社](https://www.helpsystems.com/)の[Free Security Scan for IBM i (AS/400, iSeries)](https://www.fortra.com/solutions/ibmi-as400/security-vulnerability-scan)
+* [Precisely社](https://www.precisely.com/) (Enforcive - 元BSafeソリューションズ - を買収)の[Assure Security Risk Assessment](https://www.precisely.com/assure-security-risk-assessment?utm_source=Referral&utm_medium=Press-Release)
+* [Trinity Guard社](https://trinityguard.com/)の[TGFree Security Assessment](https://trinityguard.com/elis-corner/tgfree-security-assessment/)
+
+日本語版は見つかりませんでした...
+<P>　</P>
+
+---
+<P>　</P>
+
+#### 2021-11-16追記
+
+首題の件、前の投稿で「とりあえずパス」といいましたが、あれは嘘です。IBM i のセキュリティチェックサービスを試しました。
+
+無料の「IBM i Quick Security Check」をメールで申し込んでRSTLICPGM/ADDLICKEYでインストールしました。残念ながら<span style="color: red">**実行中にエラーが発生し、レポートの作成まで行きませんでした**</span>、残念。
+
+昔は「Security Advisor」とか無料のツールが提供されており、現在でも5250のSECTOOLSがありますが、昨今はセキュリティの対象が多岐・多数になっているのでコンサル付き/有料にしないとカバーできないのかもしれません。
+
+

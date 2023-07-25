@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "IDCレポート「モダナイゼーションがマイグレーションを打ち負かす」 "
+date:   2020-09-25 10:10:10 +0900
+categories: 市場調査
+---
+[Rocket Software社](https://www.rocketsoftware.com/)がIDCに委託した調査によると、<span style="color: fuchsia">**「IBM i およびSystem zアプリケーションをモダナイゼーションした組織は、これらのプラットフォームからマイグレーションした組織よりも満足度が高く、コストが低いだけでなく、AI、IoT、モバイル対応などの高度なイノベーションの恩恵を受けた」**</span>そうです。IDCレポートは入手が難しいので、IT Jungleの記事[「Modernization Trumps Migration for IBM i and Mainframe, IDC Says」](https://www.itjungle.com/2020/09/23/modernization-trumps-migration-for-ibm-i-and-mainframe-idc-says/)を参照すると良いでしょう。
+
+下のグラフでは全ての項目でモダナイゼーションの方が高い満足度となっています。一見、大きな差があるように見えますが、満点が5だとしても0.2ポイント程度の差がほとんどなので注意。とはいえ、**マイグレーション(Replatform)は「労多くして益少なし」**であるとの評価のようです。
+
+　
+
+![2020-09-25 IDCレポート「モダナイゼーションがマイグレーションを打ち負かす」](/image/2020-09-25 IDCレポート「モダナイゼーションがマイグレーションを打ち負かす」.jpg)

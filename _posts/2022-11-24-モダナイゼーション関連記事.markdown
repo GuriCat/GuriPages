@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "モダナイゼーション関連記事"
+date:   2022-11-24 10:10:10 +0900
+categories: モダナイゼーション
+---
+最近この手の記事には食傷気味ですが一応ご紹介。TechChannelで「[Building for Successful Modernization and Operationalization](https://techchannel.com/SMB/11/2022/modernization-operationalization) / モダナイゼーションと運用化を成功させるための構築」でペーパーを配布しています。「モダナイゼーション計画をうまく立てるには、次の3つの質問を自問することから始まります」とのこと。
+
+* 私たちが達成しようとしている具体的なメリットは何ですか?
+* 私たちの選択肢は何ですか？
+* 進むべき正しい道をどのように選択すればよいでしょうか。
+
+ちょっと前に関係した記事[「Unlocking IBM i Applications for a Competitive Edge in the Digital Economy」](https://techchannel.com/SMB/07/2022/unlock-ibm-i-applications?utm_campaign=TECH%20TechBeat%20SMB&utm_medium=email&_hsmi=234962327&_hsenc=p2ANqtz--QdyEQg0J9n7Zel4P_YTtMOoy3xi9JABduhprqx9fMq9upcmOMTwitHZe-Re70sBOe1jxU7OHbE6J6puBn9xwcn-pYycrYvXActn9YwDsLLBgSYyQ&utm_content=234779048&utm_source=hs_email)があったので、興味のある方は合わせてどうぞ。

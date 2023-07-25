@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "ACS 1.1.8.6 出荷開始"
+date:   2020-12-17 10:10:10 +0900
+categories: ACS
+---
+ACS version 1.1.8.6が12/1に利用可能になっています。ダウンロードはこちら([ibm.biz/IBMi_ACS](http://ibm.biz/IBMi_ACS)：要IBMid)。
+
+SQLアシストやIFS機能が強化されているようですが、個人的にめぼしい機能はなさそうです。詳細はQiitaの[「All About ACS: IBM i Access Client Solutions 1.1.8.6 利用可能。Mac ユーザーは導入に注意。起動時のロゴが新しい！」](https://qiita.com/6onoda/items/b57d43af315e0f3c65c6)やTechChannelの[「December 2020 Access Client Solutions Enhancements」](https://techchannel.com/SMB/12/2020/access-client-solutions-enhancements-2020)などを参照下さい。**起動時のロゴやアイコンが変わった**ので、エンドユーザーには事前に知らせた方が良いかもしれません。
+
+新しいロゴ ⇒ <img src="https://techchannel.com/getattachment/f20dbf85-cda8-45d7-88a0-c34b6e2b90a8/ACS-(1).png" width="100" />
