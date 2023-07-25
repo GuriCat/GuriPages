@@ -8,7 +8,7 @@ categories: その他
 
 YouTubeの[「ぐりちゃんねる」](https://www.youtube.com/@guricat)もよろしくです。
 
-![ぐりさん](/image/2017-09-29_Guri.jpg)
+![ぐりさん](image/2017-09-29_Guri.jpg)
 
 
 {::comment}
