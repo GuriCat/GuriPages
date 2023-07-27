@@ -1,0 +1,49 @@
+             PGM                                                              
+                                                                              
+             DCL        VAR(&RCVVAR) TYPE(*CHAR) LEN(31)         /* OUTPUT */ 
+               DCL        VAR(&NLV) TYPE(*CHAR) STG(*DEFINED) LEN(4) +        
+                            DEFVAR(&RCVVAR 13)                                
+               DCL        VAR(&EBC_B) TYPE(*INT) STG(*DEFINED) LEN(4) +       
+                            DEFVAR(&RCVVAR 17)                                
+               DCL        VAR(&ASC_B) TYPE(*INT) STG(*DEFINED) LEN(4) +       
+                            DEFVAR(&RCVVAR 21)                                
+             DCL        VAR(&LENRCVVAR) TYPE(*CHAR) LEN(4) +                  
+                          VALUE(X'0000001E')                     /* INPUT */  
+             DCL        VAR(&INFMTNAM) TYPE(*CHAR) LEN(8) +                   
+                          VALUE(LNGI0100)                        /* INPUT */  
+             DCL        VAR(&SELINF) TYPE(*CHAR) LEN(21)         /* INPUT */  
+             DCL        VAR(&OUTFMTNAM) TYPE(*CHAR) LEN(8) +                  
+                          VALUE(LNGR0200)                        /* INPUT */  
+             DCL        VAR(&QUSEC) TYPE(*CHAR) LEN(16) +                     
+                          VALUE(X'00000010000000004040404040404000') +        
+                                                                 /* OUTPUT */ 
+             DCL        VAR(&BAVL) TYPE(*CHAR) LEN(4)                      
+             DCL        VAR(&BAVL_D) TYPE(*DEC) LEN(6)                     
+                                                                           
+             CHGVAR     VAR(&SELINF) VALUE('*OPSYS ' || '0000' || +        
+                          '*SYSVAL   ')                                    
+                                                                           
+             /* CALL RETRIEVE LANGUAGE INFORMATION (QLGRLNGI) API */       
+             CALL       PGM(QLGRLNGI) PARM(&RCVVAR &LENRCVVAR +            
+                          &INFMTNAM &SELINF &OUTFMTNAM &QUSEC)             
+                                                                           
+             /* CHECK ERROR */                                             
+             CHGVAR     VAR(&BAVL) VALUE(%SST(&QUSEC 5 4))                 
+             CHGVAR     VAR(&BAVL_D) VALUE(%BIN(&BAVL))                    
+             IF         COND(&BAVL_D > 0) THEN(DO)                         
+             SNDPGMMSG  MSGID(CPF9897) MSGF(QSYS/QCPFMSG) +                
+                          MSGDTA('FAILED TO RETRIEVE DEFAULT LANG +        
+                          INFORMATION' |< '.') MSGTYPE(*ESCAPE)            
+             GOTO       CMDLBL(EXIT)                                       
+             ENDDO                                                         
+                                                                           
+             SNDPGMMSG  MSGID(CPF9897) MSGF(QSYS/QCPFMSG) +              
+                          MSGDTA('DEFAULT LANG INFO: NLV-' |< &NLV +     
+                          || ' EBCDIC-' |< %CHAR(&EBC_B) |< ', +         
+                          ASCII-' |< %CHAR(&ASC_B) |< '.') +             
+                          TOPGMQ(*PRV) MSGTYPE(*INFO)                    
+                                                                         
+             GOTO       CMDLBL(EXIT)                                     
+                                                                         
+ EXIT:                                                                   
+             ENDPGM                                                      

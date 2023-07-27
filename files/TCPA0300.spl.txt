@@ -1,0 +1,14 @@
+            ** TCP/IP DOMAIN ATTRIBUTES **     (<DEFAULT> IS BASED ON V5R4.)
+                          DNS PROTOCOL :                   1 (1=UDP, 2=TCP)
+                               RETRIES :                   2 (NUMBER <2>)
+                         TIME INTERVAL :                   2 (SEC <2>)
+                          SEARCH ORDER :                   1 (1=LOCAL, <2=REMOTE>)
+                    INITIAL DNS SERVER :                   1 (<1=FIRST>, 2=ROTATE)
+                    DNS LISTENING PORT :                  53 (PORT <53>)
+                             HOST NAME : XXXXX
+                           DOMAIN NAME : YYYY.CO.JP
+                    DOMAIN SEARCH LIST : *DFT
+                DNS INTERNET ADDRESS 1 : 1.1.1.1
+                DNS INTERNET ADDRESS 2 :
+                DNS INTERNET ADDRESS 3 :
+      * REFERENCE : HTTP://PUBLIB.BOULDER.IBM.COM/INFOCENTER/ISERIES/V5R4/TOPIC/APIS/QTOCRTVTCPA.HTM
