@@ -30,7 +30,7 @@ twitter_username: GuriCatNyan
 github_username:  GuriCat
 
 # Build settings
-theme: cayman
+remote_theme: pages-themes/midnight@v0.2.0
 show_downloads: true
 lang: ja
 collections:
@@ -42,7 +42,7 @@ github: [metadata]
 # theme: minima
 plugins:
   - jekyll-feed
-#   - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Exclude from processing.
 # The following items will not be processed, by default.
