@@ -30,7 +30,7 @@ twitter_username: GuriCatNyan
 github_username:  GuriCat
 
 # Build settings
-theme: jekyll-theme-primer
+theme: cayman
 show_downloads: true
 lang: ja
 collections:
