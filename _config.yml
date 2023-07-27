@@ -30,9 +30,16 @@ twitter_username: GuriCatNyan
 github_username:  GuriCat
 
 # Build settings
-# theme: jekyll-theme-midnight
-theme: minima
-# remote_theme: pages-themes/midnight@v0.2.0
+theme: jekyll-theme-primer
+show_downloads: true
+lang: ja
+collections:
+  chapters:
+    output: true
+
+github: [metadata]
+
+# theme: minima
 plugins:
   - jekyll-feed
 #   - jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -48,6 +55,7 @@ plugins:
 exclude:
 #   - .sass-cache/
   - .jekyll-cache/
+  - README.md
 #   - gemfiles/
   - Gemfile
   - Gemfile.lock
