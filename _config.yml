@@ -30,7 +30,8 @@ twitter_username: GuriCatNyan
 github_username:  GuriCat
 
 # Build settings
-theme: minima
+theme: jekyll-theme-midnight
+# theme: minima
 # remote_theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-feed
