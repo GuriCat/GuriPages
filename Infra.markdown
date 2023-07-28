@@ -30,7 +30,7 @@ permalink: /Infra/
   DEFAULT LANG INFO: NLV-2962 EBCDIC-5026, ASCII-942.
   ```
 
-  * [TCPA0200.rpgle](/https://github.com/GuriCat/GuriPages/blob/main/files/TCPA0200.rpgle)：パラメーター無しでCALLするとIBM i のTCP/IP属性を印刷出力([出力例](/GuriPages/files/TCPA0200.spl.txt))
+  * [TCPA0200.rpgle](https://github.com/GuriCat/GuriPages/blob/main/files/TCPA0200.rpgle)：パラメーター無しでCALLするとIBM i のTCP/IP属性を印刷出力([出力例](/GuriPages/files/TCPA0200.spl.txt))
 
   * [TCPA0300.rpgle](https://github.com/GuriCat/GuriPages/blob/main/files/TCPA0300.rpgle)：パラメーター無しでCALLするとIBM i のTCP/IPドメイン設定を印刷出力([出力例](/GuriPages/files/TCPA0300.spl.txt))
 
