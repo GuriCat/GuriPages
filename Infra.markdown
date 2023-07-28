@@ -41,10 +41,10 @@ permalink: /Infra/
 
 <P></P>
 
-* [HMCスキャナー](https://www.ibm.com/support/pages/hmc-scanner-power-server-config-and-performance-stats)：クライアントからHMCに接続し、LPAR情報などを取得してExcel形式で保管。
+### [HMCスキャナー](https://www.ibm.com/support/pages/hmc-scanner-power-server-config-and-performance-stats)
 
-<P></P>
-　
+クライアントからHMCに接続し、LPAR情報などを取得してExcel形式で保管。
+
 HMC Scanner is a Java program that uses SSH to connect to an HMC or SDMC or FSM or IVM (IVM is experimental), downloads the system configuration and produces a single Excel spreadsheet that contains the configuration of servers and LPARs. 
 
 <P></P>
@@ -53,7 +53,9 @@ HMC Scanner is a Java program that uses SSH to connect to an HMC or SDMC or FSM 
 
 <P></P>
 
-* [Query/400 Discovery Tool](https://www.ibm.com/support/pages/query400-discovery-tool-0)：Queryの棚卸などに利用。
+### [Query/400 Discovery Tool](https://www.ibm.com/support/pages/query400-discovery-tool-0)
+
+Queryの棚卸などに利用。
 
 The utility creates database tables that contain such information as which files/tables are being used by the queries, join tests, result fields, etc.  
 
