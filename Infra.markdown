@@ -23,16 +23,16 @@ permalink: /Infra/
 * [「インフラ収集情報.xlsx」](/GuriPages/files/インフラ収集情報.xlsx)：情報と取得方法/取得形式の例。IBM i 7.1以降の場合は[IBM i サービス(SQL)](https://www.ibm.com/docs/ja/ssw_ibm_i_73/rzajq/rzajqservicessys.htm)でPTF情報やTCP/IP設定の取得を推奨。
 
 * 情報取得簡易プログラム
-  * [RTVLANGINF.clle](/GuriPages/files/RTVLANGINF.clle.txt)：パラメーター無しでCALLするとIBM i の言語基本情報をメッセージで出力
+  * [RTVLANGINF.clle](https://github.com/GuriCat/GuriPages/blob/main/files/RTVLANGINF.clle)：パラメーター無しでCALLするとIBM i の言語基本情報をメッセージで出力
   
   ```
   > call rtvlanginf                                    
   DEFAULT LANG INFO: NLV-2962 EBCDIC-5026, ASCII-942.
   ```
 
-  * [TCPA0200.rpgle](/GuriPages/files/TCPA0200.rpgle.txt)：パラメーター無しでCALLするとIBM i のTCP/IP属性を印刷出力([出力例](/GuriPages/files/TCPA0200.spl.txt))
+  * [TCPA0200.rpgle](/https://github.com/GuriCat/GuriPages/blob/main/files/TCPA0200.rpgle)：パラメーター無しでCALLするとIBM i のTCP/IP属性を印刷出力([出力例](/GuriPages/files/TCPA0200.spl.txt))
 
-  * [TCPA0300.rpgle](/GuriPages/files/TCPA0300.rpgle.txt)：パラメーター無しでCALLするとIBM i のTCP/IPドメイン設定を印刷出力([出力例](/GuriPages/files/TCPA0300.spl.txt))
+  * [TCPA0300.rpgle](https://github.com/GuriCat/GuriPages/blob/main/files/TCPA0300.rpgle)：パラメーター無しでCALLするとIBM i のTCP/IPドメイン設定を印刷出力([出力例](/GuriPages/files/TCPA0300.spl.txt))
 
 
 <P></P>
