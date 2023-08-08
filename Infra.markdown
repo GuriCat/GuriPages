@@ -33,7 +33,7 @@ permalink: /Infra/
 #### ●インフラ収集情報
 移行や構築時にIBM i から収集可能な主要情報の一覧。プロジェクトの要件やアクセス制限によって選別。IBM i 7.1以降の場合は[IBM i サービス(SQL)](https://www.ibm.com/docs/ja/ssw_ibm_i_73/rzajq/rzajqservicessys.htm)でPTF情報やTCP/IP設定の取得を推奨。
 
-* [インフラ収集情報 Excelワークシシート](/GuriPages/files/インフラ収集情報.xlsx)：情報と取得方法/取得形式の例。
+* [インフラ収集情報 Excelワークシート](/GuriPages/files/インフラ収集情報.xlsx)：情報と取得方法/取得形式の例。
 
 * 情報取得簡易プログラム
   * [RTVLANGINF.clle](https://github.com/GuriCat/GuriPages/blob/main/files/RTVLANGINF.clle)：パラメーター無しでCALLするとIBM i の言語基本情報をメッセージで出力
