@@ -14,7 +14,7 @@ IBM i の最新技術の習得(リスキリング)、既存の知識更新(リ�
 ---
 <br>
 
-### ライト・モダナイゼーション 5250編<br>([https://guricat.github.io/Lite-modernization-for-5250/#/](https://guricat.github.io/Lite-modernization-for-5250/#/))
+### [ライト・モダナイゼーション 5250編](https://guricat.github.io/Lite-modernization-for-5250/#/)
 
 当「ライト・モダナイゼーション ハンズオンの手引き (5250編)」は、IBM i モダナイゼーション手法の一つとして、「5250画面のモダナイゼーション」を体験する、ハンズオンのガイドです。
 
@@ -25,7 +25,7 @@ IBM i の最新技術の習得(リスキリング)、既存の知識更新(リ�
 ---
 <br>
 
-### IBM i でSQL<br>[(https://guricat.github.io/SQL-on-IBM-i/#/)](https://guricat.github.io/SQL-on-IBM-i/#/)
+### [IBM i でSQL](https://guricat.github.io/SQL-on-IBM-i/#/)
 
 当「IBM i でSQL ハンズオンの手引き」は、SQLインターフェースから様々な方法でDb2 for iを操作・活用する、実習のガイドです。 多くのお客様で、DDSで作成されたデータベースファイルをレコードI/O(READ/WRITEなど)で操作しているRPGやCOBOLの基幹アプリケーションが多数稼動しています。一方、IBM i アプリケーションのモダナイゼーションにはDBアクセスのSQL化が望まれます。また、オープン系のソリューションではSQLが標準的なDBアクセス方法であり、IBM i でもSQLの重要性が年々増加しています。ここでは、Db2 for i をSQLで活用する方法やプログラム手法のいくつかを、実習形式で体験します。
 
@@ -34,7 +34,7 @@ IBM i の最新技術の習得(リスキリング)、既存の知識更新(リ�
 ---
 <br>
 
-### IBM i サービス (SQL) 実践<br>([https://guricat.github.io/Practical-use-of-IBM-i-Service--SQL-/#/](https://guricat.github.io/Practical-use-of-IBM-i-Service--SQL-/#/))
+### [IBM i サービス (SQL) 実践](https://guricat.github.io/Practical-use-of-IBM-i-Service--SQL-/#/)
 
 当「IBM i サービス (SQL) 実践 ハンズオンの手引き」は、IBM i サービスを活用して様々な情報を取得する、実習のガイドです。
 
@@ -45,7 +45,7 @@ IBM i 6.1で実装が開始されたIBM iサービスは、システムが提供
 ---
 <br>
 
-### IBM iでオープンソース活用<br>([https://guricat.github.io/Leveraging-Open-Source-on-IBM-i/#/](https://guricat.github.io/Leveraging-Open-Source-on-IBM-i/#/))
+### [IBM i でオープンソース活用](https://guricat.github.io/Leveraging-Open-Source-on-IBM-i/#/)
 
 当「IBM iでオープンソース活用」は、IBM iでオープンソース・ソフトウェア(以下「OSS」と略)を利用した開発を体験するハンズオンのガイドです。
 
