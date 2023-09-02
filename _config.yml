@@ -42,8 +42,10 @@ github: [metadata]
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
-
+  - jekyll-extlinks
+#  - jekyll-link-attributes
+#  - jekyll-target-blank
+#  - jekyll-remote-theme # add this line to the plugins list if you already have one
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -64,3 +66,12 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+extlinks:
+  attributes: {rel: nofollow, target: _blank}
+  rel_exclude: ['host1.com', 'host2.net']
+
+#external_links:
+#  enabled: true
+#  rel: external nofollow noopener
+#  target: _blank

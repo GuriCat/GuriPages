@@ -117,6 +117,9 @@ GEM
       rouge (>= 2.0, < 5.0)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
+    jekyll-extlinks (0.0.4)
+      jekyll (~> 3.0)
+      nokogiri (~> 1.6)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
@@ -261,6 +264,7 @@ DEPENDENCIES
   faraday-retry
   github-pages (~> 228)
   http_parser.rb (~> 0.6.0)
+  jekyll-extlinks
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
   tzinfo (>= 1, < 3)
