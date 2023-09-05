@@ -2,7 +2,7 @@
 layout: post
 title:  "「IBM iとは？」的な資料"
 date:   2021-12-13 10:10:10 +0900
-categories: その他
+tags: [その他]
 ---
 IBM i の新規ユーザー向けガイドとして[「Getting started with IBM i」](https://developer.ibm.com/articles/i-newtoibmi/)という記事がIBMのサイトにありました。IBM i の最新バージョンが7.3になっているなど？な部分もありますが、A4で5ページくらいに簡潔に記述されているので何かで使えるかもしれません。
 

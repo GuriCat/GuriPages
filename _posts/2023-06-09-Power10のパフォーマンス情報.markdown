@@ -2,7 +2,7 @@
 layout: post
 title:  "Power10のパフォーマンス情報"
 date:   2023-06-09 13:48:37 +0900
-categories: Power10,パフォーマンス
+tags: [パフォーマンス]
 ---
 IBMから5月に「IBM Power上でIBM iアプリケーションのスループットを最大化するためのベストプラクティスガイド」なるものが出ていたのでご紹介、タイトルは[「IBM Power10 performance optimization for IBM i」](https://www.ibm.com/downloads/cas/PK29M2DL)です。内容は機能の紹介的な感じであまり具体的な例や数値は載っていませんが、良くなることは何となくわかります。
 

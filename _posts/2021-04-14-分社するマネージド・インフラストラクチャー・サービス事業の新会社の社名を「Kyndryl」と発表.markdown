@@ -2,7 +2,7 @@
 layout: post
 title:  "分社するマネージド・インフラストラクチャー・サービス事業の新会社の社名を「Kyndryl」と発表"
 date:   2021-04-14 10:10:10 +0900
-categories: その他
+tags: [その他]
 ---
 ニュース・リリースは[こちら](https://jp.newsroom.ibm.com/2021-04-12-New-company-and-new-president-decided)。「キンドリル」と聞いてAmazonのKindleかと思った…
 

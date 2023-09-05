@@ -2,6 +2,6 @@
 layout: post
 title:  "IBM提供サブシステムの事前開始ジョブ項目"
 date:   2022-08-30 10:10:10 +0900
-categories: OS
+tags: [技術情報]
 ---
 TechChannelの古い記事でIBM提供サブシステム(QSYSWRK、QUSRWRK、QSERVER)の事前開始ジョブ項目を解説しています。概説が[「Introduction to Prestart Jobs, June 21, 2018」](https://techchannel.com/Trends/06/2018/introduction-to-prestart-jobs)で、詳細を[「IBM i System Supplied Prestart Job Entries, June 29, 2018」](https://techchannel.com/SMB/06/2018/prestart-job-entries)で記載しています。まとまった情報は見たことが無かったのですが、だいたいはホストサーバー関連のジョブですね。

@@ -2,7 +2,7 @@
 layout: post
 title:  "RPG/COBOL開発ツールへのコミットメント"
 date:   2021-05-25 10:10:10 +0900
-categories: RPG,COBOL
+tags: [RPG, ペーパー]
 ---
 いまでも「RPGをこのまま使っていて大丈夫？」という話があるようですが、このような漠然とした不安を払拭するため、IBMからレターが出ています。最近では[「IBM i RPG Letter 2021 V3.doc 」](https://community.ibm.com/community/user/power/viewdocument/rpg-community-letter?CommunityKey=f0246bc4-08f3-43c5-a7f8-b6a64d387894)が発行されました。
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM Documentation オフライン"
 date:   2022-10-27 10:10:10 +0900
-categories: その他
+tags: [その他]
 ---
 IBM Docsの情報をインターネット接続が無い状況でも参照できるようになりました。利用手順は次のような感じ ([Qiitaの投稿](https://qiita.com/keniooi/items/d0bce040ddb78d6fcbf7)の方が図入りでわかりやすいかも)。
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i の最新ホワイトペーパー「A New Level of Integrated Simplicity」"
 date:   2022-05-19 10:10:10 +0900
-categories: 営業情報
+tags: [ペーパー]
 ---
 7.5の発表に伴い、[ホワイトペーパー(英語)](https://www.ibm.com/downloads/cas/AD9PJJQ2)が更新されました。今回のキャッチフレーズは「A New Level of Integrated Simplicity」(新しいレベルの統合されたシンプルさ)で、2019年のホワイトペーパーの「A platform for innovators, by innovators」([変革者による 変革者のためのプラットフォーム](https://www.ibm.com/downloads/cas/56O5N92G))からフォーカスが変わった印象です。
 

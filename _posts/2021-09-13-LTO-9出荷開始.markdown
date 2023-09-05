@@ -2,7 +2,7 @@
 layout: post
 title:  "LTO-9出荷開始"
 date:   2021-09-13 10:10:10 +0900
-categories: ハードウェア
+tags: [LTO]
 ---
 POWER10やIBM i TRのアナウンスと同日に、LTO-9が利用可能となっています。IBM i 7.2～7.4向けのLTO-9サポートPTFが[「IBM i Removable Media: Tape and Tape Library Devices」](https://www.ibm.com/support/pages/ibm-i-removable-media-tape-and-tape-library-devices)に記載されています。LTO-9関連について詳しくは[「LTO-9 Drives and Cartridges Finally Get Out the Door」](https://www.itjungle.com/2021/09/08/lto-9-drives-and-cartridges-finally-get-out-the-door/)などを参照ください。
 

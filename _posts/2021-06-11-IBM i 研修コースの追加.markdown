@@ -2,6 +2,6 @@
 layout: post
 title:  "IBM i 研修コースの追加"
 date:   2021-06-11 10:10:10 +0900
-categories: Skill
+tags: [その他]
 ---
 今のご時世に集合研修は難しいので、オンライン研修が追加されたようです。コース一覧は[こちら](https://www.i-learning.jp/service/it/iseries.html?xadid=6)。

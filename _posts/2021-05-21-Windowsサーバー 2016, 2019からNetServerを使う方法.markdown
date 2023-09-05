@@ -2,7 +2,7 @@
 layout: post
 title:  "Windowsサーバー 2016, 2019からNetServerを使う方法"
 date:   2021-05-21 10:10:10 +0900
-categories: NetServer
+tags: [NetServer]
 ---
 NetServerがサポートしているWindowsサーバーは[2012まで](https://www.ibm.com/support/pages/ibm-i-netserver)のようです。正式な手順か不明ですが、[「file sharing between ibm NetServer and windows 2016,2019」](https://community.ibm.com/community/user/power/viewdocument/file-sharing-between-ibm-netserver?CommunityKey=f0246bc4-08f3-43c5-a7f8-b6a64d387894&tab=librarydocuments)にWindows Server 2016/2019でNetServerの共有を作成する方法が記載されています。IBM i の7.xがサポートするSMBのバージョンが異なるので、これに合わせてWIndows側でアレコレする感じです。
 

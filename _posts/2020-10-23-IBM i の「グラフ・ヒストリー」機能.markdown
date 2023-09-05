@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i の「グラフ・ヒストリー」機能"
 date:   2020-10-23 10:10:10 +0900
-categories: パフォーマンス
+tags: [パフォーマンス]
 ---
 記事[「Navigator for i Graph History: Review Historical Data」](https://techchannel.com/SMB/10/2020/Navigator-for-i-Graph-History)がちょっと興味深いです。
 

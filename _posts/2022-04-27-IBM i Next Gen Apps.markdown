@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i Next Gen Apps"
 date:   2022-04-27 10:10:10 +0900
-categories: モダナイゼーション
+tags: [モダナイゼーション]
 ---
 TechChannelの記事[「IBM i Next Gen Apps: The Modernization Approach」](https://techchannel.com/Trends/04/2022/ibm-i-next-gen-apps)でスティーブ・ウィルがモダナイゼーションのアプローチを述べているので興味のある方はご一読を。
 

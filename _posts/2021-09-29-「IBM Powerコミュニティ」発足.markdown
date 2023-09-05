@@ -2,7 +2,7 @@
 layout: post
 title:  "「IBM Powerコミュニティ」発足"
 date:   2021-09-29 10:10:10 +0900
-categories: その他
+tags: [その他]
 ---
 9/12発表。[「IBM i・AIX・Linuxのユーザー同士をつなぐ場。DXの事例や取り組み、実装・運用方法などを共有、“何でも相談会”も」](https://www.imagazine.co.jp/ibm-power-community001/)とのこと。IBMの情報発信やユーザー向けプログラムはできたり消えたりしているので、ちょっと様子を見たいと思います。個人的には、IBM i ユーザーを対象に技術情報発信を強化してほしいです。
 

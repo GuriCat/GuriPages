@@ -2,7 +2,7 @@
 layout: post
 title:  "NVMeとRDX"
 date:   2020-08-14 10:10:10 +0900
-categories: ハードウェア
+tags: [NVMe, RDX]
 ---
 IBM Systems Mediaにも記事が計刺されていたので、基礎知識として一度読むことを推奨。
 

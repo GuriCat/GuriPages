@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i ロードマップ"
 date:   2021-04-27 10:10:10 +0900
-categories: OS
+tags: [ペーパー]
 ---
 ロードマップの最新版(?)[「You and i - IBM i Roadmaps」](https://community.ibm.com/community/user/power/blogs/steven-will1/2021/04/26/you-and-i-ibm-i-roadmaps?CommunityKey=f0246bc4-08f3-43c5-a7f8-b6a64d387894)が公開されました。
 

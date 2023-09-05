@@ -2,7 +2,7 @@
 layout: post
 title:  "HMC v9の更新"
 date:   2021-03-11 10:10:10 +0900
-categories: ハードウェア
+tags: [HMC]
 ---
 TechChannelに[HMCに関する記事](https://techchannel.com/SMB/03/2021/updating-hmc-v9)が掲載されていました。
 

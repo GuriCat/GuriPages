@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i の脆弱性に対する複数のPTF"
 date:   2022-06-23 10:10:10 +0900
-categories: セキュリティ
+tags: [PTF, セキュリティ]
 ---
 ITJungleの記事[「Multiple Security Vulnerabilities Patched on IBM i」](https://www.itjungle.com/2022/06/22/multiple-security-vulnerabilities-patched-on-ibm-i/)でIBM i の脆弱性に対するいくつかのPTFが紹介されています。
 

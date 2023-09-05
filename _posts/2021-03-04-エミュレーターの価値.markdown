@@ -2,7 +2,7 @@
 layout: post
 title:  "エミュレーターの価値"
 date:   2021-03-04 10:10:10 +0900
-categories: 5250,ACS
+tags: [その他]
 ---
 TechChannle(IBM Systemsマガジンの後継)に[「Innovations in the Terminal Emulation Space」](https://techchannel.com/Enterprise/02/2021/terminal-emulation-space)という記事が掲載されていました。
 

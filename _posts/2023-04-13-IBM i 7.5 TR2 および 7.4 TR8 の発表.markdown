@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i 7.5 TR2 および 7.4 TR8 の発表"
 date:   2023-04-13 10:10:10 +0900
-categories: TR
+tags: [TR, V7R4, V7R5]
 ---
 2023/4/11付けで新しいTRが発表されています。詳細は下記リンク先のIBMサポート文書(英語)を参照。
 * [IBM i 7.5 TR2](https://www.ibm.com/support/pages/ibm-i-75-tr2-enhancements) ([発表レター[(https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/8/897/ENUS223-078/index.html&request_locale=en)])

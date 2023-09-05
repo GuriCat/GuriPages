@@ -2,7 +2,7 @@
 layout: post
 title:  "IBMへのクレーム、問題のエスカレーション方法の変更"
 date:   2022-10-14 10:10:10 +0900
-categories: その他
+tags: [SWMA, その他]
 ---
 昔から、IBMの対応に問題がある場合のエスカレーション・プロセスにはComplaint/Critical situation/CritSitがありました。[「Requesting Assistance with an Unresolved Issue」](https://www.ibm.com/mysupport/s/article/Requesting-Assistance?language=ja)によると、2022/03/18からこれらが[「Escalations」](https://www.ibm.com/mysupport/s/escalation?language=ja)(要IBM Id)に統合されたようです。
 

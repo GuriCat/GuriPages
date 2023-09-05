@@ -2,7 +2,7 @@
 layout: post
 title:  "「IBMチャンピオン Db2 for iのモダナイゼーションと SQLについて語る」"
 date:   2022-08-18 10:10:10 +0900
-categories: SQL
+tags: [Db2]
 ---
 TechChannelの記事[「IBM Power Champion Birgitta Hauser on SQL and Modernization」](https://techchannel.com/Trends/01/2022/birgitta-hauser-sql)を読みましたので、いくつか現実目線で追記しておきます。以下抜粋です。
 

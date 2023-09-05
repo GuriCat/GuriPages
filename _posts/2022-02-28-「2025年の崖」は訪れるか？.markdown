@@ -2,7 +2,7 @@
 layout: post
 title:  "「2025年の崖」は訪れるか？"
 date:   2022-02-28 10:10:10 +0900
-categories: DX,モダナイゼーション
+tags: [DX, ペーパー]
 ---
 DX関連でよく引き合いに出される[経産省の「2025年の崖」](https://www.meti.go.jp/shingikai/mono_info_service/digital_transformation/20180907_report.html)ですが、これをそのまま信じている人は多いのでしょうか？ 
 

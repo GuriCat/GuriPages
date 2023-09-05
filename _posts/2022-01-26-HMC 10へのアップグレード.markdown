@@ -2,7 +2,7 @@
 layout: post
 title:  "HMC 10へのアップグレード"
 date:   2022-01-26 10:10:10 +0900
-categories: ハードウェア
+tags: [HMC]
 ---
 TechChannelの[「AIX 7.3 and HMC v10 Upgrades」](https://techchannel.com/SMB/01/2022/aix-7-3-hmc-v10-upgrades)という記事に、HMCをv10にアップグレードした手順が紹介されていました。同様の作業を予定している場合は目を通しておくと良いでしょう。
 

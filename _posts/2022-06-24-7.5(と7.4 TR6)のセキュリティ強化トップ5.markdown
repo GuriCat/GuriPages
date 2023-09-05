@@ -2,7 +2,7 @@
 layout: post
 title:  "7.5(と7.4 TR6)のセキュリティ強化トップ5"
 date:   2022-06-24 10:10:10 +0900
-categories: セキュリティ
+tags: [TR, V7R4, V7R5, セキュリティ]
 ---
 MC Press Onlineの記事[「Carol’s Top Five Favorite Security Enhancements in IBM i 7.5 and 7.4 TR6」](https://www.mcpressonline.com/security/ibm-i-os400-i5os/carol-s-top-five-favorite-security-enhancements-in-ibm-i-7-5-and-7-4-tr6)で、7.5で実装されたセキュリティ強化のお気に入りトップ5をあげています。5/17にもセキュリティ関連情報を書きましたので、合わせて確認すると良いでしょう。
 

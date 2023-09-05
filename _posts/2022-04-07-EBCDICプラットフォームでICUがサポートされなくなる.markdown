@@ -2,7 +2,7 @@
 layout: post
 title:  "EBCDICプラットフォームでICUがサポートされなくなる？"
 date:   2022-04-07 10:10:10 +0900
-categories: 文字コード
+tags: [その他]
 ---
 ICU(International Components for Unicode)の[トップページ](https://icu.unicode.org/)で、「ネイティブEBCDICマシン(IBM i / z)でICU4Cを頻繁にビルド、テスト、修正する"誰か"がいなければ<span style="color: red">**非ASCIIプラットフォームのサポートを除去する**</span>」と述べられています。
 

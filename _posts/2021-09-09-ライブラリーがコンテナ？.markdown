@@ -2,7 +2,7 @@
 layout: post
 title:  "ライブラリーがコンテナ？"
 date:   2021-09-09 10:10:10 +0900
-categories: DX,モダナイゼーション
+tags: [モダナイゼーション]
 ---
 [「Containers, Microservices and Open Source: IBM i From Another Perspective」](https://techchannel.com/SMB/08/2021/ibm-i-another-perspective)によると、Kubernetesとかでいうところの「コンテナ」がIBM i の「ライブラリー」(コンテナ・イメージがSAVF)とのこと... IBM Championとの肩書ですが、かなり無理があるように思えます。
 

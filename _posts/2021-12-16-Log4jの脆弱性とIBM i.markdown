@@ -2,13 +2,13 @@
 layout: post
 title:  "Log4jの脆弱性とIBM i"
 date:   2021-12-16 10:10:10 +0900
-categories: セキュリティ
+tags: [セキュリティ]
 ---
 世間ではLog4jの脆弱性が話題になっていますが、TechChannelにIBM i に関連した記事[「Log4Shell Part 1: Answering FAQs on the Log4Shell Security Vulnerability」](https://techchannel.com/Trends/12/2021/log4shell-part-1)が掲載されていたので必要な方はご一読を。
 
 影響調査には、「log4j」という名前で拡張子が「.jar」のファイルがシステム上にあるかを確認する方法があります。GistやRyverの書き込みのように、例えば次のようなSQL[^1]をACSのSQLスクリプトから実行します。
 
-```ruby
+```sql
 CL: CHGJOB CCSID(1399);
 
 WITH path AS (

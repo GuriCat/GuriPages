@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i の最新総経済効果(TEI)レポート"
 date:   2023-06-08 10:10:10 +0900
-categories: 市場調査
+tags: [ペーパー]
 ---
 IT Jungleの記事[「IBM i Delivers Sizable Benefits, Forrester Consulting Reports」](https://www.itjungle.com/2023/06/07/ibm-i-delivers-sizable-benefits-forrester-consulting-reports/)から。IBMがスポンサーとなっているIBM i の投資効果の調査レポートです。
 

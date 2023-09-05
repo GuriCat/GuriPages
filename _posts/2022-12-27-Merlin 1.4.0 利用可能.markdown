@@ -2,7 +2,7 @@
 layout: post
 title:  "Merlin 1.4.0 利用可能"
 date:   2022-12-27 10:10:10 +0900
-categories: OSS
+tags: [Merlin]
 ---
 IBMの1.4.0のサイトは[こちら](https://www.ibm.com/docs/en/merlin/1.0?topic=new-whats-in-140)。デバッグ機能の追加が目玉ですが、これ以外も細々修正・追加されているようです。YouTubeの[「IBM Merlin - Getting Started - for Users」](https://www.youtube.com/playlist?list=PLPELYviDwCnY6L5r5ZnmCneqhakLcB7ko)も動画が増えている気がします。
 

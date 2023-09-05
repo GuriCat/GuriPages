@@ -2,7 +2,7 @@
 layout: post
 title:  "IDCホワイトペーパー「For Many Businesses, It's Time to Upgrade Their Best-Kept Secret: IBM i」"
 date:   2020-10-15 10:10:10 +0900
-categories: 市場調査
+tags: [ペーパー]
 ---
 表題はIDCが2019/9に発行した白書です。
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "「IBM i に感謝すべき7つの理由」"
 date:   2022-11-17 10:10:10 +0900
-categories: Power8,EOS
+tags: [その他]
 ---
 IT Jungleの記事[「7 Reasons To Be Thankful For IBM i」](https://www.itjungle.com/2022/11/16/7-reasons-to-be-thankful-for-ibm-i/)より。
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "7.4 TR5と7.3 TR11の発表"
 date:   2021-09-10 10:10:10 +0900
-categories: OS,TR
+tags: [POWER10, TR, V7R4, V7R3]
 ---
 POWER10と同時にIBM i 7.4 TR5/7.3 TR11が発表されました。発表レターはこちら([「You and i – IBM i 7.4 TR5 Power10 Announced」](https://community.ibm.com/community/user/power/blogs/steven-will1/2021/09/07/you-and-ibm-i-74-tr5-power10-announcement)、[「IBM i 7.3 Technology Refresh 11 delivers significant enhancements」](https://www.ibm.com/docs/en/announcements/i-73-tr11?region=JPN))、技術情報(Landing Page)へのリンクはこちら([「IBM i 7.4 - TR5 Enhancements」](https://www.ibm.com/support/pages/node/6456987)、[「IBM i 7.3 - TR11 Enhancements」](https://www.ibm.com/support/pages/node/6456989))、
 

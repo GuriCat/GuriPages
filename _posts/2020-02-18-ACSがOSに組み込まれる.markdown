@@ -2,7 +2,7 @@
 layout: post
 title:  "ACSがOSに組み込まれる"
 date:   2020-02-18 10:10:10 +0900
-categories: ACS
+tags: [ACS, PTF]
 ---
 Dawn Mayの記事[「Access Client Solutions is Now Shipped with IBM i」](https://techchannel.com/SMB/02/2020/acs-shipped-with-ibm-i)によれば、PTFを適用すると /QIBM/ProdData/Access/ACS/Base を配布元とし、ここからクライアントPCのACSを更新したり、インストールしたりできるようになります。Access for Windowsと同様に中央から配布する仕組みを構築すれば、ACSの展開・運用の負荷が軽減できるでしょう。
 

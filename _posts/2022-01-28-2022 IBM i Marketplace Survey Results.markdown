@@ -2,7 +2,7 @@
 layout: post
 title:  "2022 IBM i Marketplace Survey Results"
 date:   2022-01-28 10:10:10 +0900
-categories: 市場調査
+tags: [ペーパー]
 ---
 毎年恒例(8回目)の[「2022 IBM i Marketplace Survey Results」](https://www.wssitalia.it/wp-content/uploads/2018/09/ibmi-marketplace-survey-results.pdf)が発行されました。今日のAM0:00～1:00のWeb MTGでも解説がありましたが、サマリーを抜粋します。
 

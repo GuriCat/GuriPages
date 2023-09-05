@@ -2,7 +2,7 @@
 layout: post
 title:  "ハンズオン資料公開"
 date:   2023-09-05 13:48:37 +0900
-categories: その他
+tags: [その他, 技術情報]
 ---
 下記ハンズオン資料を[公開](/GuriPages/reskilling/)しました。
 
@@ -19,3 +19,39 @@ categories: その他
 現在IBM i が触れない状態ですが、機会があれば今どきの「IBM i の開発環境」をまとめたいと思っています。例えば、RDi／VS Code／SEUの使い分け、GitHubの利用、deploy手法とパターン(Ansible、Rundeck、Merlin...)などなど。
 
 それと日本語EBCDICの各種制約の明確化と、IBM i のUTF-8対応の現状とToBeを考察中です。とりあえず現状の文字コードの基本は、動画「[文字コード概説（一般編）](https://www.e-bellnet.com/category/knowledges/doc/2004-03.php){:target="_blank"}{:rel="noopener noreferrer"}」と「[文字コード概説（IBM i 編）](https://www.e-bellnet.com/category/knowledges/doc/mojicode-video-ibmi.php){:target="_blank"}{:rel="noopener noreferrer"}」の視聴をお勧めします。
+
+{::comment}
+タグ
+tags: [ACS, PTF]
+
+7.3
+7.4
+7.5
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+SQL
+SWMA
+TCP/IP
+TR
+
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}

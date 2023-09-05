@@ -2,7 +2,7 @@
 layout: post
 title:  "ACS 1.1.8.6 出荷開始"
 date:   2020-12-17 10:10:10 +0900
-categories: ACS
+tags: [ACS]
 ---
 ACS version 1.1.8.6が12/1に利用可能になっています。ダウンロードはこちら([ibm.biz/IBMi_ACS](http://ibm.biz/IBMi_ACS)：要IBMid)。
 

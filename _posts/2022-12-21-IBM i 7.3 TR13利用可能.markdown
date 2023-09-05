@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i 7.3 TR13利用可能"
 date:   2022-12-21 10:10:10 +0900
-categories: OS
+tags: [TR, V7R3]
 ---
 IT Jungleの記事[「Surprise! There’s a Tech Refresh 13 For IBM i 7.3」](https://www.itjungle.com/2022/12/05/surprise-theres-a-tech-refresh-13-for-ibm-i-7-3/)より。2022/12/2にリリースされた7.3 TR13はIBMの[「IBM i Technology Updates」](https://www.ibm.com/support/pages/node/1119129)には記載がありませんが、[「IBM i Technology Refresh - Information for IBM i 7.3」](https://www.ibm.com/support/pages/ibm-i-technology-refresh-information-ibm-i-73)にはちゃんと情報があります。
 

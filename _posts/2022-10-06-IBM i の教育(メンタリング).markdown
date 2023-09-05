@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i の教育(メンタリング)"
 date:   2022-10-06 10:10:10 +0900
-categories: SKILL
+tags: [その他]
 ---
 TechChannel の記事、[「Recognizing and Fostering Greatness in the Power Systems Ecosystem」](https://techchannel.com/Trends/09/2022/greatness-power-systems-ecosystem)からダウンロードできるe-book「IBM i コミュニティの影響力のある女性を認識する」の、タイトルと関係ない後半部分で「メンター制度と IBM i 教育が Power Systems のスキル ギャップを効果的に埋める方法」について述べられています。「メンタリングの重要さ」や「IBMが提供する学習プログラム」に触れていますので、組織のスキル要求に対応する際の参考になるでしょう。
 

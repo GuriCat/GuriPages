@@ -2,7 +2,7 @@
 layout: post
 title:  "ACS 1.1.9.2使用可能"
 date:   2023-04-17 10:10:10 +0900
-categories: ACS
+tags: [ACS]
 ---
 7.5 TR2 および 7.4 TR8と同時に発表されたACS 1.1.9.2がダウンロード可能になったようです。大半はSQLスクリプト関連の機能強化ですが、バグ修正(例えば、Windows 11をアップデートすると追加の端末ウインドゥが開く、など)もあります。更新の詳細は[「IBM i Access - ACS Updates」](https://www.ibm.com/support/pages/ibm-i-access-acs-updates)をご覧ください。
 

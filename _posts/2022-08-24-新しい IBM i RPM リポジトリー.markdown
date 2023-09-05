@@ -2,7 +2,7 @@
 layout: post
 title:  "新しい IBM i RPM リポジトリー"
 date:   2022-08-24 10:10:10 +0900
-categories: OSS
+tags: [OSS]
 ---
 TechChannelの記事[「Everything You Need to Know About the New IBM i RPM Repositories」](https://techchannel.com/Trends/08/2022/ibm-i-rpm-repositories)によると、rpmのリポジトリが9月から変更されるようです。今は全IBM i バージョンに対して単一のリポジトリですが、これをバージョンごとに適したリポジトリに分割するイメージです。要点は次の4点かと思います。
 

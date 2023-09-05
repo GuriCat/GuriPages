@@ -2,7 +2,7 @@
 layout: post
 title:  "2021 IBM i Marketplaceの調査結果"
 date:   2021-01-20 10:10:10 +0900
-categories: 市場調査
+tags: [ペーパー]
 ---
 毎年恒例(第七回)の[IBM i Marketplace調査結果](https://www.helpsystems.com/resources/guides/ibm-i-marketplace-survey-results)がHelpSystemsから発表され、例えば下記のような結果となっています。
 

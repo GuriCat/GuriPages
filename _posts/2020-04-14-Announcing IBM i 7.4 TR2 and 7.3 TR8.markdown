@@ -2,7 +2,7 @@
 layout: post
 title:  "Announcing IBM i 7.4 TR2 and 7.3 TR8"
 date:   2020-04-14 10:10:10 +0900
-categories: TR
+tags: [ACS, TR, SQL, V7R4, V7R3]
 ---
 表題の[TR](https://www.ibm.com/support/pages/node/1119129)が発表されました。詳しくはこちら([7.4 TR2](https://www.ibm.com/support/pages/ibm-i-74-tr2-enhancements), [7.3 TR8](https://www.ibm.com/support/pages/node/6155511))を参照ください。
 

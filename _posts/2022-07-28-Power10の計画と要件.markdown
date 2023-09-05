@@ -2,7 +2,7 @@
 layout: post
 title:  "Power10の計画と要件"
 date:   2022-07-28 10:10:10 +0900
-categories: ハードウェア
+tags: [POWER10]
 ---
 TechChannelの記事[「Power10 Planning and Requirements」](https://techchannel.com/IT-Strategy/07/2022/power10-planning-requirements)にPower10の設備計画のポイントが掲載されました。これからインストールが増えると思うので、インフラに関係する方はざっと目を通しておくとよいでしょう。詳細は下記のIBM情報を確認する必要があります。
 

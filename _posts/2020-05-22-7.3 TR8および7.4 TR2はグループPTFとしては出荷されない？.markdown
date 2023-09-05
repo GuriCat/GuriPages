@@ -2,7 +2,7 @@
 layout: post
 title:  "7.3 TR8および7.4 TR2はグループPTFとしては出荷されない？"
 date:   2020-05-22 10:10:10 +0900
-categories: TR
+tags: [PTF, TR, V7R3, V7R4]
 ---
 詳細は[「Confusion About IBM i 7.4 TR2 and 7.3 TR8」](https://techchannel.com/SMB/5/2020/confusion-about-tr)で説明されています。記事によると概要は下記のようです。
 
@@ -13,11 +13,7 @@ categories: TR
 
 混乱しますね。
 
-　
-
 ---
-
-　
 
 #### 2020-07-17追記：7.3 TR8および7.4 TR2 PTF出荷開始
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Power8サーバーのEOS(保守サービス終了)"
 date:   2022-11-21 10:10:10 +0900
-categories: Power8,EOS
+tags: [POWER8]
 ---
 2022/11/15付けの[IBM発表レター](https://www.ibm.com/common/ssi/cgi-bin/ssialias?appname=skmwww&htmlfid=897%2FENUS922-117&infotype=AN&subtype=CA&mhsrc=ibmsearch_a&mhq=8286%2041A%20EOS)でPower8サーバーの保守サービス終了日が発表されました。 S822/S824が2024年3月31日、S814が2024年5月31日、S850C以上が2024年10月31日と、モデルによって日付が違うのは要注意。S814、S824は現役で利用されているお客様も多いので、早めに移行(もしくは延長保守)を計画すべきでしょう。関連記事を掲載しているサイトを下記にのせますが、iWorldの記事が現場目線で比較的分かり易い感じです。
 

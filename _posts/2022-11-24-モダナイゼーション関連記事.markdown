@@ -2,7 +2,7 @@
 layout: post
 title:  "モダナイゼーション関連記事"
 date:   2022-11-24 10:10:10 +0900
-categories: モダナイゼーション
+tags: [ペーパー, モダナイゼーション]
 ---
 最近この手の記事には食傷気味ですが一応ご紹介。TechChannelで「[Building for Successful Modernization and Operationalization](https://techchannel.com/SMB/11/2022/modernization-operationalization) / モダナイゼーションと運用化を成功させるための構築」でペーパーを配布しています。「モダナイゼーション計画をうまく立てるには、次の3つの質問を自問することから始まります」とのこと。
 

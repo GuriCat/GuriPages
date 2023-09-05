@@ -2,7 +2,7 @@
 layout: post
 title:  "「RPGとRDiを最新の開発ビジネスツールとして活用する方法」"
 date:   2022-03-01 10:10:10 +0900
-categories: 開発
+tags: [RPG, RDi]
 ---
 ちょっと前にTechChannelに[首題の記事](https://techchannel.com/SMB/2/2022/rpg-rdi-modern-business-tools)が掲載されており、[e-book(英文)](https://techchannel.com/Admin/IBM/media/PDFs/TechChannel_ebook_RDiRPG_SMB-Feb-2022.pdf)が配布されていました。「RPGはバリバリの現役で、これからも拡張される」という内容で、RPGの将来に不安を持っている場合は読んでみると良いでしょう。
 

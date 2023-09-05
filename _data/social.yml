@@ -1,0 +1,9 @@
+- title: YouTube
+  url: https://www.youtube.com/channel/UCXXqyqBk5spc4L95gJj-OGA
+  icon: fab fa-youtube
+- title: Twitter
+  url: https://twitter.com/GuriCatNyan
+  icon: fab fa-twitter
+- title: GitHub
+  url: https://github.com/GuriCat
+  icon: fab fa-github

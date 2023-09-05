@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i Tutorials, Demos, and SQL examples"
 date:   2021-06-24 10:10:10 +0900
-categories: Db2,SQL
+tags: [SQL]
 ---
 SQLの利用例やサンプルをまとめたサポート文書が[こちら](https://www.ibm.com/support/pages/ibm-i-tutorials-demos-and-sql-examples-0)。
 

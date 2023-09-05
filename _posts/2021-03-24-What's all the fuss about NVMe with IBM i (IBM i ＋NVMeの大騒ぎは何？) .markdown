@@ -2,7 +2,7 @@
 layout: post
 title:  "What's all the fuss about NVMe with IBM i (IBM i ＋NVMeの大騒ぎは何？)"
 date:   2021-03-24 10:10:10 +0900
-categories: ハードウェア
+tags: [NVMe]
 ---
 表題のタイトルの[動画](https://www.youtube.com/watch?v=kkmmQ9T-CsQ&t=2523s)が公開されています。全編英語ですが、YouTubeなので字幕を出して英語→日本語に翻訳して見れます。
 

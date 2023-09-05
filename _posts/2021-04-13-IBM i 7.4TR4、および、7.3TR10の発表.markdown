@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i 7.4TR4、および、7.3TR10の発表"
 date:   2021-04-13 10:10:10 +0900
-categories: OS,TR
+tags: [TR, V7R3, V7R4]
 ---
 首題の発表が4/13(米国基準)にあるようです。[「IBM i Technology Updates」](https://www.ibm.com/support/pages/node/1119129/)にはすでに情報があがっていますね。[「IBM i 7.4 - TR4 Enhancements」](https://www.ibm.com/support/pages/node/6405632)に詳細な情報もあります。これは！といった拡張は見つかっていませんが、ACS5250セッションの「Allow target address in lower right corner to be copied so it can be pasted」などは地味に便利でしょう。
 

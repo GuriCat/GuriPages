@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i バージョンのシェア推移"
 date:   2022-03-03 10:10:10 +0900
-categories: OS
+tags: [ペーパー]
 ---
 IT Jungleの[「The State Of The IBM i Base 2022, Part One」](https://www.itjungle.com/2022/02/14/the-state-of-the-ibm-i-base-2022-part-one/)という記事が興味深かったのでご紹介。2015年から2022年までのIBM i のバージョンごとシェアの推移のグラフが掲載されていました。
 

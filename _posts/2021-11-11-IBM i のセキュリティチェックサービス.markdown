@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i のセキュリティチェックサービス"
 date:   2021-11-11 10:10:10 +0900
-categories: セキュリティ
+tags: [セキュリティ]
 ---
 首題サービスの申し込み方法など詳細は[「Complimentary IBM i Security Quick Check」](https://community.ibm.com/community/user/power/blogs/robert-andrews/2021/10/01/complimentary-ibm-i-security-quick-check)をどうぞ。1顧客、1システム、1区画、1回のみ無料。以外はIBM Labサービスでお見積もりになるようです。無料版の入手はメールしか手段が無いのでとりあえずパス。
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "「PTF、コレクション・サービス、およびその他の IBM i 7.5 隠された宝石と連携する_ パート 4」"
 date:   2022-08-15 10:10:10 +0900
-categories: OS
+tags: [V7R5, PTF]
 ---
 TechChannelの記事[「Work With PTF, Collection Services and Other IBM i 7.5 Hidden Gems: Part 4」](https://techchannel.com/Trends/08/2022/work-with-ptf-hidden-gems)に、7.5でSM1からOSに移動したコマンド、USRPRFサイズの拡張、収集サービスの新しいメトリックが記載されています。
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "2022 セキュリティレポート"
 date:   2022-04-19 10:10:10 +0900
-categories: セキュリティ
+tags: [ペーパー]
 ---
 HelpSystems社が先週、18年連続となった年次[「State of IBM i Security」レポート](https://www.fortra.com/resources/guides/state-ibm-i-security-study)を公開しています。IT Jungleの記事[「Top Five Failures In State of IBM i Security For 2022」](https://www.itjungle.com/2022/04/18/top-five-failures-in-state-of-ibm-i-security-for-2022/)では次のような「5つの誤り」をあげています。
 

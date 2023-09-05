@@ -2,6 +2,6 @@
 layout: post
 title:  "IBM の Power10 エントリー マシンの競合分析"
 date:   2022-08-25 10:10:10 +0900
-categories: 市場
+tags: [POWER10]
 ---
 ITJungleの記事[「IBM’s Competitive Analysis For Power10 Entry Machines」](https://www.itjungle.com/2022/08/22/ibms-competitive-analysis-for-power10-entry-machines/)によると、Power10サーバーはXeonサーバーよりコスパが良いらしいです。比較例が2つあり、後者がIBM i に近いと書かれています。いずれの例でも、Power10の方が少ないコア数で処理を行うので、コア数課金のS/Wを利用するとハード価格の差をS/W価格の差が上回ると主張しています。

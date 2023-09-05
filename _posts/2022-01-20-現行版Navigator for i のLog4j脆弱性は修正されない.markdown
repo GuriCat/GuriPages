@@ -2,7 +2,7 @@
 layout: post
 title:  "現行版Navigator for i のLog4j脆弱性は修正されない"
 date:   2022-01-20 10:10:10 +0900
-categories: Navigator for i
+tags: [Navigator, セキュリティ]
 ---
 2022/1/10付けのIBMサポートの文書[「Security Bulletin: IBM i components are affected by CVE-2021-4104 (log4j version 1.x)」](https://www.ibm.com/support/pages/node/6539162)に、<span style="color: red">「IBM Navigator for i - heritage version は log4j v1.x を使用しており、log4j v2.x へのアップデートや使用停止はできません。 顧客は、IBM Navigator for i の heritage version の使用を中止することで、CVE を軽減することができます。」</span>と記載されています。つまり、**現在ほとんどのユーザーが利用している従来のNavigator for i はセキュリティの脆弱性への対処を行わない**ので、利用しないようにとのこと。
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "分散コンピューティングフレームワークのApache KafkaとZookeeperをIBM iでサポート"
 date:   2020-09-11 10:10:10 +0900
-categories: OSS
+tags: [OSS]
 ---
 すぐにIBM i で利用されるとは考えにくいのですが、[「Kafka」](https://kafka.apache.org/)や[「Zookeeper」](https://zookeeper.apache.org/)といった言葉と概要は覚えておくと良いかも。
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "内蔵NVMe namespaceのサイズ"
 date:   2023-06-07 10:10:10 +0900
-categories: インフラ
+tags: [POWER10, NVMe, パフォーマンス]
 ---
 Power10は触っていないのですが、内蔵ストレージがNVMeなのでHDD/SSD時代とは手順がかなり違うようですね。
 

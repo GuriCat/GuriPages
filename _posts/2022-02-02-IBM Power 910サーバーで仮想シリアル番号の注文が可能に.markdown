@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM Power 9/10サーバーで仮想シリアル番号の注文が可能に"
 date:   2022-02-02 10:10:10 +0900
-categories: ハードウェア
+tags: [その他]
 ---
 昨年よりHMCから設定が可能になっていた「仮想シリアル番号」 (Virtual Serial Number：VSN)がオーダーできるようになったと発表([IBM USのハードウェアアナウンスメント 122-017](https://www.ibm.com/docs/en/announcements/i-offering-delivers-ability-order-set-virtual-serial-numbers-in-selected-power9-technology-based-servers?region=US))されました。[論理区画への仮想シリアル番号の割り当て](https://www.ibm.com/docs/ja/power9?topic=power9-p9hat-p9hat-pvsn-htm)は以前より可能でしたが、認証はIT Jungleの記事[「The IBM i Cloud Just Got More Frictionless With Virtual Serial Numbers」](https://www.itjungle.com/2022/01/31/the-ibm-i-cloud-just-got-more-frictionless-with-virtual-serial-numbers/)によると有償になるらしいです。
 
