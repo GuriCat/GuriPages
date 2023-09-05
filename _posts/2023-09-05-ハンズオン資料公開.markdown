@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "ハンズオン資料公開"
+date:   2023-09-05 13:48:37 +0900
+categories: その他
+---
+下記ハンズオン資料を公開しました。
+
+IBM i のリカレント/リスキリング計画の参考になるかもしれません。
+
+* [**ライト・モダナイゼーション 5250編**](https://guricat.github.io/Lite-modernization-for-5250/#/){:target="_blank"}{:rel="noopener noreferrer"}
+* [**IBM i でSQL**](https://guricat.github.io/SQL-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
+* [**IBM i サービス (SQL) 実践**](https://guricat.github.io/Practical-use-of-IBM-i-Service--SQL-/#/){:target="_blank"}{:rel="noopener noreferrer"}
+* [**IBM i でオープンソース活用**](https://guricat.github.io/Leveraging-Open-Source-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
+
+
+
+![ぐりさん](/GuriPages/image/2017-09-29_Guri.jpg)
