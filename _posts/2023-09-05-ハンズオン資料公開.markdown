@@ -4,15 +4,18 @@ title:  "ハンズオン資料公開"
 date:   2023-09-05 13:48:37 +0900
 categories: その他
 ---
-下記ハンズオン資料を公開しました。
+下記ハンズオン資料を[公開](reskilling.markdown)しました。
 
-IBM i のリカレント/リスキリング計画の参考になるかもしれません。
+多少古い情報もありますが、IBM i のリカレント/リスキリング計画の参考になるかもしれません。
 
-* [**ライト・モダナイゼーション 5250編**](https://guricat.github.io/Lite-modernization-for-5250/#/){:target="_blank"}{:rel="noopener noreferrer"}
-* [**IBM i でSQL**](https://guricat.github.io/SQL-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
-* [**IBM i サービス (SQL) 実践**](https://guricat.github.io/Practical-use-of-IBM-i-Service--SQL-/#/){:target="_blank"}{:rel="noopener noreferrer"}
-* [**IBM i でオープンソース活用**](https://guricat.github.io/Leveraging-Open-Source-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
+* [**ライト・モダナイゼーション 5250編** (2020年11月)](https://guricat.github.io/Lite-modernization-for-5250/#/){:target="_blank"}{:rel="noopener noreferrer"}
+* [**IBM i でSQL** (2020年12月)](https://guricat.github.io/SQL-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
+* [**IBM i サービス (SQL) 実践** (2021年1月)](https://guricat.github.io/Practical-use-of-IBM-i-Service--SQL-/#/){:target="_blank"}{:rel="noopener noreferrer"}
+* [**IBM i でオープンソース活用** (2023年3月)](https://guricat.github.io/Leveraging-Open-Source-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
+* [**IBM iでWebサービス** (2023年5月)](https://guricat.github.io/Web-Service-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
 
+<br>
 
+現在IBM i が触れない状態ですが、機会があれば今どきの「IBM i の開発環境」をまとめたいと思っています。例えば、RDi／VS Code／SEUの使い分け、GitHubの利用、deploy手法とパターン(Ansible、Rundeck、Merlin...)などなど。
 
-![ぐりさん](/GuriPages/image/2017-09-29_Guri.jpg)
+それと日本語EBCDICの各種制約の明確化と、IBM i のUTF-8対応の現状とToBeを考察中です。とりあえず現状の文字コードの基本は、動画「[文字コード概説（一般編）](https://www.e-bellnet.com/category/knowledges/doc/2004-03.php){:target="_blank"}{:rel="noopener noreferrer"}」と「[文字コード概説（IBM i 編）](https://www.e-bellnet.com/category/knowledges/doc/mojicode-video-ibmi.php){:target="_blank"}{:rel="noopener noreferrer"}」の視聴をお勧めします。
