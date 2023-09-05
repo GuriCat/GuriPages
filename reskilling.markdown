@@ -56,7 +56,7 @@ IBM i 6.1で実装が開始されたIBM iサービスは、システムが提供
 ---
 <br>
 
-### IBM iでWebサービス (準備中)
+### [IBM iでWebサービス](https://guricat.github.io/Web-Service-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
 
 当「IBM iでWebサービス」は、IBM iでWebサービスのサーバー、および、クライアントを開発するハンズオンのガイドです。ハンズオンではRESTモデル/JSON形式を使用したWebサービスのサーバーとクライアントを、いくつかの手法でIBM i上に構築します。
 
