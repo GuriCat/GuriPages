@@ -12,7 +12,7 @@ categories: その他
 * [**IBM i でSQL** (2020年12月)](https://guricat.github.io/SQL-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
 * [**IBM i サービス (SQL) 実践** (2021年1月)](https://guricat.github.io/Practical-use-of-IBM-i-Service--SQL-/#/){:target="_blank"}{:rel="noopener noreferrer"}
 * [**IBM i でオープンソース活用** (2023年3月)](https://guricat.github.io/Leveraging-Open-Source-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
-* [**IBM iでWebサービス** (2023年5月)](https://guricat.github.io/Web-Service-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
+* [**IBM i でWebサービス** (2023年5月)](https://guricat.github.io/Web-Service-on-IBM-i/#/){:target="_blank"}{:rel="noopener noreferrer"}
 
 <br>
 
