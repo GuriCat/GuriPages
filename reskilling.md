@@ -1,11 +1,9 @@
 ---
 layout: page
-title: リスキリング
+title: IBM i リスキリング
 permalink: /reskilling/
 
 ---
-
-# IBM i リスキリング
 
 IBM i の最新技術の習得(リスキリング)、既存の知識更新(リカレント)を目的とした自習/ハンズオン資料を公開します。
 
