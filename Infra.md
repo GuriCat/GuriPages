@@ -1,6 +1,6 @@
 ---
 layout: page
-title: インフラ
+title: インフラ情報
 permalink: /Infra/
 toc: true
 ---
