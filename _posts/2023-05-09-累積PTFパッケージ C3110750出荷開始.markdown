@@ -5,6 +5,7 @@ date:   2023-05-09 10:10:10 +0900
 tags: [PTF, 技術情報]
 ---
 IBM CommunityにPTF情報が載っていたので転載。
+
 * The latest cumulative package for IBM i 7.5 is: C3110750
 * [Cumulative package C3110750 began shipping worldwide: 05 May 2023.](https://www.ibm.com/support/pages/node/6580955?mhsrc=ibmsearch_a&mhq=sf98750)
   * SF99957:  750 Technology Refresh / PTF Group Level:  2 / Last Updated:  5/4/23 / [www.ibm.com/support/pages/...](https://www.ibm.com/support/pages/sf99957-750-technology-refresh-level-2)
