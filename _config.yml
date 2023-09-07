@@ -1,7 +1,7 @@
 # Setup
 title: Guri's IBM i Page on GitHub
 description: # >- # this means to ignore newlines until "baseurl:"
-  <font color="red">Copyright 2023 "Guri The Cat".
+  <font color="#ffb3f1">Copyright 2023 "Guri The Cat".
   This project is licensed under the MIT License.</font>
 url: "https://guricat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/GuriPages" # the subpath of your site, e.g. /blog
