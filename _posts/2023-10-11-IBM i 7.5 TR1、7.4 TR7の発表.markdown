@@ -21,7 +21,7 @@ IBM i 7.5 TR3 および 7.4 TR9 が発表されました。概要は[Steve Will�
   * 「SQLでExcelワークシートを作ってメールす」る的な用途が考えられます。
   * ただし、 [Gistのサンプル](https://gist.github.com/forstie/2deda50658106461f650cd71917feff9?permalink_comment_id=3368922){:target="_blank"}の仕組みが使われているとすれば、機能は限定的と思います。
 
-* 物理テープ装置への保管でオンライン保管ファイルと同様の圧縮オプション(*LOW, *MEDIUM, *HIGH, *ZLIB)が指定可能^[1]
+* 物理テープ装置への保管でオンライン保管ファイルと同様の圧縮オプション(*LOW, *MEDIUM, *HIGH, *ZLIB)が指定可能[^1]
   * これまで物理テープ装置に対しては\*DEV, \*YES, \*NOの指定が可能で、LTOでは多くの場合は1:2の圧縮率が想定されています。一方、[動画 IBM i 7.5とPower10概要](https://youtu.be/K04-jPKzzGs?t=652){:target="_blank"}でテストした際には、*MEDIUM, *HIGH, *ZLIBであれば1:2以上の圧縮率が得られます。
   * 実際の圧縮率と保管速度は、保管手法とテープ装置の組み合わせによって変動します。例えば、VTL(仮想テープライブラリー装置)では内部で独自の圧縮を行う装置もあるので、ソフトウェア圧縮の効果が出ない可能性があります。また、*ZLIBを使用する場合はPower10サーバーが高速といわれています。
   * 新しい機能を採用する前に、実際の環境で保管・復元の検証を行うことをお勧めします。
@@ -30,7 +30,7 @@ IBM i 7.5 TR3 および 7.4 TR9 が発表されました。概要は[Steve Will�
 
 今はIBM Idを持っていないし、IBM i にアクセスもできませんが、そのうちIdeasに投稿しようかなと。
 
-^[1]: [Save Commands and APIs for Tape Compression](https://www.ibm.com/support/pages/node/7048696){:target="_blank"}
+[^1]: [Save Commands and APIs for Tape Compression](https://www.ibm.com/support/pages/node/7048696){:target="_blank"}
 
 {::comment}
 タグ
