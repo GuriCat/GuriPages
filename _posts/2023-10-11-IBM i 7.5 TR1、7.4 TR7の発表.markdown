@@ -30,7 +30,7 @@ IBM i 7.5 TR3 および 7.4 TR9 が発表されました。概要は[Steve Will�
 
 今はIBM Idを持っていないし、IBM i にアクセスもできませんが、そのうちIdeasに投稿しようかなと。
 
-:^[1] [Save Commands and APIs for Tape Compression](https://www.ibm.com/support/pages/node/7048696){:target="_blank"}
+^[1]: [Save Commands and APIs for Tape Compression](https://www.ibm.com/support/pages/node/7048696){:target="_blank"}
 
 {::comment}
 タグ
