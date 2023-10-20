@@ -4,7 +4,7 @@ title:  "Web Queryの代替"
 date:   2023-10-20 13:48:37 +0900
 tags: [Db2, その他]
 ---
-Ryverのポスト「[Db2 Web Query alternatives](https://ibmioss.ryver.com/index.html#posts/3430319){:target="_blank"}」に、Jon ParisがWebQueryについて「近い将来、IBMは "公式な "提案をするだろうし、変換ツールが登場する可能性もある。... WebQueryに多大な投資をしてきた人たちは、これまで以上に血まみれのサイトを大切に扱われてしかるべきだ」とポストしています。
+RyverにJon ParisがWebQueryについて「近い将来、IBMは "公式な "提案をするだろうし、変換ツールが登場する可能性もある。... WebQueryに多大な投資をしてきた人たちは、これまで以上に血まみれのサイトを大切に扱われてしかるべきだ」とポスト(「[Db2 Web Query alternatives](https://ibmioss.ryver.com/index.html#posts/3430319){:target="_blank"}」)しています。
 
 具体的なことは書かれていませんが、WebQueryを多用しているユーザーは棚卸などの準備をしておいても良いかもしれません。
 
