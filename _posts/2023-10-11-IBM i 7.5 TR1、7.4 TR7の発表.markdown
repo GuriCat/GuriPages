@@ -4,7 +4,9 @@ title:  "IBM i 7.5 TR3、7.4 TR9の発表"
 date:   2023-10-11 13:48:37 +0900
 tags: [V7R5, V7R4, ACS, TR, 技術情報]
 ---
-IBM i 7.5 TR3 および 7.4 TR9 が発表されました。概要は[Steve Willの記事(英文)](https://techchannel.com/SMB/10/2023/ibm-i-7-5-tr3-7-4-tr9){:target="_blank"}をどうぞ。IT Jungleの記事「[Fall 2023 IBM i Tech Refresh Brings Something For Everyone](https://www.itjungle.com/2023/10/11/fall-2023-ibm-i-tech-refresh-brings-something-for-everyone/){:target="_blank"}」がよりユーザー目線で記述されています。
+IBM i 7.5 TR3 および 7.4 TR9 が発表されました。概要は[Steve Willの記事(英文)](https://techchannel.com/SMB/10/2023/ibm-i-7-5-tr3-7-4-tr9){:target="_blank"}をどうぞ。
+
+IT Jungleの記事「[Fall 2023 IBM i Tech Refresh Brings Something For Everyone](https://www.itjungle.com/2023/10/11/fall-2023-ibm-i-tech-refresh-brings-something-for-everyone/){:target="_blank"}」にもう少し詳しい情報があります。
 
 それぞれのTRの詳細はリンク先のサポート文書(英語)を参照。利用可能日はSystemMirror for i を除いて2023/11/17です。
 

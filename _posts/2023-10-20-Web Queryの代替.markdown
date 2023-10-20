@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Web Queryの代替"
+date:   2023-10-20 13:48:37 +0900
+tags: [Db2, その他]
+---
+Ryverのポスト「[Db2 Web Query alternatives](https://ibmioss.ryver.com/index.html#posts/3430319){:target="_blank"}」に、Jon ParisがWebQueryについて「近い将来、IBMは "公式な "提案をするだろうし、変換ツールが登場する可能性もある。... WebQueryに多大な投資をしてきた人たちは、これまで以上に血まみれのサイトを大切に扱われてしかるべきだ」とポストしています。
+
+具体的なことは書かれていませんが、WebQueryを多用しているユーザーは棚卸などの準備をしておいても良いかもしれません。
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+V7R3
+V7R4
+V7R5
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
