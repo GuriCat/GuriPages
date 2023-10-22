@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Web Query営業活動の終了"
+date:   2023-10-22 13:48:37 +0900
+tags: [Db2, その他]
+---
+Postの順番が前後しましたが、2023/10/10付けですべてのIBM Db2 Web Query製品の販売が終了になっています。詳細は[IBMのレター(英語)](https://www.ibm.com/docs/en/announcements/db2-webquery-eom){:target="_blank"}を参照ください。
+
+IT Jungleの記事「[IBM Suddenly Pulls The Plug On Db2 Web Query for i](https://www.itjungle.com/2023/10/11/ibm-suddenly-pulls-the-plug-on-db2-web-query-for-i/)」にもう少し詳しく書いてあります。IBMから後継製品は提供されないので、現在WebQueryを利用している場合はPythonなどのOSS([実装例](https://guricat.github.io/Leveraging-Open-Source-on-IBM-i/#/4_IBM_i%E3%81%A7%E3%81%AEPython%E5%88%A9%E7%94%A8%E4%BE%8B?id=_42-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%8f%af%e8%a6%96%e5%8c%96%e3%82%b0%e3%83%a9%e3%83%95%e5%8c%96){:target="_blank"})や各社のBI製品に移行が必要でしょう。
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+V7R3
+V7R4
+V7R5
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
