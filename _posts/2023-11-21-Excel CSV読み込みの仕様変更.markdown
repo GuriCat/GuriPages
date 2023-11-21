@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Excel CSV読み込みの仕様変更"
+date:   2023-11-21 13:48:37 +0900
+tags: [ACS, Db2, その他]
+---
+IBM i そのもののトピックではないのですが、Microsoft 365のExcelでCSVファイルを読み込んだときの挙動を変更できるようになっています。
+
+通常はCSVで"001"と記録された値をExcelで直接読む(ダブルクリックで開く、など)と、数値の「1」にされてしまいます。各種コードや(ハイフンなしの)郵便番号／電話番号などの値が変わってしまうため、必要な場合はウィザードで読み込むなどで回避しているでしょう。
+
+Microsoft 365(バージョン2309以降)では、データオプションでこのお節介な「自動データ変換」機能を無効化できるようになっています。詳細は窓の杜の[記事](https://forest.watch.impress.co.jp/docs/news/1538341.html){:target="_blank"}や、Microsoftの[blog記事(英文)](https://insider.microsoft365.com/en-us/blog/control-data-conversions-in-excel){:target="_blank"}などを参照ください。
+
+残念ながらMicrosoft 365**以外**に関して同様の機能追加のアナウンスは見当たらなかったので、MS Officeのバージョンが混在している場合は、しばらくは従来のやり方を続ける必要がありそうです。
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+V7R3
+V7R4
+V7R5
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
