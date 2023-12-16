@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Web Queryに対するIBMのコメント"
-date:   2023-11-22 13:48:37 +0900
-tags: [Db2, その他]
+title:  "ACSとMerlinの脆弱性情報"
+date:   2023-12-16 13:48:37 +0900
+tags: [ACS, Merlin]
 ---
-[2023-10-22のポスト](https://guricat.github.io/GuriPages/2023/10/22/Web-Query%E5%96%B6%E6%A5%AD%E6%B4%BB%E5%8B%95%E3%81%AE%E7%B5%82%E4%BA%86/)で[Web Queryの営業活動終了](https://www.ibm.com/docs/en/announcements/db2-webquery-eom){:target="_blank"}について触れました。この発表後、しばらくIBMから音沙汰がなかったのですが、先日コメントが出されました。
+ACSとMerlinに重大なセキュリティの脆弱性が報告されています。
 
-11月20日付けでIBMが出した[FAQ](https://public.dhe.ibm.com/systems/support/planning/transfer/IBM.Db2.Web.Query.for.i.FAQ.pdf){:target="_blank"}に、継続利用、アップグレード、サポートなどについて説明しています。IT Jungleの記事[「IBM Finally Comments On Db2 Web Query For i Withdrawal」](https://www.itjungle.com/2023/11/13/ibm-finally-comments-on-db2-web-query-for-i-withdrawal/){:target="_blank"}も参考になるでしょう。
+- ACSはバージョン 1.1.9.4 以降に更新。IBMのサポート文書は[こちら](https://www.ibm.com/support/pages/node/7091942){:target="_blank"}。
+- Merlinはバージョン 1.4.5 以降に更新。IBMのサポート文書は[こちら](https://www.ibm.com/support/pages/node/7091494){:target="_blank"}。
 
-現在Web Queryを活用している場合は、これらを参照して移行計画を検討すべきでしょう。
+詳細はITJungleの記事[「ACS, Merlin Hit With Serious Security Vulnerabilities」](https://www.itjungle.com/2023/12/11/acs-merlin-hit-with-serious-security-vulnerabilities/){:target="_blank"}をご一読ください。
 
 {::comment}
 タグ
