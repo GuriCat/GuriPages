@@ -16,7 +16,7 @@ Windows PCにローカルインストールしているのであれば、ACSの�
 これ以外の、リモートインストールや自動更新などの展開手法で利用している場合は下記のリンクが参考になるかもしれません。
 
 - ACS関連リンク(英語)：[IBM i Access - Resources](https://www.ibm.com/support/pages/ibm-i-access-resources){:target="_blank"}
-- ACSの3通りの基本デプロイ・パターンの解説：[IBM i Access Client Solutions: Customization and deployment made easy](https://developer.ibm.com/articles/i-ibmi-access-client-solutions-customization-trs/){:target="_blank"}
+- ACSの3通りの基本デプロイ・パターンの解説(英語)：[IBM i Access Client Solutions: Customization and deployment made easy](https://developer.ibm.com/articles/i-ibmi-access-client-solutions-customization-trs/){:target="_blank"}
 - ACSの展開パターン(英語)」[IBM i Access Client Solutions: Customization and deployment questions answered](https://developer.ibm.com/articles/i-ibmi-access-client-solutions-2/){:target="_blank"}
 - 昔のAccess for Windowsのように自動更新する手順：[ACS を自動アップデートするには](https://www.e-bellnet.com/category/technology/2102/2102-03.html){:target="_blank"}
 
