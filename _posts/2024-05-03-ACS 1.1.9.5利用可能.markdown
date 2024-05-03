@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "ACS 1.1.9.5利用可能"
+date:   2024-05-03 13:48:37 +0900
+tags: [ACS, SQL]
+---
+(だいたい)半年に一度のACS更新があり、1.1.9.5がダウンロードできるようになっています。
+
+メインはSQLスクリプトのパフォーマンス向上と機能強化みたいです。詳細は下記ホームページを参照。
+
+- ダウンロード元(英語)：[IBM i Access - Client Solutions](https://www.ibm.com/support/pages/ibm-i-access-client-solutions){:target="_blank"}
+- 更新内容(英語)：[IBM i Access - ACS Updates](https://www.ibm.com/support/pages/ibm-i-access-acs-updates){:target="_blank"}
+
+Windows PCにローカルインストールしているのであれば、ACSのバージョンアップはダウンロードした「IBMiAccess_v1r1.zip」を解凍し、フォルダー内のファイルを古いバージョンに上書きするだけです。
+
+これ以外の、リモートインストールや自動更新などの展開手法で利用している場合は下記のリンクが参考になるかもしれません。
+
+- ACS関連リンク(英語)：[IBM i Access - Resources](https://www.ibm.com/support/pages/ibm-i-access-resources){:target="_blank"}
+- ACSの3通りの基本デプロイ・パターンの解説：[IBM i Access Client Solutions: Customization and deployment made easy](https://developer.ibm.com/articles/i-ibmi-access-client-solutions-customization-trs/){:target="_blank"}
+- ACSの展開パターン(英語)」[IBM i Access Client Solutions: Customization and deployment questions answered](https://developer.ibm.com/articles/i-ibmi-access-client-solutions-2/){:target="_blank"}
+- 昔のAccess for Windowsのように自動更新する手順：[ACS を自動アップデートするには](https://www.e-bellnet.com/category/technology/2102/2102-03.html){:target="_blank"}
+
+<br>
+<hr>
+　
+
+冒頭に触れたように、ACSはおおよそ半年に1回アップデートがあります。過去2年の実績を表に示します。
+
+|ACSバージョン|利用可能年月|
+|------------|-----------|
+|1.1.9.5|2024/4|
+|1.1.9.4|2023/11|
+|1.1.9.3|2023/7|
+|1.1.9.2|2023/4|
+|1.1.9.1|2022/11|
+|1.1.9.0|2022/4|
+
+ACSのバージョンを変えるのは基本ファイルを入れ替えるだけなので、1.1.8.xや1.1.7.xなど古いバージョンを使っている場合は、ACSの更新・展開手法を見直してみても良いでしょう。
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+V7R3
+V7R4
+V7R5
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
