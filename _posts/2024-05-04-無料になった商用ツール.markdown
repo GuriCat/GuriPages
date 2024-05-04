@@ -10,10 +10,9 @@ tags: [その他, SQL]
 
 - [The SQL iQuery for #IBMi Story (英語)](https://www.linkedin.com/pulse/sql-iquery-ibmi-story-bob-cozzi)
 
-<pre>
-> [!NOTE]
-> 記事に「ACSで*DS3モードの画面を設定する人は統計的にもういないので、私たちは*DS4モードをデフォルトにすることを選びました。結果的に、私たちの顧客やユーザーはこの選択を気に入ってくれました」とありますが、日本は真逆ですね。
-</pre>
+<em>
+記事に「ACSで*DS3モードの画面を設定する人は統計的にもういないので、私たちは*DS4モードをデフォルトにすることを選びました。結果的に、私たちの顧客やユーザーはこの選択を気に入ってくれました」とありますが、日本は真逆ですね。
+</em>
 
 - [SQLを使用してXMLを生成する － 簡単な方法](https://www.e-bellnet.com/category/jungle/2311/2311-02.html)
 - [IBM i Shops Have Alternatives to Db2 Web Query (英語)](https://www.itjungle.com/2023/11/15/ibm-i-shops-have-alternatives-to-db2-web-query/)
