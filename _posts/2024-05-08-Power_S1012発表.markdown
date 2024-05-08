@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "Power S1012発表"
+date:   2024-05-07 13:48:37 +0900
+tags: [POWER10, その他]
+---
+PowerのエントリーモデルにS1012が追加され、6月14日に利用可能になります。
+
+詳細は下記URLを参照。
+- 概要：[「New IBM Power server extends AI workloads from core to cloud to edge for added business value across industries」(英文)](https://newsroom.ibm.com/Blog-New-IBM-Power-server-extends-AI-workloads-from-core-to-cloud-to-edge-for-added-business-value-across-industries){:target="_blank"}
+- IBM PowerのHP：[「IBM Power S1012」(英文)](https://www.ibm.com/products/power-s1012){:target="_blank"}
+- RedPaper **(要登録)**：[「IBM Power S1012 Technical Overview and Introduction (英文)」](https://www.redbooks.ibm.com/abstracts/redp5728.html){:target="_blank"}
+- ITJungleの解説記事：[「IBM Sharpens Its Edge With “Bonnell” Entry Power10 System (英文)」](https://www.itjungle.com/2024/05/08/ibm-sharpens-its-edge-with-bonnell-entry-power10-system/){:target="_blank"}
+
+Redpaperが一番詳しく写真などもたくさん入っており、下はその切り抜きです。タワー型があるのも嬉しいですが、ラックマウントで2台横に並べられるのは面白いですね。障害時の予備機とかスペースを取らずに設置できそう。
+
+![Tower](/GuriPages/image/2024-05-08_S1012_Tower.jpg)
+
+![2xS1012](/GuriPages/image/2024-05-08_S1012_x2_2U.jpg)
+
+<p></p>
+エッジ・コンピューティングとかスケールアウトとか、以前のローエンド、ハイエンドに比べてモデルのグルーピングが直観的にわかりずらいです。S1012はエッジ・コンピューティングで、[Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%83%E3%82%B8%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0){:target="_blank"}によると「利用者や端末と物理的に近い場所に処理装置を分散配置して、ネットワークの端点でデータ処理を行う技術の総称」らしいです。
+
+<br>
+<hr>
+
+主としてIBM i 関連で気が付いた点は次のような部分。
+- 拡張性は低いです。S1014との比較は下表の通り。
+|モデル|コア数|主記憶|内蔵ストレージ|サイズ|
+|------|-----|------|------------|------|
+|S1012|1,4,8|最大256GB|最大6.4TB|2U/タワー|
+|S1014|4,8,24|最大1TB|最大102.4TB|4U/タワー|
+
+- 価格、CPWの詳細は不明。販売はサブスクのみ
+- IBM i のバージョンは7.4 TR10/7.5 TR4以降
+- 1および4コア構成はP05、8コアはP10 
+- 1コア バージョンはIBM i のみを実行でき、最大主記憶は64GB
+- USB接続のRDX内蔵可能
+
+1コアだと、主記憶(64GB)と内蔵ストレージ(ミラー後は3.2TB？)の制約から、採用できるケースが限られるかもしれません。
+
+
+<p></p>
+ちなみにコードネームの「Bonnell」はテキサス州オースチンの[ボンネル山](https://www.mountbonnell.com/){:target="_blank"}のことらしいです。
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+V7R3
+V7R4
+V7R5
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
