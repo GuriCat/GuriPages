@@ -16,6 +16,8 @@ Redpaperが一番詳しく写真などもたくさん入っており、下はそ
 
 ![Tower](/GuriPages/image/2024-05-08_S1012_Tower.jpg)
 
+<img src="/GuriPages/image/2024-05-08_S1012_Tower.jpg" width="200">
+
 ![2xS1012](/GuriPages/image/2024-05-08_S1012_x2_2U.jpg)
 
 <p></p>
