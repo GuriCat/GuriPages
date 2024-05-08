@@ -7,10 +7,10 @@ tags: [POWER10, その他]
 PowerのエントリーモデルにS1012が追加され、6月14日に利用可能になります。
 
 詳細は下記URLを参照。
-- 概要：[「New IBM Power server extends AI workloads from core to cloud to edge for added business value across industries」(英文)](https://newsroom.ibm.com/Blog-New-IBM-Power-server-extends-AI-workloads-from-core-to-cloud-to-edge-for-added-business-value-across-industries){:target="_blank"}
-- IBM PowerのHP：[「IBM Power S1012」(英文)](https://www.ibm.com/products/power-s1012){:target="_blank"}
-- RedPaper **(要登録)**：[「IBM Power S1012 Technical Overview and Introduction (英文)」](https://www.redbooks.ibm.com/abstracts/redp5728.html){:target="_blank"}
-- ITJungleの解説記事：[「IBM Sharpens Its Edge With “Bonnell” Entry Power10 System (英文)」](https://www.itjungle.com/2024/05/08/ibm-sharpens-its-edge-with-bonnell-entry-power10-system/){:target="_blank"}
+- 概要：[「New IBM Power server extends AI workloads from core to cloud to edge for added business value across industries」(英語)](https://newsroom.ibm.com/Blog-New-IBM-Power-server-extends-AI-workloads-from-core-to-cloud-to-edge-for-added-business-value-across-industries){:target="_blank"}
+- IBM PowerのHP：[「IBM Power S1012」(英語)](https://www.ibm.com/products/power-s1012){:target="_blank"}
+- RedPaper **(要登録)**：[「IBM Power S1012 Technical Overview and Introduction (英語)」](https://www.redbooks.ibm.com/abstracts/redp5728.html){:target="_blank"}
+- ITJungleの解説記事：[「IBM Sharpens Its Edge With “Bonnell” Entry Power10 System (英語)」](https://www.itjungle.com/2024/05/08/ibm-sharpens-its-edge-with-bonnell-entry-power10-system/){:target="_blank"}
 
 Redpaperが一番詳しく写真などもたくさん入っており、下はその切り抜きです。タワー型があるのも嬉しいですが、ラックマウントで2台横に並べられるのは面白いですね。障害時の予備機とかスペースを取らずに設置できそう。
 
