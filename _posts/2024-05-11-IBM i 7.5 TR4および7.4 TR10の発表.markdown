@@ -16,7 +16,7 @@ tags: [V7R4, V7R5, TR, 技術情報]
 もし、Merlin、拡張ジョブスケジューラー[^1]、ARE (Administration Runtime Expert)[^2]、Db2 Mirror for i などを使っていれば強化点を評価するとよいでしょう。
 
 
-このblogの[「インフラ情報」](/Infra/){:target="_blank"}も更新しないと...
+このblogの[「インフラ情報」](/GuriPages/Infra/){:target="_blank"}も更新しないと...
 
 <br>
 <hr>
