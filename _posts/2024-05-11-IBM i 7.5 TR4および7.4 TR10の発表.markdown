@@ -22,7 +22,7 @@ tags: [V7R4, V7R5, TR, 技術情報]
 
 <p></p>
 
-[^1]: 拡張ジョブスケジューラーの概要は、[「拡張ジョブ・スケジューラーを使ってみよう！」](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.jbcc.co.jp/products/files/ibmpowercolumn_202312.pdf){:target="_blank"}や、[IBM Docsの「Advanced Job Scheduler」](https://www.ibm.com/docs/ja/i/7.5?topic=scheduling-advanced-job-scheduler){:target="_blank"}などを参照。なお、IBM i のライセンスがあれば無料で利用可能(参照[「LPP製品の無償化「ステージ2」を発表...」](https://www.imagazine.co.jp/ibmi75-tr3-005/){:target="_blank"}
+[^1]: 拡張ジョブスケジューラーの概要は、[「拡張ジョブ・スケジューラーを使ってみよう！」](https://www.jbcc.co.jp/products/files/ibmpowercolumn_202312.pdf){:target="_blank"}や、[IBM Docsの「Advanced Job Scheduler」](https://www.ibm.com/docs/ja/i/7.5?topic=scheduling-advanced-job-scheduler){:target="_blank"}などを参照。なお、IBM i のライセンスがあれば無料で利用可能(参照[「LPP製品の無償化「ステージ2」を発表...」](https://www.imagazine.co.jp/ibmi75-tr3-005/){:target="_blank"}
 
 [^2]: AREは「本番」「開発」などのアプリケーション実行環境を収取・検証できる無償のライセンス・プログラム。詳細は、[「Guru: Introduction to the Administration Runtime Expert (英語)」](https://www.itjungle.com/2020/06/01/guru-introduction-to-the-administration-runtime-expert/){:target="_blank"}、[「IBM Administration Runtime Expert for i (英語)」](https://www.ibm.com/support/pages/ibm-administration-runtime-expert-i){:target="_blank"}や[「Administration Runtime Expert (ARE) (英語)」](https://www.ibm.com/support/pages/administration-runtime-expert-are){:target="_blank"}などを参照。
 
