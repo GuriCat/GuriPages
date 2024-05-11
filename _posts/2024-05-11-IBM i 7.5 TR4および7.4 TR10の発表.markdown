@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "IBM i 7.5 TR4および7.4 TR10の発表"
+date:   2024-05-11 13:48:37 +0900
+tags: [7.4, 7.5, TR, 技術情報]
+---
+新しいTechnology Updates、7.5 TR4および7.4 TR10が発表され、S1012のGAと同日の6月14日に利用可能になります。
+
+詳細はIBMの[「IBM i Technology Updates」](https://www.ibm.com/support/pages/ibm-i-technology-updates){:target="_blank"}サイトを参照。
+- [「IBM i 7.5 - TR4 Enhancements」(英語)](https://www.ibm.com/support/pages/ibm-i-75-tr4-enhancements){:target="_blank"}
+- [「IBM i 7.4 - TR10 Enhancements」(英語)](https://www.ibm.com/support/pages/ibm-i-74-tr10-enhancements){:target="_blank"}
+- ITJungleの解説記事[「Spring 2024 IBM i Technology Refresh Unveiled by IBM (英語)」](https://www.itjungle.com/2024/05/08/spring-2024-ibm-i-technology-refresh-unveiled-by-ibm/){:target="_blank"}
+
+ざっと見たところ、一般的なユーザーにとっての大きな機能拡張はなく、S1012を購入する予定がなければ様子見でよさそうです。
+
+もし、Merlin、拡張ジョブスケジューラー[^1]、ARE (Administration Runtime Expert)[^2]、Db2 Mirror for i などを使っていれば強化点を評価するとよいでしょう。
+
+<br>
+<hr>
+
+このblogの[「インフラ情報」](/Infra/){:target="_blank"}も更新しないと...
+
+<p></p>
+
+[^1]: 拡張ジョブスケジューラーの概要は、[「拡張ジョブ・スケジューラーを使ってみよう！」](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.jbcc.co.jp/products/files/ibmpowercolumn_202312.pdf){:target="_blank"}や、[IBM Docsの「Advanced Job Scheduler」](https://www.ibm.com/docs/ja/i/7.5?topic=scheduling-advanced-job-scheduler){:target="_blank"}などを参照。なお、IBM i のライセンスがあれば無料で利用可能(参照[「LPP製品の無償化「ステージ2」を発表...」](https://www.imagazine.co.jp/ibmi75-tr3-005/){:target="_blank"}
+
+[^2]: AREは「本番」「開発」などのアプリケーション実行環境を収取・検証できる無償のライセンス・プログラム。詳細は、[「Guru: Introduction to the Administration Runtime Expert (英語)」](https://www.itjungle.com/2020/06/01/guru-introduction-to-the-administration-runtime-expert/){:target="_blank"}、[「IBM Administration Runtime Expert for i (英語)」](https://www.ibm.com/support/pages/ibm-administration-runtime-expert-i){:target="_blank"}や[「Administration Runtime Expert (ARE) (英語)」](https://www.ibm.com/support/pages/administration-runtime-expert-are){:target="_blank"}などを参照。
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+V7R3
+V7R4
+V7R5
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
