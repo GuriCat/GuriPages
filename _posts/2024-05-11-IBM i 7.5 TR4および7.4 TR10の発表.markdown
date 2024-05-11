@@ -2,11 +2,11 @@
 layout: post
 title:  "IBM i 7.5 TR4および7.4 TR10の発表"
 date:   2024-05-11 13:48:37 +0900
-tags: [7.4, 7.5, TR, 技術情報]
+tags: [V7R4, V7R5, TR, 技術情報]
 ---
 新しいTechnology Updates、7.5 TR4および7.4 TR10が発表され、S1012のGAと同日の6月14日に利用可能になります。
 
-詳細はIBMの[「IBM i Technology Updates」](https://www.ibm.com/support/pages/ibm-i-technology-updates){:target="_blank"}サイトを参照。
+詳細はIBMの[「IBM i Technology Updates」](https://www.ibm.com/support/pages/ibm-i-technology-updates){:target="_blank"}や下記のサイトを参照。
 - [「IBM i 7.5 - TR4 Enhancements」(英語)](https://www.ibm.com/support/pages/ibm-i-75-tr4-enhancements){:target="_blank"}
 - [「IBM i 7.4 - TR10 Enhancements」(英語)](https://www.ibm.com/support/pages/ibm-i-74-tr10-enhancements){:target="_blank"}
 - ITJungleの解説記事[「Spring 2024 IBM i Technology Refresh Unveiled by IBM (英語)」](https://www.itjungle.com/2024/05/08/spring-2024-ibm-i-technology-refresh-unveiled-by-ibm/){:target="_blank"}
