@@ -5,6 +5,8 @@ permalink: /Infra/
 toc: true
 ---
 
+**Updated May 12, 2024**
+
 リリースアップの作業項目や実施の流れはYouTubeの動画[「IBM i リリースアップ概要」](https://youtu.be/aX9lMxxYY_w)も参照ください。
 
 内容：
@@ -96,8 +98,10 @@ The utility creates database tables that contain such information as which files
 
 バージョンを上げた場合の変更点を「プログラム資料説明書  (Memo to Users)」から引用・集約し、網羅的なチェックと判断を可能にします。
 
-プログラム資料説明書はリリースが発表される時点で各国語版が発行されるが、更新は英語版にのみ行なわれます。ファイル[「2023-06-06 バージョンアップ変更点と影響調査.xlsx」](GuriPages/files/2023-06-06 バージョンアップ変更点と影響調査.xlsx)は2023年5月までの変更を反映しています。
-
+プログラム資料説明書はリリースが発表される時点で各国語版が発行されるが、更新は英語版にのみ行なわれます。ファイル[「2023-06-06 バージョンアップ変更点と影響調査.xlsx」](GuriPages/files/2023-06-06 バージョンアップ変更点と影響調査.xlsx)は2023年5月までの変更を反映しています。これ以降の更新は下記リンク先(英語でのみ提供)を参照ください。
+- [7.5 What's new](https://www.ibm.com/docs/en/i/7.5?topic=users-whats-new)
+- [7.4 What's new](https://www.ibm.com/docs/en/i/7.4?topic=users-whats-new)
+- [7.3 What's new](https://www.ibm.com/docs/en/i/7.3?topic=users-whats-new)
 
 
 <P></P>
@@ -176,8 +180,8 @@ FIFOなどのキーワードが明示指定されていない場合、実行時�
 
 |Rel|Base GA|TR1|TR2|TR3|TR4|TR5|TR6|TR7|TR8|TR9|TR10|TR11|TR12|TR13| 
 |:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|
-|[7.5](https://www.ibm.com/support/pages/node/6597663)|[22/05/10](https://www.ibm.com/support/pages/ibm-i-75-base-enhancements)|[22/12/02](https://www.ibm.com/support/pages/ibm-i-75-tr1-enhancements)|[23/05/05](https://www.ibm.com/support/pages/ibm-i-75-tr2-enhancements)|  |   |   |   |   |
-|[7.4](https://www.ibm.com/support/pages/node/959455)|[19/06/21](https://www.ibm.com/support/pages/node/1164634)|[19/11/15](https://www.ibm.com/support/pages/node/1164034)|[20/07/17](https://www.ibm.com/support/pages/node/1381917)|[20/11/13](https://www.ibm.com/support/pages/node/6250855)|[21/04/16](https://www.ibm.com/support/pages/node/6405632)|[21/09/10](https://www.ibm.com/support/pages/node/6456987)|[22/05/24](https://www.ibm.com/support/pages/ibm-i-74-tr6-enhancements)|[22/12/02](https://www.ibm.com/support/pages/ibm-i-74-tr7-enhancements)|[23/05/05](https://www.ibm.com/support/pages/ibm-i-74-tr8-enhancements)|
+|[7.5](https://www.ibm.com/support/pages/node/6597663)|[22/05/10](https://www.ibm.com/support/pages/ibm-i-75-base-enhancements)|[22/12/02](https://www.ibm.com/support/pages/ibm-i-75-tr1-enhancements)|[23/05/05](https://www.ibm.com/support/pages/ibm-i-75-tr2-enhancements)|[23/10/10](https://www.ibm.com/support/pages/ibm-i-75-tr3-enhancements)|[24/05/07](https://www.ibm.com/support/pages/ibm-i-75-tr4-enhancements)|   |   |   |
+|[7.4](https://www.ibm.com/support/pages/node/959455)|[19/06/21](https://www.ibm.com/support/pages/node/1164634)|[19/11/15](https://www.ibm.com/support/pages/node/1164034)|[20/07/17](https://www.ibm.com/support/pages/node/1381917)|[20/11/13](https://www.ibm.com/support/pages/node/6250855)|[21/04/16](https://www.ibm.com/support/pages/node/6405632)|[21/09/10](https://www.ibm.com/support/pages/node/6456987)|[22/05/24](https://www.ibm.com/support/pages/ibm-i-74-tr6-enhancements)|[22/12/02](https://www.ibm.com/support/pages/ibm-i-74-tr7-enhancements)|[23/05/05](https://www.ibm.com/support/pages/ibm-i-74-tr8-enhancements)|[23/10/10](https://www.ibm.com/support/pages/ibm-i-74-tr9-enhancements)|[24/05/07](https://www.ibm.com/support/pages/ibm-i-74-tr10-enhancements)|
 |[7.3](https://www.ibm.com/support/pages/node/687365)|[16/04/15](https://www.ibm.com/support/pages/node/1169032)|[16/11/11](https://www.ibm.com/support/pages/node/1168750)|[17/03/17](https://www.ibm.com/support/pages/node/1168480)|[17/10/27](https://www.ibm.com/support/pages/node/1164682)|[18/03/16](https://www.ibm.com/support/pages/node/1168426)|[18/09/14](https://www.ibm.com/support/pages/node/1164652)|[19/05/10](https://www.ibm.com/support/pages/node/1164646)|[19/11/15](https://www.ibm.com/support/pages/node/1164640)|[20/07/17](https://www.ibm.com/support/pages/node/6155511)|[20/11/13](https://www.ibm.com/support/pages/node/6250925)|[21/04/16](https://www.ibm.com/support/pages/node/6405636)|[21/09/10](https://www.ibm.com/support/pages/node/6456989)|[22/05/24](https://www.ibm.com/support/pages/node/687365)|[22/12/02](https://www.ibm.com/support/pages/node/687365)|
 |[7.2](https://www.ibm.com/support/pages/node/687327)|[14/05/02](https://www.ibm.com/support/pages/ibm-i-72-base-enhancements)|[14/11/11](https://www.ibm.com/support/pages/ibm-i-72-tr1-enhancements)|[15/05/29](https://www.ibm.com/support/pages/ibm-i-72-tr2-enhancements)|[15/11/20](https://www.ibm.com/support/pages/ibm-i-72-tr3-enhancements)|[16/05/20](https://www.ibm.com/support/pages/ibm-i-72-tr4-enhancements)|[16/11/11](https://www.ibm.com/support/pages/node/1274236)|[17/03/17](https://www.ibm.com/support/pages/ibm-i-72-tr6-enhancements)|[17/10/27](https://www.ibm.com/support/pages/ibm-i-72-tr7-enhancements)|[18/03/16](https://www.ibm.com/support/pages/node/1282828)|[18/09/14](https://www.ibm.com/support/pages/ibm-i-72-tr9-enhancements)|
 |[7.1](https://www.ibm.com/support/pages/node/687325)|[10/04/23](https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/3/760/PWR10033/index.html&lang=ja)|[10/09/10](https://www.redbooks.ibm.com/abstracts/sg247858.html)|[11/05/13](https://www.redbooks.ibm.com/abstracts/sg247858.html)|[11/10/14](https://www.redbooks.ibm.com/abstracts/sg247858.html)|[12/05/18](https://www.redbooks.ibm.com/abstracts/sg247858.html)|[12/10/12](https://www.redbooks.ibm.com/abstracts/sg247858.html)|[13/02/13](https://www.redbooks.ibm.com/abstracts/sg247858.html)|[13/11/15](https://www.redbooks.ibm.com/abstracts/sg247858.html)|[14/06/06](https://www.ibm.com/docs/en/announcements/archive/JAJPJP14-0122)|[14/11/11](https://www.ibm.com/docs/en/announcements/archive/ENUSZP14-0508)|[15/05/29](https://www.ibm.com/docs/en/announcements/archive/ENUS215-137)|[15/11/20](https://www.ibm.com/docs/en/announcements/archive/ENUSAP15-0343)|
