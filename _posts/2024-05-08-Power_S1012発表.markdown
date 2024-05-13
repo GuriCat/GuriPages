@@ -31,7 +31,7 @@ Redpaperが一番詳しく写真などもたくさん入っており、下はそ
 <br>
 <hr>
 
-主としてIBM i 関連で気が付いた点は次のような部分。
+主としてIBM i 関連で気が付いた点は次のような部分。詳細は[発表レター(英語)](https://www.ibm.com/docs/en/announcements/power-s1012-server-provides-cost-optimized-performance-businesses-in-pursuit-it-excellence){:target="_blank"}を参照。
 - S1014とのざっくり比較表
 
 |モデル|コア数|主記憶|内蔵ストレージ|サイズ|
@@ -45,7 +45,7 @@ Redpaperが一番詳しく写真などもたくさん入っており、下はそ
 - 1コア バージョンはIBM i のみを実行でき、最大主記憶は64GB
 - USB接続のRDX内蔵可能
 
-拡張性は低いです。1コアだと、主記憶(64GB)と内蔵ストレージ(ミラー後は3.2TB？)の制約から、採用できるケースが限られるかもしれません。
+拡張性は低いです。1コアだと、主記憶(64GB)と内蔵ストレージ(ミラー後は1.6TB？)の制約から、採用できるケースが限られるかもしれません。
 
 <p></p>
 　
