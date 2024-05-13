@@ -21,16 +21,8 @@ IBMの資料[「IBM Power Performance Capabilities Reference IBM i operating sys
 
 旧モデル(S814/S914)との比較・評価はこのblogの[「Power10スケールアウトモデルの発表」](/GuriPages/2022/07/14/Power10%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E7%99%BA%E8%A1%A8/)や[「Power10 スケールアウトモデルの解説」](/GuriPages/2022/08/09/Power10-%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E8%A7%A3%E8%AA%AC/)などをご一読ください。
 
-<br>
-
-[Redpaper](https://www.redbooks.ibm.com/redpieces/pdfs/redp5728.pdf){:target="_blank"}には下記のような制限が記載されています。
-- 他のエントリーマシンと同様にコア構成は静的(出荷時固定)でCoDは非対応
-- 外部PCIe拡張ユニットや外部ストレージドロアーはサポートされない
-- PCIeスロットの並行保守(concurrent maintenance)は不可
-- LPM(Live Partition Mobility)など一部先進仮想化機能は非サポート
-
 <hr>
-<p></p>
+<p> </p>
 
 おそらくPower10サーバーの新機種はこれが最後で、2025年?にPower11が出るまで大きなPower H/Wの発表はなさそうですね。
 
