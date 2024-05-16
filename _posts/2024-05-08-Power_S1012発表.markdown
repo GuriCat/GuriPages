@@ -41,6 +41,8 @@ Redpaperが一番詳しく写真などもたくさん入っており、下はそ
 
 - 価格、CPWの詳細は不明。販売はサブスクのみ
 - IBM i のバージョンは7.4 TR10/7.5 TR4以降
+- 1コア構成ではIBM i のみ利用可。LPARサポートなし。最大ユーザー数は20
+  - 参照：[Family 9028+01 IBM Power S1012 (9028-21B) (英文)](https://www.ibm.com/docs/en/announcements/family-9028-01-power-s1012){:target="_blank"}
 - 1および4コア構成はP05、8コアはP10 
 - USB接続のRDX内蔵可能
 
