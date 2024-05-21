@@ -1,8 +1,12 @@
 # Setup
 title: Guri's IBM i Page on GitHub
 description: # >- # this means to ignore newlines until "baseurl:"
-  <font color="#ff4dde">Copyright 2023 "Guri The Cat".
+  <font color="#ff4dde">Copyright 2024 "Guri The Cat".
   This project is licensed under the MIT License.</font>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ab7f12ee-5cc3-4a57-858b-c00b76614392" data-share-badge-host="https://www.credly.com"></div>
+<script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 url: "https://guricat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/GuriPages" # the subpath of your site, e.g. /blog
 avatar: /ぐりさん2.png
