@@ -36,7 +36,6 @@ TCP/IPやグラフィック関連はともかく、IBM Rational Development Stud
 いずれも「枯れた」製品なので、Access for Webのように「保証・サポートは無いが現状のままユーザー責任で使用可能」な状態で継続して提供してくれる事を期待しています。
 
 <br>
-<hr>
 
 {::comment}
 タグ
