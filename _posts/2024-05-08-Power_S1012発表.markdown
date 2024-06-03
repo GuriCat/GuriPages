@@ -12,7 +12,8 @@ PowerのエントリーモデルにS1012が追加され、6月14日に利用可�
 - RedPaper **(要登録)**：[「IBM Power S1012 Technical Overview and Introduction (英語)」](https://www.redbooks.ibm.com/abstracts/redp5728.html){:target="_blank"}
 - ITJungleの解説記事：[「IBM Sharpens Its Edge With “Bonnell” Entry Power10 System (英語)」](https://www.itjungle.com/2024/05/08/ibm-sharpens-its-edge-with-bonnell-entry-power10-system/){:target="_blank"}
 
-Redpaperが一番詳しく写真などもたくさん入っており、下はその切り抜きです。タワー型があるのも嬉しいですが、ラックマウントで2台横に並べられるのは面白いですね。障害時の予備機とかスペースを取らずに設置できそう。
+Redpaperが一番詳しく写真などもたくさん入っており、下はその切り抜きです。タワー型があるのも嬉しいですが、ラックマウントで2台横に並べられるのは面白いですね。障害時の予備機とかスペースを取らずに設置できそう。<br>
+1-coreはタワーのみ、4-coreはタワーかラック、8-coreはラックのみです。
 
 【タワー型】
 
