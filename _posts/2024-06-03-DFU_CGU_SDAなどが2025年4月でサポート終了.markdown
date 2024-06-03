@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "SDA_RLUなどが2025年4月でサポート終了"
+title:  "DFU、CUG、SDAなどが2025年4月でサポート終了"
 date:   2024-06-03 13:48:37 +0900
 tags: [TCP/IP, Merlin, その他]
 ---
 2024/5/7のIBMレターで、多数のIBM i 関連S/Wのサポート終了が発表されています。これらの中には、DFU、SDA、CGUが含まれます。
 
-IBMのレター[「Software withdrawal and support discontinuance: IBM i Modernization Engine for Lifecycle Integration (Merlin) 1.0.0, IBM Rational Developer for i 9.6, and other selected functions in the IBM i portfolio (英語)」](https://www.ibm.com/docs/en/announcements/end-marketing-end-support-i-merlin-10-rdi-96-selected-i-functions){:target="_blank"}によると、2025/4/30で下記のS/Wのサポートが終了します。
+IBMのレター[「Software withdrawal and support discontinuance: IBM i Modernization Engine for Lifecycle Integration (Merlin) 1.0.0, IBM Rational Developer for i 9.6, and other selected functions in the IBM i portfolio (英語)」](https://www.ibm.com/docs/en/announcements/end-marketing-end-support-i-merlin-10-rdi-96-selected-i-functions){:target="_blank"}によると、2025/4/30で下記に抜粋したようなS/Wのサポートが終了します。
 
 |S/W機能|提供形態|代替製品|
 |----|-----|--|
