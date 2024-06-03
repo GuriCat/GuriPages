@@ -10,7 +10,7 @@ IBMのレター[「Software withdrawal and support discontinuance: IBM i Moderni
 
 |S/W機能|提供形態|代替製品|
 |----|-----|--|
-|Report Layout Utility (RLU), Screen Design Aid (SDA), File Compare and Merge Utility (FCMU), Advanced Printer Function (APF), Character Generator Utility (CGU), Data File Utility (DFU)|5770-WDS Opt21|RDi, Code for IBm i など|
+|Report Layout Utility (RLU), Screen Design Aid (SDA), File Compare and Merge Utility (FCMU), Advanced Printer Function (APF), Character Generator Utility (CGU), Data File Utility (DFU)|5770-WDS Opt21|RDi, Code for IBM i など|
 |TCP/IP関連:BOOTP, DHCP, RADIUS, RouteD, QoS, など|5770-SS1 Base/Opt31|[ISC Keaなど](https://www.isc.org/){:target="_blank"}。[^1]|
 |OptiConnect|5770-SS1 Opt23|ObjectConnect over IP with TLS[^2]|
 |Performance Advisor|5770-PT1 Opt10|なし[^3]|
