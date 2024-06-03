@@ -23,9 +23,6 @@ IBMのレター[「Software withdrawal and support discontinuance: IBM i Moderni
 [^3]:S/38の頃から、PLAN38、Best/1、WebベースのWorkload Estimatorなど、いろいろなパフォーマンス予測ツールが提供されおり、現時点では[「IBM Systems Workload Estimator」](https://www.ibm.com/it-infrastructure/resources/workload-estimator/login.html){:target="_blank"}が唯一?
 [^4]:レターには「RDi, Code for IBm iなど」と記載されているがどのように代替できるか不明
 
-
-<br>
-<hr>
 <br>
 
 TCP/IPやグラフィック関連はともかく、IBM Rational Development Studio for i (5770-WDS、旧Application Development ToolSet (ADTS))のオプションは、無くなると困るケースが多いと思います。
@@ -38,6 +35,8 @@ TCP/IPやグラフィック関連はともかく、IBM Rational Development Stud
 
 いずれも「枯れた」製品なので、Access for Webのように「保証・サポートは無いが現状のままユーザー責任で使用可能」な状態で継続して提供してくれる事を期待しています。
 
+<br>
+<hr>
 <br>
 
 {::comment}
