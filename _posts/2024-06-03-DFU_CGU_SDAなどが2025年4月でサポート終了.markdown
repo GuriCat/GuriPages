@@ -37,7 +37,6 @@ TCP/IPやグラフィック関連はともかく、IBM Rational Development Stud
 
 <br>
 <hr>
-<br>
 
 {::comment}
 タグ
