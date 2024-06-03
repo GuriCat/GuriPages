@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DFU、CUG、SDAなどが2025年4月でサポート終了"
+title:  "DFU、CGU、SDAなどが2025年4月でサポート終了"
 date:   2024-06-03 13:48:37 +0900
 tags: [TCP/IP, Merlin, その他]
 ---
