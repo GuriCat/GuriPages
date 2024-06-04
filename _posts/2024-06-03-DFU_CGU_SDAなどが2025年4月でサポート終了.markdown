@@ -10,18 +10,19 @@ IBMのレター[「Software withdrawal and support discontinuance: IBM i Moderni
 
 |S/W機能|提供形態|代替製品|
 |----|-----|--|
-|Report Layout Utility (RLU), Screen Design Aid (SDA), File Compare and Merge Utility (FCMU), Advanced Printer Function (APF), Character Generator Utility (CGU), Data File Utility (DFU)|5770-WDS Opt21|RDi, Code for IBM i など|
-|TCP/IP関連:BOOTP, DHCP, RADIUS, RouteD, QoS, など|5770-SS1 Base/Opt31|[ISC Keaなど](https://www.isc.org/){:target="_blank"}。[^1]|
-|OptiConnect|5770-SS1 Opt23|ObjectConnect over IP with TLS[^2]|
-|Performance Advisor|5770-PT1 Opt10|なし[^3]|
+|Report Layout Utility (RLU), Screen Design Aid (SDA), File Compare and Merge Utility (FCMU), Advanced Printer Function (APF)[^1], Character Generator Utility (CGU), Data File Utility (DFU)|5770-WDS Opt21|RDi, Code for IBM i など|
+|TCP/IP関連:BOOTP, DHCP, RADIUS, RouteD, QoS, など|5770-SS1 Base/Opt31|[ISC Keaなど](https://www.isc.org/){:target="_blank"}。[^2]|
+|OptiConnect|5770-SS1 Opt23|ObjectConnect over IP with TLS[^3]|
+|Performance Advisor|5770-PT1 Opt10|なし[^4]|
 |Performance Graphics|5770-PT1 Opt9|Navigator for i|
 |Graphical Data Display Manager (GDDM)|5770-SS1 Opt14|なし|
-|Business Graphics Utility|5761-DS2|[^4]|
+|Business Graphics Utility|5761-DS2|[^5]|
 
-[^1]:アプライアンス製品や外部サービスを利用するケースが多いと思われる。
-[^2]:7.4以降が必要([ITJungleの記事](https://www.itjungle.com/2020/10/07/how-the-latest-trs-bolster-the-core-ibm-i-os/){:target="_blank"}に「IBM i 7.4 TR3以降が前提で、7.3ではサポートされない」と記載あり)。EE構成のObjectConnectは7.3以前でも容易に利用可能。
-[^3]:S/38の頃から、PLAN38、Best/1、WebベースのWorkload Estimatorなど、いろいろなパフォーマンス予測ツールが提供されおり、現時点では[「IBM Systems Workload Estimator」](https://www.ibm.com/it-infrastructure/resources/workload-estimator/login.html){:target="_blank"}が唯一?
-[^4]:レターには「RDi, Code for IBm iなど」と記載されているがどのように代替できるか不明
+[^1]:IBMのマニュアル「iSeries Printer Device Programming Version 5 」によると、Advanced Printer Function (APF)は、昔の5224/5225ドット・プリンターでフォームを作成してロゴやバーコード、罫線を印刷するツール。日本のAPW相当?
+[^2]:アプライアンス製品や外部サービスを利用するケースが多いと思われる
+[^3]:7.4以降が必要([ITJungleの記事](https://www.itjungle.com/2020/10/07/how-the-latest-trs-bolster-the-core-ibm-i-os/){:target="_blank"}に「IBM i 7.4 TR3以降が前提で、7.3ではサポートされない」と記載あり)。EE構成のObjectConnectは7.3以前でも容易に利用可能
+[^4]:S/38の頃から、PLAN38、Best/1、WebベースのWorkload Estimatorなど、いろいろなパフォーマンス予測ツールが提供されおり、現時点では[「IBM Systems Workload Estimator」](https://www.ibm.com/it-infrastructure/resources/workload-estimator/login.html){:target="_blank"}が唯一?
+[^5]:レターには「RDi, Code for IBm iなど」と記載されているがどのように代替できるか不明
 
 <br>
 
