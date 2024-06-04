@@ -18,17 +18,27 @@ IBMのレター[「Software withdrawal and support discontinuance: IBM i Moderni
 |Graphical Data Display Manager (GDDM)|5770-SS1 Opt14|なし|
 |Business Graphics Utility|5761-DS2|[^5]|
 
+<<<<<<< HEAD
 [^1]:IBMのマニュアル「iSeries Printer Device Programming Version 5 」によると、Advanced Printer Function (APF)は、昔の5224/5225ドット・プリンターでフォームを作成してロゴやバーコード、罫線を印刷するツール。日本のAPW相当?
 [^2]:アプライアンス製品や外部サービスを利用するケースが多いと思われる
 [^3]:7.4以降が必要([ITJungleの記事](https://www.itjungle.com/2020/10/07/how-the-latest-trs-bolster-the-core-ibm-i-os/){:target="_blank"}に「IBM i 7.4 TR3以降が前提で、7.3ではサポートされない」と記載あり)。EE構成のObjectConnectは7.3以前でも容易に利用可能
 [^4]:S/38の頃から、PLAN38、Best/1、WebベースのWorkload Estimatorなど、いろいろなパフォーマンス予測ツールが提供されおり、現時点では[「IBM Systems Workload Estimator」](https://www.ibm.com/it-infrastructure/resources/workload-estimator/login.html){:target="_blank"}が唯一?
 [^5]:レターには「RDi, Code for IBm iなど」と記載されているがどのように代替できるか不明
+=======
+[^1]:アプライアンス製品や外部サービスを利用するケースが多いと思われる。
+[^2]:7.4以降が必要([ITJungleの記事](https://www.itjungle.com/2020/10/07/how-the-latest-trs-bolster-the-core-ibm-i-os/){:target="_blank"}に「IBM i 7.4 TR3以降が前提で、7.3ではサポートされない」と記載あり)。EE構成のObjectConnectは7.3以前でも容易に利用可能。
+[^3]:S/38の頃から、PLAN38、Best/1、WebベースのWorkload Estimatorなど、いろいろなパフォーマンス予測ツールが提供されおり、現時点では[「IBM Systems Workload Estimator」](https://www.ibm.com/it-infrastructure/resources/workload-estimator/login.html){:target="_blank"}が唯一?
+[^4]:レターには「RDi, Code for IBM iなど」と記載されているがどのように代替できるか不明
+>>>>>>> a2fa9be981e34ab9808737f7f6a2e7f0625da160
 
 <br>
 
 TCP/IPやグラフィック関連はともかく、IBM Rational Development Studio for i (5770-WDS、旧Application Development ToolSet (ADTS))のオプションは、無くなると困るケースが多いと思います。
 - **CGU**が無くなったら**新規の外字は作成できなくなる?** Db2 for iのデータを全てユニコード化すればほとんどの外字をユニコードに移行できますが、EBCDIC→ユニコード化は5250画面・印刷の廃止に近く、あと1年で全業務の書き直しは非常に困難
-- **DFU**はまだ使用しているお客様が多い気がします。使用状況を調査して**代替のRPGプログラムを新規に作成する、SQLスクリプトで代用する、ISVのツール([EDTDTA](https://www.istechnoport.com/product-service/prod-form-output/i-t4db/){:target="_blank"}など)を利用する、**などの対応が必要かもしれません
+- **DFU**はまだ使用しているお客様が多い気がします。使用状況を調査の上、**下記のような対応が必要かも**しれません。
+  - 代替のRPGプログラムを新規に作成 → 本数によっては工数が増大
+  - SQLスクリプトで代用 → SQLの知識が必要
+  - ISVのツール([EDTDTA](https://www.istechnoport.com/product-service/prod-form-output/i-t4db/){:target="_blank"}など)を利用 → コストが必要
 - 個人的にSDAはフィールドの位置調整などで便利に使っているので、無くなると生産性が落ちます
 - RLUはあまり使っていないので影響は不明
 
