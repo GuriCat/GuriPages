@@ -22,7 +22,7 @@ IBMのレター[「Software withdrawal and support discontinuance: IBM i Moderni
 [^2]:アプライアンス製品や外部サービスを利用するケースが多いと思われる
 [^3]:7.4以降が必要([ITJungleの記事](https://www.itjungle.com/2020/10/07/how-the-latest-trs-bolster-the-core-ibm-i-os/){:target="_blank"}に「IBM i 7.4 TR3以降が前提で、7.3ではサポートされない」と記載あり)。EE構成のObjectConnectは7.3以前でも容易に利用可能
 [^4]:S/38の頃から、PLAN38、Best/1、WebベースのWorkload Estimatorなど、いろいろなパフォーマンス予測ツールが提供されおり、現時点では[「IBM Systems Workload Estimator」](https://www.ibm.com/it-infrastructure/resources/workload-estimator/login.html){:target="_blank"}が唯一?
-[^5]:レターには「RDi, Code for IBm iなど」と記載されているがどのように代替できるか不明
+[^5]:レターには「RDi, Code for IBM iなど」と記載されているがどのように代替できるか不明
 
 <br>
 
