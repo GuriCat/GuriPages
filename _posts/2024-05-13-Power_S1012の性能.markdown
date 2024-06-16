@@ -4,7 +4,7 @@ title:  "Power S1012の性能"
 date:   2024-05-13 13:48:37 +0900
 tags: [POWER10, その他]
 ---
-以前のPOST[「Power S1012発表」](/GuriPages/2024/05/08/Power_S1012%E7%99%BA%E8%A1%A8/)で「価格、CPWの詳細は不明」と書きましたが、CPWは発表済みでした。
+以前のPOST[「Power S1012発表」](/GuriPages/2024/05/08/Power_S1012%E7%99%BA%E8%A1%A8/)で「価格、CPWの詳細は不明」と書きましたが、「Performance Capabilities Reference」(PCR)に記載されていました。
 
 IBMの資料[「IBM Power Performance Capabilities Reference IBM i operating system 7.5 May 2024 (英語)」](https://www.ibm.com/downloads/cas/LGMXGGPJ){:target="_blank"}によると1コアのCPWは2万9千CPWとなっており、S1014とほぼ同等の性能のようです。
 
