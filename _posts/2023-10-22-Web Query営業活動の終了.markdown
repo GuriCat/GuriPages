@@ -2,7 +2,7 @@
 layout: post
 title:  "Web Query営業活動の終了"
 date:   2023-10-22 13:48:37 +0900
-tags: [Db2, その他]
+tags: [EOS, Db2, その他]
 ---
 Postの順番が前後しましたが、2023/10/10付けですべてのIBM Db2 Web Query製品の販売が終了になっています。詳細は[IBMのレター(英語)](https://www.ibm.com/docs/en/announcements/db2-webquery-eom){:target="_blank"}を参照ください。
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Web Queryに対するIBMのコメント"
 date:   2023-11-22 13:48:37 +0900
-tags: [Db2, その他]
+tags: [EOS, Db2, その他]
 ---
 [2023-10-22のポスト](https://guricat.github.io/GuriPages/2023/10/22/Web-Query%E5%96%B6%E6%A5%AD%E6%B4%BB%E5%8B%95%E3%81%AE%E7%B5%82%E4%BA%86/)で[Web Queryの営業活動終了](https://www.ibm.com/docs/en/announcements/db2-webquery-eom){:target="_blank"}について触れました。この発表後、しばらくIBMから音沙汰がなかったのですが、先日コメントが出されました。
 

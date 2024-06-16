@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM i 7.3サポート終了"
 date:   2022-10-06 10:10:10 +0900
-tags: [V7R3]
+tags: [EOS, V7R3]
 ---
 9/27に**7.3のEOSが2023/9/30**と発表されました。IT Jungleの記事、[「IBM i 7.3 Loses Standard Support On September 30, 2023」](https://www.itjungle.com/2022/10/03/ibm-i-7-3-loses-standard-support-on-april-28-2023/)によると、<span style="color: red">IBM i カスタマーの49.1%が7.1、7.3以前が93.5%</span>だそうです。
 

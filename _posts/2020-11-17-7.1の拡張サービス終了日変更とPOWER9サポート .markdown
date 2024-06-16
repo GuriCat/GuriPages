@@ -2,7 +2,7 @@
 layout: post
 title:  "7.1の拡張サービス終了日変更とPOWER9サポート "
 date:   2020-11-17 10:10:10 +0900
-tags: [V7R1, POWER9]
+tags: [EOS, V7R1, POWER9]
 ---
 USで11月10日付け発表レター[「IBM offers IBM i 7.1 Activation for IBM Power System S922 and E980 servers and 16 Gb memory DIMM options for the IBM Power System E950 server」](https://www.ibm.com/docs/en/announcements/power-systems-enhancements-2020-11-10?region=US)が発行されており、7.1がS922とE980 でも動くようになりました。
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "多くのお客様にとって7.1は「越えられない壁」"
 date:   2021-03-08 10:10:10 +0900
-tags: [V7R1]
+tags: [EOS, V7R1]
 ---
 IT Jungleの記事[「IBM i 7.1 Extended Out To 2024 And Up To The IBM Cloud」](https://www.itjungle.com/2021/03/01/ibm-i-7-1-extended-out-to-2024-and-up-to-the-ibm-cloud/)より。7.1からバージョンアップができないケースがそれなりにあるようです。互換性の無いコーディングを行い、かつ、Observability templatesもソースコードも無い、7.1のアプリケーションを使用している場合などが該当します。
 
