@@ -6,7 +6,7 @@ tags: [EOS, その他]
 ---
 6/3のポストでIBM i 関連S/Wのサポート終了について書きましたが、「日本語IBM i ユーザーはCGUが無くなると困る」とIBM Community > Power > IBM i Global に書き込んだのでご紹介。
 
-IBM CommunityにCGUが無くなると困る旨を書き込みました。下記が該当のスレッド[「Adios SDA, DFU, RLU, etc (英語)」](https://community.ibm.com/community/user/power/discussion/adios-sda-dfu-rlu-etc){:target="_blank"}の、私のポストです。(原文英語、[DeepL.com](https://www.deepl.com/ja/translator){:target="_blank"}(無料版)で翻訳)
+下記が該当のスレッド[「Adios SDA, DFU, RLU, etc (英語)」](https://community.ibm.com/community/user/power/discussion/adios-sda-dfu-rlu-etc){:target="_blank"}の私のポストです。(原文英語、[DeepL.com](https://www.deepl.com/ja/translator){:target="_blank"}(無料版)で翻訳)
 
 <br>
 <hr>
