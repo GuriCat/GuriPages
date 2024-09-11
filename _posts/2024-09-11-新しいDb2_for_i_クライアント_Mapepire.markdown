@@ -11,7 +11,7 @@ Mapepireは「シンプルさとパフォーマンスを念頭に置いて構築
 - ITJungleの記事[「BM Introduces Mapepire, The New Db2 For i Client (英語)」](https://www.itjungle.com/2024/09/09/ibm-introduces-mapepire-the-new-db2-for-i-client/){:target="_blank"}
 - [worksofliam/blog Mapepire: A new IBM i database client #68 (英文)](https://github.com/worksofliam/blog/issues/68){:target="_blank"}
 
-Mapepireは「マ**パ**イアー」?(‘mapəpɪə’ or ‘MAH-pup-ee’。[発音を聞く](https://www.youtube.com/watch?v=qIdnIyAFT8A){:target="_blank"})とするらしく、ロゴは南アメリカに生息する有毒なマムシを表しています。
+Mapepireは「マ**パ**イアー」?(‘mapəpɪə’ or ‘MAH-pup-ee’。[発音を聞く](https://www.youtube.com/watch?v=qIdnIyAFT8A){:target="_blank"})と発音するらしく、ロゴは南アメリカに生息する有毒なマムシを表しています。
 <img src="/GuriPages/image/2024-09-11_mapepire.png" width="300" />
 <hr>
 Mapepireは、一言でいうとUNIX ODBCおよびJDBCドライバーの代替です。GitHubでは下表のようにMapepireとJDBCおよびODBCを比較しています。
