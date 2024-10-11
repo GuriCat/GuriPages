@@ -1,0 +1,91 @@
+---
+layout: post
+title:  "IBM i 7.5 TR5および7.4 TR11の発表"
+date:   2024-10-12 13:48:37 +0900
+tags: [V7R4, V7R5, TR, 技術情報]
+---
+10月8日に新しいTechnology Updates、7.5 TR5および7.4 TR11が発表され、11月22日から12月27日にかねて順次利用可能になります。
+
+詳細は下記のリンク先を参照ください。
+- [「IBM adds new capabilities and enhancements with IBM i 7.5 Technology Refresh 5」(英語)](https://www.ibm.com/docs/en/announcements/i-75-tr5){:target="_blank"}
+- [「IBM i 7.5 - TR5 Enhancements」(英語)](https://www.ibm.com/support/pages/ibm-i-75-tr5-enhancements){:target="_blank"}
+- [「IBM adds new capabilities and enhancements with IBM i 7.4 Technology Refresh 11」(英語)](https://www.ibm.com/docs/en/announcements/i-74-tr11){:target="_blank"}
+- [「IBM i 7.4 - TR11 Enhancements」(英語)](https://www.ibm.com/support/pages/ibm-i-74-tr11-enhancements){:target="_blank"}
+- [過去のTRを含むすべてのIBM i Technology Updates (英語)](https://www.ibm.com/support/pages/ibm-i-technology-updates){:target="_blank"}
+- ITJungleの解説記事[「Surprise! It’s 2024 Fall TR Time for IBM i (英語)」](https://www.itjungle.com/2024/10/09/surprise-its-2024-fall-tr-time-for-ibm-i/){:target="_blank"}
+
+<br>
+<p>
+
+個人的に興味のあるものをピックアップ。
+
+- IBM Navigator for i (7.5は[HTTP PTF Group level 17](https://www.ibm.com/mysupport/s/fix-information/aDr3p000000gGHs/fi0065376?language=ja){:target="_blank"}、7.4は[HTTP PTF Group level 38](https://www.ibm.com/mysupport/s/fix-information/aDr3p000000gGHs/fi0065376?language=ja){:target="_blank"}で9月に提供済み)
+  - 拡張ジョブスケジューラーを完全に統合
+  - サブスクリプションの有効期限に関する通知を表示
+  - TLSプロトコルの構成と削除ウィザード
+    Navigator for i 自身をTLSで使うためのウィザードのようですね。詳細は[こちら](https://www.ibm.com/support/pages/node/667835){:target="_blank"}。
+- Db2 for i
+  - UUID[^1]の作成を簡素化する組み込みスカラー関数 GENERATE_UUID
+    昔、Node.jsのサーバースクリプトで特定のクライアントとWebsocket通信を行うときに使ったことがあります。SQLでの用途は不明。
+- ACS 1.1.9.6 (8月に出荷済み)
+  - ファイルのドラッグ&ドロップでIFSアプレットを開く (NetServerが使えない人用?)
+- その他、RPG、PowerHA SystemMirror® for i やBRMS、VSCodeなどで微強化あり。
+
+<br>
+<hr>
+
+前回のTR同様、順当な機能強化・追加という感じですね。
+
+IBM i の[「Release life cycle」](https://www.ibm.com/support/pages/release-life-cycle){:target="_blank"}を見るとバージョン7のサイクルは下表のようになります。
+
+|Release|一般利用可能日|サポート終了日|
+|-------|-------------|-------------|
+|7.1|2010年4月23日|2018年4月30日|
+|7.2|2014年5月2日|2021年4月30日|
+|7.3|2016年4月15日|2023年9月30日|
+|7.4|2019年6月21日|[^2]|
+|7.5|2022年5月10日|[^2]|
+
+だいたい3年くらいで新しいリリースが出ているので、**来年の春には7.6(?)が出荷開始**となり、同時期に7.5/7.4のTRがでると推測します。開発では7.7(?)の開発中、7.8(?)を計画中かもしれません。
+
+いずれ[「インフラ情報」](/GuriPages/Infra/){:target="_blank"}も更新予定。
+
+[^1]: 拡プログラム サポートの終了日は、有効終了日の少なくとも 12 か月前に通知されます。
+[^2]: Universally unique identifierの略。コンピュータ・システム内の情報を識別するために使用される128ビットの数値
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
