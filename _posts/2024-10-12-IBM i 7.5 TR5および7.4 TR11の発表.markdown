@@ -4,7 +4,7 @@ title: "IBM i 7.5 TR5および7.4 TR11の発表"
 date: 2024-10-12 01:34:37 +0900
 tags: [V7R4, V7R5, TR, 技術情報]
 ---
-10月8日に新しいTechnology Updates、7.5 TR5および7.4 TR11が発表され、11月22日から12月27日にかねて順次利用可能になります。
+10月8日に新しいTechnology Updates、7.5 TR5および7.4 TR11が発表され、11月22日から12月27日にかけて順次利用可能になります。
 
 詳細は下記のリンク先を参照ください。
 * [「IBM adds new capabilities and enhancements with IBM i 7.5 Technology Refresh 5」(英語)](https://www.ibm.com/docs/en/announcements/i-75-tr5){:target="_blank"}
