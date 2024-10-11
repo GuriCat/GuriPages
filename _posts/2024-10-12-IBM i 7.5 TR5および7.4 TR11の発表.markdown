@@ -18,18 +18,17 @@ tags: [V7R4, V7R5, TR, 技術情報]
 
 個人的に興味を引かれたものをピックアップ。
 
-
-- IBM Navigator for i (7.5は[HTTP PTF Group level 17](https://www.ibm.com/mysupport/s/fix-information/aDr3p000000gGHs/fi0065376?language=ja){:target="_blank"}、7.4は[HTTP PTF Group level 38](https://www.ibm.com/mysupport/s/fix-information/aDr3p000000gGHs/fi0065376?language=ja){:target="_blank"}で9月に提供済み)
-  - 拡張ジョブスケジューラーを完全に統合
-  - サブスクリプションの有効期限に関する通知を表示
-  - TLSプロトコルの構成と削除ウィザード
+* IBM Navigator for i (7.5は[HTTP PTF Group level 17](https://www.ibm.com/mysupport/s/fix-information/aDr3p000000gGHs/fi0065376?language=ja){:target="_blank"}、7.4は[HTTP PTF Group level 38](https://www.ibm.com/mysupport/s/fix-information/aDr3p000000gGHs/fi0065376?language=ja){:target="_blank"}で9月に提供済み)
+  * 拡張ジョブスケジューラーを完全に統合
+  * サブスクリプションの有効期限に関する通知を表示
+  * TLSプロトコルの構成と削除ウィザード
     Navigator for i 自身をTLSで使うためのウィザードのようですね。詳細は[こちら](https://www.ibm.com/support/pages/node/667835){:target="_blank"}。
-- Db2 for i
-  - UUID[^1]の作成を簡素化する組み込みスカラー関数 GENERATE_UUID
+* Db2 for i
+  * UUID[^1]の作成を簡素化する組み込みスカラー関数 GENERATE_UUID
     昔、Node.jsのサーバースクリプトで特定のクライアントとWebsocket通信を行うときに使ったことがあります。SQLでの用途は不明。
-- ACS 1.1.9.6 (8月に出荷済み)
-  - ファイルのドラッグ&ドロップでIFSアプレットを開く (NetServerが使えない人用?)
-- その他、RPG、PowerHA SystemMirror® for i やBRMS、VSCodeなどで微強化あり。
+* ACS 1.1.9.6 (8月に出荷済み)
+  * ファイルのドラッグ&ドロップでIFSアプレットを開く (NetServerが使えない人用?)
+* その他、RPG、PowerHA SystemMirror® for i やBRMS、VSCodeなどで微強化あり。
 
 <br>
 <hr>
