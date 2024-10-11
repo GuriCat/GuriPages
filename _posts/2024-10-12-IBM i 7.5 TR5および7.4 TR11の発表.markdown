@@ -7,12 +7,11 @@ tags: [V7R4, V7R5, TR, 技術情報]
 10月8日に新しいTechnology Updates、7.5 TR5および7.4 TR11が発表され、11月22日から12月27日にかねて順次利用可能になります。
 
 詳細は下記のリンク先を参照ください。
-- [「IBM adds new capabilities and enhancements with IBM i 7.5 Technology Refresh 5」(英語)](https://www.ibm.com/docs/en/announcements/i-75-tr5){:target="_blank"}
-- [「IBM i 7.5 - TR5 Enhancements」(英語)](https://www.ibm.com/support/pages/ibm-i-75-tr5-enhancements){:target="_blank"}
-- [「IBM adds new capabilities and enhancements with IBM i 7.4 Technology Refresh 11」(英語)](https://www.ibm.com/docs/en/announcements/i-74-tr11){:target="_blank"}
-- [「IBM i 7.4 - TR11 Enhancements」(英語)](https://www.ibm.com/support/pages/ibm-i-74-tr11-enhancements){:target="_blank"}
-- [過去のTRを含むすべてのIBM i Technology Updates (英語)](https://www.ibm.com/support/pages/ibm-i-technology-updates){:target="_blank"}
-- ITJungleの解説記事[「Surprise! It’s 2024 Fall TR Time for IBM i (英語)」](https://www.itjungle.com/2024/10/09/surprise-its-2024-fall-tr-time-for-ibm-i/){:target="_blank"}
+* [「IBM adds new capabilities and enhancements with IBM i 7.5 Technology Refresh 5」(英語)](https://www.ibm.com/docs/en/announcements/i-75-tr5){:target="_blank"}
+* [「IBM i 7.5 - TR5 Enhancements」(英語)](https://www.ibm.com/support/pages/ibm-i-75-tr5-enhancements){:target="_blank"}
+* [「IBM adds new capabilities and enhancements with IBM i 7.4 Technology Refresh 11」(英語)](https://www.ibm.com/docs/en/announcements/i-74-tr11){:target="_blank"}
+* [過去のTRを含むすべてのIBM i Technology Updates (英語)](https://www.ibm.com/support/pages/ibm-i-technology-updates){:target="_blank"}
+* ITJungleの解説記事[「Surprise! It’s 2024 Fall TR Time for IBM i (英語)」](https://www.itjungle.com/2024/10/09/surprise-its-2024-fall-tr-time-for-ibm-i/){:target="_blank"}
 
 <br>
 <p>
