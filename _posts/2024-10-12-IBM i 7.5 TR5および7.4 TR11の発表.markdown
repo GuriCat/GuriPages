@@ -18,15 +18,14 @@ tags: [V7R4, V7R5, TR, 技術情報]
 
 個人的に興味を引かれたものをピックアップ。
 * IBM Navigator for i (7.5は[HTTP PTF Group level 17](https://www.ibm.com/mysupport/s/fix-information/aDr3p000000gGHs/fi0065376?language=ja){:target="_blank"}、7.4は[HTTP PTF Group level 38](https://www.ibm.com/mysupport/s/fix-information/aDr3p000000gGHs/fi0065376?language=ja){:target="_blank"}で9月に提供済み)
-
   - 拡張ジョブスケジューラーを完全に統合
   - サブスクリプションの有効期限に関する通知を表示
   - TLSプロトコルの構成と削除ウィザード
-    Navigator for i 自身をTLSで使うためのウィザードのようですね。詳細は[こちら](https://www.ibm.com/support/pages/node/667835){:target="_blank"}。
+    + Navigator for i 自身をTLSで使うためのウィザードのようですね。詳細は[こちら](https://www.ibm.com/support/pages/node/667835){:target="_blank"}。
 
 * Db2 for i
   - UUID[^1]の作成を簡素化する組み込みスカラー関数 GENERATE_UUID
-    昔、Node.jsのサーバースクリプトで特定のクライアントとWebsocket通信を行うときに使ったことがあります。SQLでの用途は不明。
+    + 昔、Node.jsのサーバースクリプトで特定のクライアントとWebsocket通信を行うときに使ったことがあります。SQLでの用途は不明。
 
 * ACS 1.1.9.6 (8月に出荷済み)
   - ファイルのドラッグ&ドロップでIFSアプレットを開く (NetServerが使えない人用?)
@@ -52,7 +51,7 @@ IBM i の[「Release life cycle」](https://www.ibm.com/support/pages/release-li
 
 いずれ[「インフラ情報」](/GuriPages/Infra/){:target="_blank"}も更新予定。
 
-[^1]: 拡プログラム サポートの終了日は、有効終了日の少なくとも 12 か月前に通知されます。
+[^1]: プログラム サポートの終了日は、有効終了日の少なくとも 12 か月前に通知されます。
 [^2]: Universally unique identifierの略。コンピュータ・システム内の情報を識別するために使用される128ビットの数値
 
 
