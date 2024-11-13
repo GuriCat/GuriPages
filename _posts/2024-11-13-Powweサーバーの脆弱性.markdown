@@ -1,0 +1,70 @@
+---
+layout: post
+title: "Powweサーバーの脆弱性"
+date: 2024-11-13 01:34:37 +0900
+tags: [POWER9, POWER10, セキュリティ, 技術情報]
+---
+10月25日付けでPower Systemのセキュリティ速報(Security Bulletin)が出ています。
+
+詳細は下記のリンク先を参照ください。
+* [「Security Bulletin: This Power System update is being released to address CVE-2024-45656」(英語)](https://www.ibm.com/support/pages/node/7174183){:target="_blank"}
+
+<br>
+
+脆弱性の内容は「IBMフレキシブル・サービス・プロセッサー(FSP)[^1]には静的資格情報があり、ネットワーク・ユーザーがFSPに対するサービス権限を取得できる場合があります」だそうです。CVSSスコアは9.8(最大10)なので、かなり深刻ですね。[「CWE-798: Use of Hard-coded Credentials (ハードコードされた認証情報の使用) 」](https://cwe.mitre.org/data/definitions/798.html){:target="_blank"}にあたるようなので、設計時点のセキュリティ考慮不足に見えます。
+
+対象となるサーバーの抜粋は下表を参照。完全なリストはIBMの元文書で確認ください。
+
+| |モデル|脆弱性のあるバージョン|
+|Power10|E1080|FW1060.10以下、FW1050.21以下、FW1030.61以下|
+|Power9|S914, S924など|FW950.C0以下|
+|Power8|S814, S824など|FW860.B3以下|
+
+使用中のサーバーにこの脆弱性が該当するかは、5250画面からDSPFMWSTSコマンドを実行してサーバー・ファームウェアのバージョンを表示し、上の表の脆弱性のあるバージョンに該当するか比較します。
+
+確認の結果、最新のサーバー・ファームウェアが必要な場合は、[「IBM i SERVER FIRMWARE FAQ (英文)」](https://cwe.mitre.org/data/definitions/798.html){:target="_blank"}などを参照するとよいでしょう。
+
+<br>
+<hr>
+
+FSPの脆弱性なので、多くのユーザー(私も含めて)は具体的にどう危ないかわからない気がします。とはいえ、CVSSスコアが高いので対策は必要かなと。
+
+
+[^1]: 診断、初期化、構成、ランタイム時のエラー検出、および修正を行うファームウェア。フレキシブル・サービス・プロセッサーは、管理対象システムをハードウェア管理コンソールに接続する。(「Power Systems 用語集」より)
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
