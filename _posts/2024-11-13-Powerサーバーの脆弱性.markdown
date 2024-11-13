@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Powweサーバーの脆弱性"
+title: "Powerサーバーの脆弱性"
 date: 2024-11-13 01:34:37 +0900
 tags: [POWER9, POWER10, セキュリティ, 技術情報]
 ---
@@ -24,7 +24,6 @@ tags: [POWER9, POWER10, セキュリティ, 技術情報]
 
 確認の結果、最新のサーバー・ファームウェアが必要な場合は、[「IBM i SERVER FIRMWARE FAQ (英文)」](https://cwe.mitre.org/data/definitions/798.html){:target="_blank"}などを参照するとよいでしょう。
 
-<br>
 <hr>
 
 FSPの脆弱性なので、多くのユーザー(私も含めて)は具体的にどう危ないかわからない気がします。とはいえ、CVSSスコアが高いので対策は必要かなと。
