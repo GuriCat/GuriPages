@@ -14,7 +14,7 @@ IBMの[ドキュメンテーションサイト](https://www.ibm.com/docs/ja){:ta
 * **検索が弱い**
 「タイトルでフィルター処理」は表示数が少ないので「すべてのIBM i 7.x資料タイトルで を検索」します。でも目的のページが見つかることはまれなので、いつもGoogle検索を頼ってしまいます。<BR>
 
-        検索とは違うのですが、[「IBM Documentationの製品」](https://www.ibm.com/docs/ja/products){:target="_blank"}ページで「IBM i」を探しても見つからず、アルファベット1文字の「i」がIBM iドキュメントへのリンクになっています。OSの名前は「IBM i」だった気がしたのですが、本当は「i」だったのかも... AIXやz/OSのように普通の名前がついたOSが心底うらやましいです。
+    検索とは違うのですが、[「IBM Documentationの製品」](https://www.ibm.com/docs/ja/products){:target="_blank"}ページで「IBM i」を探しても見つからず、アルファベット1文字の「i」がIBM iドキュメントへのリンクになっています。OSの名前は「IBM i」だった気がしたのですが、本当は「i」だったのかも... AIXやz/OSのように普通の名前がついたOSが心底うらやましいです。
 
 * **使いにくい**
 Chrome拡張の「Go Back With Backspace」を入れていますが、バックスペースで前のページに戻れません。ブラウザの「戻る」ボタンか「Alt」＋「←」を押す必要があります。
