@@ -48,10 +48,11 @@ clear the end-of-file (EOF) indicator on the same stream.
 ```
 fseek、fseeko、fseeko64、および rewind サブルーチンは、
 ungetc および ungetwc サブルーチンの影響を取り消し、
-同じストリーム上のファイルの終わり (EOF) インジケータをクリアします。
+同じストリーム上のファイルの終わり (EOF) インジケータを
+クリアします。
 ```
 
-ページ上左の👎で日本語で「翻訳がおかしいですよ」とフィードバックしたので改善されると良いですね。
+ページ上左の👎に日本語で「翻訳がおかしいですよ」とフィードバックしたので改善されると良いですね。
 
 <hr>
 <br>
@@ -70,6 +71,7 @@ ungetc および ungetwc サブルーチンの影響を取り消し、
 
 同じ言語を母国語にする人間同士でも意思疎通が難しいことがあるので、[OpenAIのリアルタイム翻訳](https://openai.com/index/introducing-the-realtime-api/){:target="_blank"}などが一般化したときにどうなるか、期待とともに一抹の不安も感じてしまいます。
 
+<P>
 
 {::comment}
 タグ
