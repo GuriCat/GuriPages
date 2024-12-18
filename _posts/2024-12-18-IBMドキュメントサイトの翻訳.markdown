@@ -4,9 +4,9 @@ title: "IBMドキュメントサイトの翻訳"
 date: 2024-12-18 01:34:37 +0900
 tags: [その他, 技術情報]
 ---
-やはり自動翻訳(AI?)まかせは危険かもしれません。
+自動翻訳(AI?)まかせは危険かもしれません。
 
-IBMの[ドキュメンテーションサイト](https://www.ibm.com/docs/ja){:target="_blank"}はほぼ毎日お世話になっています。OSのバージョンや言語をすぐに切り替えられるのはとても便利ですね。とはいえ、不満もあります。
+IBMの[ドキュメンテーションサイト](https://www.ibm.com/docs/ja){:target="_blank"}にはほぼ毎日お世話になっています。OSのバージョンや言語をすぐに切り替えられるのはとても便利ですね。とはいえ不満もあります。
 
 * **遅い**
 あくまでも感覚的にですが、他のマニュアルサイトに比べて遅い気がしています。時間帯にもよりますが、ページの遷移に数秒待たされる感じです。
@@ -22,7 +22,8 @@ Chrome拡張の「Go Back With Backspace」を入れていますが、バック�
 <br>
 とここまでは余談で、以下がタイトルの内容です。
 <P>
-POSIXの関数についてAIXのドキュメントを見ていて[「fseek、fseeko、 fseeko64、rewind、ftell、ftello、 ftello64、fgetpos、 fgetpos64、fsetpos、または fsetpos64 サブルーチン」](https://www.ibm.com/docs/ja/aix/7.3?topic=f-fseek-fseeko-fseeko64-rewind-ftell-ftello-ftello64-fgetpos-fgetpos64-fsetpos-fsetpos64-subroutine){:target="_blank"}というページがありました。ここの翻訳が…なんというか…独創的？
+
+POSIX関数の仕様を調べていて、AIXのドキュメント[「fseek、fseeko、*(中略)* fsetpos、または fsetpos64 サブルーチン」](https://www.ibm.com/docs/ja/aix/7.3?topic=f-fseek-fseeko-fseeko64-rewind-ftell-ftello-ftello64-fgetpos-fgetpos64-fsetpos-fsetpos64-subroutine){:target="_blank"}というページにたどり着きました。ここの翻訳が…なんというか…独創的？
 
 次のような日本語の文章がありました。
 
