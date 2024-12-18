@@ -24,7 +24,7 @@ Chrome拡張の「Go Back With Backspace」を入れていますが、バック�
 とここまでは余談で、以下がタイトルの内容です。
 <P>
 
-POSIX関数の仕様を調べていて、AIXのドキュメント[「fseek、fseeko、*(中略)* fsetpos、または fsetpos64 サブルーチン」](){:target="_blank"}というページにたどり着きました。ここの翻訳が…なんというか…独創的？
+POSIX関数の仕様を調べていて、AIXのドキュメント [「fseek、fseeko、*(中略)* fsetpos、または fsetpos64 サブルーチン」](https://www.ibm.com/docs/ja/aix/7.3?topic=f-fseek-fseeko-fseeko64-rewind-ftell-ftello-ftello64-fgetpos-fgetpos64-fsetpos-fsetpos64-subroutine){:target="_blank"}というページにたどり着きました。ここの翻訳が…なんというか…独創的？
 
 <P>
 次のような日本語の文章がありました。
