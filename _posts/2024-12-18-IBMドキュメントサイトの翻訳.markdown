@@ -71,7 +71,8 @@ ungetc および ungetwc サブルーチンの影響を取り消し、
 
 同じ言語を母国語にする人間同士でも意思疎通が難しいことがあるので、[OpenAIのリアルタイム翻訳](https://openai.com/index/introducing-the-realtime-api/){:target="_blank"}などが一般化したときにどうなるか、期待とともに一抹の不安も感じてしまいます。
 
-<P>
+<br>
+
 
 {::comment}
 タグ
