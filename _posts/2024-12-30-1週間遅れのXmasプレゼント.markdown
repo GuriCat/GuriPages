@@ -27,7 +27,6 @@ US-IBMからプレゼントをもらいました。
 
 <br>
 
-
 {::comment}
 タグ
 tags: [V7R5, V7R4, ACS, TR]
