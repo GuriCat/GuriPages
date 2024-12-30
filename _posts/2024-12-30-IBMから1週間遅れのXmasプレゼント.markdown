@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IBMから1週間遅れのXmasプレゼント"
-date: 2024-12-30 01:34:37 +0900
+date: 2024-12-30 17:34:37 +0900
 tags: [その他]
 ---
 IBMからプレゼントをもらいました。
@@ -20,7 +20,7 @@ IBMからプレゼントをもらいました。
 - [Bella + Canvas](https://www.bellacanvas.com/){:target="_blank"} T-shirt
 - [Men's Mesa Vest](https://vantage77.com/p/vantage-mens-mesa-quilted-vest-diamond-fleece?color=TNV){:target="_blank"}
 
-Thank you IBM!
+Thank you, IBM!
 <br>
 
 <img src="/GuriPages/image/2024-12-30_IBM_Champion_gifts.jpg" width="600" />
