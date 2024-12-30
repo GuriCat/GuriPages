@@ -25,7 +25,7 @@ US-IBMからプレゼントをもらいました。
 
 <img src="/GuriPages/image/2024-12-30_IBM_Champion_gifts.jpg" width="600" />
 
-<br>
+
 
 {::comment}
 タグ
