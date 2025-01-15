@@ -36,15 +36,11 @@ Power9で動くIBM i は**7.5まで**とIBMのサイトに記載されました�
 <P>
 この辺りはちょこちょこ変更されるので、サーバー/OSのライフプランを定期的に確認しないとですね。
 
-
 <hr>
 
 <br>
-<br>
 
-<br>
-
-幸い、[FORTRA社の年次サーベイ](https://www.fortra.com/resources/upcoming/2025-ibm-i-marketplace-survey-results-revealed-apac){:target="_blank"}にもあるように、IBM i のユーザーで **「2025年の崖」**[^1]で「12兆円/年の損失」の根拠とされている「基幹系システムを...この状態のまま...21年以上稼働している企業」([原典-本文](https://www.meti.go.jp/shingikai/mono_info_service/digital_transformation/pdf/20180907_03.pdf){:target="_blank"}の27ページ)に該当するケースはまれだと推測しています。
+幸い、[FORTRA社のサーベイ](https://www.fortra.com/resources/upcoming/2025-ibm-i-marketplace-survey-results-revealed-apac){:target="_blank"}にもあるように、IBM i のユーザーで **「2025年の崖」**[^1]で「12兆円/年の損失」の根拠とされている「基幹系システムを...この状態のまま...21年以上稼働している企業」([原典-本文](https://www.meti.go.jp/shingikai/mono_info_service/digital_transformation/pdf/20180907_03.pdf){:target="_blank"}の27ページ)に該当するケースはまれだと推測しています。
 
 <br>
 
