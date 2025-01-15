@@ -29,14 +29,15 @@ Power9で動くIBM i は**7.5まで**とIBMのサイトに記載されました�
 
 これまでのトレンドからは順当に見えます。2025年中旬くらいにIBM i 7.6?が、後半にPower11が出荷されると予想しているので、サーバー/OSの置き換えが進むでしょう。
 
+<P>
 この辺りはちょこちょこ変更されるので、サーバー/OSのライフプランを定期的に確認しないとですね。
 
 <br>
 <hr>
-<br>
 
 <P>
 
+<P>
 幸い、[FORTRA社の年次サーベイ](https://www.fortra.com/resources/upcoming/2025-ibm-i-marketplace-survey-results-revealed-apac){:target="_blank"}にもあるように、IBM i のユーザーで **「2025年の崖」**[^1]で「12兆円/年の損失」の根拠とされている「基幹系システムを...この状態のまま...21年以上稼働している企業」([原典-本文](https://www.meti.go.jp/shingikai/mono_info_service/digital_transformation/pdf/20180907_03.pdf){:target="_blank"}の27ページ)に該当するケースはまれだと推測しています。
 
 <P>
