@@ -1,0 +1,75 @@
+---
+layout: post
+title: "Power9で動くのは7.5まで"
+date: 2025-01-15 18:00:00 +0900
+tags: [V7R5, POWER9]
+---
+Power9で動くIBM i は**7.5まで**とIBMのサイトに記載されました。
+
+発表レターは見つかりませんでしたが、2025年1月付で[Upgrade planning - Future hardware](https://www.ibm.com/support/pages/node/687283){:target="_blank"}に「IBM i 7.5 is the last release to support IBM Power9 processor-based systems.」と記載されています。
+
+主要なPowerサーバーとIBM iバージョンの関連は下表のようになります。全データは[System to IBM i mapping](https://www.ibm.com/support/pages/system-ibm-i-mapping){:target="_blank"}を参照ください。
+
+|Power  |モデル|型番    |IBM i|
+|       |     |        |7.6?|7.5|7.4|7.3|7.2|7.1|
+|-------|-----|--------|----|---|---|---|---|---|
+|Power11|?    |?       |〇?|〇?|〇?|×?|×?|×?|
+|Power10|S1012|9028-21B|〇?|〇 |〇 |× |× |× |
+|       |S1014|9105-41B |〇?|〇 |〇 |〇 |× |× |
+|       |S1024|9105-42A |〇?|〇 |〇 |〇 |× |× |
+|Power9 |S914 |9009-41A |×? |〇 |〇 |〇 |〇 |× |
+|       |S924 |9009-42A |×? |〇 |〇 |〇 |〇 |× |
+|Power8 |S814 |8286-41A |×? |× |〇 |〇 |〇 |〇 |
+|       |S824 |8286-42A |×? |× |〇 |〇 |〇 |〇 |
+|Power7/7+|710 Exp |8231-E2B|×?  |× |× |〇 |〇 |〇 |
+|       |720 Exp |8202-E4B|×?|× |× |〇 |〇 |〇 |
+
+これまでのトレンドからは順当に見えます。2025年中旬くらいにIBM i 7.6?が、後半にPower11が出荷されると予想しているので、サーバー/OSの置き換えが進むでしょう。
+
+<br>
+<p>
+
+[FORTRAの年次サーベイ](https://www.fortra.com/resources/upcoming/2025-ibm-i-marketplace-survey-results-revealed-apac){:target="_blank"}にもあるように、幸い、IBM i のユーザーは**「2025年の崖」**[^1]で「12兆円/年の損失」の根拠とされている「基幹系システムを...この状態のまま...21年以上稼働している企業」([原典-本文](https://www.meti.go.jp/shingikai/mono_info_service/digital_transformation/pdf/20180907_03.pdf){:target="_blank"}の27ページ)に該当するケースはまれだと推察します。
+
+現在利用しているサーバー/OSのライフプランを定期的にアップデートする事をお勧めします。
+
+<P>
+[^1]: このレポートに対する個人的な評価は、このblogの記事[「「2025年の崖」は訪れるか？」](https://guricat.github.io/GuriPages/2022/02/28/2025%E5%B9%B4%E3%81%AE%E5%B4%96-%E3%81%AF%E8%A8%AA%E3%82%8C%E3%82%8B%E3%81%8B/){:target="_blank"}を参照。
+
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
