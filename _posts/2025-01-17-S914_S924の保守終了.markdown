@@ -8,7 +8,7 @@ S914/S924を含むPower9の一部モデルの保守が2026年1月31日で終了�
 
 [IBMの文書(PDF)](https://public.dhe.ibm.com/systems/support/planning/notices/September.12.2024.Announcement.Power9.pdf){:target="_blank"}によると、S914(9009-41A)やS924(9009-42A)などのPower9モデルが来年1月末で保守切れになるようです。まぁ、その時点で「8年以上現役である」事になるようなので、ITの世界では長寿なのかもしれません。
 
-<P>
+<br>
 
 <hr>
 
@@ -16,8 +16,7 @@ TechChannelにも関連記事、[With Power11 Coming, the Time to Prepare is Now
 
 基本的には正しいと思います。ただ、PTFを適用したらそれまで動いていたアプリケーションが動かなくなった経験がある身としては、事前に十分なテストを実施できるリソースが確保できない事もよくあるので、サーバー置き換えのタイミングを図るのは難儀しますね。
 
-
-<P>
+<br>
 
 <hr>
 
