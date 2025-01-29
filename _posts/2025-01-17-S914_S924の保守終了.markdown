@@ -21,7 +21,7 @@ TechChannelにも関連記事、[With Power11 Coming, the Time to Prepare is Now
 <hr>
 
 ### 2025-01-29追記
-
+<br>
 
 正式な?[アナウンスメント・レター(英語)](https://www.ibm.com/docs/en/announcements/services-withdrawal-discontinuance-service-select-power-systems-products-replacements-available){:target="_blank"}が出たようです。
 
@@ -36,6 +36,7 @@ TechChannelにも関連記事、[With Power11 Coming, the Time to Prepare is Now
 |9223|22H|IBM Power Systems H922|IBM Power L1022 or IBM Power S1022|
 |9223|42H|IBM Power Systems H924|IBM Power L1024|
 
+<br>
 
 {::comment}
 タグ
