@@ -20,11 +20,12 @@ TechChannelにも関連記事、[With Power11 Coming, the Time to Prepare is Now
 
 <hr>
 
-## 2025-01-29追記
+### 2025-01-29追記
+
 
 正式な?[アナウンスメント・レター(英語)](https://www.ibm.com/docs/en/announcements/services-withdrawal-discontinuance-service-select-power-systems-products-replacements-available){:target="_blank"}が出たようです。
 
-下表は「End of Standard Service (EOSS)」として挙げられているPowerサーバーです。「EOSS effective date」は全て **「31 January 2026 (20261年1月31日)」** です。
+下表は「End of Standard Service (EOSS)」として挙げられているPowerサーバーです。「EOSS effective date」は全て **「31 January 2026 (2026年1月31日)」** です。
 
 |Machine type|Model|Product description|Recommended replacement options (if applicable)|
 |------------------|-------------------|--------------------|
