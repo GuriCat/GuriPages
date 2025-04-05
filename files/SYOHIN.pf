@@ -1,6 +1,6 @@
      A          R SYOHINR
-     A            PRPRCD        20A         COLHDG('商品[ｰqﾞ')
-     A            PRPRKN        22A         COLHDG('商品名(eｻ)')
+     A            PRPRCD        20A         COLHDG('商品ｺｰﾄﾞ')
+     A            PRPRKN        22A         COLHDG('商品名(ｶﾅ)')
      A            PRPRRK        22O         COLHDG('商品名１（略称）')
      A            PRPRKJ        40O         COLHDG('商品名２（伝票用）')
      A            PRNKEX         1A         COLHDG('値引・経費区分')
