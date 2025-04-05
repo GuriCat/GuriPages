@@ -1,0 +1,105 @@
+      *ファイルレベル・キーワード
+     A                                      REF(*LIBL/SYOHIN)
+     A                                      INDARA
+     A                                      ALTPAGEUP(CF07)
+     A                                      ALTPAGEDWN(CF08)
+      *レコード定義
+     A          R DSPF2R
+     A                                      CA03(03 '終了')
+     A  41                                  CF09(09 '追加')
+     A  41                                  CA11(11 '初期画面')
+     A  41 60
+     AO 43                                  CA23(23 '削除')
+     A  41                                  PAGEUP(07 '前ページ')
+     A  41                                  PAGEDOWN(08 '次ページ')
+     A                                      CHANGE(30 '変更有り')
+      *データ表示・入力
+     A                                  1  2'DSPF2'
+     A                                  1 63DATE
+     A                                      EDTCDE(Y)
+     A                                  1 72TIME
+     A                                  3 29'＊製品マスターメンテ＊'
+     A                                      DSPATR(HI)
+     A                                      DSPATR(RI)
+     A                                  3 60'更新:'
+     A  41                                  COLOR(TRQ)
+     A            UPDNUM         5Y 0O  3 69EDTCDE(J)
+     A  41                                  COLOR(TRQ)
+     A                                  4 60'追加:'
+     A  42                                  COLOR(YLW)
+     A            ADDNUM         5Y 0O  4 69EDTCDE(J)
+     A  42                                  COLOR(YLW)
+     A                                  5 60'削除:'
+     A  43                                  COLOR(RED)
+     A            DLTNUM         5Y 0O  5 69EDTCDE(J)
+     A  43                                  COLOR(RED)
+     A                                  6 21'商品ｺｰﾄﾞ:'
+     A            PRPRCD    R        B  6 34
+     A  61                                  DSPATR(PR)
+     A  50
+     AO 61                                  DSPATR(RI)
+      *
+     A  60                              8 19'商品名(ｶﾅ):'
+     A  60        PRPRKN    R        B  8 34
+     A  61                                  DSPATR(RI)
+     A  61                                  DSPATR(PR)
+     A  60                              9 13'商品名１（略称）:'
+     A  60        PRPRRK    R        B  9 34
+     A  61                                  DSPATR(RI)
+     A  61                                  DSPATR(PR)
+     A  60                             10 11'商品名２（伝票用）:'
+     A  60        PRPRKJ    R        B 10 34
+     A  61                                  DSPATR(RI)
+     A  61                                  DSPATR(PR)
+     A  60                             11 15'値引・経費区分:'
+     A  60        PRNKEX    R        B 11 34
+     A  61                                  DSPATR(RI)
+     A  61                                  DSPATR(PR)
+     A  60                             12 19'消費税区分:'
+     A  60        PRTAXX    R        B 12 34
+     A  61                                  DSPATR(RI)
+     A  61                                  DSPATR(PR)
+     A  60                             13 22'税率(%):'
+     A  60        PRTXR     R        B 13 34EDTWRD('0 .   ')
+     A  61                                  DSPATR(RI)
+     A  61                                  DSPATR(PR)
+     A  60                             14 23'作成日:'
+     A  60        PRCRDT    R        B 14 34EDTWRD('0    /  /  ')
+     A                                      EDTMSK('    &  &  ')
+     A  61                                  DSPATR(RI)
+     A  61                                  DSPATR(PR)
+     A  60                             15 21'作成時刻:'
+     A  60        PRCRTM    R        B 15 34EDTWRD('0  :  :  ')
+     A                                      EDTMSK('  &  &  ')
+     A  61                                  DSPATR(RI)
+     A  61                                  DSPATR(PR)
+     A  60                             16 19'最終更新日:'
+     A  60        PRUPDT    R        B 16 34EDTWRD('0    /  /  ')
+     A                                      EDTMSK('    &  &  ')
+     A  61                                  DSPATR(RI)
+     A  61                                  DSPATR(PR)
+     A  60                             17 17'最終更新時刻:'
+     A  60        PRUPTM    R        B 17 34EDTWRD('0  :  :  ')
+     A                                      EDTMSK('  &  &  ')
+     A  61                                  DSPATR(RI)
+     A  61                                  DSPATR(PR)
+      *機能キーガイド
+     A                                 23  2'F3=終了'
+     A                                      COLOR(BLU)
+     A  41                             23 13'F7=前'
+     A                                      COLOR(BLU)
+     A  42                             23 13'ENTER=追加'
+     A                                      COLOR(BLU)
+     A  41                             23 22'F8=次'
+     A                                      COLOR(BLU)
+     A  41                             23 31'F9=挿入'
+     A                                      COLOR(BLU)
+     A  41 60                          23 42'F11=初期画面'
+     A                                      COLOR(BLU)
+     A  41 60
+     AO 43 60                          23 58'F23=削除'
+     A                                      COLOR(BLU)
+      *メッセージ行
+     A  50
+     AO 51        MSGDTA        78O  O 24  2DSPATR(HI)
+     A  50                                  COLOR(RED)
