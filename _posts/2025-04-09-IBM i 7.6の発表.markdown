@@ -1,40 +1,69 @@
 ---
 layout: post
-title: "S914/S924の保守終了"
-date: 2025-01-17 18:00:00 +0900
-tags: [POWER9, EOS]
+title: "IBM i 7.6の発表"
+date: 2025-04-09 18:00:00 +0900
+tags: [V7R6, V7R5, セキュリティ]
 ---
-S914/S924を含むPower9の一部モデルの保守が2026年1月31日で終了します。
+IBM i の最新バージョンとなる7.6が発表されました。
 
-[IBMの文書(PDF)](https://public.dhe.ibm.com/systems/support/planning/notices/September.12.2024.Announcement.Power9.pdf){:target="_blank"}によると、S914(9009-41A)やS924(9009-42A)などのPower9モデルが来年1月末で保守切れになるようです。まぁ、その時点で「8年以上現役である」事になるようなので、ITの世界では長寿なのかもしれません。
+利用可能予定日は2025/4/18で、同時に発表された7.5 TR6も同日から利用可能です。詳細は以下のWebページ(全て英語)を参照ください。
+
+- 発表レター ["IBM i 7.6 and IBM i Portfolio give strong foundation for continuous innovation"](https://www.ibm.com/docs/en/announcements/i-76-release){:target="_blank"}
+- ランディング・ページ ["IBM i 7.6 - Base Enhancements"](https://www.ibm.com/support/pages/ibm-i-76-base-enhancements){:target="_blank"}
+- プログラム資料説明書 ["PDF file for Memorandum to Users"](https://www.ibm.com/docs/en/ssw_ibm_i_76/pdf/rzaq9.pdf){:target="_blank"}
+
+- 7.5 TR6 発表レター ["IBM adds new capabilities and enhancements with IBM i 7.5 Software Technology Refresh 6"](https://www.ibm.com/docs/en/announcements/adds-new-capabilities-enhancements-i-75-technology-refresh-6?region=US){:target="_blank"}
+- ランディング・ページ ["IBM i 7.5 - TR6 Enhancements"](https://www.ibm.com/support/pages/ibm-i-75-tr6-enhancements){:target="_blank"}
+
 
 <br>
 
 <hr>
 
-TechChannelにも関連記事、[With Power11 Coming, the Time to Prepare is Now](https://techchannel.com/power11/preparing-for-power11/){:target="_blank"}があります。筆者曰く、「長年の読者は、『壊れていないものは直すな』という格言について私がどう感じているかご存じです。つまり、古くてサポートされていないハードウェアに対しては、まさに間違った態度です。ハードウェアがそれほど古くないとしても、サポートを放棄することはリスクに見合うものではありません」とのこと。
+主に強化・拡張されたのは、MFA(多要素認証)を始めとするOS全般のセキュリティのようです。
 
-基本的には正しいと思います。ただ、PTFを適用したらそれまで動いていたアプリケーションが動かなくなった経験がある身としては、事前に十分なテストを実施できるリソースが確保できない事もよくあるので、サーバー置き換えのタイミングを図るのは難儀しますね。
+個人的な見解ですが、セキュリティを強化すると使い勝手が悪くなるので、両者のバランスをとるのが大切と思っています。たとえばNavigator for i にMFAを適用した時に、運用に与えるインパクト(IBM i 7.4など異なるバージョンを併用するケースも多いでしょう)が見えないとなかなか評価しずらいです。
+
+対して、「廃止される機能」はインパクトが明確です。7.6は長年サポートされていた多くの機能が除去されています。
+
+- CGU、DFU、SDA、RLUなどADTSの一部機能。(PDMとSEUは継続される)
+- Power9以前のサーバーのサポート。(現時点でPower10上でのみ稼働)
+- ネットワーク機能の廃止 → PPP、Dial-Up、QoS、FRCA(Fast Response Cache Accelerator for Apache HTTP Server)
+- 製品の終了 → IBM FAXサポート for i (5798-FAX)、OptiConnect (SS1、オプション23)、GDDM (SS1、オプション14)、Web Admin GUI (IBM Navigator for i 内のセキュア機能に置き換え)、コミュニケーション‧ユーティリティー (5761-CM1)、System/38 ユーティリティ (5761-DB1)、Business Graphics Utility (5761-DS2)、CICS Transaction Server for i (5770-DFH)、Java 11 (64 ビット) の JV1 オプション 19、Performance Tools for i (5770-PT1)のPerformance Graphics (オプション 9)およびPerformance Advisor (オプション 10)、Universal Manageability Enablement (5770-UME)
+- 翻訳版の廃止 → アラビア語 (2954)、チェコ語 (2975)、デンマーク語 (2926)、オランダ語 (2923, 2963)、フィンランド語 (2925)など
+
+変更された機能があり、運用や初期環境構築に考慮が必要になるケースがあるでしょう。
+
+- パスワードレベル(QPWDLVL)システム値はデフォルト値3で出荷。(新規導入のみ)
+- QPGMRユーザー・プロファイルから*SAVSYS特殊権限がなくなる
+
+近々7.6をインストールする予定なので、使用感など追加するかもしれません。
 
 <br>
 
 <hr>
 
-### 2025-01-29追記
-<br>
+["Release life cycle"](https://www.ibm.com/support/pages/release-life-cycle){:target="_blank"}によれば、2010年4月に7.1が出荷開始となってほぼ15年、IBM i もそろそろ再構築すべきと感じています。以前より動画にしようと思っているのですが、モダンなOSとして下記のような機能があるべきでしょう。
 
-正式な?[アナウンスメント・レター(英語)](https://www.ibm.com/docs/en/announcements/services-withdrawal-discontinuance-service-select-power-systems-products-replacements-available){:target="_blank"}が出たようです。
+- ネイティブの文字コードをEBCDICからユニコード(UTF-8または16)に変更。
+  - ジョブのCCSIDも、DBのデフォルトの文字コードも全てUTF-8とする。
+  - CCSID 1399だと「吉野家」の「𠮷」(上が侍の「士」ではなくつちよし「土」)が表示できない。これはJIS規格(JIS2004)に「𠮷」が含まれないため。ユニコードであれば中国漢字の「𠮷」が使える。
+  - IVS(異体字セレクタ)が使えると漢字の表記の揺れにもある程度対応可能。
+  - Windowsは1993にNTで対応済み
+- 5250画面(DDS)でネイティブにHTMLをサポート。
+  - WebFacingのような5250画面のWeb化ではなく、DDSでHTMLを記述できるようにしてクライアントはWebブラウザを使用。可変長フィールドやユニコードも使えるようにする。
+  - サインオン・セキュリティやセッション管理は5250の仕組みを継承。
+- 運用向けにCUI(5250画面またはssh)を残す。
+  - エンドユーザー向けのアプリケーションはGUIで良いが、開発・運用にはCUIが必須。
+  - NavigatorやDCMのようなGUIはもちろんあって欲しいが、同等機能をCUI(コマンド)で実行できるようにすべき。
+  - DCMやNetServerをGUIでしか管理できないのは再現性や生産性を悪化させるので、下記のようなコマンドラインツールが提供されている
+    - Command-line tools for working with Digital Certificate Manager (DCM) on IBM i ["DCM-tools"](https://github.com/ThePrez/DCM-tools){:target="_blank"}
+    - How can I manage IBM i NetServer without IBM i Navigator? ["Manage IBM i NetServer without Navigator - GO NETS"](https://www.ibm.com/support/pages/manage-ibm-i-netserver-without-navigator-go-nets){:target="_blank"}
+- その他
+  - とりあえずACS5250表示装置セッションの品質の改善。正直、PC5250に戻してほしい。CUIなのに桁ずれする、設定をいじらないと「\」(バックスラッシュ)が表示できない、フォントがジャギーなどなど、改善できるとは思えません。「Javaの限界だから」というのはほとんどのユーザーにとって意味はないでしょう。(5250以外の、SQLスクリプトなどのアプレットは今のままでOKです)
+  - RDiの無償化。VSCodeやEclipseが無料なので、機能限定でも無料で提供すべき。VSCode (Code for IBM i)と比較するとRDiの方がはるかに優れている(日本語化されている、文法チェックがされる、編集の競合を検知する、など)のですが...
 
-下表は「End of Standard Service (EOSS)」として挙げられているPowerサーバーです。「EOSS effective date」は全て **「31 January 2026 (2026年1月31日)」** です。
-
-|Machine type|Model|Product description|Recommended replacement options (if applicable)|
-|------------------|-------------------|--------------------|
-|9008|22L|IBM Power Systems L922|IBM Power L1022 or IBM Power S1022s|
-|9009|22A|IBM Power Systems S922|IBM Power S1022 or IBM Power S1022s|
-|9009|41A|IBM Power Systems S914|IBM Power S1014 or IBM Power S1012|
-|9009|42A|IBM Power Systems S924|IBM Power S1024|
-|9223|22H|IBM Power Systems H922|IBM Power L1022 or IBM Power S1022|
-|9223|42H|IBM Power Systems H924|IBM Power L1024|
+後はまた別途...
 
 <br>
 
@@ -46,6 +75,7 @@ EOS
 V7R3
 V7R4
 V7R5
+V7R6
 ACS
 Db2
 DX
