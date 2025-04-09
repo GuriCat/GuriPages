@@ -1,0 +1,75 @@
+---
+layout: post
+title: "S914/S924の保守終了"
+date: 2025-01-17 18:00:00 +0900
+tags: [POWER9, EOS]
+---
+S914/S924を含むPower9の一部モデルの保守が2026年1月31日で終了します。
+
+[IBMの文書(PDF)](https://public.dhe.ibm.com/systems/support/planning/notices/September.12.2024.Announcement.Power9.pdf){:target="_blank"}によると、S914(9009-41A)やS924(9009-42A)などのPower9モデルが来年1月末で保守切れになるようです。まぁ、その時点で「8年以上現役である」事になるようなので、ITの世界では長寿なのかもしれません。
+
+<br>
+
+<hr>
+
+TechChannelにも関連記事、[With Power11 Coming, the Time to Prepare is Now](https://techchannel.com/power11/preparing-for-power11/){:target="_blank"}があります。筆者曰く、「長年の読者は、『壊れていないものは直すな』という格言について私がどう感じているかご存じです。つまり、古くてサポートされていないハードウェアに対しては、まさに間違った態度です。ハードウェアがそれほど古くないとしても、サポートを放棄することはリスクに見合うものではありません」とのこと。
+
+基本的には正しいと思います。ただ、PTFを適用したらそれまで動いていたアプリケーションが動かなくなった経験がある身としては、事前に十分なテストを実施できるリソースが確保できない事もよくあるので、サーバー置き換えのタイミングを図るのは難儀しますね。
+
+<br>
+
+<hr>
+
+### 2025-01-29追記
+<br>
+
+正式な?[アナウンスメント・レター(英語)](https://www.ibm.com/docs/en/announcements/services-withdrawal-discontinuance-service-select-power-systems-products-replacements-available){:target="_blank"}が出たようです。
+
+下表は「End of Standard Service (EOSS)」として挙げられているPowerサーバーです。「EOSS effective date」は全て **「31 January 2026 (2026年1月31日)」** です。
+
+|Machine type|Model|Product description|Recommended replacement options (if applicable)|
+|------------------|-------------------|--------------------|
+|9008|22L|IBM Power Systems L922|IBM Power L1022 or IBM Power S1022s|
+|9009|22A|IBM Power Systems S922|IBM Power S1022 or IBM Power S1022s|
+|9009|41A|IBM Power Systems S914|IBM Power S1014 or IBM Power S1012|
+|9009|42A|IBM Power Systems S924|IBM Power S1024|
+|9223|22H|IBM Power Systems H922|IBM Power L1022 or IBM Power S1022|
+|9223|42H|IBM Power Systems H924|IBM Power L1024|
+
+<br>
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
