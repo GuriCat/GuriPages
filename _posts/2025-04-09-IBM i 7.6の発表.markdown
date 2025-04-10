@@ -43,7 +43,7 @@ IBM i の最新バージョンとなる7.6が発表されました。
 
 <hr>
 
-["Release life cycle"](https://www.ibm.com/support/pages/release-life-cycle){:target="_blank"}によれば、2010年4月に7.1が出荷開始となってほぼ15年、IBM i もそろそろ再構築すべきと感じています。以前より動画にしようと思っているのですが、モダンなOSとして下記のような機能があるべきでしょう。
+["Release life cycle"](https://www.ibm.com/support/pages/release-life-cycle){:target="_blank"}によれば、2010年4月に7.1が出荷開始となってほぼ15年、IBM i もそろそろ再構築すべきと感じています。モダンなOSとして下記のような機能があるべきでしょう。
 
 - ネイティブの文字コードをEBCDICからユニコード(UTF-8または16)に変更。
   - ジョブのCCSIDも、DBのデフォルトの文字コードも全てUTF-8とする。
@@ -60,11 +60,10 @@ IBM i の最新バージョンとなる7.6が発表されました。
     - Command-line tools for working with Digital Certificate Manager (DCM) on IBM i ["DCM-tools"](https://github.com/ThePrez/DCM-tools){:target="_blank"}
     - How can I manage IBM i NetServer without IBM i Navigator? ["Manage IBM i NetServer without Navigator - GO NETS"](https://www.ibm.com/support/pages/manage-ibm-i-netserver-without-navigator-go-nets){:target="_blank"}
 
-- その他
-  - とにかくACS5250表示装置セッションの品質の改善。**正直、PC5250に戻してほしい**。CUIなのに桁ずれする、設定をいじらないと「\」(バックスラッシュ)が表示できない、フォントがジャギーなどなど、改善できるとは思えません。「Javaの限界だから」というのはほとんどのユーザーにとって意味はないでしょう。(5250以外の、SQLスクリプトなどのアプレットは今のままでOKです)
-  - RDiの無償化。VSCodeやEclipseが無料なので、機能限定でも無料で提供すべき。自分の用途(CL/RPG/DDS/SQLでゴリゴリ開発)だと**VSCode (Code for IBM i)よりRDiの方がはるかに優れている**(日本語化されている、文法チェックがされる、編集の競合を検知する、などなど)のですが...
+OSの再構築は時間がかかるので、それとは別にIBMにすぐに実施してほしいこともあります。以前より動画にしたいと思っているのですがなかなかモチベーションがあがらないので、一部のみこちらに挙げておきます。
 
-後はまた別途...
+- ACS5250表示装置セッションの品質の改善。**正直、PC5250に戻してほしい**。CUIなのに桁ずれする、設定をいじらないと「\」(バックスラッシュ)が表示できない、フォントがジャギーなどなど、改善できるとは思えません。「Javaの限界だから」というのはほとんどのユーザーにとって意味はないでしょう。(5250以外の、SQLスクリプトなどのアプレットは今のままでOKです)
+- RDiの無償化。VSCodeやEclipseが無料なので、機能限定でも無料で提供すべき。自分の用途(CL/RPG/DDS/SQLでゴリゴリ開発)だと**VSCode (Code for IBM i)よりRDiの方がはるかに優れている**(日本語化されている、文法チェックがされる、編集の競合を検知する、などなど)のですが...
 
 <br>
 
