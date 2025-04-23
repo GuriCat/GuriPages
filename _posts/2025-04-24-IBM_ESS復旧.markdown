@@ -22,6 +22,8 @@ tags: [V7R6, OSS, その他]
 - Windowsであれば[ここ](https://ftp.gnu.org/gnu/wget/){:target="_blank"}や[ここ](https://eternallybored.org/misc/wget/){:target="_blank"}からWgetのバイナリーが入手可能
   - Wgetのバージョンが古いと通信エラーになるので最新の安定板を利用すること
   - Wgetは複数URLの同時ダウンロードはできないので、Wget2を使うか、他のツールと組み合わせると時間が節約できるかも
+  - 主要なS/Wを自宅PCでダウンロードしたところ、15GB(42ファイル)で3時間15分くらい。WiFi接続で1.3MB/sしか出ていないので、会社で有線接続なら2時間かからない?
+  
 - IBM i ではwgetの1.20.3-4がACSの「オープン・ソース・パッケージ管理」からインストール
   - 「ESS_selected_HTTP_download_links.txt」には不要なS/W(DB2 Multisystemや日本語以外の言語用S/Wなど)が含まれているので、Wget実行前に削除しておく
   - Windows用のWgetは改行がCRLFでも動くものが多いが、IBM i で実行するときはテキスト・エディターや[dos2unix](https://dos2unix.sourceforge.io/){:target="_blank"}でUNIX標準のLFに改行コードを変えないとエラーになる
