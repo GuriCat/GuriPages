@@ -8,25 +8,6 @@ tags: [V7R6, OSS, その他]
 
 これがソシャゲのリリースだったら炎上しているところですが、さすがに基幹OSをすぐに必要とするユーザーは少ないでしょう。間に土日(とイースター)があったのも復旧に数日を要した利用かもしれません。
 
-<br>
-
-<hr>
-
-以下余談です。
-
-<p>
-
-以前からあったのか記憶に無いのですが、「ステップ 6: HTTPS を使用したダウンロード」の「ソフトウェアのダウンロード」画面に「すべてのリンクをダウンロード」というボタンがあります。
-このボタンをクリックすると、ダウンロード先URLがリストされたテキストファイル「ESS_selected_HTTP_download_links.txt」をダウンロードできます。このファイルを[Wget](https://ja.wikipedia.org/wiki/GNU_Wget){:target="_blank"}で指定すると、リストの全ファイルを順番にダウンロードできて便利ですね。
-
-- Windowsであれば[ここ](https://ftp.gnu.org/gnu/wget/){:target="_blank"}や[ここ](https://eternallybored.org/misc/wget/){:target="_blank"}からWgetのバイナリーが入手可能
-  - Wgetのバージョンが古いと通信エラーになるので最新の安定板を利用すること
-  - Wgetは複数URLの同時ダウンロードはできないので、Wget2を使うか、他のツールと組み合わせると時間が節約できるかも
-  - 主要なS/Wを自宅PCでダウンロードしたところ、15GB(42ファイル)で3時間15分くらい。WiFi接続で1.3MB/sしか出ていないので、会社で有線接続なら2時間かからない?
-
-- IBM i ではwgetの1.20.3-4がACSの「オープン・ソース・パッケージ管理」からインストール
-  - 「ESS_selected_HTTP_download_links.txt」には不要なS/W(DB2 Multisystemや日本語以外の言語用S/Wなど)が含まれているので、Wget実行前に削除しておく
-  - Windows用のWgetは改行がCRLFでも動くものが多いが、IBM i で実行するときはテキスト・エディターや[dos2unix](https://dos2unix.sourceforge.io/){:target="_blank"}でUNIX標準のLFに改行コードを変えないとエラーになる
 
 うまくいけば次回は7.6の使用感が書けるかもです。
 
