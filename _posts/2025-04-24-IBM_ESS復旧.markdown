@@ -2,7 +2,7 @@
 layout: post
 title: "IBM ESS復旧"
 date: 2025-04-24 18:00:00 +0900
-tags: [V7R6, OSS, その他]
+tags: [V7R6, OSS]
 ---
 2025年4月18日のGA(利用可能予定日)からずっとD/L不可の状態だったIBMの[Entitled Systems Support (ESS)](https://www.ibm.com/servers/eserver/ess/landing/landing-page){:target="_blank"}が4/23の昼頃に復旧し、IBM i 7.6がダウンロードできるようになりました。
 
