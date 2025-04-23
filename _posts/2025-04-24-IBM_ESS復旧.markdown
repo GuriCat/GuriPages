@@ -17,9 +17,6 @@ tags: [V7R6, OSS, その他]
 <p>
 
 以前からあったのか記憶に無いのですが、「ステップ 6: HTTPS を使用したダウンロード」の「ソフトウェアのダウンロード」画面に「すべてのリンクをダウンロード」というボタンがあります。
-
-<img src="/GuriPages/image/2025-04-24_ESS_SW_Download.png" width="300" />
-
 このボタンをクリックすると、ダウンロード先URLがリストされたテキストファイル「ESS_selected_HTTP_download_links.txt」をダウンロードできます。このファイルを[Wget](https://ja.wikipedia.org/wiki/GNU_Wget){:target="_blank"}で指定すると、リストの全ファイルを順番にダウンロードできて便利ですね。
 
 - Windowsであれば[ここ](https://ftp.gnu.org/gnu/wget/){:target="_blank"}や[ここ](https://eternallybored.org/misc/wget/){:target="_blank"}からWgetのバイナリーが入手可能
