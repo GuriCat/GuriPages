@@ -14,11 +14,12 @@ tags: [V7R6, OSS]
  
 以下余談です。
 
-<p>
+<br>
 
 以前からあったのか記憶に無いのですが、「ステップ 6: HTTPS を使用したダウンロード」の「ソフトウェアのダウンロード」画面に「すべてのリンクをダウンロード」というボタンがあります。
 
-このボタンをクリックすると、ダウンロード先URLがリストされたテキストファイル「ESS_selected_HTTP_download_links.txt」をダウンロードできます。このファイルを[Wget](https://ja.wikipedia.org/wiki/GNU_Wget){:target="_blank"}で指定すると、リストの全ファイルを順番にダウンロードできて便利です。
+このボタンをクリックすると、ダウンロード先URLがリストされたテキストファイル「ESS_selected_HTTP_download_links.txt」をダウンロードできます。このファイルを[Wget](https://ja.wikipedia.org/wiki/GNU_Wget){:target="_blank"}から利用すればリストの全ファイルを容易にダウンロードできます。
+
 
 - Windowsであれば[ここ](https://ftp.gnu.org/gnu/wget/){:target="_blank"}や[ここ](https://eternallybored.org/misc/wget/){:target="_blank"}からWgetのバイナリーが入手可能
   - Wgetのバージョンが古いと通信エラーになるので最新の安定板を利用すること
@@ -29,7 +30,7 @@ tags: [V7R6, OSS]
   - 「ESS_selected_HTTP_download_links.txt」には不要なS/W(DB2 Multisystemや日本語以外の言語用S/Wなど)が含まれているので、Wget実行前に削除しておく
   - Windows用のWgetは改行がCRLFでも動くものが多いが、IBM i で実行するときはテキスト・エディターや[dos2unix](https://dos2unix.sourceforge.io/){:target="_blank"}でUNIX標準のLFに改行コードを変えないとエラーになる
 
-<p>
+<br>
 
 IBM i にsshで接続してWgetを4並列実行すると下記のようになります。複数のダウンロードの進捗状況が最下行に上書きされますが、進捗はわかります。末尾に「-q」を追加すれば何も表示しなくなります。
 
