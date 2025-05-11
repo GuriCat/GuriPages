@@ -14,7 +14,7 @@ S1012にIBM i 7.6をインストールする場合、ファームウェアは202
 - 最新のHMC管理のサーバーであれば区画を停止せず[^3]に1時間程度で適用が可能
 - 障害発生時にファームウェアを上げるように指示される可能性があり、対応に時間がかかる可能性がある
 
-S1012以外のPower10サーバーにIBM i 7.6をインストールする場合は、事前に[「IBM Pre-Upgrade Verification Tool for IBM i」](https://www.ibm.com/support/pages/ibm-pre-upgrade-verification-tool-ibm-i){:target="_blank"}や[「The Fix Level Recommendation Tool (FLRT)」](https://esupport.ibm.com/customercare/flrt/power){:target="_blank"}で確認することをお勧めしｄす。
+S1012以外のPower10サーバーにIBM i 7.6をインストールする場合は、事前に[「IBM Pre-Upgrade Verification Tool for IBM i」](https://www.ibm.com/support/pages/ibm-pre-upgrade-verification-tool-ibm-i){:target="_blank"}や[「The Fix Level Recommendation Tool (FLRT)」](https://esupport.ibm.com/customercare/flrt/power){:target="_blank"}で確認することをお勧めします。
 
 「転ばぬ先の杖」ですね。
 
