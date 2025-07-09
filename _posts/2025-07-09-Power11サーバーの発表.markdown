@@ -1,0 +1,85 @@
+---
+layout: post
+title: "Power11サーバーの発表"
+date: 2025-07-09 00:00:00 +0900
+tags: [POWER11]
+---
+2025年7月8日(NY現地時間)に次世代のIBM Powerサーバーである「IBM Power11」が発表されました。出荷開始は7月25日の予定です。
+
+<img src="https://newsroom.ibm.com/image/Power11-Launch-SocialKit_Banner.png" width="800" />
+
+日本語の発表は[「IBM、エンタープライズITの水準を引き上げるIBM Power11を発表」](https://jp.newsroom.ibm.com/2025-07-09-ibm-power11-raises-the-bar-for-enterprise-it){:target="_blank"}をご覧ください。他の発表情報は下記リンクをどうぞ。
+
+- IBMの英文発表レター：[IBM Power11 Raises the Bar for Enterprise IT](https://newsroom.ibm.com/2025-07-08-ibm-power11-raises-the-bar-for-enterprise-it){:target="_blank"}
+- IBM Powerメインページ(英文)：[Power is/ focusing on your business and not your IT](https://www.ibm.com/products/power){:target="_blank"}
+- TechChannelの記事(英文)：[IBM Power11 to Launch With Full Range of Servers, Cloud Availability on Day 1](https://techchannel.com/power11/power11-announced/){:target="_blank"}
+- ITJungleの記事(英文)：[With Power11, Power Systems “Go To Eleven”](https://www.itjungle.com/2025/07/08/with-power11-power-systems-go-to-eleven/){:target="_blank"}
+
+<br>
+同日にIBM i のH/Wサポート関連TRの発表もありました。詳細は[「IBM adds new capabilities with IBM i 7.6 Power11 GA PTF Group, IBM i 7.5 Hardware Technology Refresh 6, IBM i 7.4 Hardware Technology Refresh 12 and Migrate While Active」](https://www.ibm.com/docs/en/announcements/adds-new-capabilities-i-76-power11-ga-ptf-group-i-75-hardware-technology-refresh-6-i-74-hardware-technology-refresh-12-migrate-while-active){:target="_blank"}で。
+
+<br>
+
+<hr>
+<br>
+
+まだ詳細を見れていませんが、ざっと下記のような点が売りになっているようです。
+
+- パフォーマンスはPower9から55%向上、電力効率も向上
+- 強調しているのは「AI」「ハイブリッド・クラウド」と「**計画**停止時間ゼロ」の3点
+- ハイエンドのE1180からミドルレンジのE1150、S1124/L1124、S1122/L1122を一気にラインアップ
+
+以下、気が付いた点です。
+
+- S1012の後継(S1112)が今回の発表に含まれない。おそらく、2024年6月14日に出荷開始となったS1012が、まだ一年ちょっとしか経っていないので時期を遅らせたと思われます。(ちなみにS1024は2022年7月22日出荷開始)
+- E1150ではE1050同様、IBM i は動作しない。IBMはこのレンジのPowerサーバーをIBM i ユーザーにはもう提供しないのかもしれません。(参照：[Specific IBM Power servers with Power11 technology that are supported by IBM i](https://community.ibm.com/community/user/discussion/specific-ibm-power-servers-with-power11-technology-that-are-supported-by-ibm-i#bmed8268c2-710a-481b-a0a4-8eabb5c13a4c){:target="_blank"})
+
+<hr>
+<br>
+
+先日IBMのセミナーでPower11チップの実物をもらったので写真を載せておきます。
+
+<img src="/GuriPages/image/2025-05_Power11_Chip.png" width="600" />
+
+
+<br>
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+POWER11
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
