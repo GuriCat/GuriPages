@@ -53,7 +53,7 @@ IBMの人には伝えたのですが、MFAの機能強化でWebで一般的な�
 
 <br>
 
-{::comment}
+<!-- This content will not appear in the rendered Markdown
 タグ
 tags: [V7R5, V7R4, ACS, TR]
 
@@ -90,4 +90,5 @@ TR
 運用
 セキュリティ
 その他
-{:/comment}
+ -->
+ 
