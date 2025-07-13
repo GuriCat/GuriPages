@@ -1,0 +1,90 @@
+---
+layout: post
+title: "IBM i 7.6のMFAを使ってみた"
+date: 2025-07-13 00:00:00 +0900
+tags: [7.6, セキュリティ]
+---
+IBM i 7.6の最大?のセールスポイントであるOS組込のMFA(多要素認証)を使ってみたので感想など。
+
+感想の前に、IBM i 7.6のMFAがどのようなものかについては下記リンクを参照ください。
+- IBM Docs [「多要素認証 (MFA)](https://www.ibm.com/docs/ja/i/7.6.0?topic=security-multi-factor-authentication-mfa){:target="_blank"}
+- iWorld [「2025年、対策を施すべきIBM iのセキュリティー保護の重要ポイント (TechChannelの翻訳記事)](https://iworldweb.info/column/product/top-ibmi-security-projects-2025){:target="_blank"}
+- e-BELLNET [「IBM i 7.6新機能！MFA認証機能とはどんなもの？](https://www.e-bellnet.com/category/technology/2507/2507-01.html){:target="_blank"}
+- ITJunlge [「IBM i 7.6 Delivers “Massive Security Improvement” With Built-In MFA」(英文)](https://jp.newsroom.ibm.com/2025-07-09-ibm-power11-raises-the-bar-for-enterprise-it){:target="_blank"}
+
+また、具体的な設定/利用手順・考慮点はIBMコミュニティへのPOST[「IBM i 7.6 MFA implementation (英文)](https://community.ibm.com/community/user/discussion/ibm-i-76-mfa-implementation){:target="_blank"}をご一読ください。
+
+<br>
+
+<hr>
+<br>
+
+さて、感想ですが個人的に次のように評価しています。ユースケースがマッチすれば利用を検討してみてもよいでしょう。
+
+**良い点**
+
+- OS標準機能なので**サーバー側には**追加のソフトウェアが不要
+- TOTPキーがUSRPRFの一部に隠蔽されており、参照や抽出ができないためセキュリティが高い
+- 業界標準の[RFC 6238 (英文)](https://datatracker.ietf.org/doc/html/rfc6238){:target="_blank"}に基づいて実装されており、汎用性が高い
+- 追加要素(6桁の数字などの「TOTPトークン」)を持たないログイン要求(JDBC/ODBCなど)に対し、パスワードの末尾に「:(TOTPトークン)」を付加する方法が提供されている
+
+**悩ましい点**
+
+- IBM i 7.6が前提。このため、Power10以上のサーバーが必要
+- 二段階認証ができない。例えばSNSでよくある、ログイン→メール/SMSでTOTPトークンをスマホなどに送信→送られたTOTPをサーバーの追加認証画面に入力してログインを完了、といったフローがサポートされていない
+- 運用への影響が比較的大きい
+  - 二段階認証をサポートしていないため、クライアント側でTOTPソフトウェアをインストール&設定する必要がある
+  - プログラム的に特定のユーザーのTOTPキー(コマンド「CHGTOTPKEY TOTPKEY (*GEN)」で生成される長い文字列)を知る方法が無い。このため二段階認証をIBM i 側で実装するには、ユーザーがIBM i にTOTPキーを登録し、これを元にRFC 6238に沿って6桁のトークンを生成し、ユーザーにSMS/メールなどで送信、IBM i 側で追加の認証を行うアプリケーションの作りこみが必要
+  - サインオン画面が変わるので、手順書などの改訂が必要
+    - この記事を書いている時点では英語のサインオン画面のみ提供されている模様。サインオン画面を日本語にするにはQSYS/QAWTSSRC.QDSIGNON3を編集して対話型サブシステムに設定
+  - クライアントでACSを使用している場合、1.1.9.8(2025-04-01)以降が必要
+- パスワードレベル(システム値QPWDLVL)を「4」が前提で、移行計画の立案が必要
+  - 現在0/1の場合はまず「2」に変更してユーザーのパスワード・レベルを4に上げる
+  - 利用するユーザー(QSECOFRなどIBM提供ユーザー含む)のパスワード・レベルがすべて4になった事を確認してシステム値QPWDLVLを「4」に変更
+    - この時パスワード・レベルが低いと、パスワードがリセットされてサインオンできなくなる
+- 5250エミュレーターを930(非拡張)で使用している場合はパスワードに英小文字が使用できない
+  - 939/1399を使用している場合、パスワードが英大文字小文字を区別するようになるので注意
+
+
+
+<br>
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+POWER11
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
