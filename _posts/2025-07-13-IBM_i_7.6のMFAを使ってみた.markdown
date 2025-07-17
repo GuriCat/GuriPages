@@ -12,7 +12,7 @@ IBM i 7.6の最大?のセールスポイントであるOS組込のMFA(多要素�
 - e-BELLNET [「IBM i 7.6新機能！MFA認証機能とはどんなもの？](https://www.e-bellnet.com/category/technology/2507/2507-01.html){:target="_blank"}
 - ITJunlge [「IBM i 7.6 Delivers “Massive Security Improvement” With Built-In MFA」(英文)](https://jp.newsroom.ibm.com/2025-07-09-ibm-power11-raises-the-bar-for-enterprise-it){:target="_blank"}
 
-また、具体的な設定/利用手順・考慮点はIBMコミュニティへのPOST[「IBM i 7.6 MFA implementation (英文)](https://community.ibm.com/community/user/discussion/ibm-i-76-mfa-implementation){:target="_blank"}をご一読ください。
+また、具体的な設定/利用手順・考慮点はIBMコミュニティへのPOST[「IBM i 7.6 MFA implementation」(英文)](https://community.ibm.com/community/user/discussion/ibm-i-76-mfa-implementation){:target="_blank"}をご一読ください。
 
 <br>
 
@@ -33,16 +33,16 @@ IBM i 7.6の最大?のセールスポイントであるOS組込のMFA(多要素�
 - 二段階認証ができない。例えばSNSでよくある、ログイン→メール/SMSでTOTPトークンをスマホなどに送信→送られたTOTPをサーバーの追加認証画面に入力してログインを完了、といったフローがサポートされていない
 - 運用への影響が比較的大きい
   - 二段階認証をサポートしていないため、クライアント側でTOTPソフトウェアをインストール&設定する必要がある
-  - プログラム的に特定のユーザーのTOTPキー(コマンド「CHGTOTPKEY TOTPKEY (*GEN)」で生成される長い文字列)を知る方法が無い。このため二段階認証をIBM i 側で実装するには、ユーザーがIBM i にTOTPキーを登録し、これを元にRFC 6238に沿って6桁のトークンを生成し、ユーザーにSMS/メールなどで送信、IBM i 側で追加の認証を行うアプリケーションの作りこみが必要
+  - プログラム的に特定のユーザーのTOTPトークンを生成する方法(APIなど)が用意されていない。このためTOTPを利用した二段階認証をIBM i 側で実装するには、ユーザーがIBM i にTOTPキーを登録し、これを元にRFC 6238に沿って6桁のトークンを生成し、ユーザーにSMS/メールなどで送信、IBM i 側で追加の認証を行うアプリケーションの作りこみが必要
   - サインオン画面が変わるので、手順書などの改訂が必要
     - この記事を書いている時点では英語のサインオン画面のみ提供されている模様。サインオン画面を日本語にするにはQSYS/QAWTSSRC.QDSIGNON3を編集して対話型サブシステムに設定
   - クライアントでACSを使用している場合、1.1.9.8(2025-04-01)以降が必要
 - パスワードレベル(システム値QPWDLVL)を「4」が前提で、移行計画の立案が必要
-  - 現在0/1の場合はまず「2」に変更してユーザーのパスワード・レベルを4に上げる
+  - 現在0/1の場合はまず「2」に変更してユーザーのパスワード・レベルを4に上げる必要がある
   - 利用するユーザー(QSECOFRなどIBM提供ユーザー含む)のパスワード・レベルがすべて4になった事を確認してシステム値QPWDLVLを「4」に変更
     - この時パスワード・レベルが低いと、パスワードがリセットされてサインオンできなくなる
 - 5250エミュレーターを930(非拡張)で使用している場合はパスワードに英小文字が使用できない
-  - 939/1399を使用している場合、パスワードが英大文字小文字を区別するようになるので注意
+  - 対照的に、939/1399を使用している場合、パスワードが英大文字小文字を区別するようになるので注意
 
 <br>
 
