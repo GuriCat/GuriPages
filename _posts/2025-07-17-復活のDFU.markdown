@@ -1,0 +1,76 @@
+---
+layout: post
+title: "復活のDFU"
+date: 2025-07-17 00:00:00 +0900
+tags: [V7R6, その他]
+---
+IBM i 7.6でDFUが復活したようです。
+
+IBM i 7.6ではADTSの一部の機能のサポート終了がアナウンスされました(参照[「DFU、CGU、SDAなどが2025年4月でサポート終了」](https://guricat.github.io/GuriPages/2024/06/03/DFU_CGU_SDA%E3%81%AA%E3%81%A9%E3%81%8C2025%E5%B9%B44%E6%9C%88%E3%81%A7%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E7%B5%82%E4%BA%86/){:target="_blank"})。実際にGA時にはSTRDFU画面でオプションの1と5のみが選択可能になっており、まぁ新規作成はできないけど今あるDFUが動くのなら仕方ないか...ということで、DFUの代替ソリューションを探していた方もいらっしゃるかと思います。
+
+
+```
+                   データ・ファイル・ユーティリティー (DFU)
+
+ 次の中から１つを選んでください。
+
+      1. DFU プログラムの実行 <span style="color: red;">
+      2. DFU プログラムの作成  <- 
+      3. DFU プログラムの変更  <- ここが無くなって悲しい
+      4. DFU プログラムの削除  <-</span>
+      5. 一時プログラムを使用したデータの更新
+
+```
+
+## と・こ・ろ・が、
+
+PTFでオプション2/3/4が復活します! まだ自分では試していませんので、詳細が気になる方は[「(2025/6/25追記) DFUのオプションについて」](https://qiita.com/yoichi_nakamura/items/37fc12608390ca32c875#2025625%E8%BF%BD%E8%A8%98-dfu%E3%81%AE%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6){:target="_blank"}などを参照してください。
+
+[「Known Issues - MISSING OPTIONS FOR STRDFU」](https://www.ibm.com/mysupport/s/defect/aCI3p0000008naWGAQ/dt283707?language=ja){:target="_blank"}には、あたかもオプション2/3/4が表示されないことが"問題"であるかのように書かれています。Caseが2025年3月27日にオープンされているので7.6出荷前からこうする予定だったのかもしれません... IBMはこういったユーザーにインパクトがある事も事前に教えてくれないので困りものです。
+
+いずれにしても、**サポートがない**状況は変わらないと思われるので、使えるうちに移行を検討したほうが良いかもです。
+
+
+<hr>
+
+<br>
+
+<!-- This content will not appear in the rendered Markdown
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+POWER11
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+ -->
+ 
