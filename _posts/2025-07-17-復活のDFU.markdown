@@ -35,10 +35,7 @@ PTFでオプション2/3/4が復活します! まだ自分では試していま�
 
 いずれにしても、**サポートがない**状況は変わらないと思われるので、使えるうちに移行を検討したほうが良いかもです。
 
-<br>
 <hr>
-
-<br>
 
 <!-- This content will not appear in the rendered Markdown
 タグ
