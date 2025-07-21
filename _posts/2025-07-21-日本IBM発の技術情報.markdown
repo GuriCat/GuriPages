@@ -20,7 +20,7 @@ tags: [技術情報]
 最近はQuiita[^1]やGitHub[^2]で情報提供しているIBM関連の方も増えてきました。
 
 [^1]: 以前は[FC2](https://fc2.com/ja/){:target="_blank"}にもIBM i (AS/400)関連のblog(例えば[「Java, Domino&400」](http://jd400.web.fc2.com/){:target="_blank"}とか)があったのですが、最近は更新が無いようです。
-[^2]: この「Guri」のblogはGitHubのPagesを利用しているのですが、結構敷居が高いです。カスタマイズにrubyを使ったり、markdownの書式を覚えなくてはいけなかったりします。また、なぜかGoogleのクローラーからたまにインデックスできないとエラーのメールが届き、Google検索にもヒットしないので困りものです。
+[^2]: 当blogはGitHubのPagesを利用しているのですが、結構運用の敷居が高いです。カスタマイズにrubyを使ったり、markdownの書式を覚えなくてはいけなかったりします。また、なぜかGoogleのクローラーからたまにインデックスできないとエラーのメールが届き、Google検索にもヒットしないので困りものです。
 
 - [PowerVS IBM i 日記](https://qiita.com/6onoda/items/f146c78c0c1bbe905a42){:target="_blank"}：[小野田安宏さん](https://iworldweb.info/column/product/20230202_qiita_powervs){:target="_blank"}のblog。しばらく更新が無いようですが、[All About ACS: IBM i Access Client Solutionsのすべて](https://qiita.com/6onoda/items/2dc925586d8d3b8644f2){:target="_blank"}も同じ方
 - [IBM i 全般](https://qiita.com/gomAnomalocaris/items/6669728f368e87c2d75e){:target="_blank"}：Mikio Sasakiさんのblog。記事数が681件とすごいです。幅広いジャンルをカバーしており、更新も多め
