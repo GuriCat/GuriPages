@@ -46,6 +46,10 @@ IBM以外からも、[iWorld](https://iworldweb.info/){:target="_blank"}、[ア�
 
 有用なWebページを見つけたらPDFで保存しておく、などの自衛策が必要かもしれません。
 
+<br>
+<hr>
+<br>
+
 [^1]: 以前は[FC2](https://fc2.com/ja/){:target="_blank"}にもIBM i (AS/400)関連のblog(例えば[「Java, Domino&400」](http://jd400.web.fc2.com/){:target="_blank"}とか)があったのですが、最近は更新が無いようです。
 [^2]: この「Guri」のblogはGitHubのPagesを利用しているのですが、結構敷居が高いです。カスタマイズにrubyを使ったり、markdownの書式を覚えなくてはいけなかったりします。また、なぜかGoogleのクローラーからたまにインデックスできないとエラーのメールが届き、Google検索にもヒットしないので困りものです。
 
