@@ -42,7 +42,10 @@ IBM以外からも、[iWorld](https://iworldweb.info/){:target="_blank"}、[ア�
 <P>
 
 有用なWebページを見つけたらPDFで保存しておく、などの自衛策が必要かもしれません。
+
+
 <br>
+
 
 - - -
 [^1]: 以前は[FC2](https://fc2.com/ja/){:target="_blank"}にもIBM i (AS/400)関連のblog(例えば[Java, Domino&400](http://jd400.web.fc2.com/){:target="_blank"}とか)があったのですが、最近は更新が無いようです。
