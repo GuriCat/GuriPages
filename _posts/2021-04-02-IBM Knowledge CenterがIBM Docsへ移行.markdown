@@ -2,7 +2,7 @@
 layout: post
 title:  "IBM Knowledge CenterがIBM Docsへ移行"
 date:   2021-04-02 10:10:10 +0900
-tags: [その他]
+tags: [技術情報, その他]
 ---
 以前よりKnowledge Centerにアクセスした際に予告が表示されていましたが、Knowledge CenterがDocs?に変わったようです。
 

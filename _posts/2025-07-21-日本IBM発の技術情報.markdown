@@ -1,0 +1,91 @@
+---
+layout: post
+title: "日本IBM発の技術情報"
+date: 2025-07-21 00:00:00 +0900
+tags: [技術情報]
+---
+日本IBMが発信している技術情報をまとめてみました。
+
+ときどき「他のOSに比べて、IBM i の公開情報が少ない」と聞くことがあります。SQLやOSSについてはプラットフォーム共通の情報が得られますが、そもそも日本語のIT関連情報は英語に比べると質・量とも圧倒的に少ないのですが、総量が多くないRPGやCLなどのIBM i 独自の技術情報は、特にそう感じられるかもしれません。
+
+知る限り、日本IBMからは下記のような情報が発信されています。
+
+- [IBM i 技術情報のポータル・ページ](https://www.ibm.com/support/pages/ibm-i-%E6%8A%80%E8%A1%93%E6%83%85%E5%A0%B1){:target="_blank"}：IBM i のご紹介、PTF情報、アプリケーション開発、その他へのリンク
+  - 記事中の「iCafe」は2022年に[「iWorld Web」](https://www.ibm.com/support/pages/ibm-i-%E6%8A%80%E8%A1%93%E6%83%85%E5%A0%B1){:target="_blank"}に統合
+- [セミナー資料総合 (日付順)【Powerテック】](https://ent.box.com/s/siwif7swtqutt3fi3w85z8xmsdj8bbu4){:target="_blank"}：Power関連の各種セミナー資料
+- [IBM i インターネット・セミナー](https://www.ibm.com/support/pages/node/1274368){:target="_blank"}：古い資料が多く、更新がされていないようですが、役に立つことがあるかも
+
+最近はQuiita[^1]やGitHub[^2]で情報提供しているIBM関連の方も増えてきました。
+
+- [PowerVS IBM i 日記](https://qiita.com/6onoda/items/f146c78c0c1bbe905a42){:target="_blank"}：[小野田安宏さん](https://iworldweb.info/column/product/20230202_qiita_powervs){:target="_blank"}のblog。しばらく更新が無いようですが、[All About ACS: IBM i Access Client Solutionsのすべて](https://qiita.com/6onoda/items/2dc925586d8d3b8644f2){:target="_blank"}も同じ方
+- [IBM i 全般](https://qiita.com/gomAnomalocaris/items/6669728f368e87c2d75e){:target="_blank"}：Mikio Sasakiさんのblog。記事数が681件とすごいです。幅広いジャンルをカバーしており、更新も多め
+- [PowerVS関連など](https://qiita.com/yoichi_nakamura){:target="_blank"}：Nakamura Yoichiさんのblog。記事10本なのでこれから?
+- [IBM i 駆け出し日記](https://qiita.com/koga39chan){:target="_blank"}：[古閑(こが)さくらさん](https://iworldweb.info/column/product/kokoi_qiita_fleshman){:target="_blank"}のblog
+
+
+IBM以外からも、[iWorld](https://iworldweb.info/){:target="_blank"}、[アイマガジン](https://www.imagazine.co.jp/){:target="_blank"}や、[e-BELLNET](https://www.e-bellnet.com/){:target="_blank"}などパートナー各社のWebサイトで有益な情報が得られます。悩んだ時にはこれらのサイトを探すと答えが見つかるかもしれませんね。
+<br>
+
+<hr>
+
+閑話休題。
+
+以前よりIBMは各種技術情報を発信していますが、**何年かおきにWebホスト(URL)を変更**しています。このため、以前ブックマークしたホームページが見つからずに[Wayback Machine](https://web.archive.org/){:target="_blank"}のお世話になる事もあります。個人的に大きな影響があったのは次の2回。
+
+- DeveloperWorksの廃止
+  - 2020年にそれまでの[DeveloperWorks](https://www.ibm.com/developerworks/jp/){:target="_blank"}が廃止され、IBM i 関連の情報が大量に移動/削除されました。これにより、貴重な技術情報が得られなくなり、困った方も多いのではないでしょうか。詳細は[「IBM to Kill DeveloperWorks Connections Site」(英文)](https://www.itjungle.com/2019/10/30/ibm-to-kill-developerworks-site/){:target="_blank"}や[「IBM i on developerWorks」(英文)](https://dawnmayi.com/2014/02/05/ibm-i-on-developerworks/){:target="_blank"}に関連記事があります。
+  - 多くのサイトはURLの変更を行う際に、新しいページにリダイレクトするなどの対応を行います。IBMの場合はこのような移行措置は行われず、覚えているページの内容から自力でWeb検索し、(運よく存在すれば)新しいページを見つける必要がありました。
+- マニュアルの「IBM Docs」への移行
+  - 2018年に[IBM Docs](https://www.ibm.com/docs/ja/){:target="_blank"}へ移行され、技術情報が大幅に整理されました。これにより、以前のように「RPGやCLの情報はここ」といった形での情報収集が難しくなりました。
+  - 最近のドキュメントには自動翻訳が使われていますが、「Power」を「電力」と翻訳するなど、原文を見ないと意味が通じない場合も散見されます。
+
+<P>
+
+有用なWebページを見つけたらPDFで保存しておく、などの自衛策が必要かもしれません。
+<br>
+
+- - -
+[^1]: 以前は[FC2](https://fc2.com/ja/){:target="_blank"}にもIBM i (AS/400)関連のblog(例えば[Java, Domino&400](http://jd400.web.fc2.com/){:target="_blank"}とか)があったのですが、最近は更新が無いようです。
+[^2]: この「Guri」のblogはGitHubのPagesを利用しているのですが、結構敷居が高いです。カスタマイズにrubyを使ったり、markdownの書式を覚えなくてはいけなかったりします。また、なぜかGoogleのクローラーからたまにインデックスできないとエラーのメールが届き、Google検索にもヒットしないので困りものです。
+
+<hr>
+
+<!-- This content will not appear in the rendered Markdown
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+POWER11
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+ -->
+ 
