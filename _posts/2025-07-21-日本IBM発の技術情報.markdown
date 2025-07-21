@@ -8,12 +8,14 @@ tags: [技術情報]
 
 ときどき「他のOSに比べて、IBM i の公開情報が少ない」と聞くことがあります。SQLやOSSについてはプラットフォーム共通の情報が得られますが、そもそも日本語のIT関連情報は英語に比べると質・量とも圧倒的に少ないです。ましてや総量が多くないRPGやCLなどのIBM i 独自の技術情報は、特にそう感じられるかもしれません。
 
+
 知る限り、日本IBMからは下記のような情報が発信されています。
 
 - [IBM i 技術情報のポータル・ページ](https://www.ibm.com/support/pages/ibm-i-%E6%8A%80%E8%A1%93%E6%83%85%E5%A0%B1){:target="_blank"}：IBM i のご紹介、PTF情報、アプリケーション開発、その他へのリンク
   - 記事中の「iCafe」は2022年に[「iWorld Web」](https://iworldweb.info/){:target="_blank"}に統合
 - [セミナー資料総合 (日付順)【Powerテック】](https://ent.box.com/s/siwif7swtqutt3fi3w85z8xmsdj8bbu4){:target="_blank"}：Power関連の各種セミナー資料
 - [IBM i インターネット・セミナー](https://www.ibm.com/support/pages/node/1274368){:target="_blank"}：古い資料が多く、更新がされていないようですが、役に立つことがあるかも
+
 
 最近はQuiita[^1]やGitHub[^2]で情報提供しているIBM関連の方も増えてきました。
 
@@ -24,6 +26,7 @@ tags: [技術情報]
 
 
 IBM以外からも、[iWorld](https://iworldweb.info/){:target="_blank"}、[アイマガジン](https://www.imagazine.co.jp/){:target="_blank"}や、[e-BELLNET](https://www.e-bellnet.com/){:target="_blank"}などパートナー各社のWebサイトで有益な情報が得られます。悩んだ時にはこれらのサイトを探すと答えが見つかるかもしれませんね。
+
 <br>
 
 <hr>
@@ -46,8 +49,8 @@ IBM以外からも、[iWorld](https://iworldweb.info/){:target="_blank"}、[ア�
 
 <br>
 
-
 - - -
+
 [^1]: 以前は[FC2](https://fc2.com/ja/){:target="_blank"}にもIBM i (AS/400)関連のblog(例えば[Java, Domino&400](http://jd400.web.fc2.com/){:target="_blank"}とか)があったのですが、最近は更新が無いようです。
 [^2]: この「Guri」のblogはGitHubのPagesを利用しているのですが、結構敷居が高いです。カスタマイズにrubyを使ったり、markdownの書式を覚えなくてはいけなかったりします。また、なぜかGoogleのクローラーからたまにインデックスできないとエラーのメールが届き、Google検索にもヒットしないので困りものです。
 
