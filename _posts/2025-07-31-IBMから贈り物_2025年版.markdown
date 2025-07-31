@@ -1,0 +1,57 @@
+---
+layout: post
+title: "IBMから贈り物_2025年版"
+date: 2025-07-31 01:00:00 +0900
+tags: [その他]
+---
+今年もIBM(US)からプレゼントが届きました。
+
+一昨日UPSでIBM Champion特典グッズ(Champions Swag 2025)が届きました。[昨年](https://guricat.github.io/GuriPages/2024/12/30/IBM%E3%81%8B%E3%82%89%E8%B4%88%E3%82%8A%E7%89%A9/){:target="_blank"}同様、全部IBM Championのロゴ入りです。左下の巨大シール?が認定証的なものかも。似た大きさのリュックが2つになってしまいました...
+
+<br>
+
+<img src="/GuriPages/image/2025-07-29_Swag.jpg" width="800" />
+
+
+<br>
+
+
+<!-- This content will not appear in the rendered Markdown
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+POWER11
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+ -->
+ 
