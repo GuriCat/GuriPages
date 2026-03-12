@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "blog_managerのセットアップ完了"
+title: "GuriPages Blog Manager セットアップ完了"
 date: 2026-03-12 09:00:00 +0900
 tags: [その他]
 ---
