@@ -1,0 +1,123 @@
+---
+layout: post
+title: "2026年前半の主要発表まとめ"
+date: 2026-07-21 00:00:00 +0900
+tags: [POWER10, POWER11, ACS, TR, V7R6, V7R5]
+---
+しばらく更新できていなかったので、この間にあったIBM i / Power関連の主要な発表を時系列(古い順)でまとめておきます。
+
+<hr>
+<br>
+
+## 1. Power10サーバーの販売終了発表 (2026年1月13日)
+
+2026年1月13日に、Power10サーバーの主要モデルの販売終了(ハードウェア・ウィズドロー)が発表されました。**販売終了日は2026年7月31日**、つまり今月末です。対象となるモデルは下記のとおりです。
+
+| モデル | Machine Type-Model |
+| --- | --- |
+| Power E1080 | 9080-HEX |
+| Power E1050 | 9043-MRX |
+| Power S1014 | 9105-41B |
+| Power S1022 | 9105-22A |
+| Power S1022s | 9105-22B |
+| Power S1024 | 9105-42A |
+| Power L1022 | 9786-22H |
+| Power L1024 | 9786-42H |
+
+ポイントは下記です。
+
+- 上記モデルの新規注文は2026年7月31日で終了(中国と韓国のみ2027年7月30日)
+- E1080(9080-HEX)とE1050(9043-MRX)の機構(フィーチャー)販売終了は新規システム注文のみが対象で、MESパーツの注文は継続可能
+- Power10からPower11への移行を検討するタイミングになりました。なお、S1012(9028-21B)は今回の対象に含まれていません
+
+詳細は発表レター[「Hardware withdrawal: Selected Power10 servers and miscellaneous features」](https://www.ibm.com/docs/en/announcements/hardware-withdrawal-selected-power10-servers-miscellaneous-features){:target="_blank"}をご覧ください。
+
+<hr>
+<br>
+
+## 2. ACSのアップデート (2026年1月〜5月)
+
+IBM i Access Client Solutions (ACS) は今年に入って3回更新され、現時点の最新バージョンは**1.1.9.13**です。
+
+- **1.1.9.11 (2026年1月)**：CVE-2025-66516(PDF内の細工されたXFAファイルによるXML外部実体注入)に対する重要なセキュリティ修正。IBMは1.1.9.8〜1.1.9.10の使用を中止して1.1.9.11以降にアップグレードするよう強く推奨しています
+- **1.1.9.12 (2026年4月)**：Run SQL ScriptsでのSELFユーティリティ対応、ソース物理ファイル保存時の改善(x25行末コードを挿入しない保存、レコード長の強制)、Insert from Examplesに13個の例を追加など
+- **1.1.9.13 (2026年5月)**：CVE-2026-41409、CVE-2026-41635、CVE-2026-7770のセキュリティ修正。IBM i Navigatorからのリクエストを受け付ける構成にしている場合にリモート・コード実行の脆弱性があるとのことなので、早めの適用をお勧めします
+
+セキュリティ修正が続いているので、古いバージョンをお使いの方は最新版への更新をご検討ください。次回の更新は2026年8月に予定されています。
+
+- ACSメインページ：[IBM i Access - Client Solutions 5733XJ1](https://www.ibm.com/support/pages/ibm-i-access-client-solutions-5733xj1){:target="_blank"}
+- 更新履歴：[IBM i Access - ACS Updates](https://www.ibm.com/support/pages/ibm-i-access-acs-updates){:target="_blank"}
+
+<hr>
+<br>
+
+## 3. Power S1112、IBM i 7.6 TR2、IBM i 7.5 TR8の発表 (2026年7月14日)
+
+2026年7月14日に、Power11のエントリーモデル「**IBM Power S1112**」と、「**IBM i 7.6 TR2**」「**IBM i 7.5 TR8**」が発表されました。昨年のPower11発表時にラインアップに含まれていなかったS1012の後継が、ようやく登場したことになります。
+
+### Power S1112
+
+- Power11プロセッサー搭載のエントリーモデル(4コアまたは10コア)。出荷開始は2026年7月24日
+- IBM i はソフトウェア層P05(4コア、メモリー64GBまで)で利用可能。残りのリソースはAIX/Linux/VIOS用に割り当て可能
+- メモリーはDDR5で最大512GB(S1012の2倍)、メモリー帯域幅は102GB/sから256GB/sに向上
+- NVMeストレージは最大12.8TB、ラックマウント型(9242-21B)とタワー型(9242-21T)を用意
+- ラック型はI/O拡張ドロワーに対応
+
+### IBM i 7.6 TR2
+
+- **セキュリティ**：IBM Cloud Key Protectと連携したBYOK(Bring Your Own Key)対応。マスター・キーの保管やラップをIBM Cloud側で行えるようになりました
+- **Migrate While Active の強化**：ターゲット・システムのコピー作成方法として、従来の保管/復元に加えFlashCopyやGlobal Copyなどの外部ストレージ・ベースのレプリケーションが利用可能に。計画停止時間の削減がさらに進めやすくなります
+- **Db2 for i / SQLサービスの拡張**(Db2 PTFグループ SF99960 レベル3)：SYSTOOLS.CVE_INFO()、SYSTOOLS.GENERATE_SPREADSHEET()、SYSTOOLS.CHECK_COMMAND_SYNTAX()など多数の新サービスが追加
+- ほかにBRMSの強化、SMTPのOAuth対応、Navigator for iの強化など
+- Power S1112のサポートもこのTRに含まれます
+
+### IBM i 7.5 TR8
+
+- 7.6への即時アップグレードを予定していないユーザー向けのTRで、Power S1112のサポートが追加されています
+
+リンク先は下記のとおりです。
+
+- Ricardo Martinsさんのブログ(英文)：[IBM Power S1112, IBM i 7.6 TR2 and IBM i 7.5 TR8: A Practical Path to Modernisation](https://community.ibm.com/community/user/blogs/ricardo-martins/2026/07/16/ibm-power-s1112-ibm-i-76-tr2-and-ibm-i-75-tr8-a-pr){:target="_blank"}
+- 7.6 TR2の機能拡張一覧：[IBM i 7.6 - TR2 Enhancements](https://www.ibm.com/support/pages/ibm-i-76-tr2-enhancements){:target="_blank"}
+- iWorldの記事(日本語)：[Power11プロセッサー搭載最新モデルS1112の登場](https://iworldweb.info/column/product/ibm-power-s1112){:target="_blank"}
+
+<br>
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+POWER11
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
