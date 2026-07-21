@@ -1,0 +1,670 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e7]:
+    - banner [ref=f1e8]:
+      - generic [ref=f1e13]:
+        - generic:
+          - navigation "Skip to content":
+            - link "Skip to content" [ref=f1e14] [cursor=pointer]:
+              - /url: "#main-content"
+          - link "IBM logo" [ref=f1e17] [cursor=pointer]:
+            - /url: https://www.ibm.com/
+        - generic [ref=f1e23]:
+          - link "Documentation" [ref=f1e26] [cursor=pointer]:
+            - /url: https://www.ibm.com/docs/en
+          - generic [ref=f1e27]:
+            - search [ref=f1e28]:
+              - combobox "IBM search field" [expanded] [ref=f1e29]:
+                - textbox "IBM search field" [ref=f1e30]:
+                  - /placeholder: Search IBM Documentation
+                - generic:
+                  - listbox "suggestions-list"
+            - generic [ref=f1e31]:
+              - button "Search all of IBM" [ref=f1e32] [cursor=pointer]
+              - button "Clear input" [ref=f1e35] [cursor=pointer]
+        - generic [ref=f1e39]:
+          - button "User profile" [ref=f1e40] [cursor=pointer]
+          - generic: My IBM
+          - generic: Log in
+      - complementary "Dark mode button":
+        - generic [ref=f1e43]:
+          - button "Dark mode" [ref=f1e45] [cursor=pointer]
+          - tooltip
+    - generic [ref=f1e48]:
+      - generic [ref=f1e49]:
+        - generic [ref=f1e52]:
+          - generic [ref=f1e53]:
+            - generic [ref=f1e54]: Was this topic helpful?
+            - complementary "Topic rating buttons" [ref=f1e55]:
+              - generic [ref=f1e56]:
+                - button "positive feedback" [ref=f1e58] [cursor=pointer]
+                - tooltip
+              - generic [ref=f1e61]:
+                - button "negative feedback" [ref=f1e63] [cursor=pointer]
+                - tooltip
+          - complementary "Positive feedback module"
+          - complementary "Negative feedback module"
+          - complementary "provide more feedback"
+        - main [ref=f1e106]:
+          - article [ref=f1e107]:
+            - heading "IBM adds new capabilities and enhancements with IBM i 7.6 Technology Refresh 1" [level=1] [ref=f1e108]
+            - paragraph [ref=f1e109]: "Published: 7 October 2025AD25-1310Software"
+            - article [ref=f1e110]:
+              - heading "Planned availability date" [level=2] [ref=f1e111]
+              - paragraph [ref=f1e113]: 21 November 2025
+            - article [ref=f1e114]:
+              - heading "Overview" [level=2] [ref=f1e115]
+              - generic [ref=f1e116]:
+                - paragraph [ref=f1e117]: "IBM i clients need modern tools, great user experience, and strong security to manage and grow their mission-critical workloads. IBM i, built on the IBM Power platform, delivers exactly that: a robust and adaptable foundation that evolves with business needs. With IBM i 7.6 Technology Refresh 1 (TR1), we’re enhancing performance, simplifying management, strengthening security, and giving every user —from system administrators to application developers— the modern tools they need to succeed."
+                - list [ref=f1e118]:
+                  - listitem [ref=f1e119]:
+                    - text: –
+                    - strong [ref=f1e120]: For Administrators
+                    - text: – streamlined management with new wizards, full authorization list management, improved IBM i Access Client Solutions usability, and performance-enhancing I/O improvements
+                  - listitem [ref=f1e121]:
+                    - text: –
+                    - strong [ref=f1e122]: For Database Engineers
+                    - text: – stronger SQL capabilities, deeper insights, and richer tools to simplify work and improve analysis
+                  - listitem [ref=f1e123]:
+                    - text: –
+                    - strong [ref=f1e124]: For Developers
+                    - text: – a modern coding and testing experience in VS Code, IBM Rational Developer for i enhancements for RPG, and Java 21 support
+                  - listitem [ref=f1e125]:
+                    - text: –
+                    - strong [ref=f1e126]: For Everyone
+                    - text: – upgraded integration, compliance, and security aligned with the latest industry standards
+                - paragraph [ref=f1e127]: "This release brings enhancements across the platform, including:"
+                - list [ref=f1e128]:
+                  - listitem [ref=f1e129]:
+                    - text: –
+                    - strong [ref=f1e130]: IBM Navigator for i
+                    - text: – a modern web interface for monitoring and managing IBM i
+                  - listitem [ref=f1e131]:
+                    - text: –
+                    - strong [ref=f1e132]: IBM i Access Client Solutions (ACS)
+                    - text: – usability updates and expanded SQL tools
+                  - listitem [ref=f1e133]:
+                    - text: –
+                    - strong [ref=f1e134]: IBM Db2 for i
+                    - text: – advanced SQL and modern system management features
+                  - listitem [ref=f1e135]:
+                    - text: –
+                    - strong [ref=f1e136]: Open Source tooling for developer productivity
+                    - text: – integrated developer tools for modern application development and a new extension for testing
+                  - listitem [ref=f1e137]:
+                    - text: –
+                    - strong [ref=f1e138]: IBM Rational Development Studio for i
+                    - text: – updates to support RPG application development
+                  - listitem [ref=f1e139]:
+                    - text: –
+                    - strong [ref=f1e140]: Integrated Web Services (IWS) REST API engine
+                    - text: – upgraded for current industry standards and security
+                  - listitem [ref=f1e141]:
+                    - text: –
+                    - strong [ref=f1e142]: IBM Electronic Service Agent (ESA)
+                    - text: – enhanced secure call home via REST API to IBM Cloud Call Home
+                  - listitem [ref=f1e143]:
+                    - text: –
+                    - strong [ref=f1e144]: IBM Development Kit for Java
+                    - text: – now includes support for Java 21 (64-bit)
+                  - listitem [ref=f1e145]:
+                    - text: –
+                    - strong [ref=f1e146]: System performance enhancements
+                    - text: – automatic detection of degraded I/O paths, and Licensed Internal Code updates to improve performance in VIOS environments
+                - paragraph [ref=f1e147]:
+                  - text: Program information, including system requirements, tech notes, training, support, and more, will be available on or before planned availability in
+                  - link "IBM Documentation" [ref=f1e148] [cursor=pointer]:
+                    - /url: https://www.ibm.com/docs/
+                  - text: .
+            - article [ref=f1e149]:
+              - heading "Description" [level=2] [ref=f1e150]
+              - generic [ref=f1e151]:
+                - paragraph [ref=f1e152]: IBM i 7.6 TR1 provides additional features throughout the IBM i portfolio. As in previous releases, the enhancements are delivered through a set of PTF groups, known as a Technology Refresh.
+                - paragraph [ref=f1e153]:
+                  - text: For technical details on all IBM i enhancements, see the
+                  - link "IBM i Technology Updates" [ref=f1e154] [cursor=pointer]:
+                    - /url: https://www.ibm.com/support/pages/node/1119129
+                  - text: landing page.
+                - paragraph [ref=f1e155]:
+                  - text: To make it easy to find IBM i 7.6 TR1 specific enhancements, see the compiled list on the
+                  - link "IBM i 7.6 TR1" [ref=f1e156] [cursor=pointer]:
+                    - /url: https://www.ibm.com/support/pages/ibm-i-76-tr1-enhancements
+                  - text: landing page.
+                - generic [ref=f1e157]:
+                  - heading "IBM i Operating System" [level=3] [ref=f1e158]
+                  - paragraph [ref=f1e159]:
+                    - strong [ref=f1e160]: IBM Navigator for i
+                  - paragraph [ref=f1e161]: "The IBM Navigator interfaces continues to be extended and provide the tasks and features our administrators require for accessing and managing IBM i. This update introduces several new capabilities and improvements including:"
+                  - list [ref=f1e162]:
+                    - listitem [ref=f1e163]:
+                      - text: "– Web Administration interface enhancements:"
+                      - list [ref=f1e164]:
+                        - listitem [ref=f1e165]:
+                          - text: "▪ HTTP Servers (Powered by Apache):"
+                          - list [ref=f1e166]:
+                            - listitem [ref=f1e167]: ▪ Wizard for creating HTTP servers
+                            - listitem [ref=f1e168]: ▪ Functionality to delete HTTP servers
+                        - listitem [ref=f1e169]:
+                          - text: "▪ Integrated Web Services Server:"
+                          - list [ref=f1e170]:
+                            - listitem [ref=f1e171]: ▪ Create Web Services servers
+                            - listitem [ref=f1e172]: ▪ Manage services
+                        - listitem [ref=f1e173]:
+                          - text: "▪ Integrated Application Server (IAS):"
+                          - list [ref=f1e174]:
+                            - listitem [ref=f1e175]: ▪ Wizard for creating IAS servers
+                    - listitem [ref=f1e176]:
+                      - text: "– User Management:"
+                      - list [ref=f1e177]:
+                        - listitem [ref=f1e178]: ▪ Enhanced “copy to system” support allows the administrator to determine if the Time-based One-Time Password (TOTP) value is sent to the new end point during copy operations.
+                    - listitem [ref=f1e179]:
+                      - text: "– Security Enhancement:"
+                      - list [ref=f1e180]:
+                        - listitem [ref=f1e181]: "▪ Authorization List: IBM Navigator has provided a table of authorization lists for many years. With this latest update, all aspects of Authorization Lists can now be managed including create, update, delete, permissions, and properties."
+                        - listitem [ref=f1e182]: "▪ LDAP LDIF File Support: import and export functionality for LDIF files."
+                        - listitem [ref=f1e183]: "▪ Audit Journal: added support for PO and SF journal entries."
+                    - listitem [ref=f1e184]:
+                      - text: "– Performance Data Investigator (PDI):"
+                      - list [ref=f1e185]:
+                        - listitem [ref=f1e186]:
+                          - text: "▪ Files that have been added to Collection Services data in previous releases are now supported by PDI under Collection Services > Collection Services Database Files:"
+                          - list [ref=f1e187]:
+                            - listitem [ref=f1e188]: "▪ 7.2: QAPMETHP, QAPMSYSVP (replaced QAPMSYSCPU)"
+                            - listitem [ref=f1e189]: "▪ 7.4: QAPMLINK, QAPMNRG, QAPMNRGL"
+                            - listitem [ref=f1e190]: "▪ 7.5: QAPMOPT"
+                            - listitem [ref=f1e191]: "▪ 7.6: QAPMFCN, QAPMFCV"
+                  - paragraph [ref=f1e192]: These enhancements further strengthen IBM Navigator for i as a comprehensive tool for system administrators, offering improved usability and expanded functionality.
+                  - paragraph [ref=f1e193]:
+                    - text: The latest information on Navigator can be found at
+                    - link "IBM Navigator for i support page" [ref=f1e194] [cursor=pointer]:
+                      - /url: https://www.ibm.com/support/pages/navigator-i
+                    - text: .
+                  - paragraph [ref=f1e195]:
+                    - strong [ref=f1e196]: IBM i Access Client Solution (ACS)
+                  - paragraph [ref=f1e197]: "IBM i Access Client Solutions version 1.1.9.8 is updated to provide significant value for the everyday users, database engineers and general SQL users. Key enhancements include:"
+                  - list [ref=f1e198]:
+                    - listitem [ref=f1e199]:
+                      - text: "– General Enhancements:"
+                      - list [ref=f1e200]:
+                        - listitem [ref=f1e201]: ▪ Added support for /plugin=script, enabling multiple ACS command-line plugins can be invoked from a single ACS launch.
+                        - listitem [ref=f1e202]:
+                          - text: "▪ Enhanced temporary file cleanup with two new options:"
+                          - list [ref=f1e203]:
+                            - listitem [ref=f1e204]: "▪ Property: com.ibm.iaccess.DaysTemporaryFilesAllowed"
+                            - listitem [ref=f1e205]: "▪ Command-line parameter: /cleartempfiles parameter to /plugin=maint"
+                        - listitem [ref=f1e206]:
+                          - text: "▪ Added property for configuration flexibility:"
+                          - list [ref=f1e207]:
+                            - listitem [ref=f1e208]: ▪ com.ibm.iaccess.DesktopLocation to override the default Desktop location
+                            - listitem [ref=f1e209]: ▪ com.ibm.iaccess.AcsConfig to override the location and name of AcsConfig.properties file
+                        - listitem [ref=f1e210]: ▪ Improved visibility of the configured system name for the command-line plugins that check or apply updates.
+                        - listitem [ref=f1e211]: ▪ Support for passphrase protected SSH keys in Open Source Package Management and /plugin=httpproxyui
+                        - listitem [ref=f1e212]: ▪ The selected system is now automatically brought into view on the ACS main panel when accessing System Configurations
+                    - listitem [ref=f1e213]:
+                      - text: – Data Transfer
+                      - list [ref=f1e214]:
+                        - listitem [ref=f1e215]: ▪ Added /sqlfile parameter to /plugin=cldownload, allowing execution of a UTF-8 encoded file containing a single SQL query
+                    - listitem [ref=f1e216]:
+                      - text: – Integrated File System (IFS)
+                      - list [ref=f1e217]:
+                        - listitem [ref=f1e218]: ▪ Added property com.ibm.iaccess.ifs.VerifyAvailableSpace enable space verification before sending, uploading or copy/paste files
+                        - listitem [ref=f1e219]: ▪ Added Description column as an optional column to display the text attribute of file
+                        - listitem [ref=f1e220]: ▪ Corrected the list of entries in the “IFS most recently used directories” dropdown
+                    - listitem [ref=f1e221]:
+                      - text: – Schemas
+                      - list [ref=f1e222]:
+                        - listitem [ref=f1e223]: ▪ Added "Work With-->Journal Receivers" action to display list of all related receivers
+                        - listitem [ref=f1e224]: ▪ Table Definition dialog now uses the SUPPRESS_INQUIRY_MESSAGES QAQQINI option when dropping columns, removing the need for CHGRPLYE authority
+                        - listitem [ref=f1e225]: ▪ "Generate SQL..." now retains previously used directory paths
+                        - listitem [ref=f1e226]: ▪ Additional columns added to Journal and Journal Receiver lists
+                    - listitem [ref=f1e227]:
+                      - text: – SQL Performance Center
+                      - list [ref=f1e228]:
+                        - listitem [ref=f1e229]: ▪ Added Index Evaluator which prompts for a schema and table, then launches “Work with Indexes”
+                    - listitem [ref=f1e230]:
+                      - text: – Run SQL Scripts
+                      - list [ref=f1e231]:
+                        - listitem [ref=f1e232]: ▪ Formatter now supports 7.6 SQL syntax
+                        - listitem [ref=f1e233]:
+                          - text: "▪ Added 16 new “Insert from Examples” entries, including:"
+                          - list [ref=f1e234]:
+                            - listitem [ref=f1e235]: ▪ IBM i Services
+                            - listitem [ref=f1e236]:
+                              - text: "▪ Security-focused examples such as:"
+                              - list [ref=f1e237]:
+                                - listitem [ref=f1e238]: ▪ Security - Audit Journal CD review
+                                - listitem [ref=f1e239]: ▪ Security - Auditing configuration for commands
+                                - listitem [ref=f1e240]: ▪ Security - Commands that Limited Capabilities can use
+                                - listitem [ref=f1e241]: ▪ Security - Db2 for i - Delete attack vector
+                                - listitem [ref=f1e242]: ▪ Security - Db2 for i - Insert attack vector
+                                - listitem [ref=f1e243]: ▪ Security - Db2 for i - Query attack vector
+                                - listitem [ref=f1e244]: ▪ Security - Db2 for i - RENAME attack
+                                - listitem [ref=f1e245]: ▪ Security - Db2 for i - Trigger attack vector
+                                - listitem [ref=f1e246]: ▪ Security - Db2 for i - Update attack vector
+                                - listitem [ref=f1e247]: ▪ Security - IFS home directories (detail)
+                                - listitem [ref=f1e248]: ▪ Security - IFS home directories (summary)
+                                - listitem [ref=f1e249]: ▪ Security - Library List security review
+                                - listitem [ref=f1e250]: ▪ Security - Powerful commands
+                                - listitem [ref=f1e251]: ▪ Security - Special Authority and Db2 data
+                                - listitem [ref=f1e252]: ▪ Security - User profile attack vector
+                                - listitem [ref=f1e253]: ▪ Security - Users with Limited Capabilities
+                    - listitem [ref=f1e254]:
+                      - text: – Open Source Package Management
+                      - list [ref=f1e255]:
+                        - listitem [ref=f1e256]: ▪ Added ability to copy terminal session content using Ctrl + A (Windows) and Command + A (Mac) for a select-all and copy to clipboard.
+                  - paragraph [ref=f1e257]:
+                    - text: Details on the latest ACS feature can be found at
+                    - link "ACS Updates" [ref=f1e258] [cursor=pointer]:
+                      - /url: https://www.ibm.com/support/pages/ibm-i-access-acs-updates
+                    - text: .
+                  - paragraph [ref=f1e259]:
+                    - text: To obtain the latest version of ACS click on the ‘Downloads’ link on the
+                    - link "Access Client Solutions Home Page" [ref=f1e260] [cursor=pointer]:
+                      - /url: https://www.ibm.com/support/pages/ibm-i-access-client-solutions
+                    - text: .
+                  - paragraph [ref=f1e261]:
+                    - strong [ref=f1e262]: IBM i General Enhancements
+                  - paragraph [ref=f1e263]:
+                    - strong [ref=f1e264]:
+                      - emphasis [ref=f1e265]: Fibre Channel Multipath Automatic Path Disable
+                    - emphasis
+                  - paragraph [ref=f1e266]: IBM i has a long heritage of automatically recovering from I/O hardware errors so that I/O operations continue to run without system administrator intervention. However, system performance can be severely impacted by attempts to recover an unreliable I/O path, even when more reliable paths are available. To mitigate this problem for external storage configurations, IBM i adds an SQL service to enable the Licensed Internal Code to automatically detect and disable performance-reducing paths.
+                  - paragraph [ref=f1e267]: An unreliable Fibre Channel connection to external storage can cause significant negative performance impacts due to constant recovery attempts. The Fibre Channel Multipath Automatic Path Disable feature detects paths that are causing negative performance impacts by measuring the number of error recovery attempts in a window of time. When the number of error recovery attempts on a path exceeds a predefined threshold, a Product Activity Log entry is recorded. In addition, the unreliable path is disabled, though only if alternate paths are available. Disabling the path mitigates performance impacts while the underlying issues causing the unreliability in the path are resolved by the system administrator.
+                  - paragraph [ref=f1e268]:
+                    - strong [ref=f1e269]:
+                      - emphasis [ref=f1e270]: Improve high volume large read performance on VIOS-hosted virtual SCSI disks
+                    - emphasis
+                  - paragraph [ref=f1e271]: When using VIOS-hosted virtual SCSI (vSCSI) disks of type/model 6B22-050 or 6B23-050, unique IBM i storage requirements add extra CPU processing time to disk read responses. The extra processing time can result in unusually long response times on large read workloads since read response handling has been single-threaded. The vSCSI performance enhancement intends to reduce read latency overhead by allowing multiple disk responses to be processed in parallel. The parallel processing happens automatically when the system detects that the interrupt handler is unable to keep up with the I/O workload.
+                - generic [ref=f1e272]:
+                  - heading "Db2 for i" [level=3] [ref=f1e273]
+                  - paragraph [ref=f1e274]: Db2 for i delivers new and enhanced SQL capabilities for modern application development, improved security management, and advanced systems management on IBM i.
+                  - paragraph [ref=f1e275]:
+                    - strong [ref=f1e276]: Db2 for i enhancements
+                  - paragraph [ref=f1e277]: "Db2 for i enhancements include:"
+                  - list [ref=f1e278]:
+                    - listitem [ref=f1e279]: – The INSERT (SQL) statement is enhanced to support named columns on INSERT with VALUES.
+                    - listitem [ref=f1e280]: – The URL_ENCODE (SQL) scalar function’s input character-string and result are extended from 1M to 2G, to support much larger document processing.
+                    - listitem [ref=f1e281]: – The URL_DECODE (SQL) scalar function’s input character-string and result are extended from 1M to 2G, to support much larger document processing.
+                    - listitem [ref=f1e282]: – Visual Explain is enhanced to return numeric values using decimal formatting as opposed to scientific notation, improving the user experience for database engineers.
+                  - paragraph [ref=f1e283]:
+                    - strong [ref=f1e284]: Db2 for i Services
+                  - paragraph [ref=f1e285]: "Db2 for i Services provide Db2 for i specific programming interfaces for the Database Engineer:"
+                  - list [ref=f1e286]:
+                    - listitem [ref=f1e287]: – The Db2 for i SQL Error Logging Facility (SELF) is enhanced to include the SYSIBMADM .QIBM_SELF_BY_DAYS Db2 for i global variable, providing a method for user-controlled retention of SELF data.
+                    - listitem [ref=f1e288]: – The Db2 for i Index Advisor is enhanced to include the SYSIBMADM .QIBM_SYSIXADV_BY_DAYS Db2 for i global variable, providing a method for user-controlled retention of index advice data.
+                    - listitem [ref=f1e289]: – The ANALYZE_CATALOG (SQL) table function is enhanced to provide a method to ascertain whether an IBM i is ready and available to have IBM i (SQL) services executed, solving a race condition that can occur if SQL services are used too early in a start-up program during the IPL process.
+                  - paragraph [ref=f1e290]:
+                    - strong [ref=f1e291]: IBM i Services
+                  - paragraph [ref=f1e292]: "IBM i Services provide enhanced capabilities for accessing IBM i objects and system information such as:"
+                  - list [ref=f1e293]:
+                    - listitem [ref=f1e294]: – CERTIFICATE_USAGE_INFO view returns information about registered applications that use certificates and the associated certificate information.
+                    - listitem [ref=f1e295]: – JOURNAL_CODE_INFO view returns text descriptions for each journal code and each journal entry type.
+                    - listitem [ref=f1e296]: – PROGRAM_RESOLVED_ACTIVATIONS table function returns information about the service programs that need to be activated for a given ILE program or service program. The table function returns a row for each service program that would be statically activated. In addition, it can return rows for service programs defined with deferred activation.
+                    - listitem [ref=f1e297]: – SFP_TRANSCEIVER_INFO view returns Small Formfactor Pluggable (SFP) optical transceiver information for natively attached Fibre Channel (FC) adapters. Information is returned for the adapter port and for the attached port.
+                    - listitem [ref=f1e298]: – OBJECT_LOCK_INFO view is enhanced to return additional columns for each part of the qualified job name.
+                    - listitem [ref=f1e299]: – RECORD_LOCK_INFO view is enhanced to include additional columns for each part of the qualified job name.
+                    - listitem [ref=f1e300]: – GROUP_PTF_INFO view is enhanced to include an additional column with the PTF Group level application date and time.
+                    - listitem [ref=f1e301]: – Authority Collection views are enhanced to include an additional column with the object attribute.
+                    - listitem [ref=f1e302]: – SEND_MESSAGE procedure is enhanced to include new parameters for the target message queue library and name.
+                    - listitem [ref=f1e303]: – SERVER_SHARE_INFO view is enhanced to include additional columns for the creation, most recent change, and last access timestamps.
+                  - paragraph
+                  - paragraph [ref=f1e304]:
+                    - strong [ref=f1e305]: SYSTOOLS
+                  - paragraph [ref=f1e306]: The SYSTOOLS schema provides a collection of Db2 for i examples and tools. Many tools offer extractable SQL source code for learning purposes. All tools provide user-friendly interfaces for common IBM i tasks.
+                  - paragraph [ref=f1e307]: "Enhancements to SYSTOOLS include:"
+                  - list [ref=f1e308]:
+                    - listitem [ref=f1e309]: "– GENERATE_SPREADSHEET scalar function is enhanced to include additional parameters: KILL_DAEMON, OVERWRITE, STARTING_SHEET, STARTING_ROW, STARTING_COLUMN, and SPREADSHEET_QUERY_IFS."
+                    - listitem [ref=f1e310]: – USER_DRDA_AUTHENTICATION_ENTRIES table function returns a list of DRDA authentication entries for a user.
+                    - listitem [ref=f1e311]: – OVERRIDE_INFO view returns one row for each file override for the job.
+                    - listitem [ref=f1e312]: – PROBLEM_INFO table function returns detail that can also be found using the Display Problem (DSPPRB) CL command, with option TYPE(*BASIC).
+                    - listitem [ref=f1e313]: – EVEN scalar function returns a Boolean value that indicates whether the argument is divisible by two.
+                    - listitem [ref=f1e314]: – ODD scalar function returns a Boolean value that indicates whether the argument is not divisible by two.
+                    - listitem [ref=f1e315]: – Audit Journal helper functions. New table functions are added to SYSTOOLS for specific audit journal entry types, enabling the archival of security enforcements using Navigator for i or SQL.
+                  - paragraph [ref=f1e316]:
+                    - text: These and other enhancements are described in the
+                    - link "IBM i Technology Updates" [ref=f1e317] [cursor=pointer]:
+                      - /url: https://www.ibm.com/support/pages/node/1119129
+                    - text: landing page.
+                  - paragraph [ref=f1e318]:
+                    - strong [ref=f1e319]: Application Development
+                  - paragraph [ref=f1e320]:
+                    - strong [ref=f1e321]:
+                      - emphasis [ref=f1e322]: Integrated Web Services Server
+                  - paragraph [ref=f1e323]: "The Integrated Web Services Server provides and easy to use robust Rest and SOAP based API creating and hosting environment for IBM i. Providing an easy way to expose key ILE programs and service programs as Rest APIs. Additionally, you can also wrapper well-formed SQL with a Rest API call, no longer needing to have the ODBC or JDBC connections open externally. The latest updates for the integrated web services server include:"
+                  - list [ref=f1e324]:
+                    - listitem [ref=f1e325]: – IWS Engine Update – The IWS runtime engine has been re-invented. The engine is now built on the latest JakartaEE support. This significant change moves the IWS support for IBM i to the latest industry standards. This important update provides a framework for many new future updates, performance improvements, and improved security.
+                  - paragraph [ref=f1e326]:
+                    - text: The latest updates and enhancements for IWS can be found at the
+                    - link "IWS Technologies Update" [ref=f1e327] [cursor=pointer]:
+                      - /url: https://www.ibm.com/support/pages/node/1138612
+                    - text: page.
+                - generic [ref=f1e328]:
+                  - heading "Open Source" [level=3] [ref=f1e329]
+                  - paragraph [ref=f1e330]: IBM continues to invest in open source tooling and developer productivity on IBM i. The Code for i project has been making rapid improvements to help address the needs of the IBM i developer. Helping them leverage modern development methodologies and techniques.
+                  - list [ref=f1e331]:
+                    - listitem [ref=f1e332]:
+                      - text: – Code for IBM i
+                      - list [ref=f1e333]:
+                        - listitem [ref=f1e334]: ▪ Added Italian language locale support
+                        - listitem [ref=f1e335]: ▪ Ability to display sequence numbers within source members
+                        - listitem [ref=f1e336]: ▪ Server-side connection settings now apply globally across sessions
+                        - listitem [ref=f1e337]: ▪ General stability and usability fixes across the board
+                    - listitem [ref=f1e338]:
+                      - text: – Db2 for i extension
+                      - list [ref=f1e339]:
+                        - listitem [ref=f1e340]: ▪ Support for parameter binding in SQL statements
+                        - listitem [ref=f1e341]: ▪ Ability to favorite frequently used SQL statements in the Statement History view
+                        - listitem [ref=f1e342]: ▪ Ability to generate RPGLE data structures directly from SQL statements
+                    - listitem [ref=f1e343]:
+                      - text: – RPGLE support VS Code
+                      - list [ref=f1e344]:
+                        - listitem [ref=f1e345]: ▪ Signature support for procedures, prototypes and built-in functions
+                        - listitem [ref=f1e346]: ▪ Enhanced content assist for built-in functions
+                        - listitem [ref=f1e347]: ▪ Ability to view usable built-in functions for a given field based on its data type
+                    - listitem [ref=f1e348]:
+                      - text: – IBM i Testing Extension for VS Code
+                      - list [ref=f1e349]:
+                        - listitem [ref=f1e350]:
+                          - text: "▪ The IBM i Testing extension for Visual Studio Code extension empowers developers to run unit tests and generate code coverage results for RPG and COBOL programs on IBM i with ease. It not only simplifies compiling and running tests but also accelerates test creation with built-in stub generation, making it easy to get started. For automation, the companion IBM i Testing CLI lets you run tests in PASE, enabling you to script the execution of tests in a CI/CD pipeline. The following features are included:"
+                          - list [ref=f1e351]:
+                            - listitem [ref=f1e352]: "▪ Run Tests: Visualize and run tests suites from local files or source members"
+                            - listitem [ref=f1e353]: "▪ Generate Stubs: create test stubs for individual test cases or an entire suite"
+                            - listitem [ref=f1e354]: "▪ Configure Tests: set parameters for compiling (RUCRTRPG, RUCRTCBL) and running (RUCALLTST) tests"
+                            - listitem [ref=f1e355]: "▪ View Test Results: Inline display of detailed failure and error messages"
+                            - listitem [ref=f1e356]: "▪ Code Coverage: Visual overlays for line and procedure-level coverage"
+                            - listitem [ref=f1e357]: "▪ Automate Tests: Use the IBM i Testing CLI to script test execution in PASE, enabling integration with CI/CD pipelines"
+                  - paragraph
+                  - paragraph [ref=f1e358]:
+                    - text: Additional details on the Testing support can be found at the
+                    - link "Code for i Testing Overview" [ref=f1e359] [cursor=pointer]:
+                      - /url: https://www.ibm.com/links?url=https%3A%2F%2Fcodefori.github.io%2Fdocs%2Fdeveloping%2Ftesting%2Foverview%2F
+                  - paragraph [ref=f1e360]:
+                    - text: For more information on the Code for i project and its tools, visit the
+                    - link "Code for i documentation" [ref=f1e361] [cursor=pointer]:
+                      - /url: https://www.ibm.com/links?url=https%3A%2F%2Fcodefori.github.io%2Fdocs%2F
+                    - text: site.
+                - generic [ref=f1e362]:
+                  - heading "IBM i Licensed Program Products" [level=3] [ref=f1e363]
+                  - paragraph [ref=f1e364]:
+                    - strong [ref=f1e365]: IBM Backup, Recovery and Media Services for i (5770-BR2)
+                  - list [ref=f1e366]:
+                    - listitem [ref=f1e367]:
+                      - text: – The
+                      - link "BRMS web interface" [ref=f1e368] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Ffortradocs.atlassian.net%2Fwiki%2Fspaces%2FIWT%2Fpages%2F2534146050
+                      - text: is enhanced to show control group attributes and backup list details.
+                    - listitem [ref=f1e369]:
+                      - text: – The
+                      - link "BRMS web interface" [ref=f1e370] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Ffortradocs.atlassian.net%2Fwiki%2Fspaces%2FIWT%2Fpages%2F2534146050
+                      - text: is enhanced to show backup history information. These new services give users the ability to view backup history and history details for objects, members, IFS, folders and spooled files.
+                    - listitem [ref=f1e371]:
+                      - text: – The SQL service
+                      - link "QUSRBRM.CG_BACKUP_STATUS" [ref=f1e372] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Ffortradocs.atlassian.net%2Fwiki%2Fspaces%2FIWT%2Fpages%2F2156265490
+                      - text: now shows the volume expiration status and expire date.
+                    - listitem [ref=f1e373]: – BRMS support for LTO-10 tape drives and media with new *ULTRIUM10 density is added.
+                    - listitem [ref=f1e374]:
+                      - text: – BRMS
+                      - link "SQL service" [ref=f1e375] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Ffortradocs.atlassian.net%2Fwiki%2Fspaces%2FIWT%2Fpages%2F888963080
+                      - text: "enhancements are added to view backup history information. These new services give users the ability to view backup history and history details for objects, members, integrated file system (IFS), folders, and spooled files. The new BRMS SQL services include:"
+                      - list [ref=f1e376]:
+                        - listitem [ref=f1e377]: ▪ QUSRBRM.BACKUP_HISTORY View
+                        - listitem [ref=f1e378]: ▪ QUSRBRM.BACKUP_HISTORY_OBJECT View
+                        - listitem [ref=f1e379]: ▪ QUSRBRM.BACKUP_HISTORY_MEMBER View
+                        - listitem [ref=f1e380]: ▪ QUSRBRM.BACKUP_HISTORY_IFS_DIRECTORY View
+                        - listitem [ref=f1e381]: ▪ QUSRBRM.BACKUP_HISTORY_IFS_FILE View
+                        - listitem [ref=f1e382]: ▪ QUSRBRM.BACKUP_HISTORY_FOLDER View
+                        - listitem [ref=f1e383]: ▪ QUSRBRM.BACKUP_HISTORY_DOCUMENT View
+                        - listitem [ref=f1e384]: ▪ QUSRBRM.BACKUP_HISTORY_SPOOLED_FILE View
+                  - paragraph
+                  - paragraph [ref=f1e385]:
+                    - text: Follow
+                    - link "this link" [ref=f1e386] [cursor=pointer]:
+                      - /url: https://www.ibm.com/links?url=https%3A%2F%2Fhelpsystemswiki.atlassian.net%2Fwiki%2Fspaces%2FIWT%2Fpages%2F165642446%2FEnhancements%2Bto%2BBRMS
+                    - text: to discover more detail on these and other BRMS enhancements.
+                  - paragraph [ref=f1e387]:
+                    - strong [ref=f1e388]: IBM Db2 Mirror for i (5770-DBM)
+                  - paragraph [ref=f1e389]: IBM Db2 Mirror for i has refreshed the user interface and continues to improve the management and performance of the product.
+                  - paragraph [ref=f1e390]:
+                    - text: These and other enhancements are described in the
+                    - link "IBM i Technology Updates for Db2 Mirror" [ref=f1e391] [cursor=pointer]:
+                      - /url: https://www.ibm.com/support/pages/node/6524976
+                    - text: landing page.
+                  - paragraph [ref=f1e392]:
+                    - strong [ref=f1e393]: IBM Rational Development Studio for i (5770-WDS)
+                  - paragraph [ref=f1e394]: "Rational Development Studio for i continues to respond to the requirements from the user community to meet the needs of our RPG applications. The following new features have been added:"
+                  - list [ref=f1e395]:
+                    - listitem [ref=f1e396]: – Code a data type for an enumeration and define fields like the enumeration
+                    - listitem [ref=f1e397]: "– Implicit CCSID conversion is now done for the following built-in functions: %CHECK, %CHECKR, %REPLACE, %SCAN, %SCANR, %SCANRPL, %SPLIT, %TRIM, and %XLATE"
+                    - listitem [ref=f1e398]: – New date formats *DMYY (dd/mm/yyyy), *MDYY (mm/dd/yyyy), and *YYMD (yyyy/mm/dd) can be used with %DATE, %CHAR, %DEC, MOVE and MOVEL
+                  - paragraph [ref=f1e399]:
+                    - text: The latest details can be found at the
+                    - link "RPG Cafe" [ref=f1e400] [cursor=pointer]:
+                      - /url: https://www.ibm.com/support/pages/rpg-cafe
+                    - text: .
+                  - paragraph [ref=f1e401]:
+                    - strong [ref=f1e402]: IBM Rational Developer for i (RDi) (5733-RDW or Passport Advantage part number D0C5FLL)
+                  - paragraph [ref=f1e403]: RDi 9.9 is a new release and introduces support for Eclipse 4.31, delivering enhanced base functionality and seamless integration with modern development tools. Key improvements include expanded support for IFS-enabled RPG projects to better align with Git workflows, integration with Access Client Solutions’ Host Emulator settings, and more resilient reconnection handling during timeouts. The update also includes the latest versions of Access Client Solutions and the Java Toolbox, along with refreshed RPG and COBOL language support.
+                  - paragraph [ref=f1e404]:
+                    - text: For more information about this new release, go to
+                    - link "IBM Rational Developer for i Hub" [ref=f1e405] [cursor=pointer]:
+                      - /url: https://www.ibm.com/support/pages/node/1105665
+                    - text: or see announcement letter
+                    - link "AD25-0193" [ref=f1e406] [cursor=pointer]:
+                      - /url: https://www.ibm.com/docs/announcements/AD25-0193
+                    - text: .
+                  - paragraph [ref=f1e407]:
+                    - strong [ref=f1e408]: IBM Developer Kit for Java (5770-JV1)
+                  - paragraph [ref=f1e409]: The IBM Developer Kit for Java enables customers to develop and run Java applications natively on IBM i. Designed and optimized specifically for the IBM i environment, this toolkit provides a robust and compatible Java runtime that integrates seamlessly with IBM i workloads and user interfaces.
+                  - paragraph [ref=f1e410]: This offering supports industry-standard Java programming, allowing developers to build modern applications while leveraging the reliability and security of the IBM i platform.
+                  - list [ref=f1e411]:
+                    - listitem [ref=f1e412]: – Option 21 – Java 21 (64bit) – Option 21 has been updated to deliver Java 21, providing the latest enhancements in performance, language features, and long-term support capabilities.
+                  - paragraph
+                  - paragraph [ref=f1e413]:
+                    - text: For additional information and resources on Java for IBM i, visit the
+                    - link "IBM i Java page" [ref=f1e414] [cursor=pointer]:
+                      - /url: https://www.ibm.com/support/pages/java-ibm-i
+                    - text: .
+            - article [ref=f1e415]:
+              - heading "Key requirements" [level=2] [ref=f1e416]
+              - generic [ref=f1e417]:
+                - paragraph [ref=f1e418]: IBM i 7.6 TR1 is supported on selected IBM Power servers with IBM Power11 and IBM Power10 technology-based processors.
+                - paragraph [ref=f1e419]: Clients using servers with previous-generation processors need to move to newer systems to take advantage of the features in IBM i 7.6.
+                - paragraph [ref=f1e420]:
+                  - text: For additional information, see the
+                  - link "System to IBM i mapping" [ref=f1e421] [cursor=pointer]:
+                    - /url: https://www.ibm.com/support/pages/system-ibm-i-mapping
+                  - text: website.
+            - article [ref=f1e422]:
+              - heading "Ordering information" [level=2] [ref=f1e423]
+              - generic [ref=f1e424]:
+                - table [ref=f1e427]:
+                  - caption [ref=f1e428]
+                  - rowgroup [ref=f1e433]:
+                    - row [ref=f1e434]:
+                      - columnheader "Program number" [ref=f1e435]
+                      - columnheader "Feature description" [ref=f1e437]
+                      - columnheader "Supply feature code (No-charge)" [ref=f1e439]
+                  - rowgroup [ref=f1e441]:
+                    - row [ref=f1e442]:
+                      - cell "5770-SS1" [ref=f1e443]
+                      - cell "i 7.6 Licensed Machine Code-RS 760-C (TR1)" [ref=f1e444]
+                      - cell "5876 *" [ref=f1e445]
+                    - row [ref=f1e446]:
+                      - cell "5770-SS1" [ref=f1e447]
+                      - cell "i 7.6 USB Licensed Machine Code-RS 760-C (TR1)" [ref=f1e448]
+                      - cell "5976 *" [ref=f1e449]
+                - generic [ref=f1e450]: "Note: * Existing feature codes. Descriptions updated for the new Technology Refresh on IBM i 7.6"
+            - article [ref=f1e456]:
+              - heading "Terms and conditions" [level=2] [ref=f1e457]
+              - table [ref=f1e461]:
+                - caption [ref=f1e462]
+                - rowgroup [ref=f1e467]:
+                  - row [ref=f1e468]:
+                    - columnheader "Program identifier" [ref=f1e469]
+                    - columnheader "License Information document title" [ref=f1e471]
+                    - columnheader "License Information document number" [ref=f1e473]
+                - rowgroup [ref=f1e475]:
+                  - row [ref=f1e476]:
+                    - cell "5770-SS1" [ref=f1e477]
+                    - cell "IBM i 7.6" [ref=f1e478]
+                    - cell [ref=f1e479]:
+                      - link "L-BPEX-52VCDB" [ref=f1e480] [cursor=pointer]:
+                        - /url: https://www.ibm.com/support/customer/csol/terms/?id=L-BPEX-52VCDB
+            - article [ref=f1e481]:
+              - heading "Technical support" [level=2] [ref=f1e482]
+              - paragraph [ref=f1e484]:
+                - text: Program technical support is based on the policy as detailed on the
+                - link "IBM Software Support Lifecycle Policies" [ref=f1e485] [cursor=pointer]:
+                  - /url: https://www.ibm.com/support/pages/node/718165
+                - text: page. Additional details may be available on the
+                - link "Product lifecycle" [ref=f1e486] [cursor=pointer]:
+                  - /url: https://www.ibm.com/support/pages/lifecycle/search/?q=XXXX-YYY
+                - text: page.
+            - article [ref=f1e487]:
+              - heading "Reference information" [level=2] [ref=f1e488]
+              - generic [ref=f1e489]:
+                - paragraph [ref=f1e490]:
+                  - text: For more information about IBM i 7.6, see Software Announcement
+                  - link "AD25-0031" [ref=f1e491] [cursor=pointer]:
+                    - /url: https://www.ibm.com/docs/announcements/i-76-release
+                  - text: .
+                - paragraph [ref=f1e492]:
+                  - text: For more information about IBM i 7.5 TR7, see Software Announcement
+                  - link "AD25-1312" [ref=f1e493] [cursor=pointer]:
+                    - /url: https://www.ibm.com/docs/announcements/AD25-1312
+                  - text: .
+            - article [ref=f1e494]:
+              - heading "Additional information" [level=2] [ref=f1e495]
+              - list [ref=f1e497]:
+                - listitem [ref=f1e498]: – The offerings in this announcement might not be available for purchase in all countries or regions. Purchase availability can be affected by multiple factors that include support availability, service availability, and government regulations. Contact your IBM representative or IBM Business Partner for availability information.
+                - listitem [ref=f1e499]:
+                  - text: – The export control status under US export regulations is available for an offering in the
+                  - link "IBM Software Classification Look-up Tool" [ref=f1e500] [cursor=pointer]:
+                    - /url: https://www-112.ibm.com/software/howtobuy/passportadvantage/ero/home/prodsearch
+                  - text: . Contact your IBM representative or IBM Business Partner for availability information.
+        - navigation "Back to top"
+        - generic [ref=f1e70]:
+          - generic [ref=f1e71]: While IBM values the use of inclusive language, terms that are outside of IBM's direct influence, for the sake of maintaining user understanding, are sometimes required. As other industry leaders join IBM in embracing the use of inclusive language, IBM will continue to update the documentation to reflect those changes.
+          - generic [ref=f1e72]: © Copyright IBM Corporation 2026
+        - contentinfo "footer" [ref=f1e76]:
+          - navigation [ref=f1e78]:
+            - generic [ref=f1e79]:
+              - generic [ref=f1e80]:
+                - link "IBM logo" [ref=f1e81] [cursor=pointer]:
+                  - /url: https://www.ibm.com/
+                - list [ref=f1e88]:
+                  - generic:
+                    - listitem [ref=f1e89]:
+                      - link "Contact IBM" [ref=f1e90] [cursor=pointer]:
+                        - /url: https://www.ibm.com/contact?lnk=flg-cont-usen
+                    - listitem [ref=f1e91]:
+                      - link "Privacy" [ref=f1e92] [cursor=pointer]:
+                        - /url: https://www.ibm.com/us-en/privacy
+                    - listitem [ref=f1e93]:
+                      - link "Terms of use" [ref=f1e94] [cursor=pointer]:
+                        - /url: https://www.ibm.com/legal?lnk=flg-tous-usen
+                    - listitem [ref=f1e95]:
+                      - link "Accessibility" [ref=f1e96] [cursor=pointer]:
+                        - /url: https://www.ibm.com/able/?lnk=flg-acce-usen
+                    - complementary "Open Cookie Preferences Modal" [ref=f1e501]:
+                      - link "Cookie Preferences, opens a dedicated popup modal window" [ref=f1e502] [cursor=pointer]: Cookie Preferences
+              - combobox [ref=f1e100] [cursor=pointer]:
+                - option "Arabic / عربية"
+                - option "Bulgarian / Български"
+                - option "Catalan / Català"
+                - option "Czech / Čeština"
+                - option "Danish / Dansk"
+                - option "German / Deutsch"
+                - option "Greek / Ελληνικά"
+                - option "English" [selected]
+                - option "Spanish / Español"
+                - option "Finnish / Suomi"
+                - option "French / Français"
+                - option "Croatian / Hrvatski"
+                - option "Hungarian / Magyar"
+                - option "Italian / Italien"
+                - option "Hebrew / עברית"
+                - option "Japanese / 日本語"
+                - option "Korean / 한국어"
+                - option "Kazakh / Қазақша"
+                - option "Dutch / Nederlands"
+                - option "Norwegian / Norsk"
+                - option "Polish / polski"
+                - option "Portuguese/Brazil / Português/Brasil"
+                - option "Portuguese/Portugal / Português/Portugal"
+                - option "Romanian / Română"
+                - option "Russian / Русский"
+                - option "Slovak / Slovenčina"
+                - option "Slovenian / slovenščina"
+                - option "Serbian / srpski"
+                - option "Swedish / Svenska"
+                - option "Thai / ภาษาไทย"
+                - option "Turkish / Türkçe"
+                - option "Vietnamese / Việt"
+                - option "Chinese Simplified / 简体中文"
+                - option "Chinese Traditional / 繁體中文"
+        - navigation "IBM Documentation Help" [ref=f1e102]:
+          - list [ref=f1e103]:
+            - listitem [ref=f1e104]:
+              - link "IBM Documentation Help" [ref=f1e105] [cursor=pointer]:
+                - /url: /docs/en/about
+      - complementary "announcements-right-navigation" [ref=f1e504]:
+        - generic [ref=f1e505]:
+          - button "Save PDF" [ref=f1e507] [cursor=pointer]
+          - generic [ref=f1e510]:
+            - button "Login" [ref=f1e511] [cursor=pointer]
+            - generic [ref=f1e512]: IBMers login for internal only content
+          - list "content-chapters-navigation" [ref=f1e515]:
+            - listitem [ref=f1e516]: – On this page
+            - listitem [ref=f1e517]:
+              - link "Planned availability date" [ref=f1e519] [cursor=pointer]:
+                - /url: "#ariaid-title2"
+            - listitem [ref=f1e520]:
+              - link "Overview" [ref=f1e522] [cursor=pointer]:
+                - /url: "#ariaid-title3"
+            - listitem [ref=f1e523]:
+              - link "Description" [ref=f1e525] [cursor=pointer]:
+                - /url: "#ariaid-title4"
+            - listitem [ref=f1e526]:
+              - link "Key requirements" [ref=f1e528] [cursor=pointer]:
+                - /url: "#ariaid-title5"
+            - listitem [ref=f1e529]:
+              - link "Ordering information" [ref=f1e531] [cursor=pointer]:
+                - /url: "#ariaid-title6"
+            - listitem [ref=f1e532]:
+              - link "Terms and conditions" [ref=f1e534] [cursor=pointer]:
+                - /url: "#ariaid-title7"
+            - listitem [ref=f1e535]:
+              - link "Technical support" [ref=f1e537] [cursor=pointer]:
+                - /url: "#ariaid-title8"
+            - listitem [ref=f1e538]:
+              - link "Reference information" [ref=f1e540] [cursor=pointer]:
+                - /url: "#ariaid-title9"
+            - listitem [ref=f1e541]:
+              - link "Additional information" [ref=f1e543] [cursor=pointer]:
+                - /url: "#ariaid-title10"
+  - banner "consent_blackbar":
+    - generic [ref=f1e545]:
+      - button "close icon" [ref=f1e547] [cursor=pointer]
+      - generic [ref=f1e549]:
+        - generic [ref=f1e552]:
+          - text: About cookies on this site
+          - generic [ref=f1e553]:
+            - generic [ref=f1e554]: Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising.
+            - generic [ref=f1e555]:
+              - text: For more information, please review your
+              - button "cookie preferences" [ref=f1e556] [cursor=pointer]
+              - text: options. By visiting our website, you agree to our processing of information as described in IBM’s
+              - link "privacy statement" [ref=f1e557] [cursor=pointer]:
+                - /url: https://www.ibm.com/privacy
+              - text: .
+            - generic [ref=f1e558]:
+              - text: To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed
+              - link "here" [ref=f1e559] [cursor=pointer]:
+                - /url: "#truste_domain_list"
+              - text: .
+        - generic [ref=f1e560]:
+          - button "Accept all" [ref=f1e561] [cursor=pointer]
+          - button "More options" [ref=f1e562] [cursor=pointer]
