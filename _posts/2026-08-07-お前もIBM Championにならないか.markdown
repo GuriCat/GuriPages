@@ -27,7 +27,10 @@ IBM Championの認定では、技術情報の発信やコミュニティー運�
 
 ## 最近の活動例：IBM TechXchange Summit Japan 2026 Summer
 
-活動のイメージが湧くように、私の最近の例をひとつ。7月24日に開催された[「IBM TechXchange Summit Japan 2026 Summer」](https://www.ibm.com/events/reg/flow/ibm/2z9fu7mb/attendee-portal/page/attendee-portal){:target="_blank"}に参加し、会場のコミュニティー・コーナーで来場者の方々にIBM Championとしての活動などを紹介してきました。
+活動のイメージが湧くように、私の最近の例をひとつ。7月24日に開催された[「IBM TechXchange Summit Japan 2026 Summer」](https://www.ibm.com/events/reg/flow/ibm/2z9fu7mb/attendee-portal/page/attendee-portal){:target="_blank"}に参加し、会場のIBM Championsブースで来場者の方々に<br>
+・IBM i と Bob の連携事例 (ssh、MCP 5250、git などの活用)<br>
+・IBM i (Legacy) からの 生成AI の利用例 (iWorld 出展内容)<br>
+をデモしました。
 
 <img src="/GuriPages/image/2026-07-24_TechXchange.jpg" width="800" />
 
