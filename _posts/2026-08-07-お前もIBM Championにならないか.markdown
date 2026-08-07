@@ -32,7 +32,7 @@ IBM Championの認定では、技術情報の発信やコミュニティー運�
 ・IBM i (Legacy) からの 生成AI の利用例 (iWorld 出展内容)<br>
 をデモしました。
 
-<img src="/GuriPages/image/2026-07-24_TechXchange.jpg" width="800" />
+<img src="/GuriPages/image/IMG_0057_cat_akaza.gif" width="800" />
 
 こうしたイベントでの登壇や交流も、ブログでの技術情報の発信も、立派なアドボカシー活動として報告の対象になります。「自分の活動なんて大したことない」と思っている方も、上記の記事を読むと「これも報告していいのか」という発見があるはずです。
 
