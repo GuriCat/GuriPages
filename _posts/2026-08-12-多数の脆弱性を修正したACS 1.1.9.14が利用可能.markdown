@@ -1,0 +1,107 @@
+---
+layout: post
+title: "多数の脆弱性を修正したACS 1.1.9.14が利用可能"
+date: 2026-08-12 00:00:00 +0900
+tags: [ACS, セキュリティ]
+---
+2026年8月にIBM i Access Client Solutions (ACS) の最新バージョン**1.1.9.14**が公開されました。今回は機能強化ではなく**セキュリティ修正がメイン**です。
+
+<hr>
+<br>
+
+## 修正された脆弱性
+
+今回のリリースでは6件のCVE(CVE-2026-13094、CVE-2026-13105、CVE-2026-13433、CVE-2026-14866、CVE-2026-14875、CVE-2026-16695)が修正されています。[更新履歴ページ](https://www.ibm.com/support/pages/ibm-i-access-acs-updates){:target="_blank"}(英語)によると、内容は下記のとおりです。
+
+**1.1.9.14より前のすべてのバージョン**が対象：
+
+- 全ユーザー向け(All Users)にインストールした場合、誰でも書き込み可能なディレクトリと構成ファイルを悪用したWindows上での任意コード実行
+- 誰でも書き込み可能なトラストストアを悪用した、不正な認証局(CA)の注入
+- 構成のインポート時のZip Slip(パストラバーサル)攻撃
+
+**バージョン1.1.8.3〜1.1.9.13**が対象：
+
+- IBM iから更新を取得する構成にしている場合、検証されていない製品コードをダウンロードしてしまう
+
+このほか、`Documentation\Sample_Scripts\Linux_Mac_Other`内のサンプルスクリプトにも、細工された入力パラメーターによる任意コード実行の脆弱性があったとのことです。
+
+「すべての旧バージョンが対象」の項目が3つもあるので、どのバージョンをお使いでも1.1.9.14への更新をお勧めします。特に共用PCや端末展開などでAll Usersインストールをしている環境は優先度が高いでしょう。最新版は[ダウンロードページ](https://www.ibm.com/support/pages/ibm-i-access-client-solutions-5733xj1){:target="_blank"}(英語)から入手できます。
+
+なお、セキュリティ以外では、1.1.9.12/1.1.9.13で発生していた「nativeファイル群が同じフォルダーにないと`acslaunch_win-64.exe`が起動しない」問題(DT473152)など、APAR 2件も修正されています。
+
+<hr>
+<br>
+
+## アップグレード時の注意点
+
+情報元のIBMコミュニティの[ディスカッション](https://community.ibm.com/community/user/discussion/ibm-i-access-client-solutions-acs-11914-is-out){:target="_blank"}では、1.1.9.14に更新した後にセキュアTelnet(SSL/TLSの5250)接続で下記のエラーが出た、という報告が挙がっています。
+
+```
+MSGSSL007 - An error occurred with an SSL certificate.
+(java.io.IOException: MSGDIR002 - The user-restricted directory is
+writable by an unexpected principal 'NT AUTHORITY\Authenticated Users')
+```
+
+原因は、ACSの`Private`ディレクトリのWindowsアクセス権が緩い(例：`Authenticated Users`に書き込み権限がある)場合、今回のセキュリティ強化で追加された権限チェックに引っかかるためのようです。本来このディレクトリは、ユーザー本人・SYSTEM・Administratorsのみがアクセスできる状態で作成されるべきものなので、エラーが出た場合はディレクトリのアクセス権(ACL)を見直してください。
+
+<hr>
+<br>
+
+## 最近の更新履歴
+
+[2026年前半の主要発表まとめ]({{ site.baseurl }}{% post_url 2026-07-21-2026年前半の主要発表まとめ %})の記事で「次回の更新は2026年8月に予定」と書いたとおり、今回は予定どおりの定期更新でした。過去2年のリリース実績を表に示します。
+
+|ACSバージョン|利用可能年月|主な内容|
+|------------|-----------|--------|
+|1.1.9.14|2026/8|セキュリティ修正(CVE 6件)|
+|1.1.9.13|2026/5|セキュリティ修正(CVE 3件)|
+|1.1.9.12|2026/4|Run SQL Scripts機能強化など|
+|1.1.9.11|2026/1|セキュリティ修正(CVE 1件)|
+|1.1.9.10|2025/11|5250・IFS・Run SQL Scripts機能強化など|
+|1.1.9.9|2025/7|コマンドライン・プラグイン強化など|
+
+<br>
+
+以前は「(だいたい)半年に一度のACS更新」と書いていましたが、セキュリティ修正が続いた結果、この1年は3〜4か月に1回のペースになっています。多数のクライアントに手作業で展開している場合は工数が増えているので、更新・展開手法を見直すと良いかもしれません。
+
+- ACS関連リンク(英語)：[IBM i Access - Resources](https://www.ibm.com/support/pages/ibm-i-access-resources){:target="_blank"}
+- 昔のAccess for Windowsのように自動更新する手順：[ACS を自動アップデートするには](https://www.e-bellnet.com/category/technology/2102/2102-03.html){:target="_blank"}
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+POWER11
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
