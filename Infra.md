@@ -98,7 +98,7 @@ The utility creates database tables that contain such information as which files
 
 バージョンを上げた場合の変更点を「プログラム資料説明書  (Memo to Users)」から引用・集約し、網羅的なチェックと判断を可能にします。
 
-プログラム資料説明書はリリースが発表される時点で各国語版が発行されるが、更新は英語版にのみ行なわれます。ファイル[「2023-06-06 バージョンアップ変更点と影響調査.xlsx」](/GuriPages/files/2023-06-06 バージョンアップ変更点と影響調査.xlsx)は2023年5月までの変更を反映しています。これ以降の更新は下記リンク先(英語でのみ提供)を参照ください。
+プログラム資料説明書はリリースが発表される時点で各国語版が発行されるが、更新は英語版にのみ行なわれます(日本語版のPDFは廃止されたようです)。ファイル[「2026-08-14 バージョンアップ変更点と影響調査.xlsx」](/GuriPages/files/2026-08-14 バージョンアップ変更点と影響調査.xlsx)は2026年8月14日時点の変更を反映しています。これ以降の更新は下記リンク先(英語でのみ提供)を参照ください。
 - [7.6 What's new](https://www.ibm.com/docs/en/i/7.6?topic=users-whats-new){:target="_blank"}
 - [7.5 What's new](https://www.ibm.com/docs/en/i/7.5?topic=users-whats-new){:target="_blank"}
 - [7.4 What's new](https://www.ibm.com/docs/en/i/7.4?topic=users-whats-new){:target="_blank"}

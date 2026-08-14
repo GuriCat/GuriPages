@@ -1,0 +1,58 @@
+---
+layout: post
+title: "「バージョンアップ影響調査ワークシート」を更新しました"
+date: 2026-08-14 00:00:00 +0900
+tags: [V7R6, その他]
+---
+[「インフラ情報」](/GuriPages/Infra/){:target="_blank"}ページの[「バージョンアップ影響調査ワークシート」](/GuriPages/files/2026-08-14 バージョンアップ変更点と影響調査.xlsx)を3年ぶりに更新しました。
+
+<hr>
+<br>
+
+今回は期間が空いたこともあり、更新量がすごいことになっていました。それと知らなかったのですが「Memo to Users」の日本語版が無くなったようで、Base の部分も英語版を日本語に翻訳しながら Excel に転記したので輪をかけて大仕事になりました。IBM Docs (Web) の情報は日本語になっていますが、IBM の翻訳は[こちらの記事](/GuriPages/2024/12/17/IBMドキュメントサイトの翻訳/){:target="_blank"}のレベルなので、英語の PDF を Google とか DeepL とかで翻訳しました。
+
+<br>
+
+AI で自動生成できるようにならなければ今回が最後かもです。あ～疲れた。
+
+<br>
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+POWER11
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
