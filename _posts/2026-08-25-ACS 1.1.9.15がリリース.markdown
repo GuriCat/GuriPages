@@ -1,0 +1,78 @@
+---
+layout: post
+title: "ACS 1.1.9.15がリリース"
+date: 2026-08-25 00:00:00 +0900
+tags: [ACS, セキュリティ]
+---
+2026年8月12日に ACS 1.1.9.14 がリリースされましたが、そのわずか2週間後の8月25日に、ACS 1.1.9.15 がリリースされました
+
+<hr>
+<br>
+
+## 1.1.9.14で何が起きていたか
+
+[多数の脆弱性を修正したACS 1.1.9.14が利用可能]({{ site.baseurl }}{% post_url 2026-08-12-多数の脆弱性を修正したACS 1.1.9.14が利用可能 %})の記事でお伝えしたとおり、IBM i Access Client Solutions (ACS) **1.1.9.14**が2026年8月12日にリリースされました。しかし、このリリースには次のような不具合がでる場合があったようです。
+
+- セキュア5250(TLS)接続ができない**
+- 機能を起動するたびに認証を求められる**
+
+詳細はIBMコミュニティの[ディスカッション](https://community.ibm.com/community/user/discussion/ibm-i-access-client-solutions-acs-11914-is-out){:target="_blank"}(英語)を参照ください。
+
+## 1.1.9.15の更新点
+
+[更新履歴ページ](https://www.ibm.com/support/pages/ibm-i-access-acs-updates){:target="_blank"}(英語)によると、1.1.9.15は2026年8月、ESS ID `LCD8-2010-44`として公開されています。修正内容は次のAPAR 1件のみで、セキュリティ修正や機能強化は含まれていません。
+
+|APAR|内容|
+|----|----|
+|DT498800|OSP-UNPRED MSGSSL007 - AN ERROR OCCURRED WITH AN SSL CERTIFICATE (JAVA.NIO.FILE.ATTRIBUTE.USERPRINCIPALNOTFOUNDEXCEPTION)|
+
+実態として、1.1.9.15は 1.1.9.14の問題を修正したものと思われます。IBMコミュニティでの検証報告も好意的で、1.1.9.14 の問題が解消されたという報告がいくつか上がっているようです。
+
+<hr>
+<br>
+
+これから ACS を更新するのであれば、素直に1.1.9.15を適用しましょう。なお、1.1.9.14で導入された「`Private`ディレクトリは本人・SYSTEM・Administratorsだけがアクセスできる状態でなければならない」という仕様自体は1.1.9.15でも変わりません。共用PCや、雑に権限を広げたフォルダーにACSを展開している環境では、引き続き見直しが必要です。
+
+ACS 1.1.9.15 を展開する前には事前のテストをお勧めします。
+
+- ACS関連リンク(英語)：[IBM i Access - Resources](https://www.ibm.com/support/pages/ibm-i-access-resources){:target="_blank"}
+- 更新履歴(英語)：[IBM i Access - ACS Updates](https://www.ibm.com/support/pages/ibm-i-access-acs-updates){:target="_blank"}
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+POWER11
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
