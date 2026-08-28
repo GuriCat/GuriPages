@@ -1,0 +1,8 @@
+# refresh.py が作る作業ファイル（IBM のコンテンツのキャッシュと中間データ）
+pages/
+api_search.txt
+cache.json
+bulletins.json
+rows.json
+summary.json
+ibmi_ptf.html

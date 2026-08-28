@@ -1,0 +1,89 @@
+---
+layout: post
+title: "IBM i のセキュリティと CVE"
+date: 2026-08-28 00:00:00 +0900
+tags: [セキュリティ, PTF, 運用]
+---
+IBM i の強固なセキュリティには定評があります。ただしこれは適切な管理が行われている前提の話で、例えばセキュリティ関連の PTF は最新を維持すべきです。
+
+<hr>
+
+## CVE と PTF
+
+昔から IBM i にはセキュリティのグループ PTF が提供されており、HIPER (High Impact PERvasive。重要な修正) とあわせて定期的にアップデートする運用をしているケースもあるでしょう。これとは別に、世の中一般では CVE (Common Vulnerabilities and Exposures。共通脆弱性識別子) でプログラム上のセキュリティ問題を公開しています。「新たなセキュリティの脆弱性が発見！」のようなネットのニュースで CVE を見かける事もあるでしょう。
+
+IBM 製品の CVE も [「IBM Product Security Central」](https://www.ibm.com/support/pages/bulletin/){:target="_blank"}で公開されています。IBM i に関連した CVE もこのサイトで検索できるので、ここで CVE に対する PTF が提供されているか、回避策・軽減策があるかを確認できます。
+
+2018 年 8 月から 2026 年 8 月までで、速報 343 件、ユニークな PTF 番号 1,628 件、CVE 1,116 件が入っています。ライセンスプログラム別の内訳は次のとおりです。
+
+|ライセンスプログラム|製品|PTF 数|
+|----|----|----|
+|5770-SS1|IBM i オペレーティングシステム|876|
+|5770-JV1|IBM Developer Kit for Java|218|
+|5770-DG1|IBM HTTP Server for i|140|
+|5770-999|Licensed Internal Code|125|
+|5733-SC1|IBM Portable Utilities for i (OpenSSH/OpenSSL)|120|
+|5733-WQX|IBM Db2 Web Query for i|31|
+
+このほか 5770-DBM (Db2 Mirror)、5733-OMF (OmniFind)、5770-TC1、5770-PT1、5733-ARE など、全部で 23 のライセンスプログラムが対象になっています。
+
+<hr>
+
+## CVE 由来の PTF をまとめて Fix Central でオーダー
+
+IBM i の運用観点からは利用中のソフトウェア (IBM i や LPP) に対する PTF の一覧が欲しいのですが、先のサイトにそのような機能はありません。何 10 もの個別の CVE を検索して PTF を確認するのは面倒です。そこで、CVE と PTF の関係を一覧にした[「IBM i セキュリティ速報 PTF 台帳」](/GuriPages/files/IBM_i_CVE_and_PTF/preview.html){:target="_blank"}を作ってみました。LPP とバージョンが交差する部分 (数字があるところ) をクリックすると、その LPP/バージョンに対する CVE 由来の PTF が一覧で表示されます。Severity で絞り込んでカンマ区切りでコピーできるので、そのまま Fix Central の個別 PTF に貼れます。
+
+GitHub に載せるほどの大きさではないので、一式を [こちら](https://github.com/GuriCat/GuriPages/tree/main/files/IBM_i_CVE_and_PTF){:target="_blank"} に置いたので、興味のある方はお試しください。
+
+<a href="/GuriPages/files/IBM_i_CVE_and_PTF/preview.html" target="_blank"><img src="/GuriPages/image/2026-08-28_ibmi_ptf_ledger.png" style="width:100%;" /></a>
+<small>(クリックで台帳を開きます)</small>
+
+詳細は同梱の [README](/GuriPages/files/IBM_i_CVE_and_PTF/){:target="_blank"} を参照ください。
+
+<hr>
+
+この台帳はあくまで速報の自動解析によるスナップショットです。Severity は CVSS ベーススコアの区分で、速報に含まれる CVE のうち最も高い値を採用しています。適用の可否は必ず速報の原文と Fix Central で確認してください。台帳の各行から速報ページへリンクしています。
+
+グループ PTF を当てていれば個別 PTF の多くはカバーされますが、「あの CVE の対策は入っているのか」を聞かれたときに、製品とリリースから逆引きできる一覧が手元にあると話が早いでしょう。
+
+<br>
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+POWER11
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}

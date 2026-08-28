@@ -1,0 +1,113 @@
+﻿ライセンスプログラム,ライセンスプログラム名,IBM i リリース,PTF数,速報件数,Critical,High,Medium,Low
+5770-SS1,IBM i オペレーティングシステム,7.3,214,125,12,148,46,8
+5770-SS1,IBM i オペレーティングシステム,7.4,180,106,11,115,50,4
+5770-SS1,IBM i オペレーティングシステム,7.2,175,96,7,118,42,8
+5770-SS1,IBM i オペレーティングシステム,7.5,157,81,10,112,33,2
+5770-SS1,IBM i オペレーティングシステム,7.6,72,50,9,49,14,0
+5770-JV1,IBM Developer Kit for Java,7.5,50,18,0,50,0,0
+5770-JV1,IBM Developer Kit for Java,7.6,49,8,0,49,0,0
+5770-SS1,IBM i オペレーティングシステム,7.1,47,40,3,20,21,3
+5770-DG1,IBM HTTP Server for i,7.3,44,33,7,18,18,1
+5733-SC1,IBM Portable Utilities for i (OpenSSH/OpenSSL),7.2,41,45,2,24,13,2
+5770-JV1,IBM Developer Kit for Java,7.4,41,36,1,40,0,0
+5733-SC1,IBM Portable Utilities for i (OpenSSH/OpenSSL),7.3,40,40,6,21,11,2
+5770-DG1,IBM HTTP Server for i,7.4,34,26,5,16,13,0
+5770-999,Licensed Internal Code,7.3,33,10,0,29,3,1
+5770-999,Licensed Internal Code,7.1,31,1,0,31,0,0
+5770-JV1,IBM Developer Kit for Java,7.3,31,47,1,30,0,0
+5770-DG1,IBM HTTP Server for i,7.2,30,22,7,11,12,0
+5733-SC1,IBM Portable Utilities for i (OpenSSH/OpenSSL),7.4,29,27,6,17,5,1
+5733-SC1,IBM Portable Utilities for i (OpenSSH/OpenSSL),7.1,28,31,1,14,10,3
+5770-999,Licensed Internal Code,7.2,25,2,0,24,1,0
+5770-JV1,IBM Developer Kit for Java,7.1,25,36,1,12,12,0
+5770-SS1,IBM i オペレーティングシステム,6.1,25,20,2,9,12,2
+5733-SC1,IBM Portable Utilities for i (OpenSSH/OpenSSL),7.5,22,19,5,13,3,1
+5770-JV1,IBM Developer Kit for Java,7.2,21,42,1,10,10,0
+5770-DG1,IBM HTTP Server for i,7.5,20,18,4,7,9,0
+5733-WQX,IBM Db2 Web Query for i,7.4,19,9,11,2,6,0
+5733-WQX,IBM Db2 Web Query for i,7.5,18,5,10,2,6,0
+5733-SC1,IBM Portable Utilities for i (OpenSSH/OpenSSL),7.6,16,12,4,9,2,1
+5733-WQX,IBM Db2 Web Query for i,7.3,15,8,10,2,3,0
+5770-999,Licensed Internal Code,7.5,13,10,0,6,6,1
+5770-JV1,IBM Developer Kit for Java,6.1,13,14,1,4,8,0
+5770-999,Licensed Internal Code,7.6,12,10,0,5,6,1
+5770-999,Licensed Internal Code,7.4,11,10,0,6,4,1
+5770-DBM,IBM Db2 Mirror for i,7.4,11,10,2,4,4,1
+5770-DBM,IBM Db2 Mirror for i,7.5,10,9,2,4,3,1
+5733-SC1,IBM Portable Utilities for i (OpenSSH/OpenSSL),6.1,8,8,0,4,2,2
+5770-DG1,IBM HTTP Server for i,7.1,8,6,2,2,4,0
+5770-SS1,IBM i オペレーティングシステム,6.1.1,8,3,0,0,7,1
+5770-UME,Universal Manageability Enablement for i,7.1,7,2,0,5,0,2
+5770-UME,Universal Manageability Enablement for i,7.2,6,2,0,5,0,1
+5733-OMF,OmniFind Text Search Server for Db2 for i,7.5,5,3,1,4,0,0
+5733-OMF,OmniFind Text Search Server for Db2 for i,7.4,5,3,1,4,0,0
+5770-DBM,IBM Db2 Mirror for i,7.6,5,5,2,2,1,0
+5733-OMF,OmniFind Text Search Server for Db2 for i,7.2,4,1,0,4,0,0
+5770-PT1,IBM Performance Tools for i,7.5,4,2,0,4,0,0
+5770-PT1,IBM Performance Tools for i,7.4,4,2,0,4,0,0
+5770-PT1,IBM Performance Tools for i,7.3,4,2,0,4,0,0
+5770-PT1,IBM Performance Tools for i,7.2,4,2,0,4,0,0
+5770-TC1,TCP/IP Connectivity Utilities for i,7.5,4,3,0,4,0,0
+5770-TC1,TCP/IP Connectivity Utilities for i,7.4,4,3,0,4,0,0
+5770-TC1,TCP/IP Connectivity Utilities for i,7.3,4,3,0,4,0,0
+5770-UME,Universal Manageability Enablement for i,6.1,4,2,0,2,0,2
+5798-FAX,IBM Facsimile Support for i,7.5,4,4,0,4,0,0
+5798-FAX,IBM Facsimile Support for i,7.4,4,4,0,4,0,0
+5798-FAX,IBM Facsimile Support for i,7.3,4,4,0,4,0,0
+5798-FAX,IBM Facsimile Support for i,7.2,4,4,0,4,0,0
+5733-ARE,IBM Administration Runtime Expert for i,7.5,3,3,1,1,1,0
+5733-ARE,IBM Administration Runtime Expert for i,7.4,3,3,1,1,1,0
+5733-ARE,IBM Administration Runtime Expert for i,7.3,3,3,1,1,1,0
+5733-OMF,OmniFind Text Search Server for Db2 for i,7.3,3,1,0,3,0,0
+5733-WQX,IBM Db2 Web Query for i,7.2,3,5,3,0,0,0
+5733-WQX,IBM Db2 Web Query for i,7.1,3,5,3,0,0,0
+5770-DG1,IBM HTTP Server for i,7.6,3,3,0,2,1,0
+5770-TC1,TCP/IP Connectivity Utilities for i,7.6,3,2,0,3,0,0
+5733-ARE,IBM Administration Runtime Expert for i,7.2,2,2,1,1,0,0
+5733-OMF,OmniFind Text Search Server for Db2 for i,7.6,2,2,1,1,0,0
+5733-WQX,IBM Db2 Web Query for i,6.1,2,1,2,0,0,0
+5770-BR1,Backup Recovery and Media Services for i,7.4,2,2,0,1,1,0
+5770-MG1,IBM Managed System Services for i,7.4,2,1,0,2,0,0
+5770-MG1,IBM Managed System Services for i,7.3,2,1,0,2,0,0
+5770-MG1,IBM Managed System Services for i,7.2,2,1,0,2,0,0
+5770-WDS,IBM Rational Development Studio for i,7.5,2,1,0,2,0,0
+5770-WDS,IBM Rational Development Studio for i,7.4,2,1,0,2,0,0
+5770-WDS,IBM Rational Development Studio for i,7.3,2,1,0,2,0,0
+5770-WDS,IBM Rational Development Studio for i,7.2,2,1,0,2,0,0
+5770-XE1,IBM i Access for Windows,7.1,2,2,0,0,2,0
+5733-ARE,IBM Administration Runtime Expert for i,V1R1M0,1,1,1,0,0,0
+5733-CY3,IBM Cryptographic Device Manager,7.5,1,1,0,0,1,0
+5733-CY3,IBM Cryptographic Device Manager,7.4,1,1,0,0,1,0
+5733-CY3,IBM Cryptographic Device Manager,7.3,1,1,0,0,1,0
+5733-CY3,IBM Cryptographic Device Manager,7.2,1,1,0,0,1,0
+5733-SC1,IBM Portable Utilities for i (OpenSSH/OpenSSL),V5R4,1,1,0,0,0,1
+5733-SC1,IBM Portable Utilities for i (OpenSSH/OpenSSL),V5R3,1,1,0,0,0,1
+5770-BR1,Backup Recovery and Media Services for i,7.5,1,1,0,1,0,0
+5770-BR1,Backup Recovery and Media Services for i,7.3,1,1,0,0,1,0
+5770-BR1,Backup Recovery and Media Services for i,7.2,1,1,0,0,1,0
+5770-DG1,IBM HTTP Server for i,6.1,1,1,0,1,0,0
+5770-HAS,IBM PowerHA SystemMirror for i,7.5,1,1,0,0,1,0
+5770-HAS,IBM PowerHA SystemMirror for i,7.4,1,1,0,0,1,0
+5770-JS1,IBM Advanced Job Scheduler for i,7.6,1,1,0,1,0,0
+5770-JS1,IBM Advanced Job Scheduler for i,7.5,1,1,0,1,0,0
+5770-JS1,IBM Advanced Job Scheduler for i,7.4,1,1,0,1,0,0
+5770-JS1,IBM Advanced Job Scheduler for i,7.3,1,1,0,1,0,0
+5770-JS1,IBM Advanced Job Scheduler for i,7.2,1,1,0,1,0,0
+5770-SC1,IBM Portable Utilities for i,7.6,1,1,0,0,1,0
+5770-SC1,IBM Portable Utilities for i,7.5,1,1,0,0,1,0
+5770-SC1,IBM Portable Utilities for i,7.4,1,1,0,0,1,0
+5770-SC1,IBM Portable Utilities for i,7.3,1,1,0,0,1,0
+5770-SM1,IBM System Manager for i,7.4,1,1,0,1,0,0
+5770-SM1,IBM System Manager for i,7.3,1,1,0,1,0,0
+5770-SM1,IBM System Manager for i,7.2,1,1,0,1,0,0
+5770-SS1,IBM i オペレーティングシステム,5.4,1,1,0,0,1,0
+5770-SS1,IBM i オペレーティングシステム,5.4.5,1,1,0,0,1,0
+5770-TC1,TCP/IP Connectivity Utilities for i,7.2,1,1,0,1,0,0
+5770-TS1,IBM Transform Services for i,7.5,1,1,0,1,0,0
+5770-TS1,IBM Transform Services for i,7.4,1,1,0,1,0,0
+5770-TS1,IBM Transform Services for i,7.3,1,1,0,1,0,0
+5770-TS1,IBM Transform Services for i,7.2,1,1,0,1,0,0
+5770-UME,Universal Manageability Enablement for i,7.3,1,1,0,0,0,1
+5770-UME,Universal Manageability Enablement for i,6.1.1,1,1,0,1,0,0
+5770-UME,Universal Manageability Enablement for i,V1R4M0,1,1,0,0,0,1
+5770-UME,Universal Manageability Enablement for i,V1R3M0,1,1,0,0,0,1
