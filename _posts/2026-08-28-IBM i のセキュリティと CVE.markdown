@@ -44,7 +44,7 @@ LPP とバージョンが交差する部分 (数字があるところ) をクリ
 
 この台帳はあくまで速報の自動解析によるスナップショットです。Severity は CVSS ベーススコアの区分で、速報に含まれる CVE のうち最も高い値を採用しています。適用の可否は必ず速報の原文と Fix Central で確認してください。台帳の各行から速報ページへリンクしています。
 
-独立した repository を用意するほどの大きさではないので、一式を [この blog 内のディレクトリー](https://github.com/GuriCat/GuriPages/tree/main/files/IBM_i_CVE_and_PTF){:target="_blank"} に置いておきます。興味のある方は同梱の [README](/GuriPages/files/IBM_i_CVE_and_PTF/){:target="_blank"} で詳細をご確認ください。
+独立した repository を用意するほどの大きさではないので、一式を [この blog 内のディレクトリー](https://github.com/GuriCat/GuriPages/tree/main/files/IBM_i_CVE_and_PTF){:target="_blank"} に置いておきます。興味のある方は README.md の詳細をご確認ください。
 
 <hr>
 
