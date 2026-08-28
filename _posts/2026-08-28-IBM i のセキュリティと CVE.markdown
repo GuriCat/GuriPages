@@ -9,6 +9,7 @@ IBM i の強固なセキュリティには定評があります。最高のセ�
 <hr>
 
 ## CVE と PTF
+
 <br>
 
 昔から IBM i にはセキュリティのグループ PTF が提供されており、HIPER (High Impact PERvasive。重要な修正) とあわせて定期的にアップデートする運用をしているケースもあるでしょう。これとは別に、世の中一般では CVE (Common Vulnerabilities and Exposures。共通脆弱性識別子) としてプログラム上のセキュリティ問題を公開しています。「新たなセキュリティの脆弱性が発見！」のようなネットのニュースで CVE を見かける事もあるでしょう。
@@ -31,6 +32,7 @@ IBM 製品の CVE も [「IBM Product Security Central」](https://www.ibm.com/s
 <hr>
 
 ## CVE 由来の PTF をまとめて Fix Central でオーダー
+
 <br>
 
 IBM i の運用観点からは利用中のソフトウェア (IBM i や LPP) に対する PTF の一覧が欲しいのですが、先のサイトにそのような機能はありません。何 10 もの個別の CVE を検索して PTF を確認するのは面倒です。そこで、CVE と PTF の関係を一覧にした[「IBM i セキュリティ速報 PTF 台帳」](/GuriPages/files/IBM_i_CVE_and_PTF/preview.html){:target="_blank"}を作ってみました。
@@ -45,6 +47,7 @@ LPP とバージョンが交差する部分 (数字があるところ) をクリ
 独立した repository を用意するほどの大きさではないので、一式を [この blog 内のディレクトリー](https://github.com/GuriCat/GuriPages/tree/main/files/IBM_i_CVE_and_PTF){:target="_blank"} に置いておきます。興味のある方は同梱の [README](/GuriPages/files/IBM_i_CVE_and_PTF/){:target="_blank"} で詳細をご確認ください。
 
 <hr>
+
 <br>
 
 グループ PTF を当てていれば個別 PTF の多くはカバーされますが、「あの CVE の対策は入っているのか」を聞かれたときに、製品とリリースから逆引きできる一覧が手元にあると話が早いでしょう。
