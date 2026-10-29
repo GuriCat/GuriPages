@@ -15,7 +15,6 @@ tags: [V7R6, V7R5, TR, セキュリティ, 技術情報]
 - 7.5 TR9 発表レター [「IBM i 7.5 TR9」](https://www.ibm.com/docs/en/announcements/i-75-tr9){:target="_blank"}
 - 7.5 TR9 ランディング・ページ [「IBM i 7.5 - TR9 Enhancements」](https://www.ibm.com/support/pages/ibm-i-75-tr9-enhancements){:target="_blank"}
 - IBM Community の投稿 [「IBM adds new capabilities and enhancements with IBM i 7.6 Technology Refresh 3」](https://community.ibm.com/community/user/discussion/ibm-adds-new-capabilities-and-enhancements-with-ibm-i-7-6-technology-refresh-3){:target="_blank"}、[「〜 IBM i 7.5 Technology Refresh 9」](https://community.ibm.com/community/user/discussion/ibm-adds-new-capabilities-and-enhancements-with-ibm-i-7-5-technology-refresh-9){:target="_blank"}
-- Javier Herrera Cuellar さんのブログ [「IBM i 7.5 TR9 and 7.6 TR3: What an Administrator Should Check Before November 20」](https://community.ibm.com/community/user/blogs/javier-herrera-cuellar/2026/10/28/ibm-i-7-5-tr9-and-7-6-tr3-what-an-administrator-should-check-before-november-20){:target="_blank"}
 
 <br>
 
@@ -57,11 +56,13 @@ tags: [V7R6, V7R5, TR, セキュリティ, 技術情報]
 
 ACS や PCOMM などのプリンター・エミュレーションで帳票を出力している環境は多いでしょう。PTF を適用する前に、クライアントを Telnet プリンター認証に対応したバージョンへ更新しておく必要があります。必要な対応は [「Host-Based Printer Subsystem Authentication」](https://www.ibm.com/support/pages/host-based-printer-subsystem-authentication){:target="_blank"} にまとまっています。
 
+なお、ACS の表示装置セッションなどでは [「IBM i へのサインオンを自動化する」](https://qiita.com/6onoda/items/369b9026edfd90a51a2b){:target="_blank"} に記載のある .netrc (Windows では _netrc) ファイルによる自動サインオンが使えますが、プリンター・セッションに対して同様の自動サインオンの仕組みが提供されるかは現時点では不明です。
+
 <br>
 
 <hr>
 
-## 個人的に興味を引かれたものをピックアップ
+## その他の拡張
 
 <br>
 
@@ -97,7 +98,7 @@ ACS や PCOMM などのプリンター・エミュレーションで帳票を出
 
 <hr>
 
-前回の [7.6 TR2/7.5 TR8](/GuriPages/2026/07/21/2026%E5%B9%B4%E5%89%8D%E5%8D%8A%E3%81%AE%E4%B8%BB%E8%A6%81%E7%99%BA%E8%A1%A8%E3%81%BE%E3%81%A8%E3%82%81/){:target="_blank"} が Power S1112 のサポートが中心だったのに対し、今回は**セキュリティ対応**が前面に出た TR という印象です。一方で、Telnet プリンター・セッションの認証のように「PTF を当てると今まで動いていたものが動かなくなる」変更も含まれるので、PTF を適用する前には影響を確認することをお勧めします。
+前回の [7.6 TR2/7.5 TR8](/GuriPages/2026/07/21/2026%E5%B9%B4%E5%89%8D%E5%8D%8A%E3%81%AE%E4%B8%BB%E8%A6%81%E7%99%BA%E8%A1%A8%E3%81%BE%E3%81%A8%E3%82%81/){:target="_blank"} が Power S1112 のサポートが中心だったのに対し、今回は**セキュリティ対応**が前面に出た TR という印象です。一方で、Telnet プリンター・セッションの認証のように「PTF を当てると今まで動いていたものが動かなくなる」変更も含まれています。
 
 なお、今回の TR の解説セッションが IBM i Guided Tours で予定されています。
 
@@ -105,6 +106,10 @@ ACS や PCOMM などのプリンター・エミュレーションで帳票を出
 - 2026年11月4日 9:00〜10:00 (UTC-5)、**日本時間では11月4日 23:00〜24:00**
 
 英語と夜更かしが苦にならない方は参加をご一考されるとよいでしょう。
+
+最後に、Javier Herrera Cuellar さんのブログ [「IBM i 7.5 TR9 and 7.6 TR3: What an Administrator Should Check Before November 20」](https://community.ibm.com/community/user/blogs/javier-herrera-cuellar/2026/10/28/ibm-i-7-5-tr9-and-7-6-tr3-what-an-administrator-should-check-before-november-20){:target="_blank"} (英語) を紹介しておきます。管理者が11月20日までに確認すべき点がまとまっており、「My recommendation: do not apply it on day one」として、最初の累積 PTF と HIPER グループを待つ、開発・検証環境で印刷周りを中心にテストする、HA 製品やベンダーの対応を確認する、性能のベースラインを取っておく、といった推奨が挙げられています。
+
+ユーザーとしても同じ考えで、今回は直接エンドユーザーに影響する変更があるので、適用前に準備とテストを行うべきでしょう。
 
 <br>
 
