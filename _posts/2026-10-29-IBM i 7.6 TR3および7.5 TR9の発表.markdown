@@ -1,0 +1,148 @@
+---
+layout: post
+title: "IBM i 7.6 TR3 および 7.5 TR9 の発表"
+date: 2026-10-29 00:00:00 +0900
+tags: [V7R6, V7R5, TR, セキュリティ, 技術情報]
+---
+秋の Technology Refresh (TR) として、IBM i 7.6 TR3 と 7.5 TR9 が発表されました。ランディング・ページは10月27日付で公開されており、セキュリティ関連の PTF は**2026年11月20日に提供予定**です (TR としての PTF 番号は未確定ですが、個別に決まっているものは本文中に記載しています)。
+
+<br>
+
+今回発表された TR の詳細は下記のリンク先(すべて英語)を参照ください。
+
+- 7.6 TR3 発表レター [「IBM i 7.6 TR3」](https://www.ibm.com/docs/en/announcements/i-76-tr3){:target="_blank"}
+- 7.6 TR3 ランディング・ページ [「IBM i 7.6 - TR3 Enhancements」](https://www.ibm.com/support/pages/ibm-i-76-tr3-enhancements){:target="_blank"}
+- 7.5 TR9 発表レター [「IBM i 7.5 TR9」](https://www.ibm.com/docs/en/announcements/i-75-tr9){:target="_blank"}
+- 7.5 TR9 ランディング・ページ [「IBM i 7.5 - TR9 Enhancements」](https://www.ibm.com/support/pages/ibm-i-75-tr9-enhancements){:target="_blank"}
+- IBM Community の投稿 [「IBM adds new capabilities and enhancements with IBM i 7.6 Technology Refresh 3」](https://community.ibm.com/community/user/discussion/ibm-adds-new-capabilities-and-enhancements-with-ibm-i-7-6-technology-refresh-3){:target="_blank"}、[「〜 IBM i 7.5 Technology Refresh 9」](https://community.ibm.com/community/user/discussion/ibm-adds-new-capabilities-and-enhancements-with-ibm-i-7-5-technology-refresh-9){:target="_blank"}
+- Javier Herrera Cuellar さんのブログ [「IBM i 7.5 TR9 and 7.6 TR3: What an Administrator Should Check Before November 20」](https://community.ibm.com/community/user/blogs/javier-herrera-cuellar/2026/10/28/ibm-i-7-5-tr9-and-7-6-tr3-what-an-administrator-should-check-before-november-20){:target="_blank"}
+
+<br>
+
+<hr>
+
+## Telnet プリンター・セッションに認証が必須になる
+
+<br>
+
+今回の TR で運用への影響が最も大きいのは、7.6 TR3 と 7.5 TR9 の両方に含まれる **「ホストベースのプリンタサブシステム認証」(Host-Based Printer Subsystem Authentication)** でしょう。この機能は 7.4 および 7.3 にも提供される予定です。例えば [7.3 の Memo to Users](https://www.ibm.com/docs/en/ssw_ibm_i_73/pdf/rzaq9.pdf){:target="_blank"} に下記のような内容が追加されています。
+
+> Telnetプリンターのユーザーは、Telnetプリンターセッションを確立する前に認証を行う必要があります。Telnetサーバーは、Telnetオプションのネゴシエーション中に、Telnetプリンタークライアントに対してユーザー認証情報の提供を要求するようになりました。これは、Telnetディスプレイセッションの自動サインオンですでに使用されているのと同じオプションネゴシエーションの仕組みです。認証情報を提供しないセッション、または無効な認証情報を提供するセッションは、今後拒否されるようになります。ユーザー名/パスワード認証およびKerberos認証がサポートされています。IBM i 7.6以降では、該当する場合、多要素認証（MFA）がサポートされています。
+> 
+> Telnet プリンタセッションでは、システム値 QRMTSIGN は無視されます。Telnet プリンタセッションでは、常に認証が必要です。
+> 
+> Telnet サーバーのデバイス管理ジョブ (QTVDEVICE) は、デバイスを要求する際に、認証済みのユーザーとして実行されるようになりました。特定のユーザー権限がチェックされるようになりました。「Telnet プリンタセッションにおける権限の変更」を参照してください。
+> 
+> オプションネゴシエーション中のユーザー認証情報の提供に関する詳細については、RFC4777 草案を参照してください。
+> 
+> **この変更により、この機能をサポートするように更新されていないすべてのTelnetプリンタークライアントが動作しなくなります。** PCOMMまたはサードパーティ製のTelnetプリンタークライアントをご利用のユーザーは、このPTFを適用する前に、お使いのクライアントがTelnetプリンター認証をサポートしていることを確認してください。
+> 
+> ACSを使用している場合は、Telnetプリンター認証をサポートするバージョンをインストールする必要があります。「Telnetプリンターセッションにユーザー認証情報が必要になりました」を参照してください。
+> 
+> Telnet ディスプレイセッションは、この変更の影響を受けません。
+> 
+> この変更は、以下の IBM i PTF とともに提供されます。
+> 
+> • IBM i 7.6 with PTF SJ11502
+> • IBM i 7.5 with PTF SJ11523
+> • IBM i 7.4 with PTF SJ11524
+> • IBM i 7.3 with PTF SJ11522
+
+ざくっとまとめると次のようになります。
+
+- Telnet のプリンター・セッションで、ユーザー名/パスワードまたは Kerberos による**認証が必須**になる
+- **認証情報を渡さない、または無効なユーザーのプリンター・セッションは拒否される**
+- 印刷できるのは、ユーザーが権限を持つ装置と出力待ち行列だけになる
+- Telnet の表示装置セッション (5250 画面) は影響を受けない
+
+ACS や PCOMM などのプリンター・エミュレーションで帳票を出力している環境は多いでしょう。PTF を適用する前に、クライアントを Telnet プリンター認証に対応したバージョンへ更新しておく必要があります。必要な対応は [「Host-Based Printer Subsystem Authentication」](https://www.ibm.com/support/pages/host-based-printer-subsystem-authentication){:target="_blank"} にまとまっています。
+
+<br>
+
+<hr>
+
+## 個人的に興味を引かれたものをピックアップ
+
+<br>
+
+特に記載がないものは 7.6 TR3 と 7.5 TR9 に共通です。
+
+* セキュリティ
+  - Digital Certificate Manager (DCM) の API を拡充。証明書の作成 (QycdCreateCertificate)、削除 (QycdDeleteCertificate) が新規 API として追加され、更新 (QycdRenewCertificate) は同じラベルのまま新しい鍵ペアで更新できるようになった
+    + [7.6 発表時](/GuriPages/2025/04/09/IBM-i-7.6%E3%81%AE%E7%99%BA%E8%A1%A8/){:target="_blank"}に「DCM を GUI でしか管理できないのは再現性や生産性を悪化させる」と書きましたが、少しずつ改善されています。アプリケーションへの証明書の再割り当てが不要になるのはありがたいですね。
+  - **(7.6 TR3 のみ)** サインオン成功時にも PW 監査レコード (違反タイプ V) を出力。TOTP の代わりにリカバリー・キーが使われたかどうかや、認証に使われたインターフェースも記録される
+  - **(7.6 TR3 のみ)** CHGPRF コマンドに認証方式 (AUTHMTH) パラメーターを追加。TOTP キーが設定済みのユーザーが、自分で認証方式に TOTP を含められる
+
+* IBM i サービス (SQL)
+  - CVE 関連のサービスとして SYSTOOLS.CVE_CURRENCY()、CVE_CURRENCY、CVE_PTFS() が追加。Navigator for i にも CVE Currency の表が追加された
+    + 以前のポスト[「IBM i のセキュリティと CVE」](/GuriPages/2026/08/28/IBM-i-%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%81%A8-CVE/){:target="_blank"}で、製品とリリースから CVE 由来の PTF を逆引きするツールを作りましたが、IBM 自身が SQL で引けるようにしてきました。手元のシステムに対して直接確認できるのは便利です。
+  - SYSTOOLS.DEFECTIVE_PTF_CURRENCY_LOCAL() (欠陥 PTF の確認)、SYSTOOLS.JOURNAL_APPLY_INFO、QSYS2.SMTP_ATTRIBUTES などが追加
+  - **(7.6 TR3 のみ)** ディスク・パスのタイムアウトを参照・変更する QSYS2.DISK_PATH_TIMEOUTS_INFO と QSYS2.CHANGE_DISK_PATH_TIMEOUTS。I/O 側の Fast-Fail Multi-path I/O (ファイバー・チャネル接続のシステム・タイムアウト値の上書き) とセットの機能です
+
+* IBM Navigator for i (Q3 & Q4 2026 の PTF で提供)
+  - Web Admin GUI の機能 (Web サービスの作成/削除/プロパティなど) を Navigator へ移行
+  - NetServer で SMB 3.1.1 をサポート
+  - 保存/復元マスター・キーにデフォルト値が設定されなくなった。マスター・キーを設定する前に、保存/復元マスター・キーを明示的に設定する必要がある
+    + 地味ですが、暗号サービスを使っている環境では手順が変わるので注意。
+
+* RPG
+  - %INFO 組み込み関数で、プログラム名やライブラリー名、現在のステートメント番号、ジョブ情報などを取得できる
+    + これまで PSDS (プログラム状況データ構造) で取っていた情報の多くが関数一発で取れるようになりそうです。
+  - INZ(*LIST : 値1 : 値2 ...) で配列をリストで初期化。DIM(*INZ) で要素数を自動設定
+  - CRTBNDRPG に ALWUPD パラメーターを追加し、UPDPGM で変更できないプログラムを作成可能に
+
+* その他、Db2 for i (SELF の除外リスト、HTTP 関数のロギング・解凍オプション)、Code for IBM i、Migrate While Active、Db2 Mirror for i、BRMS (GUI 2026.3.0)、VIOS 4.1.3.0、USB フラッシュ・ドライブの検証上限を 1TB に拡大、などで強化あり。Db2 for i のグループ PTF は 7.6 が SF99960 Level 4、7.5 が SF99950 Level 13 です。
+
+<br>
+
+<hr>
+
+前回の [7.6 TR2/7.5 TR8](/GuriPages/2026/07/21/2026%E5%B9%B4%E5%89%8D%E5%8D%8A%E3%81%AE%E4%B8%BB%E8%A6%81%E7%99%BA%E8%A1%A8%E3%81%BE%E3%81%A8%E3%82%81/){:target="_blank"} が Power S1112 のサポートが中心だったのに対し、今回は**セキュリティ対応**が前面に出た TR という印象です。一方で、Telnet プリンター・セッションの認証のように「PTF を当てると今まで動いていたものが動かなくなる」変更も含まれるので、PTF を適用する前には影響を確認することをお勧めします。
+
+なお、今回の TR の解説セッションが IBM i Guided Tours で予定されています。
+
+- [「The Next Wave of IBM i Innovation: New Enhancements for Security, Performance, and Modernization」](https://www.ibm.com/support/pages/node/7174425){:target="_blank"}
+- 2026年11月4日 9:00〜10:00 (UTC-5)、**日本時間では11月4日 23:00〜24:00**
+
+英語と夜更かしが苦にならない方は参加をご一考されるとよいでしょう。
+
+<br>
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
