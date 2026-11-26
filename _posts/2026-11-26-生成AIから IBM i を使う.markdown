@@ -4,7 +4,7 @@ title: "生成AIから IBM i を使う"
 date: 2026-11-26 00:00:00 +0900
 tags: [AI, RPG, DX, 技術情報]
 ---
-Bob や Claude といった生成AIで IBM i の 5250 アプリケーションを開発しやすくするため、2つの MCP (Model Context Protocol) サーバーを GitHub で公開しています。IBM Community には [「Two MCPs designed to simplify IBM i development using generative AI」](https://community.ibm.com/community/user/discussion/two-mcps-designed-to-simplify-ibm-i-development-using-generative-ai){:target="_blank"} (英語) として投稿しましたが、日本語でも内容をまとめておきます。
+Bob や Claude といった生成AIで IBM i の 5250 アプリケーションを開発しやすくするため、2つの MCP (Model Context Protocol) サーバーを GitHub で公開しています。
 
 <br>
 
@@ -40,12 +40,27 @@ MCP 5250 なら、エミュレーターを別途起動する必要はなく、�
 
 <br>
 
+> **活用例：DFU から ILE RPG/DSPF への自動変換**
+>
+> 2 つの MCP を使い、サポートが終了した DFU プログラムを IBM Bob 2.0 で ILE RPG/DSPF に置き換える試みを「IBM TechXchange 2026 Pre-conference Dev Day Hackathon」に応募しました。Bob への1回の指示で、DFU 定義の読み取り (MCP 5250)、ソースの生成とチェック (ilerpg-code-checker)、コンパイル、9 件の機能テストまでをエージェントが自動で実行し、元の DFU と同じ画面・操作のプログラムができました。
+>
+> - [IBM Community の投稿](https://community.ibm.com/community/user/discussion/an-attempt-to-generate-ile-rpg-dspf-from-dfu-fully-automatically){:target="_blank"} (英語)、[GitHub リポジトリ](https://github.com/GuriCat/IBM-TechXchange-2026-Dev-Day-Hackathon-DFU-to-ILE-RPG-and-DSPF-Migration){:target="_blank"}
+> - デモ動画 (8分)：[日本語版](https://youtu.be/HCzlwMihbHY){:target="_blank"}、[英語版](https://youtu.be/T4AQcgjtKy4){:target="_blank"}
+
+<br>
+
 ### 注意事項
 
 - 実験的な 5250 エミュレーターの実装で、本番で使っている既存の 5250 エミュレーターを置き換えることは意図していません
 - 5250 画面を直接操作できるため、生成AIが破壊的な操作を行う可能性はゼロではありません。テスト環境での利用をお勧めします
 - 期間限定のベータ版です。当初は2026年7月31日まででしたが、現在は**2027年1月末**まで使用でき、事情が変わらなければ2か月ごとに期限を延長していく予定です
 - 動作確認は日本語環境 (1次言語 2962、QCCSID 65535) でのみ行っています
+
+<br>
+
+> **Open 5250**
+>
+> MCP 5250 のコードをベースに、IBM i の PASE 上で動き、PC に何もインストールせずに Web ブラウザーから使える 5250 エミュレーター「Open 5250」も公開しました ([IBM Community の投稿](https://community.ibm.com/community/user/discussion/a-5250-emulator-that-runs-on-ibm-i-and-operates-in-a-web-browser-without-requiring-client-installation){:target="_blank"}、英語)。
 
 <br>
 
@@ -71,30 +86,11 @@ MCP 5250 なら、エミュレーターを別途起動する必要はなく、�
 
 <br>
 
-> **活用例：DFU から ILE RPG/DSPF への自動変換**
->
-> 2 つの MCP を使い、サポートが終了した DFU プログラムを IBM Bob 2.0 で ILE RPG/DSPF に置き換える試みを「IBM TechXchange 2026 Pre-conference Dev Day Hackathon」に応募しました。Bob への1回の指示で、DFU 定義の読み取り (MCP 5250)、ソースの生成とチェック (ilerpg-code-checker)、コンパイル、9 件の機能テストまでをエージェントが自動で実行し、元の DFU と同じ画面・操作のプログラムができました。
->
-> - [IBM Community の投稿](https://community.ibm.com/community/user/discussion/an-attempt-to-generate-ile-rpg-dspf-from-dfu-fully-automatically){:target="_blank"} (英語)、[GitHub リポジトリ](https://github.com/GuriCat/IBM-TechXchange-2026-Dev-Day-Hackathon-DFU-to-ILE-RPG-and-DSPF-Migration){:target="_blank"}
-> - デモ動画 (8分)：[日本語版](https://youtu.be/HCzlwMihbHY){:target="_blank"}、[英語版](https://youtu.be/T4AQcgjtKy4){:target="_blank"}
-
-<br>
-
 <hr>
 
-## Open 5250
+いまだに PDM/SEU で固定形式を含む RPG プログラムを開発しているユーザーは多いでしょう。また、5250 アプリケーションは開発生産性が高く、習得しやすく、IBM i と密接に統合されたセキュリティーを備えた優れたフレームワークです。半世紀近い実績を持つこれらの情報資産を、最先端の生成AIと組み合わせて有効に活用するうえで、これらの MCP は重要な役割を果たせると考えています。IBM Community にも [「Two MCPs designed to simplify IBM i development using generative AI」](https://community.ibm.com/community/user/discussion/two-mcps-designed-to-simplify-ibm-i-development-using-generative-ai){:target="_blank"} (英語) として投稿しています。
 
-<br>
-
-その後、MCP 5250 のコードをベースにした 5250 エミュレーター「Open 5250」も公開しました ([「A 5250 emulator that runs on IBM i and operates in a web browser without requiring client installation」](https://community.ibm.com/community/user/discussion/a-5250-emulator-that-runs-on-ibm-i-and-operates-in-a-web-browser-without-requiring-client-installation){:target="_blank"}、英語)。IBM i の PASE 上で動作し、PC には何もインストールせずに Web ブラウザーから 5250 画面を使えます。こちらも期限は MCP 5250 と同じく2027年1月末です。詳細は別の機会に紹介したいと思います。
-
-<br>
-
-<hr>
-
-いまだに PDM/SEU で固定形式を含む RPG プログラムを開発しているユーザーは多いでしょう。また、5250 アプリケーションは開発生産性が高く、習得しやすく、IBM i と密接に統合されたセキュリティーを備えた優れたフレームワークです。半世紀近い実績を持つこれらの情報資産を、最先端の生成AIと組み合わせて有効に活用するうえで、これらの MCP は重要な役割を果たせると考えています。
-
-なお、これらは個人の余暇に作成したもので、所属組織は一切の責任を負いません。役に立つと思われた方は、IBM に正式版の提供を求める提案を [IBM Ideas](https://ideas.ibm.com/){:target="_blank"} に投稿していただけると幸いです。
+なお、これらは個人の余暇に作成したもので、サポートなし、自己責任での試用となります。役に立つと思われた方は、IBM に正式版の提供を求める提案を [IBM Ideas](https://ideas.ibm.com/){:target="_blank"} に投稿していただけると幸いです。
 
 <br>
 
