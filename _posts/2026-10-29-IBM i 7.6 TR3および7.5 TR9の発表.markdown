@@ -4,7 +4,11 @@ title: "IBM i 7.6 TR3 および 7.5 TR9 の発表"
 date: 2026-10-29 00:00:00 +0900
 tags: [V7R6, V7R5, TR, セキュリティ, 技術情報]
 ---
-秋の Technology Refresh (TR) として、IBM i 7.6 TR3 と 7.5 TR9 が発表されました。ランディング・ページは10月27日付で公開されており、セキュリティ関連の PTF は**2026年11月20日に提供予定**です (TR としての PTF 番号は未確定ですが、個別に決まっているものは本文中に記載しています)。
+秋の Technology Refresh (TR) として、IBM i 7.6 TR3 と 7.5 TR9 が発表されました。ランディング・ページは10月27日付で公開されており、セキュリティ関連の PTF は**2026年11月20日に提供予定**(→ 12月4日に変更)です (TR としての PTF 番号は未確定ですが、個別に決まっているものは本文中に記載しています)。
+
+<br>
+
+> **更新 (2026年11月26日)：** 11月19日付の発表レター [「Revised Availability: Planned availability date has been changed for IBM i 7.5 TR 9 and IBM i 7.6 TR 3」](https://www.ibm.com/docs/en/announcements/revised-availability-planned-availability-date-has-been-changed-i-76-75){:target="_blank"} (AD26-1253) により、7.6 TR3 と 7.5 TR9 の提供予定日が**2026年11月20日から12月4日に変更**されました。理由は記載されていません。本文中の「11月20日」は12月4日と読み替えてください。
 
 <br>
 
