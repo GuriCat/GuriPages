@@ -1,0 +1,139 @@
+---
+layout: post
+title: "生成AIから IBM i を使う"
+date: 2026-11-26 00:00:00 +0900
+tags: [AI, RPG, DX, 技術情報]
+---
+Bob や Claude といった生成AIで IBM i の 5250 アプリケーションを開発しやすくするため、2つの MCP (Model Context Protocol) サーバーを GitHub で公開しています。IBM Community には [「Two MCPs designed to simplify IBM i development using generative AI」](https://community.ibm.com/community/user/discussion/two-mcps-designed-to-simplify-ibm-i-development-using-generative-ai){:target="_blank"} (英語) として投稿しましたが、日本語でも内容をまとめておきます。
+
+<br>
+
+<hr>
+
+## MCP 5250 (ibm5250-mcp)
+
+<br>
+
+[ibm5250-mcp](https://github.com/GuriCat/ibm5250-mcp){:target="_blank"} は、IBM i (AS/400) の 5250 端末エミュレーションを MCP クライアント (生成AI) から使えるようにする MCP サーバーです。EBCDIC の DBCS (日本語) に対応しています。
+
+この MCP を使うと、ACS などの 5250 エミュレーターで行っている作業を生成AIから実行できます。
+
+- 生成AIやキーボードによる 5250 画面の操作
+- マクロの実行
+- テストの自動化 (画面のスクリーンショットの記録を含む)
+
+主な仕様は次のとおりです。
+
+- TN5250E プロトコルで接続。画面サイズは 24x80 と 27x132 に対応
+- コード・ページは cp1399、cp5026、cp037 など
+- 接続先は「プリセット」ファイルで定義し、生成AIからはプリセット名を指定して接続する
+- 生成AIが操作している画面を Web ブラウザー (既定は `http://localhost:5250`) で確認できる
+- Windows (x64) 用の単一の exe で、Node.js などのインストールは不要
+
+<br>
+
+### ACS を EHLLAPI で制御するよりシンプルで高機能
+
+5250 画面をプログラムから操作する方法としては、従来から ACS の EHLLAPI (エミュレーター高水準言語 API) が使われてきました。ただし EHLLAPI では、エミュレーターのセッションを起動したうえで、画面の位置 (行・桁) を指定して文字列を読み書きし、キーボードのロックが解除されるのを待つ、といった処理をプログラムで細かく組み立てる必要があります。
+
+MCP 5250 なら、エミュレーターを別途起動する必要はなく、生成AIが MCP のツールとして直接 5250 セッションに接続し、画面の内容を取得して、文字列やキーを送信します。「この画面で〜を照会して」と自然言語で指示すれば、生成AIが画面を読み取りながら操作を進めるので、**EHLLAPI でプログラムを書くよりもはるかにシンプルで、しかも高機能**です。DBCS (シフト文字を含む日本語) の扱いを意識しなくてよい点も、日本のユーザーには大きいでしょう。
+
+<br>
+
+### 注意事項
+
+- 実験的な 5250 エミュレーターの実装で、本番で使っている既存の 5250 エミュレーターを置き換えることは意図していません
+- 5250 画面を直接操作できるため、生成AIが破壊的な操作を行う可能性はゼロではありません。テスト環境での利用をお勧めします
+- 期間限定のベータ版です。当初は2026年7月31日まででしたが、現在は**2027年1月末**まで使用でき、事情が変わらなければ2か月ごとに期限を延長していく予定です
+- 動作確認は日本語環境 (1次言語 2962、QCCSID 65535) でのみ行っています
+
+<br>
+
+<hr>
+
+## ILE-RPG&DSPF Code Checker (ilerpg-code-checker)
+
+<br>
+
+[ilerpg-code-checker](https://github.com/GuriCat/ilerpg-code-checker){:target="_blank"} は、ILE RPG と DSPF の構文やコーディング標準への準拠をチェックする MCP サーバーです。
+
+多くの生成AIは JavaScript、Python、HTML、Markdown のような自由形式の言語は得意ですが、桁位置が決まった固定形式の RPG や DDS は苦手です。特に DBCS 環境ではシフト文字によって桁ずれが起こりやすく、その修正に多くの手間 (とトークン) が費やされがちです。この MCP を使うと、ILE RPG の H/F/D/P/C 仕様書や DSPF の A 仕様書の桁ずれを事前に検出できます。
+
+主なチェック内容は次のとおりです。
+
+- 仕様書の順序 (H→F→D→P→I→C→O) や各仕様書の桁位置。DBCS のシフト文字 (SO/SI) を考慮した桁チェック
+- 継続行、/FREE と /END-FREE の対応、括弧や文字列リテラルの対応などの構文
+- 命名規則、GOTO や MOVE などの非推奨機能、番号付き標識 (*IN01〜*IN99) の使用
+- DSPF のフィールドの重なり (CPD7866 相当) や属性バイトの衝突
+- コメントが 80 バイトを超える (コンパイル・リストが崩れる)、100 バイトを超える (CPYFRMSTMF で切り捨てられる) といった EBCDIC 換算での長さ
+
+チェック・レベルは basic、standard、strict の3段階で、メッセージは日本語にも対応しています。Node.js 18 以降で動作し、ライセンスは MIT です。
+
+<br>
+
+> **活用例：DFU から ILE RPG/DSPF への自動変換**
+>
+> 2 つの MCP を使い、サポートが終了した DFU プログラムを IBM Bob 2.0 で ILE RPG/DSPF に置き換える試みを「IBM TechXchange 2026 Pre-conference Dev Day Hackathon」に応募しました。Bob への1回の指示で、DFU 定義の読み取り (MCP 5250)、ソースの生成とチェック (ilerpg-code-checker)、コンパイル、9 件の機能テストまでをエージェントが自動で実行し、元の DFU と同じ画面・操作のプログラムができました。
+>
+> - [IBM Community の投稿](https://community.ibm.com/community/user/discussion/an-attempt-to-generate-ile-rpg-dspf-from-dfu-fully-automatically){:target="_blank"} (英語)、[GitHub リポジトリ](https://github.com/GuriCat/IBM-TechXchange-2026-Dev-Day-Hackathon-DFU-to-ILE-RPG-and-DSPF-Migration){:target="_blank"}
+> - デモ動画 (8分)：[日本語版](https://youtu.be/HCzlwMihbHY){:target="_blank"}、[英語版](https://youtu.be/T4AQcgjtKy4){:target="_blank"}
+
+<br>
+
+<hr>
+
+## Open 5250
+
+<br>
+
+その後、MCP 5250 のコードをベースにした 5250 エミュレーター「Open 5250」も公開しました ([「A 5250 emulator that runs on IBM i and operates in a web browser without requiring client installation」](https://community.ibm.com/community/user/discussion/a-5250-emulator-that-runs-on-ibm-i-and-operates-in-a-web-browser-without-requiring-client-installation){:target="_blank"}、英語)。IBM i の PASE 上で動作し、PC には何もインストールせずに Web ブラウザーから 5250 画面を使えます。こちらも期限は MCP 5250 と同じく2027年1月末です。詳細は別の機会に紹介したいと思います。
+
+<br>
+
+<hr>
+
+いまだに PDM/SEU で固定形式を含む RPG プログラムを開発しているユーザーは多いでしょう。また、5250 アプリケーションは開発生産性が高く、習得しやすく、IBM i と密接に統合されたセキュリティーを備えた優れたフレームワークです。半世紀近い実績を持つこれらの情報資産を、最先端の生成AIと組み合わせて有効に活用するうえで、これらの MCP は重要な役割を果たせると考えています。
+
+なお、これらは個人の余暇に作成したもので、所属組織は一切の責任を負いません。役に立つと思われた方は、IBM に正式版の提供を求める提案を [IBM Ideas](https://ideas.ibm.com/){:target="_blank"} に投稿していただけると幸いです。
+
+<br>
+
+
+{::comment}
+タグ
+tags: [V7R5, V7R4, ACS, TR]
+
+EOS
+V7R3
+V7R4
+V7R5
+V7R6
+ACS
+AI
+Db2
+DX
+HMC
+LTO
+Merlin
+Navigator
+NetServer
+NVMe
+OSS
+PTF
+POWER9
+POWER10
+RDi
+RDX
+RPG
+SQL
+SWMA
+TCP/IP
+TR
+技術情報
+ペーパー
+モダナイゼーション
+パフォーマンス
+運用
+セキュリティ
+その他
+{:/comment}
